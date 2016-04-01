@@ -15,12 +15,12 @@
 
 *Ubuntu下安装出现`configure: error: No curses library functions found`解决：`apt-cache search ncurses``apt-get install libncurses5-dev`*
 
-##二 simplejson安装
+##simplejson安装
 1. wget http://pypi.python.org/packages/source/s/simplejson/simplejson-下载simplejson
 2. tar -zxvf simplejson-2.4.0.tar.gz解压缩文件
 3. cd simplejson-2.4.0，python setup.py install。这是由于simplejson是依赖python脚本的
 
-##三 RabbitMQ安装配置
+##RabbitMQ安装配置
 1. rabbitmq的安装有很多版本，我们使用Generic Unix版本。
 2. cd /
 3. wget http://www.rabbitmq.com/releases/rabbitmq-server/v2.7.1/rabbitmq-server-generic-unix-2.7.1.tar.gz下载rabbitmq
@@ -48,17 +48,11 @@
 这个文件的位置是确定和不能改变的，位于：/etc/rabbitmq目录下（这个目录需要自己创建）。
 文件的内容包括了RabbitMQ的一些环境变量，常用的有：
 **RABBITMQ_NODE_PORT**=    //端口号
-
 **HOSTNAME**=
-
 **RABBITMQ_NODENAME**=mq
-
 **RABBITMQ_CONFIG_FILE**=        //配置文件的路径
-
 **RABBITMQ_MNESIA_BASE**=/rabbitmq/data        //需要使用的MNESIA数据库的路径
-
 **RABBITMQ_LOG_BASE**=/rabbitmq/log        //log的路径
-
 **RABBITMQ_PLUGINS_DIR**=/rabbitmq/plugins    //插件的路径
 
 具体的列表见：[](http://www.rabbitmq.com/configure.html#define-environment-variables)
