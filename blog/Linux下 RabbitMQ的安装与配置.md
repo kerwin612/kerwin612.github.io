@@ -11,7 +11,7 @@
 9. #set erlang environment
 10. export PATH=$PATH:/opt/erlang/bin
 11. source profile使得文件生效
-12. 肯能会出现找不到包的情况，就直接yum install 吧！
+12. 肯能会出现找不到包的情况，就直接yum install 吧！  
 *Ubuntu下安装出现`configure: error: No curses library functions found`解决：`apt-cache search ncurses``apt-get install libncurses5-dev`*
 ##二 simplejson安装
 1. wget http://pypi.python.org/packages/source/s/simplejson/simplejson-下载simplejson
@@ -40,20 +40,20 @@
 一个是配置信息的配置文件 **rabbitmq.config**
 注意，这两个文件默认是没有的，如果需要必须自己创建。
 
-rabbitmq-env.conf
+####rabbitmq-env.conf
 这个文件的位置是确定和不能改变的，位于：/etc/rabbitmq目录下（这个目录需要自己创建）。
 文件的内容包括了RabbitMQ的一些环境变量，常用的有：
-#RABBITMQ_NODE_PORT=    //端口号
-#HOSTNAME=
-RABBITMQ_NODENAME=mq
-RABBITMQ_CONFIG_FILE=        //配置文件的路径
-RABBITMQ_MNESIA_BASE=/rabbitmq/data        //需要使用的MNESIA数据库的路径
-RABBITMQ_LOG_BASE=/rabbitmq/log        //log的路径
-RABBITMQ_PLUGINS_DIR=/rabbitmq/plugins    //插件的路径
-具体的列表见：http://www.rabbitmq.com/configure.html#define-environment-variables
+**RABBITMQ_NODE_PORT**=    //端口号
+**HOSTNAME**=
+**RABBITMQ_NODENAME**=mq
+**RABBITMQ_CONFIG_FILE**=        //配置文件的路径
+**RABBITMQ_MNESIA_BASE**=/rabbitmq/data        //需要使用的MNESIA数据库的路径
+**RABBITMQ_LOG_BASE**=/rabbitmq/log        //log的路径
+**RABBITMQ_PLUGINS_DIR**=/rabbitmq/plugins    //插件的路径
+具体的列表见：[](http://www.rabbitmq.com/configure.html#define-environment-variables)
 
-rabbitmq.config
+####rabbitmq.config
 这是一个标准的erlang配置文件。它必须符合erlang配置文件的标准。
-它既有默认的目录，也可以在rabbitmq-env.conf文件中配置。
-文件的内容详见：http://www.rabbitmq.com/configure.html#config-items
+它既有默认的目录，也可以在*rabbitmq-env.conf*文件中配置。
+文件的内容详见：[](http://www.rabbitmq.com/configure.html#config-items)
 
