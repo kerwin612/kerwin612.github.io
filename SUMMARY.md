@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Java笔记](blog/java-notes/)
+* [Java笔记](blog/java-notes)
 
