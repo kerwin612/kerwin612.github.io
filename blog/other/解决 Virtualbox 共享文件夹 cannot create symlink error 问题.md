@@ -1,9 +1,13 @@
 #解决 Virtualbox 共享文件夹 cannot create symlink error 问题
 
 Windows7 + ubuntu server环境下，使用 repo 下载了一份Android Source Code，欲将代码复制到 Windows 下作为备份，于是安装VirtualBox增强功能、设置共享文件夹，在复制的时候出现了如下问题：
-`cp: cannot create symbolic link `/mnt/RootProjects/projects/device/common.git/objects':Read-only file system`
+```sh
+cp: cannot create symbolic link `/mnt/RootProjects/projects/device/common.git/objects':Read-only file system
+```
 或：
-`cp: cannot create symbolic link `/mnt/RootProjects/projects/device/common.git/objects': Protocol error`
+```sh
+cp: cannot create symbolic link `/mnt/RootProjects/projects/device/common.git/objects': Protocol error
+```
 
 原来VirtualBox从安全角度出发，限制了软链接的创建，需要打开相应的Feature。以下为详细步骤：
 1. 关闭 VirtualBox。
