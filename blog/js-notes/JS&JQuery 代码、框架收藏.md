@@ -31,19 +31,20 @@ $(function(){
     </div> 
 </div>
 ```
-**配置说明:
+**配置说明**:
 1. *path*:swf的路径(复制主要是用flash解决不同浏览器的复制)
 2. *copy*:待复制的内容, 可以是静态内容, 也可以 return 动态内容
 3. *beforeCopy*:复制之前要做的function
 4. *afterCopy*:复制之后要做的function
 
-**提供了3个方法:
+**提供了3个方法**:
 1. *show*:$(selected).zclip('show');//复制功能有效
 2. *hide*:$(selected).zclip('hide');//复制功能无效
 3. *remove*:$(selected).zclip('remove');//完全移除复制功能
 
 
 #代码收藏
+
 
 ###代码实现A标签跳转解决window.open()打开页面被拦截的问题
 ```js
@@ -61,6 +62,7 @@ if (document.all) {
     a.dispatchEvent(e);    
 }
 ```
+
 
 ###利用Keydown事件阻止用户输入
 ```js
