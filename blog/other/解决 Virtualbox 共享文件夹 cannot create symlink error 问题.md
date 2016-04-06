@@ -8,6 +8,9 @@ Windows7 + ubuntu server环境下，使用 repo 下载了一份Android Source Co
 原来VirtualBox从安全角度出发，限制了软链接的创建，需要打开相应的Feature。以下为详细步骤：
 1. 关闭 VirtualBox。
 2. 将VirtualBox安装目录的路径加入系统环境变量PATH中。
-3. 打开命令行窗口，执行如下命令：`VBoxManage setextradata YOURVMNAME VBoxInternal2/SharedFoldersEnableSymlinksCreate/YOURSHAREFOLDERNAME 1 `
+3. 打开命令行窗口，执行如下命令：
+```sh
+VBoxManage setextradata YOURVMNAME VBoxInternal2/SharedFoldersEnableSymlinksCreate/YOURSHAREFOLDERNAME 1 
+```
 其中：*YOURVMNAME*为虚拟机中ubuntu系统的名称,*YOURSHAREFOLDERNAME*为共享的目录名称
 4. “***以管理者身份运行***” VirtualBox　即可！
