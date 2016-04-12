@@ -21,9 +21,9 @@ function checkTextValue() {
 }
 ```
 Opera 是一款有趣的浏览器，别人做的事情它都不做，别人都不做的事情它都喜欢做。例如说，它偏偏不支持 keyCode == 229 这个事实标准，而要使用 keyCode == 197 来表示输入法的使用。因此，你需要在上述代码的基础上做一下改良，如果监测到是 Opera 浏览器，就换一个 keyCode 常量来做比较。  
-`var imeKey = (UA.Opera == 0) ? 229 : 197;`
+`var imeKey = (UA.Opera == 0) ? 229 : 197;`  
 最后，还有一个更不受重视的浏览器叫做 Firefox for Mac 。估计是因为 Mac 版本对于 Mozilla 来说实在是太不重要了，所以很多 Windows 版本都没问题的地方 Mac 版本就会出小问题，例如说对上述事件的支持。 Firefox for Mac 不会出现 keyCode == 229 的情况，而且在输入法启用后只有第一下击键会触发 keydown 事件，因此只能在击键后一直使用轮询。  
-`if (e.keyCode == imeKey || UA.Firefox > 0 && UA.OS == 'Macintosh') {`
+`if (e.keyCode == imeKey || UA.Firefox > 0 && UA.OS == 'Macintosh') {`  
 在添加了这两项改进后，实时监控文本框的变化就没有问题了，即使用户启用了输入法。完整的代码如下：
 ```js
 var timer; 
