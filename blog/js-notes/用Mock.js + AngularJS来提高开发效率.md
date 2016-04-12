@@ -42,6 +42,7 @@ Mock.mock('/auth/login', {
 这时候,我们再去请求/auth/login方法,返回的结果就是模拟的数据.
 
 这里要注意的是,在mock-angular中,请求的URL会被写为 ?mockUrl=  
+
 如果需要还原,请在mock-angular源码中修改response方法中的返回值:
 ```js
 response: function(response) {
