@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Linux
 * [Java笔记](blog/java-notes/README.md)
    * [Java中根据字体得到字符串高度和长度](blog/java-notes/Java中根据字体得到字符串高度和长度.md)
    * [JAVA 判断一个字符串是不是一个合法的日期格式](blog/java-notes/JAVA 判断一个字符串是不是一个合法的日期格式.md)
