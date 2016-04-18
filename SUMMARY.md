@@ -9,7 +9,7 @@
    * [用Mock.js + AngularJS来提高开发效率](blog/js-notes/用Mock.js + AngularJS来提高开发效率.md)
    * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在 JavaScript 中监听 IME 键盘输入事件.md)
 * [Linux](blog/linux/README.md)
-   * 10个重要的Linux ps命令实战
+   * [10个重要的Linux ps命令实战](./blog/linux/10个重要的Linux ps命令实战.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
 
