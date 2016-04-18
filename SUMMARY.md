@@ -10,4 +10,5 @@
    * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在 JavaScript 中监听 IME 键盘输入事件.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
+* Linux
 
