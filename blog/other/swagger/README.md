@@ -117,7 +117,7 @@ so，我们要想用Swagger就必须编写swagger文档，这个时候问题就�
 我们想想之前写的接口文档是不是经常会碰到***文档和真正的接口不同步***，因为谁都有***改了代码忘改文档***的时候，这是在所难免的。  
 所以我们如果真要编辑上面这份swagger文档也还是会有这个坑。如何避免这个坑呢？当然是直接通过代码生成文档啦，比如**javadoc**，当然javadoc导出来的格式远远达不到我们接口文档所需的要求。 
 
-既然swagger是我们我需要的，我们就要解决怎么通过代码生成swagger文档这个问题。  
+既然swagger是我们所需要的，我们就要解决怎么通过代码生成swagger文档这个问题。  
 Swagger提供了Swagger-Annotations来解决这个问题，我们可以在编写Controller的时候加上Swagger注解，就可以通过Swagger-Core提供的API生成swagger文档。
 
 根据Swagger注解生成文档有两种形式：
