@@ -5,7 +5,7 @@ Swagger 是一个API文档生成工具，它支持各种语言，甚至支持在
 #### 引入特定的依赖 JAR 包
  pom.xml 中添加如下依赖:
  ```xml
- <dependency>
+<dependency>
     <groupId>com.mangofactory</groupId>
     <artifactId>swagger-springmvc</artifactId>
     <version>1.0.2</version>
