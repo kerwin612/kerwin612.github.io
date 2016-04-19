@@ -12,6 +12,6 @@
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
-   * Swagger
-       * [Spring MVC 集成 Swagger](./blog/other/swagger/SpringMVC集成Swagger.md)
+   * [Swagger](blog/other/swagger/README.md)
+       * [Spring MVC 集成 Swagger](blog/other/swagger/SpringMVC集成Swagger.md)
 
