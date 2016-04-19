@@ -36,7 +36,7 @@ Swagger 是一个API文档生成工具，它支持各种语言，甚至支持在
  #### 添加Swagger配置
  这里使用 JavaConfig 的方法配置Swagger, 配置类为 SwaggerConfig
  ```java
- package yay.apidoc.config;
+package yay.apidoc.config;
 
 import com.mangofactory.swagger.configuration.SpringSwaggerConfig;
 import com.mangofactory.swagger.models.dto.ApiInfo;
