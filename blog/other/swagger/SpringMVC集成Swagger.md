@@ -1,6 +1,6 @@
 ### Spring MVC 集成 Swagger
 
-Swagger 是一个API文档生成工具，它支持各种语言，甚至支持在线运行实例，本示例基于 HelloWorld-MVC 修改得到。
+Swagger 是一个API文档生成工具，它支持各种语言，甚至支持在线运行实例。
 
 #### 引入特定的依赖 JAR 包
  pom.xml 中添加如下依赖:
