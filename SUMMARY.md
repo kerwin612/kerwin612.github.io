@@ -13,5 +13,5 @@
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
    * Swagger
-       * Swagger介绍
+       * Spring MVC 集成 Swagger
 
