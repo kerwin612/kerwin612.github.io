@@ -118,7 +118,15 @@ so，我们要想用Swagger就必须编写swagger文档，这个时候问题就�
 所以我们如果真要编辑上面这份swagger文档也还是会有这个坑。如何避免这个坑呢？当然是直接通过代码生成文档啦，比如**javadoc**，当然javadoc导出来的格式远远达不到我们接口文档所需的要求。 
 
 既然swagger是我们所需要的，我们就要解决怎么通过代码生成swagger文档这个问题。  
-Swagger提供了Swagger-Annotations来解决这个问题，我们可以在编写Controller的时候加上Swagger注解，就可以通过Swagger-Core提供的API生成swagger文档。
+Swagger提供了**Swagger-Annotations**来解决这个问题，我们可以在编写Controller的时候加上Swagger注解，就可以通过Swagger-Core提供的API生成swagger文档。  
+Swagger-Annotations的依赖：
+```xml
+<dependency>
+    <groupId>io.swagger</groupId>
+    <artifactId>swagger-annotations</artifactId>
+    <version>1.5.8</version>
+</dependency>
+```
 
 根据Swagger注解生成文档有两种形式：
 1. [swagger-springmvc](https://github.com/springfox/springfox) 现在已升级为**springfox**
