@@ -7,93 +7,119 @@ Swagger的主要工作流程是：
 
 
 so，我们要想用Swagger就必须编写swagger文档，这个时候问题就来了，看看官方的例子：
-```yaml
-# this is an example of the Uber API
-# as a demonstration of an API spec in YAML
-swagger: '2.0'
-info:
-  title: Uber API
-  description: Move your app forward with the Uber API
-  version: "1.0.0"
-# the domain of the service
-host: api.uber.com
-# array of all schemes that your API supports
-schemes:
-  - https
-# will be prefixed to all paths
-basePath: /v1
-produces:
-  - application/json
-paths:
-  /products:
-    get:
-      summary: Product Types
-      description: |
-        The Products endpoint returns information about the *Uber* products
-        offered at a given location. The response includes the display name
-        and other details about each product, and lists the products in the
-        proper display order.
-      parameters:
-        - name: latitude
-          in: query
-          description: Latitude component of location.
-          required: true
-          type: number
-          format: double
-        - name: longitude
-          in: query
-          description: Longitude component of location.
-          required: true
-          type: number
-          format: double
-      tags:
-        - Products
-      responses:
-        200:
-          description: An array of products
-          schema:
-            type: array
-            items:
-              $ref: '#/definitions/Product'
-        default:
-          description: Unexpected error
-          schema:
-            $ref: '#/definitions/Error'
-definitions:
-  Product:
-    type: object
-    properties:
-      product_id:
-        type: string
-        description: Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.
-      description:
-        type: string
-        description: Description of product.
-      display_name:
-        type: string
-        description: Display name of product.
-      capacity:
-        type: string
-        description: Capacity of product. For example, 4 people.
-      image:
-        type: string
-        description: Image URL representing the product.
-  Error:
-    type: object
-    properties:
-      code:
-        type: integer
-        format: int32
-      message:
-        type: string
-      fields:
-        type: string
+```js
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Uber API",
+        "description": "Move your app forward with the Uber API",
+        "version": "1.0.0"
+    },
+    "host": "api.uber.com",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v1",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/products": {
+            "get": {
+                "summary": "Product Types",
+                "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "query",
+                        "description": "Latitude component of location.",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "query",
+                        "description": "Longitude component of location.",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    }
+                ],
+                "tags": [
+                    "Products"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Product"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Product": {
+            "type": "object",
+            "properties": {
+                "product_id": {
+                    "type": "string",
+                    "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles."
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of product."
+                },
+                "display_name": {
+                    "type": "string",
+                    "description": "Display name of product."
+                },
+                "capacity": {
+                    "type": "string",
+                    "description": "Capacity of product. For example, 4 people."
+                },
+                "image": {
+                    "type": "string",
+                    "description": "Image URL representing the product."
+                }
+            }
+        },
+        "Error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
 ```
-看完你还想写吗？？？？是不是还不如写word文档？（不过真要我选，我真的会选写这个，够逼格~.~）
-我们想想之前写接口文档时是不是经常会和真正的接口不同步，因为谁都有改了代码忘改文档的时候，这是在所难免的。
-所以我们如果真要编辑上面这份swagger文档也还是会有这个坑。如何避免这个坑呢？当然是直接通过代码生成文档啦，比如**javadoc**，当然javadoc导出来的格式远远达不到我们接口文档所需的要求。  
-既然swagger是我们我需要的，我们就要解决怎么通过代码生成swagger文档这个问题。
+看完你还想写吗？？？？是不是还不如写word文档？（不过真要我选，我真的会选写这个，够逼格~.~）  
+我们想想之前写接口文档时是不是经常会和真正的接口不同步，因为谁都有改了代码忘改文档的时候，这是在所难免的。  
+所以我们如果真要编辑上面这份swagger文档也还是会有这个坑。如何避免这个坑呢？当然是直接通过代码生成文档啦，比如**javadoc**，当然javadoc导出来的格式远远达不到我们接口文档所需的要求。 
+
+既然swagger是我们我需要的，我们就要解决怎么通过代码生成swagger文档这个问题。  
 Swagger提供了Swagger-Annotations来解决这个问题，我们可以在编写Controller的时候加上Swagger注解，就可以通过Swagger-Core提供的API生成swagger文档。
+
 根据Swagger注解生成文档有两种形式：
 1. [swagger-springmvc](https://github.com/springfox/springfox) 现在已升级为**springfox**
 2. [swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)
