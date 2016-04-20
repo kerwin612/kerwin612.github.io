@@ -36,7 +36,7 @@
     </pluginManagement>
 </build>
 ```
-可这里的maven插件与我的不一样，又没讲清楚具体在哪里改动了。继续看 [](http://stackoverflow.com/questions/6352208/how-to-solve-plugin-execution-not-covered-by-lifecycle-configuration-for-sprin) 这里貌似罗嗦了这个错误的原因:  
+可这里的maven插件与我的不一样，又没讲清楚具体在哪里改动了。继续看[http://stackoverflow.com/questions/6352208/how-to-solve-plugin-execution-not-covered-by-lifecycle-configuration-for-sprin](http://stackoverflow.com/questions/6352208/how-to-solve-plugin-execution-not-covered-by-lifecycle-configuration-for-sprin)这里貌似罗嗦了这个错误的原因:  
 ```
 To solve some long-standing issues, m2e 1.0 requires explicit instructions what to do with all Maven plugins bound to "interesting" phases (see M2E interesting lifecycle phases) of project build lifecycle. We call these instructions "project build lifecycle mapping" or simply "lifecycle mapping" because they define how m2e maps information from project pom.xml file to Eclipse workspace project configuration and behaviour during Eclipse workspace build.
 
@@ -119,7 +119,7 @@ pluginManagement内的详细配置如下：
         </pluginManagement>
 ```
 
-好吧，问题算是合理地解决了。可有人比额领导还纠结，说这个配置不该放在pom文件里，应该是ide来处理这个配置，就有了这个：[](http://liwenqiu.me/blog/2012/12/19/maven-lifecycle-mapping-not-converted/)
+好吧，问题算是合理地解决了。可有人比额领导还纠结，说这个配置不该放在pom文件里，应该是ide来处理这个配置，就有了这个：[http://liwenqiu.me/blog/2012/12/19/maven-lifecycle-mapping-not-converted/](http://liwenqiu.me/blog/2012/12/19/maven-lifecycle-mapping-not-converted/)
 在`eclipse->preference->maven->lifecycle mappings`中，myeclipse的话`Maven4MyEclipse->Lifecycle mappings`，向上面所示进行配置，保存更新project。未试过eclipse下情况如何，MyEclipse默认配置路径是没有lifecycle-mapping-metadata.xml这个文件的，只有<项目名>.lifecyclemapping一系列这样的文件，但提供一个按钮“Open workspace lifecycle mappings metadata”里进行编辑。或者Change mapping file location。
       好吧，这样也许是最应该的处理的方式，但让每个开发人员都改下ide配置，还不如直接改下pom.xml文件的配置，最终采用了修改pom.xml文件的方式。
       好吧，最终还是将出错原因和解决思路抄一下：
@@ -132,4 +132,4 @@ pluginManagement内的详细配置如下：
 
 由于我个人更倾向于在命令行下让maven干活，而eclipse更多的只是充当编辑器的角色，所以我要的只是让eclipse忽略掉这些goal就好了。
 
-参考这里[](http://wiki.eclipse.org/M2E_plugin_execution_not_covered)之后，要做的就是告诉eclipse要忽略的goal.
+参考这里[http://wiki.eclipse.org/M2E_plugin_execution_not_covered](http://wiki.eclipse.org/M2E_plugin_execution_not_covered)之后，要做的就是告诉eclipse要忽略的goal.
