@@ -113,7 +113,7 @@ markdown总支持1~6六级标题，通过在一行之前加上不同数量的井
 
 这是 H2
 -------
-
+```
 ## 引用
 
 通过在行首加上大于号`>`来添加引用格式。
@@ -239,8 +239,7 @@ id sem consectetuer libero luctus adipiscing.
 
 还有一种是github的风格，代码段的前后用三个反引号独占一行来标记。
 
-
-![](./Markdown 基本语法 _ Markdown 简单的世界_files/2-1.png)
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPgAAABKCAIAAAAZsQ4iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMXSURBVHhe7ddBTqMxDIbhORQn5wC9QxfcggV7WIzBIXKTOPlb8ovRfO+zGCW2E3XIpwr+vL+/fwD/O4IOCQQdEgg6JBB0SCDokEDQIWFX0F+vl+fLy1vZ3Zr0ZseAfTZ+o1toL9fXsmlMerNjwCb86gIJBB0SCDokEHRIIOiQQNAhgaBDAkGHBIIOCQQdEgg6JBB0SCDokEDQIYGgQwJBhwSCDgkEHRIIOiQQdEgg6JBA0CGBoEMCQYeEs4L+9PRUViPWzZSJTY5cGGc2foDP/8xKGf0y3+KH9gR9+CqTp8pa21/3yIVxpq6XB22gURrf+spcM3/vccxt+0a/66WtlSkTO/htyzvjQLY2to1K9duRSjVs1aItet7CwzYH3V9lyMdcs62y+gPiVZNrJx9seCob6Ie9srykaopxO5zHXU7/YzR71EyZ+Jn+nuzmpl63tnC+rWIlW7taaVrDyagWfWHiGo/5naCfKotI/0ms4kVfRD7QaOpx2x/Juv2ka+pHjuC4DUG3Z3BlHx4mFt3X4FqZvnM+rl2/rRVf1K1rto3Pw9+abeWTJq6Nb5tiNJx3k1M46Kw/Rn175IVOfcXl5cOPPWSt2s3GYr2fyU4579q/GR/DY84Kupm8TWyd+oTLyx/72NlMrDczvs0OmnvnjXXnA6h+5xs91m0dleomywv7gcmR2rJFLw6YI+vI6q5u679DzSTmTgl6tq6WA7ssL59/vKab1atYnww3Fdu6sk/uadR6NoBof9D7n/u8cuo7LS/PBrzedG1bldKtWPf1cDI7XvX3DFlr0kW0J+j+4z74Q2+GT32q5eWTAWs13bpt6lWsZzNL/cGHr0K1IejN62bqgC+M14fKxI8tr5oPHP8knx/6dtgrc2U0GBZNVsdB2351Af5lBB0SCDokEHRIIOiQQNAhgaBDAkGHBIIOCQQdEgg6JBB0SCDokEDQIYGgQwJBh4RdQX+9Xp4vL29ld2vSmx0D9tn4jW6hvVxfy6Yx6c2OAZvwqwskEHRIIOiQQNAhgaBDAkGHBIIOCQQdEgg6BHx8/AXj0Tw/c7EseAAAAABJRU5ErkJggg==)
 
 目前主流编辑器都支持这种风格。
 
@@ -411,5 +410,3 @@ _   底线
 
 markdown 的语法简洁，但有其局限性，所以特意保留了内联html这种方式。任何html标签及其内容，都会原样输出到结果中。也就是说，标签中的星号等作为markdown结构的符号，以及构成html标签和实体的符号，都不会做任何转义。
 
-
-**Illegal HTML tag removed :** require(["gitbook"], function(gitbook) { var config = {"comment":{"highlightCommented":true},"autocover":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}}; gitbook.start(config); });
