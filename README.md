@@ -190,9 +190,9 @@ id sem consectetuer libero luctus adipiscing.
 
 
 ```
-1\.  Bird
-2\.  McHale
-3\.  Parish
+1.  Bird
+2.  McHale
+3.  Parish
 
 ```
 
@@ -200,9 +200,9 @@ id sem consectetuer libero luctus adipiscing.
 
 
 ```
-1\.  Bird
-1\.  McHale
-1\.  Parish
+1.  Bird
+1.  McHale
+1.  Parish
 
 ```
 
