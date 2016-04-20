@@ -15,5 +15,5 @@
    * [Swagger](blog/other/swagger/README.md)
        * [Spring MVC 集成 Swagger](blog/other/swagger/SpringMVC集成Swagger.md)
    * [Maven](blog/other/maven/README.md)
-       * maven plugin的execution出错
+       * [maven plugin的execution出错](blog/other/maven/maven plugin的execution出错.md)
 
