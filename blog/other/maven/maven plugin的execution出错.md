@@ -1,6 +1,7 @@
 # maven plugin的execution出错
 
-`Plugin execution not covered by lifecycle configuration: org.apache.maven.plugins:maven-dependency-plugin:2.7:copy...`
+`Plugin execution not covered by lifecycle configuration: org.apache.maven.plugins:maven-dependency-plugin:2.7:copy...`  
+
 解决办法：
 ```xml
 <build>
@@ -35,8 +36,9 @@
     </pluginManagement>
 </build>
 ```
-可这里的maven插件与我的不一样，又没讲清楚具体在哪里改动了。继续看 [](http://stackoverflow.com/questions/6352208/how-to-solve-plugin-execution-not-covered-by-lifecycle-configuration-for-sprin) 这里貌似罗嗦了这个错误的原因:
-`To solve some long-standing issues, m2e 1.0 requires explicit instructions what to do with all Maven plugins bound to "interesting" phases (see M2E interesting lifecycle phases) of project build lifecycle. We call these instructions "project build lifecycle mapping" or simply "lifecycle mapping" because they define how m2e maps information from project pom.xml file to Eclipse workspace project configuration and behaviour during Eclipse workspace build.
+可这里的maven插件与我的不一样，又没讲清楚具体在哪里改动了。继续看 [](http://stackoverflow.com/questions/6352208/how-to-solve-plugin-execution-not-covered-by-lifecycle-configuration-for-sprin) 这里貌似罗嗦了这个错误的原因:  
+```
+To solve some long-standing issues, m2e 1.0 requires explicit instructions what to do with all Maven plugins bound to "interesting" phases (see M2E interesting lifecycle phases) of project build lifecycle. We call these instructions "project build lifecycle mapping" or simply "lifecycle mapping" because they define how m2e maps information from project pom.xml file to Eclipse workspace project configuration and behaviour during Eclipse workspace build.
 
 Project build lifecycle mapping configuration can be specified in project pom.xml, contributed by Eclipse plugins and there is also default configuration for some commonly used Maven plugins shipped with m2e. We call these "lifecycle mapping metadata sources". m2e will create error marker like below for all plugin executions that do not have lifecycle mapping in any of the mapping metadata sources.
 
@@ -45,8 +47,10 @@ org.apache.maven.plugins:maven-antrun-plugin:1.3:run
 
    (execution: generate-sources-input, phase: generate-sources)
 
-m2e matches plugin executions to actions using combination of plugin groupId, artifactId, version range and goal. There are three basic actions that m2e can be instructed to do with a plugin execution --ignore, execute and delegate to a project configurator.`
-最终是这里提到了怎么解决：`In my case of a similar problem, instead of using Andrew's suggestion for the fix, it worked simply after I introduced <pluginManagement> tag to the pom.xml in question. Looks like that error is due to a missing <pluginManagement> tag. So, in order to avoid the exceptions in Eclipse, looks like one needs to simply enclose all the plugin tags inside a <pluginManagement> tag, like so:`
+m2e matches plugin executions to actions using combination of plugin groupId, artifactId, version range and goal. There are three basic actions that m2e can be instructed to do with a plugin execution --ignore, execute and delegate to a project configurator.
+```  
+
+最终是这里提到了怎么解决：`In my case of a similar problem, instead of using Andrew's suggestion for the fix, it worked simply after I introduced <pluginManagement> tag to the pom.xml in question. Looks like that error is due to a missing <pluginManagement> tag. So, in order to avoid the exceptions in Eclipse, looks like one needs to simply enclose all the plugin tags inside a <pluginManagement> tag, like so:`  
 ```xml
 <build>
     <pluginManagement>
@@ -122,7 +126,7 @@ pluginManagement内的详细配置如下：
 
 >基于maven的项目，使用各种maven plugin来完成开发中的各种工作，例如编译代码，打包，部署等等… 每个plugin包含许多的goal，用来做特定的事情。典型的基于java的maven项目就有 clean compile test package deploy等goal要执行。除了这些比较常见的goal之外，项目中还可以使用大量的第三方的plugin，甚至自己动手开发的plugin。
 
->>随之而来的问题是，在eclipse中编辑maven项目的时候，eclipse并不知道这些goal要做什么，通用的goal还好说，特殊用途的goal就没有办法了。所以m2eclipse这个集成maven到eclipse的plugin就提供了开发extra的能力，eclipse利用这些extra来完成本来在maven plugin要干的活。
+>随之而来的问题是，在eclipse中编辑maven项目的时候，eclipse并不知道这些goal要做什么，通用的goal还好说，特殊用途的goal就没有办法了。所以m2eclipse这个集成maven到eclipse的plugin就提供了开发extra的能力，eclipse利用这些extra来完成本来在maven plugin要干的活。
 
 >如果eclipse没有办法知道某个goal要干什么，那么通常就会看到如下的错误信息：`Plugin execution not covered by lifecycle configuration: org.apache.maven.plugins:maven-dependency-plugin:2.6:copy (execution: default, phase: validate)`
 
