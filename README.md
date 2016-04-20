@@ -1,5 +1,5 @@
-#[ileler.com](http://www.ileler.com)
-用**Markdown**记录的各种笔记。
+#用 Markdown 记录的各种笔记。
+
 
 ##Markdown 基本语法
 
