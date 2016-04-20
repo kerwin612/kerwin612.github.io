@@ -213,7 +213,7 @@ id sem consectetuer libero luctus adipiscing.
 
 ## 代码区域
 
-有两种方式标记代码区域，原生风格是行首缩进死个空格。
+有两种方式标记代码区域，原生风格是行首缩进四个空格。
 
 
 ```
