@@ -4,6 +4,7 @@
 * [Java笔记](blog/java-notes/README.md)
    * [Java中根据字体得到字符串高度和长度](blog/java-notes/Java中根据字体得到字符串高度和长度.md)
    * [JAVA 判断一个字符串是不是一个合法的日期格式](blog/java-notes/JAVA 判断一个字符串是不是一个合法的日期格式.md)
+   * JVM上的随机数与熵池策略
 * [JS笔记](blog/js-notes/README.md)
    * [JS/JQuery 代码、框架收藏](blog/js-notes/JS&JQuery 代码、框架收藏.md)
    * [用Mock.js + AngularJS来提高开发效率](blog/js-notes/用Mock.js + AngularJS来提高开发效率.md)
