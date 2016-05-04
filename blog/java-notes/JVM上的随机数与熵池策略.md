@@ -1,7 +1,7 @@
 # JVM上的随机数与熵池策略
 
 在apache-tomcat官方文档：[如何让tomcat启动更快](http://wiki.apache.org/tomcat/HowTo/FasterStartUp) 里面提到了一些启动时的优化项，其中一项是关于随机数生成时，采用的“熵源”(entropy source)的策略。  
-他提到tomcat7的session id的生成主要通过java.security.SecureRandom生成随机数来实现，随机数算法使用的是”SHA1PRNG”
+他提到tomcat7的session id的生成主要通过`java.security.SecureRandom`生成随机数来实现，随机数算法使用的是”**SHA1PRNG**”
 ```java
 private String secureRandomAlgorithm = "SHA1PRNG";
 ```
@@ -17,7 +17,7 @@ private String secureRandomAlgorithm = "SHA1PRNG";
 ```java
 -Djava.security.egd=file:/dev/./urandom
 ```
-这个系统属性egd表示熵收集守护进程(entropy gathering daemon)，但这里值为何要在dev和random之间加一个点呢？是因为一个 [jdk的bug](http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6202721) ，在这个bug的连接里有人反馈及时对 securerandom.source 设置为 /dev/urandom 它也仍然使用的 /dev/random，有人提供了变通的解决方法，其中一个变通的做法是对securerandom.source设置为 /dev/./urandom 才行。也有人评论说这个不是bug，是有意为之。
+这个系统属性***egd***表示熵收集守护进程(*entropy gathering daemon*)，但这里值为何要在dev和random之间加一个点呢？是因为一个 [jdk的bug](http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6202721) ，在这个bug的连接里有人反馈及时对 securerandom.source 设置为 /dev/urandom 它也仍然使用的 /dev/random，有人提供了变通的解决方法，其中一个变通的做法是对securerandom.source设置为 /dev/./urandom 才行。也有人评论说这个不是bug，是有意为之。
 
 我看了一下我当前所用的jdk7的java.security文件里，配置里仍使用的是/dev/urandom：
 ```sh
