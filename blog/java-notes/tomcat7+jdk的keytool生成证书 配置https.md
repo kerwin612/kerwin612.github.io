@@ -39,7 +39,7 @@ CN=tuhao, OU=tuhaojia, O=fnic, L=didu, ST=didu, C=cn是否正确?
 ```
 完毕后会在当前目录下，会产生一个：.keystore文件，将它拷贝到tomcat的bin目录下。    
 
->*直接指定keystore目录：*
+>直接指定keystore目录：
 ```bash
 $JAVA_HOME/bin/keytool -genkey -alias tomcat -keyalg RSA -keystore /usr/local/tomcat/bin/.keystore
 ```
