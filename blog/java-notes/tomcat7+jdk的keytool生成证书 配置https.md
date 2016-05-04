@@ -65,10 +65,9 @@ D:\Tomcat7\bin>keytool -export -alias tomcat -keystore .keystore -storepass chan
 打开$CATALINA_BASE/conf/server.xml 找到“SSL HTTP/1.1 Connector” 那一块，取消注释并将它改成：
 ```xml
 <Connector port="443" protocol="HTTP/1.1" SSLEnabled="true"
-
-maxThreads="150" scheme="https" secure="true"
+    maxThreads="150" scheme="https" secure="true"
 	keystoreFile="bin/.keystore" keystorePass="changeit" 
- clientAuth="false" sslProtocol="TLS" />
+     clientAuth="false" sslProtocol="TLS" />
 ```
 请注意，这里我已经将tomcat的端口改成了80，相应的，https的端口我也改成了443（即默认的https端口）。
 
