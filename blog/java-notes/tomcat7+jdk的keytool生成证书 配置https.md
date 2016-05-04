@@ -17,7 +17,6 @@
 具体记录如下：
 ```cmd
 C:\Users\Administrator>%JAVA_HOME%\bin\keytool -genkey -alias tomcat -keyalg RSA
-
 输入密钥库口令:
 再次输入新口令:
 您的名字与姓氏是什么?
@@ -42,6 +41,7 @@ CN=tuhao, OU=tuhaojia, O=fnic, L=didu, ST=didu, C=cn是否正确?
 
 从控制台进入tomcat的bin目录，本机环境是：D:\Tomcat7\bin>
 
+
 ####导出证书文件：
 
 ```cmd
@@ -53,6 +53,7 @@ D:\Tomcat7\bin>keytool -export -alias tomcat -keystore .keystore -storepass chan
 存储在文件 <tomcat.cer> 中的证书
 
 此时会在D:\Tomcat7\bin>下生成tomcat.cer证书文件。将该文件发给使用者，让他们安装该证书，并将证书安装在“受信任的根证书颁发机构”区域中。具体的操作步骤可以参照铁道部12306.cn网站证书的安装步骤。它们是一样一样一样的。
+
 
 ####配置tomcat
 
