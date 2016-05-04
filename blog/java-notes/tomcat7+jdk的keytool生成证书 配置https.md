@@ -1,6 +1,5 @@
 # tomcat7+jdk的keytool生成证书 配置https
 
-###Windows下：
 
 * 生成keystore文件及导出证书
 
