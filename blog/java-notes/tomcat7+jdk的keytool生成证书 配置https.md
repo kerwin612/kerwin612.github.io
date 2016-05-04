@@ -1,7 +1,7 @@
 # tomcat7+jdk的keytool生成证书 配置https
 
 
-* 生成keystore文件及导出证书
+####生成keystore文件及导出证书
 
 打开控制台：  
 运行：
@@ -42,13 +42,11 @@ CN=tuhao, OU=tuhaojia, O=fnic, L=didu, ST=didu, C=cn是否正确?
 
 从控制台进入tomcat的bin目录，本机环境是：D:\Tomcat7\bin>
 
-* 导出证书文件：
+####导出证书文件：
 
 ```cmd
 D:\Tomcat7\bin>keytool -selfcert -alias tomcat -keystore .keystore
 输入密钥库口令:（此处为上面生成证书时输入的changeit）
-```
-```cmd
 D:\Tomcat7\bin>keytool -export -alias tomcat -keystore .keystore -storepass changeit -rfc -file tomcat.cer
 ```
 
@@ -56,7 +54,7 @@ D:\Tomcat7\bin>keytool -export -alias tomcat -keystore .keystore -storepass chan
 
 此时会在D:\Tomcat7\bin>下生成tomcat.cer证书文件。将该文件发给使用者，让他们安装该证书，并将证书安装在“受信任的根证书颁发机构”区域中。具体的操作步骤可以参照铁道部12306.cn网站证书的安装步骤。它们是一样一样一样的。
 
-* 配置tomcat
+####配置tomcat
 
 打开$CATALINA_BASE/conf/server.xml 找到“SSL HTTP/1.1 Connector” 那一块，取消注释并将它改成：
 ```xml
@@ -76,7 +74,6 @@ maxThreads="150" scheme="https" secure="true"
 
 
 **总结：**
-
 ***生成证书的时候，“您的名字与姓氏是什么”  一定要注意输入你的ip、机器名、域名，总之，你希望以后通过https://xx来访问你的网站的话，此处就要填写xx。否则，会有证书不受信的提示。***
 
 
