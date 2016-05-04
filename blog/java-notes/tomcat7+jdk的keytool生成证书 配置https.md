@@ -50,7 +50,7 @@ D:\Tomcat7\bin>keytool -selfcert -alias tomcat -keystore .keystore
 D:\Tomcat7\bin>keytool -export -alias tomcat -keystore .keystore -storepass changeit -rfc -file tomcat.cer
 ```
 
-存储在文件 <tomcat.cer> 中的证书
+存储在文件 *tomcat.cer* 中的证书
 
 此时会在D:\Tomcat7\bin>下生成tomcat.cer证书文件。将该文件发给使用者，让他们安装该证书，并将证书安装在“受信任的根证书颁发机构”区域中。具体的操作步骤可以参照铁道部12306.cn网站证书的安装步骤。它们是一样一样一样的。
 
@@ -71,10 +71,10 @@ maxThreads="150" scheme="https" secure="true"
 
 192.168.68.75 tuhao
 
- 接下来重启tomcat，用https://tuhao/访问网站验证一下就行了。
+ 接下来重启tomcat，用 https://tuhao/ 访问网站验证一下就行了。
 
 
 **总结：**
-***生成证书的时候，“您的名字与姓氏是什么”  一定要注意输入你的ip、机器名、域名，总之，你希望以后通过https://xx来访问你的网站的话，此处就要填写xx。否则，会有证书不受信的提示。***
+***生成证书的时候，“您的名字与姓氏是什么”  一定要注意输入你的ip、机器名、域名，总之，你希望以后通过 https://xx 来访问你的网站的话，此处就要填写xx。否则，会有证书不受信的提示。***
 
 
