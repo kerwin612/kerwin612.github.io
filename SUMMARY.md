@@ -21,5 +21,5 @@
        * [maven plugin的execution出错](blog/other/maven/maven plugin的execution出错.md)
    * [MySQL](blog/other/mysql/mysql.md)
        * [is not allowed to connect to this MySQL server 解决办法](blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md)
-   * nginx 403 forbidden 二种原因
+   * [nginx 403 forbidden 二种原因](blog/other/nginx 403 forbidden 二种原因.md)
 
