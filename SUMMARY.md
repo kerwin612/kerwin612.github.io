@@ -19,6 +19,6 @@
        * [Spring MVC 集成 Swagger](blog/other/swagger/SpringMVC集成Swagger.md)
    * [Maven](blog/other/maven/README.md)
        * [maven plugin的execution出错](blog/other/maven/maven plugin的execution出错.md)
-   * MySQL
+   * [MySQL](blog/other/mysql/mysql.md)
        * is not allowed to connect to this MySQL server 解决办法
 
