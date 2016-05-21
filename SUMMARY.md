@@ -20,5 +20,5 @@
    * [Maven](blog/other/maven/README.md)
        * [maven plugin的execution出错](blog/other/maven/maven plugin的execution出错.md)
    * [MySQL](blog/other/mysql/mysql.md)
-       * is not allowed to connect to this MySQL server 解决办法
+       * [is not allowed to connect to this MySQL server 解决办法](blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md)
 
