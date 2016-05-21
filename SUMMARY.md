@@ -14,7 +14,6 @@
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
 * [杂碎](blog/other/README.md)
-   * is not allowed to connect to this MySQL server 解决办法
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
    * [Swagger](blog/other/swagger/README.md)
        * [Spring MVC 集成 Swagger](blog/other/swagger/SpringMVC集成Swagger.md)
