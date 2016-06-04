@@ -22,7 +22,7 @@ VBoxManage setextradata YOURVMNAME VBoxInternal2/SharedFoldersEnableSymlinksCrea
 
 
 >设置共享文件夹：`mount -t vboxsf ShareName /mnt/ileler`  
->卸载挂载点命令：`umount -f /mnt/ileler` 
->如果需要设置自动挂载，重启虚拟机系统共享仍在。可以在**/etc/fstab**中添加一项  
+>卸载挂载点命令：`umount -f /mnt/ileler`   
+>如果需要设置自动挂载，重启虚拟机系统共享仍在。可以在**/etc/fstab**中添加一项    
 >>`ShareName /mnt/ileler vboxsf rw,gid=110,uid=1100,auto 0 0`   
 
