@@ -81,3 +81,5 @@ java -Djava.security.egd=file:/dev/./urandom JRand
 这回差异就完全体现出来了，阻塞模式的熵池耗时用了1.6秒，而非阻塞模式则只用了0.14秒，差了一个数量级，当然代价是转换为对cpu的开销了。
 
 // 补充，连续在ubuntu上测试几次/dev/random方式之后，导致熵池被用空，被阻塞了60秒左右。应用服务器端要避免这种方式。
+
+`export JAVA_OPTS='-Xms1024m -Xmx2048m -XX:PermSize=256m -XX:MaxPermSize=1024m -Duser.timezone=GMT+08 -Djava.security.egd=file:/dev/./urandom'`
