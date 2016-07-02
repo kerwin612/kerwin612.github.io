@@ -14,7 +14,7 @@
    * [如何解决AngularJs在IE下取数据总是缓存的问题](blog/js-notes/如何解决AngularJs在IE下取数据总是缓存的问题.md)
    * [AngularJS之$timeout指令](blog/js-notes/AngularJS之$timeout指令.md)
    * [AngularJS Controller 间通信机制](blog/js-notes/AngularJS Controller 间通信机制.md)
-   * Angular
+   * [Angular](blog/js-notes/angularjs/README.md)
        * [AngularJS开发一些经验总结](blog/js-notes/AngularJS开发一些经验总结.md)
        * test
 * [Linux](blog/linux/README.md)
