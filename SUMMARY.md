@@ -11,7 +11,7 @@
    * [用Mock.js + AngularJS来提高开发效率](blog/js-notes/用Mock.js + AngularJS来提高开发效率.md)
    * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在 JavaScript 中监听 IME 键盘输入事件.md)
    * [AngularJS 中的一些坑](blog/js-notes/AngularJS 中的一些坑.md)
-   * 如何解决AngularJs在IE下取数据总是缓存的问题
+   * [如何解决AngularJs在IE下取数据总是缓存的问题](blog/js-notes/如何解决AngularJs在IE下取数据总是缓存的问题.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
