@@ -16,7 +16,7 @@
        * [AngularJS 中的一些坑](blog/js-notes/angularjs/AngularJS 中的一些坑.md)
        * [如何解决AngularJs在IE下取数据总是缓存的问题](blog/js-notes/angularjs/如何解决AngularJs在IE下取数据总是缓存的问题.md)
        * [AngularJS之$timeout指令](blog/js-notes/angularjs/AngularJS之$timeout指令.md)
-       * angular 代码日记
+       * [angular 代码日记](blog/js-notes/angularjs/angular 代码日记.md)
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
