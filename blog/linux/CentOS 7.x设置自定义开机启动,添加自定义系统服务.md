@@ -10,7 +10,7 @@ Centos 系统服务脚本目录：**/usr/lib/systemd/**
 这边以nginx开机运行为例
 
 1. 建立服务文件    
-*vim /lib/systemd/system/nginx.service*
+*vim /lib/systemd/system/nginx.service*  
 ```shell
 [Unit]  
 Description=nginx  
