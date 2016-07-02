@@ -1,5 +1,6 @@
 # angular 代码日记
-
+  
+  
 **只能输入整数**
 ```js
 <input input-number />
@@ -31,7 +32,8 @@ main.directive('inputNumber', [function () {
     }
 }]);
 ```   
-      
+        
+        
     
 **不容许以下特殊字符“#”、“&amp;”、“&lt;”、“&gt;”、“?”、“/”、“\”、“|”、“+”、“;”、“%”、“@”**
 ```js
@@ -78,7 +80,8 @@ main.directive('inputOthersId', [function () {
     }
 }]); 
 ```     
-  
+    
+    
   
 **两个输入框的值合计长度为8**
 ```js
@@ -117,7 +120,8 @@ main.directive('total8To', ['$timeout', function ($timeout) {
 }]
 );
 ```
-  
+    
+    
   
 **清除元素验证错误**
 ```js
@@ -133,7 +137,8 @@ $rootScope.clearElementError = function (element) {
 	}
 };
 ```
-  
+    
+    
   
 **清除元素值（调用清除错误）**
 ```js
@@ -148,7 +153,8 @@ $rootScope.clearElement = function (element) {
 	element.$render();
 };
 ```  
-  
+    
+    
   
 **清除表单值**
 ```js
@@ -164,7 +170,8 @@ $rootScope.clearForm = function (form) {
 	form.$setPristine();
 };
 ```  
-  
+    
+    
   
 **同步验证表单（包含唯一性验证）**  
 ```js
@@ -358,7 +365,8 @@ $rootScope.validatElement = function (elements, success, faild) {
 	}
 }
 ```  
-  
+    
+    
   
 **IE9不支持placeholer的解决方案**
 ```js
@@ -491,7 +499,8 @@ $rootScope.validatElement = function (elements, success, faild) {
     ]);
 }());
 ```  
-  
+    
+    
   
 **ngDialog封装的公共弹窗（模板需要自己替换）**
 ```js
@@ -573,7 +582,8 @@ function ConfirmDialog() {
 	return dialog;
 }
 ```  
-  
+    
+    
   
 **取值的封装避免空指针**
 ```js
