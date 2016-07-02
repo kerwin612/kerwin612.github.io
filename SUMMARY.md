@@ -15,7 +15,7 @@
        * [AngularJS Controller 间通信机制](blog/js-notes/angularjs/AngularJS Controller 间通信机制.md)
        * [AngularJS 中的一些坑](blog/js-notes/angularjs/AngularJS 中的一些坑.md)
        * [如何解决AngularJs在IE下取数据总是缓存的问题](blog/js-notes/angularjs/如何解决AngularJs在IE下取数据总是缓存的问题.md)
-       * [AngularJS之$timeout指令](blog/js-notes/AngularJS之$timeout指令.md)
+       * [AngularJS之$timeout指令](blog/js-notes/angularjs/AngularJS之$timeout指令.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
