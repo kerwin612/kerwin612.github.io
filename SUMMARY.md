@@ -12,7 +12,7 @@
    * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在 JavaScript 中监听 IME 键盘输入事件.md)
    * [Angular](blog/js-notes/angularjs/README.md)
        * [AngularJS开发一些经验总结](blog/js-notes/angularjs/AngularJS开发一些经验总结.md)
-       * [AngularJS Controller 间通信机制](blog/js-notes/AngularJS Controller 间通信机制.md)
+       * [AngularJS Controller 间通信机制](blog/js-notes/angularjs/AngularJS Controller 间通信机制.md)
        * [AngularJS 中的一些坑](blog/js-notes/AngularJS 中的一些坑.md)
        * [如何解决AngularJs在IE下取数据总是缓存的问题](blog/js-notes/如何解决AngularJs在IE下取数据总是缓存的问题.md)
        * [AngularJS之$timeout指令](blog/js-notes/AngularJS之$timeout指令.md)
