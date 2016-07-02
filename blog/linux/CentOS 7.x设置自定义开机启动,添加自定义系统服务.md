@@ -9,7 +9,7 @@ Centos 系统服务脚本目录：**/usr/lib/systemd/**
 
 这边以nginx开机运行为例
 
-1. 建立服务文件    
+###1. 建立服务文件    
 
 *vim /lib/systemd/system/nginx.service*  
 ```shell
@@ -41,11 +41,13 @@ PrivateTmp=True表示给服务分配独立的临时空间
 
 **[Install]服务安装的相关设置，可设置为多用户**   
 
-2. 保存目录     
+
+###2. 保存目录     
 
 以754的权限保存在目录：**/lib/systemd/system**   
 
-3. 设置开机自启动   
+
+###3. 设置开机自启动   
 
 `systemctl enable nginx.service`
 
