@@ -16,7 +16,7 @@ Angular的自动数据绑定功能是亮点，然而，他的另一面是：在A
   </ul>
 </body>
 ```  
-如果你做的是SPA(Single Page Application)，这个问题只会在第一次加载页面的时候出现，幸运的是，可以很容易杜绝这种情形发生: 放弃{{ }}表达式，改用ng-bind指令  
+如果你做的是SPA(Single Page Application)，这个问题只会在第一次加载页面的时候出现，幸运的是，可以很容易杜绝这种情形发生: 放弃`{{ }}`表达式，改用ng-bind指令  
 ```html
 <body ng-controller="PhoneListCtrl">
   <ul>
