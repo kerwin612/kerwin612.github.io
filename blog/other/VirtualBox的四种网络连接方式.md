@@ -1,10 +1,11 @@
 # VirtualBox的四种网络连接方式
 
 VirtualBox中有4中网络连接方式：   
-1. **NAT 网络地址转换模式(Network Address Translation)**  
-2. **Bridged Adapter 桥接模式**  
-3. **Internal 内部网络模式**  
-4. **Host-only Adapter 主机模式**  
+* **NAT 网络地址转换模式(Network Address Translation)**  
+* **Bridged Adapter 桥接模式**  
+* **Internal 内部网络模式**  
+* **Host-only Adapter 主机模式**    
+
 VMWare中有三种，其实他跟VMWare 的网络连接方式都是一样概念，只是比VMWare多了*Internal*方式。  
 
 要让自己（或别人）理解深刻，方法就是做比较和打比方，比较之间的不同和相同，拿熟知的事物打比方。先来一张图，通过这张图就很容易看出这4种方式的区别：
