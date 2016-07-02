@@ -3,14 +3,14 @@
 Centos 系统服务脚本目录：**/usr/lib/systemd/**
 
 有***系统（system）***和***用户（user）***之分，  
-如需要开机没有登陆情况下就能运行的程序，存在*系统服务（system）*里，即：**/lib/systemd/system/**   
-反之，用户登录后才能运行的程序，存在*用户（user）*里  
+如需要开机***没有登陆***情况下就能运行的程序，存在 *系统服务（system）* 里，即：**/lib/systemd/system/**   
+反之，***用户登录***后才能运行的程序，存在 *用户（user）* 里  
 服务以**.service**结尾。  
 
 这边以nginx开机运行为例
 
-1. 建立服务文件
-`vim /lib/systemd/system/nginx.service`
+1. 建立服务文件   
+`vim /lib/systemd/system/nginx.service`   
 ```shell
 [Unit]  
 Description=nginx  
