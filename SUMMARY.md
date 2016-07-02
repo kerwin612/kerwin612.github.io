@@ -10,7 +10,7 @@
    * [JS/JQuery 代码、框架收藏](blog/js-notes/JS&JQuery 代码、框架收藏.md)
    * [用Mock.js + AngularJS来提高开发效率](blog/js-notes/用Mock.js + AngularJS来提高开发效率.md)
    * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在 JavaScript 中监听 IME 键盘输入事件.md)
-   * [Angular](blog/js-notes/angularjs/README.md)
+   * [AngularJS](blog/js-notes/angularjs/README.md)
        * [AngularJS开发一些经验总结](blog/js-notes/angularjs/AngularJS开发一些经验总结.md)
        * [AngularJS Controller 间通信机制](blog/js-notes/angularjs/AngularJS Controller 间通信机制.md)
        * [AngularJS 中的一些坑](blog/js-notes/angularjs/AngularJS 中的一些坑.md)
