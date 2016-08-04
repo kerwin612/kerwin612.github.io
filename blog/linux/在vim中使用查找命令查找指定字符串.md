@@ -2,11 +2,11 @@
 
 要自当前光标位置向上搜索，请使用以下命令：      
 `/pattern Enter`    
-  其中， pattern 表示要搜索的特定字符序列。     
+&emsp;其中， pattern 表示要搜索的特定字符序列。     
     
 要自当前光标位置向下搜索，请使用以下命令：     
 `?pattern Enter`    
-  按下 Enter 键后， vi 将搜索指定的 pattern ，并将光标定位在 pattern 的第一个字符处。    
+&emsp;按下 Enter 键后， vi 将搜索指定的 pattern ，并将光标定位在 pattern 的第一个字符处。    
   
 要自当前光标位置向上搜索，请使用以下命令：      
 `/place Enter`    
