@@ -37,7 +37,7 @@
        * [nexus 搭建 maven 私服](blog/other/maven/nexus 搭建 maven 私服.md)
    * [MySQL](blog/other/mysql/mysql.md)
        * [is not allowed to connect to this MySQL server 解决办法](blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md)
-       * MySQL备份--mysql dump
+       * [MySQL备份--mysql dump](blog/other/mysql/MySQL备份--mysql dump.md)
    * [nginx 403 forbidden 二种原因](blog/other/nginx 403 forbidden 二种原因.md)
    * [VirtualBox的四种网络连接方式](blog/other/VirtualBox的四种网络连接方式.md)
    * [在Windows的CMD中如何设置支持UTF8编码?](blog/other/在Windows的CMD中如何设置支持UTF8编码.md)
