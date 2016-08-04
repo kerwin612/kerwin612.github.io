@@ -1,21 +1,21 @@
 # 在vim中使用查找命令查找指定字符串
 
-要自当前光标位置向上搜索，请使用以下命令：      
+要自当前光标位置***向上***搜索，请使用以下命令：      
 `/pattern Enter`    
 &emsp;其中， pattern 表示要搜索的特定字符序列。     
     
-要自当前光标位置向下搜索，请使用以下命令：     
+要自当前光标位置***向下***搜索，请使用以下命令：     
 `?pattern Enter`    
 &emsp;按下 Enter 键后， vi 将搜索指定的 pattern ，并将光标定位在 pattern 的第一个字符处。    
-  
-要自当前光标位置向上搜索，请使用以下命令：      
+    
+例如，要向上搜索 place 一词，请键入：    
 `/place Enter`    
 &emsp;如果 vi 找到了 place ，它将把光标定位在 p 处。要搜索 place 的其他匹配，请按 n 或 N：    
 &emsp;&emsp;n，继续朝同一方向搜索 place。     
 &emsp;&emsp;N，反方向进行搜索。    
 &emsp;如果 vi 未找到指定的 pattern ，光标位置将不变，屏幕底部显示以下消息：   
 &emsp;*Pattern:   未找到*    
-
+  
 搜索特殊匹配     
 &emsp;在上面的示例中， vi 查找到包含 place 的任何序列，其中包括 displace、placement 和 replaced。   
 &emsp;要查找单个的 place ，请键入该单词，并在其前后各加一个空格：   
