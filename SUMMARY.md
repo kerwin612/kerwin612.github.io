@@ -27,7 +27,7 @@
    * [CentOS 7 下使用 Firewall](blog/linux/CentOS 7 下使用 Firewall.md)
    * [在Ubuntu 12.04安装和设置SSH服务](blog/linux/在Ubuntu 12.04安装和设置SSH服务.md)
    * [配置CENTOS YUM更新源](blog/linux/配置CENTOS YUM更新源.md)
-   * 在vim中使用查找命令查找指定字符串
+   * [在vim中使用查找命令查找指定字符串](blog/linux/在vim中使用查找命令查找指定字符串.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
    * [Swagger](blog/other/swagger/README.md)
