@@ -14,7 +14,7 @@
 &emsp;&emsp;n，继续朝同一方向搜索 place。     
 &emsp;&emsp;N，反方向进行搜索。    
 &emsp;如果 vi 未找到指定的 pattern ，光标位置将不变，屏幕底部显示以下消息：   
-&emsp;*Pattern:   未找到*    
+&emsp;*Pattern: 未找到*    
   
 搜索特殊匹配     
 &emsp;在上面的示例中， vi 查找到包含 place 的任何序列，其中包括 displace、placement 和 replaced。   
