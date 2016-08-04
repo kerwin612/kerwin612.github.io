@@ -6,7 +6,7 @@
 
 首先提供几个国内快速的更新源：   
 
-教育网资源：
+**教育网资源：**
 ```
 1 上海交大： http://ftp.sjtu.edu.cn/centos/
 
@@ -22,7 +22,7 @@
 
  
 
-非教育网资源：
+**非教育网资源：**
 ```
 1 sohu的开源镜像服务器：http://mirrors.sohu.com/
 
@@ -40,70 +40,39 @@
 
  
 
-**CentOS-Base.repo**文件示例，这个文件在这个目录下  ***/etc/yum.repos.d/***  
+**CentOS-Base.repo** 文件示例，这个文件在这个目录下  ***/etc/yum.repos.d/***  
 ```properties
 [base]
-
 name=CentOS-$releasever - Base 
-
 baseurl=http://mirrors.163.com/centos/6.4/os/$basearch/ 
-
 gpgcheck=1 
-
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-6   
 
- 
-
 [updates]
-
 name=CentOS-$releasever - Updates 
-
 baseurl=http://mirrors.163.com/centos/6.4/updates/$basearch/ 
-
 gpgcheck=1 
-
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-6 
-
- 
 
 [addons] 
-
 name=CentOS-$releasever - Addons 
-
 baseurl=http://mirrors.163.com/centos/$releasever/addons/$basearch/ 
-
 gpgcheck=1 
-
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-6 
-
- 
 
 [extras] 
-
 name=CentOS-$releasever - Extras 
-
 baseurl=http://mirrors.163.com/centos/6.4/extras/$basearch/ 
-
 gpgcheck=1 
-
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-6 
 
- 
-
 [centosplus] 
-
 name=CentOS-$releasever - Plus 
-
 baseurl=http://mirrors.163.com/centos/6.4/centosplus/$basearch/ 
-
 gpgcheck=1 
-
 enabled=0 
-
 gpgkey=http://mirrors.163.com/centos/RPM-GPG-KEY-CentOS-6
 ```
-
- 
 
  从以上配置文件可以看出，需要根据各家源情况 有选择的配置 [base]  [updates]  [addons]  [extras]  [centosplus]   这几项。  
  
