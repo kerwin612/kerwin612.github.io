@@ -39,4 +39,5 @@
    * [nginx 403 forbidden 二种原因](blog/other/nginx 403 forbidden 二种原因.md)
    * [VirtualBox的四种网络连接方式](blog/other/VirtualBox的四种网络连接方式.md)
    * [在Windows的CMD中如何设置支持UTF8编码?](blog/other/在Windows的CMD中如何设置支持UTF8编码.md)
+   * nginx使用ssl模块配置HTTPS支持
 
