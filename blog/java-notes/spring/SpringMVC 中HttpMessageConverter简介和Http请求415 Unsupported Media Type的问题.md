@@ -1,7 +1,7 @@
 # SpringMVC 中HttpMessageConverter简介和Http请求415 Unsupported Media Type的问题
 
 ###一、概述：
-　　本文介绍且记录如何解决在SpringMVC 中遇到415 Unsupported Media Type 的问题，并且顺便介绍Spring MVC的HTTP请求信息转换器HttpMessageConverter。
+　　本文介绍且记录如何解决在SpringMVC 中遇到 `415 Unsupported Media Type` 的问题，并且顺便介绍Spring MVC的HTTP请求信息转换器**HttpMessageConverter**。
  
 ###二、问题描述：
 　　在SprinvMVC的Web程序中，我在页面发送Ajax 的POST请求，然后在服务器端利用@requestBody接收请求body中的参数，当时运行过程中，我想服务器发送Ajax请求，浏览器一直反馈415 Unsupported Media Type或者400的状态码，以为是Ajax写的有问题。便查找了半天资料，才发现spring-mvc.config文件的配置中少了东西，当然也有可能是你真的在Ajax中缺少了对Content-Type参数的设置。分析后应该是我springMVC-config.xml文件配置有问题。
