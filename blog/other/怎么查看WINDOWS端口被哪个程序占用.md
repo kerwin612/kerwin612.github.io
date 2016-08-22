@@ -1,11 +1,13 @@
 # 怎么查看WINDOWS端口被哪个程序占用
 
-DOS下命令：
-`netstat -a -n`  各个端口占用
-`netstat -ano`   各个端口占用和进程PID
+DOS下命令：  
+`netstat -a -n`  各个端口占用  
+`netstat -ano`   各个端口占用和进程PID  
+  
+  
 
+假如我们需要确定谁占用了我们的80端口：  
 
-假如我们需要确定谁占用了我们的80端口：
 在windows命令行窗口下执行：
 ```CMD
 C:\>netstat -aon|findstr "80"
