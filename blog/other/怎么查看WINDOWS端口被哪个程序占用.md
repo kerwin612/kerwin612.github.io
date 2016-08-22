@@ -24,5 +24,5 @@ Apache.exe                   1648 Console                 0      6,496 K
 很显然Apache占用了你的端口。    
 结束该进程
 ```
-taskkill /f /t /im Apache.exe
+C:\>taskkill /f /t /im Apache.exe
 ```
