@@ -1,7 +1,7 @@
 # 在Ubuntu 12.04安装和设置SSH服务
 
 1. 安装
-Ubuntu缺省安装了openssh-client,所以在这里就不安装了，如果你的系统没有安装的话，再用apt-get安装上即可。
+Ubuntu缺省安装了openssh-client,所以在这里就不安装了，如果你的系统没有安装的话，再用apt-get安装上即可。  
 安装ssh-server  `sudo apt-get install openssh-server`   
 安装ssh-client  `sudo apt-get install openssh-client`  
 
