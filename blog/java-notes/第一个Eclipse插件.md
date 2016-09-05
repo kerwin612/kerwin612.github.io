@@ -73,7 +73,7 @@
 表1 Manifest编辑器各tab页  
 
 | 页面 | 说明 |  
-| --- | --- |   
+| ----- | ----- |   
 | Overview |	可以设定插件的概要信息。生成用于发布的文档以及启动运行时工作台。 |   
 |Dependencies|	设定插件间的依赖关系。|  
 |Runtime|	可以设置导出包和ClassPath。|  
@@ -287,8 +287,9 @@ public class Activator extends AbstractUIPlugin {
 ```
 示例中的插件类继承自AbstractUIPlugin(①)。如果没有UI的插件继承AbstractUIPlugin的父类Plugin就可以了。
 
-插件类的方法如下表所示：  
-| --- | --- |  
+插件类的方法如下表所示： 
+
+| ----- | ----- |  
 |getDefault()|	取得插件类的实例的方法。插件类是单例的，所以这个方法作为一个静态方法提供。|  
 |start()|	插件开始时的处理。|  
 |stop()|	插件停止时的处理。|  
