@@ -47,5 +47,5 @@
    * [nginx使用ssl模块配置HTTPS支持](blog/other/nginx使用ssl模块配置HTTPS支持.md)
    * [怎么查看WINDOWS端口被哪个程序占用](blog/other/怎么查看WINDOWS端口被哪个程序占用.md)
    * [VMWare 随系统启动指定虚拟机](blog/other/VMWare 随系统启动指定虚拟机.md)
-   * 使用命令行启动VirtualBox虚拟机
+   * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
 
