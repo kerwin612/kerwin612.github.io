@@ -290,14 +290,14 @@ public class Activator extends AbstractUIPlugin {
 插件类的方法如下表所示： 
 
 | ----- | ----- |  
-|getDefault()|	取得插件类的实例的方法。插件类是单例的，所以这个方法作为一个静态方法提供。|  
-|start()|	插件开始时的处理。|  
-|stop()|	插件停止时的处理。|  
-|getLog()|	log输出时取得ILog用的方法。|  
-|getImageRegistry()|	取得管理插件内图像的ImageRegistry类。|  
-|getPerferenceStore()|	取得保存插件设定的IPerferenceStore类。|  
-|getDialogSettings()|	取得保存对话框设定的IDialogSettings类。|  
-|getWorkbench()|	取得IWorkbench的实例。|  
+| getDefault() |	取得插件类的实例的方法。插件类是单例的，所以这个方法作为一个静态方法提供。 |  
+| start() |	插件开始时的处理。 |  
+| stop() |	插件停止时的处理。 |  
+| getLog() |	log输出时取得ILog用的方法。 |  
+| getImageRegistry() |	取得管理插件内图像的ImageRegistry类。 |  
+| getPerferenceStore() |	取得保存插件设定的IPerferenceStore类。 |  
+| getDialogSettings() |	取得保存对话框设定的IDialogSettings类。 |  
+| getWorkbench() |	取得IWorkbench的实例。 |  
 
 
 以上就是根据[Hello World]模板生成的插件的代码讲解，在PDE中为我们准备了很多的模板，大家可以都试试看。
