@@ -288,6 +288,9 @@ public class Activator extends AbstractUIPlugin {
 示例中的插件类继承自AbstractUIPlugin(①)。如果没有UI的插件继承AbstractUIPlugin的父类Plugin就可以了。
 
 插件类的方法如下表所示： 
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
 
 | ----- | ----- |  
 | getDefault() |	取得插件类的实例的方法。插件类是单例的，所以这个方法作为一个静态方法提供。 |  
