@@ -19,7 +19,7 @@ yum install tmux        # Centos
 
 
 ###*使用技巧*
-tmux主要包括以下几个模块：   
+tmux 主要包括以下几个模块：   
 - session	会话:一个服务器可以包含多个会话  
 - window	窗口:一个会话可以包含多个窗口  
 - pane	面板:一个窗口可以包含多个面板[强悍的分屏]   
@@ -81,8 +81,8 @@ set-option -g prefix C-a
 | Ctrl+o |	顺时针旋转当前窗口的面板 |  
 | z | tmux 1.8新特性，最大化当前所在面板 |    
 
-#####.tmux.conf基本配置   
-软件到手了，自己怎么舒服就怎么用。定制主要还是在于.tmux.conf配置文件的配置，以下列出我的配置文件：  
+#####.tmux.conf 基本配置   
+软件到手了，自己怎么舒服就怎么用。定制主要还是在于 **`.tmux.conf`** 配置文件的配置，以下列出我的配置文件：  
 ```shell
 # Set prefix key to Ctrl-a
 unbind-key C-b
@@ -148,7 +148,7 @@ set -g pane-border-fg '#555555'
 取消批量执行模式重复之前操作即可
 
 ####脚本化启动   
-把以下脚本内容加入到 ~/.bashrc ，即可每次登录进入到 tmux    
+把以下脚本内容加入到 **`~/.bashrc`** ，即可每次登录进入到 tmux    
 ```shell
 tmux_init()
 {
