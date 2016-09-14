@@ -42,11 +42,11 @@ Are you sure you want to continue connecting (yes/no)?
 所谓"公钥指纹"，是指公钥长度较长（这里采用RSA算法，长达1024位），很难比对，所以对其进行MD5计算，将它变成一个128位的指纹。上 例中是98:2e:d7:e0:de:9f:ac:67:28:c2:42:2d:37:16:58:4d，再进行比较，就容易多了。  
 很自然的一个问题就是，用户怎么知道远程主机的公钥指纹应该是多少？回答是没有好办法，远程主机必须在自己的网站上贴出公钥指纹，以便用户自行核对。  
 假定经过风险衡量以后，用户决定接受这个远程主机的公钥。  
-`Are you sure you want to continue connecting (yes/no)? yes`  
+  `Are you sure you want to continue connecting (yes/no)? yes`  
 系统会出现一句提示，表示host主机已经得到认可。  
-`Warning: Permanently added 'host,12.18.429.21' (RSA) to the list of known hosts.`  
+  `Warning: Permanently added 'host,12.18.429.21' (RSA) to the list of known hosts.`  
 然后，会要求输入密码。  
-`Password: (enter password)`  
+  `Password: (enter password)`  
 如果密码正确，就可以登录了。  
 当远程主机的公钥被接受以后，它就会被保存在文件$HOME/.ssh/known_hosts之中。下次再连接这台主机，系统就会认出它的公钥已经保存在本地了，从而跳过警告部分，直接提示输入密码。  
 每个SSH用户都有自己的known_hosts文件，此外系统也有一个这样的文件，通常是/etc/ssh/ssh_known_hosts，保存一些对所有用户都可信赖的远程主机的公钥。  
@@ -66,7 +66,11 @@ Are you sure you want to continue connecting (yes/no)?
 远程主机将用户的公钥，保存在登录后的用户主目录的$HOME/.ssh/authorized_keys文件中。公钥就是一段字符串，只要把它追加在authorized_keys文件的末尾就行了。   
 这里不使用上面的ssh-copy-id命令，改用下面的命令，解释公钥的保存过程：  
   `$ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`  
-这条命令由多个语句组成，依次分解开来看：（1）"$ ssh user@host"，表示登录远程主机；（2）单引号中的mkdir .ssh && cat >> .ssh/authorized_keys，表示登录后在远程shell上执行的命令：（3）"$ mkdir -p .ssh"的作用是，如果用户主目录中的.ssh目录不存在，就创建一个；（4）'cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub的作用是，将本地的公钥文件~/.ssh/id_rsa.pub，重定向追加到远程文件 authorized_keys的末尾。  
+这条命令由多个语句组成，依次分解开来看：  
+（1）`$ ssh user@host`，表示登录远程主机；    
+（2）单引号中的`mkdir .ssh && cat >> .ssh/authorized_keys`，表示登录后在远程shell上执行的命令；    
+（3）`$ mkdir -p .ssh`的作用是，如果用户主目录中的.ssh目录不存在，就创建一个；    
+（4）`'cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`的作用是，将本地的公钥文件~/.ssh/id_rsa.pub，重定向追加到远程文件 authorized_keys的末尾。    
 写入authorized_keys文件后，公钥登录的设置就完成了。  
 
 ###七、远程操作
