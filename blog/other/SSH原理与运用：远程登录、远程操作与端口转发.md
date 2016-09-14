@@ -63,32 +63,32 @@ Are you sure you want to continue connecting (yes/no)?
 好了，从此你再登录，就不需要输入密码了。   
 
 ###六、authorized_keys文件
-远程主机将用户的公钥，保存在登录后的用户主目录的$HOME/.ssh/authorized_keys文件中。公钥就是一段字符串，只要把它追加在authorized_keys文件的末尾就行了。   
-这里不使用上面的ssh-copy-id命令，改用下面的命令，解释公钥的保存过程：  
-  `$ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`  
+远程主机将用户的公钥，保存在登录后的用户主目录的 `$HOME/.ssh/authorized_keys` 文件中。公钥就是一段字符串，只要把它追加在 **authorized_keys** 文件的末尾就行了。   
+这里不使用上面的 **ssh-copy-id** 命令，改用下面的命令，解释公钥的保存过程：  
+    `$ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`  
 这条命令由多个语句组成，依次分解开来看：  
 （1）`$ ssh user@host`，表示登录远程主机；    
-（2）单引号中的`mkdir .ssh && cat >> .ssh/authorized_keys`，表示登录后在远程shell上执行的命令；    
-（3）`$ mkdir -p .ssh`的作用是，如果用户主目录中的.ssh目录不存在，就创建一个；    
-（4）`'cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`的作用是，将本地的公钥文件~/.ssh/id_rsa.pub，重定向追加到远程文件 authorized_keys的末尾。    
-写入authorized_keys文件后，公钥登录的设置就完成了。  
+（2）单引号中的 `mkdir -p .ssh && cat >> .ssh/authorized_keys`，表示登录后在远程shell上执行的命令；    
+（3）`$ mkdir -p .ssh` 的作用是，如果用户主目录中的 `.ssh` 目录不存在，就创建一个；    
+（4）`'cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`的作用是，将本地的公钥文件 `~/.ssh/id_rsa.pub`，重定向追加到远程文件 **authorized_keys** 的末尾。    
+写入 authorized_keys 文件后，公钥登录的设置就完成了。  
 
 ###七、远程操作
 SSH不仅可以用于远程主机登录，还可以直接在远程主机上执行操作。  
 上一节的操作，就是一个例子：  
-  `$ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`  
-单引号中间的部分，表示在远程主机上执行的操作；后面的输入重定向，表示数据通过SSH传向远程主机。  
-这就是说，SSH可以在用户和远程主机之间，建立命令和数据的传输通道，因此很多事情都可以通过SSH来完成。  
+    `$ ssh user@host 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`  
+单引号中间的部分，表示在远程主机上执行的操作；后面的输入重定向，表示数据通过 SSH 传向远程主机。  
+这就是说，SSH 可以在用户和远程主机之间，建立命令和数据的传输通道，因此很多事情都可以通过 SSH 来完成。  
 下面看几个例子。  
 【例1】  
-将$HOME/src/目录下面的所有文件，复制到远程主机的$HOME/src/目录。  
-  `$ cd && tar czv src | ssh user@host 'tar xz'`  
+    将 `$HOME/src/` 目录下面的所有文件，复制到远程主机的 `$HOME/src/` 目录。  
+        `$ cd && tar czv src | ssh user@host 'tar xz'`  
 【例2】  
-将远程主机$HOME/src/目录下面的所有文件，复制到用户的当前目录。  
-  `$ ssh user@host 'tar cz src' | tar xzv`  
+    将远程主机 `$HOME/src/` 目录下面的所有文件，复制到用户的当前目录。  
+        `$ ssh user@host 'tar cz src' | tar xzv`  
 【例3】  
-查看远程主机是否运行进程httpd。  
-  `$ ssh user@host 'ps ax | grep [h]ttpd'`  
+    查看远程主机是否运行进程 httpd。  
+        `$ ssh user@host 'ps ax | grep [h]ttpd'`  
 
 ###八、绑定本地端口
 既然SSH可以传送数据，那么我们可以让那些不加密的网络连接，全部改走SSH连接，从而提高安全性。  
