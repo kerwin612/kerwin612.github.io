@@ -50,5 +50,5 @@
    * [怎么查看WINDOWS端口被哪个程序占用](blog/other/怎么查看WINDOWS端口被哪个程序占用.md)
    * [VMWare 随系统启动指定虚拟机](blog/other/VMWare 随系统启动指定虚拟机.md)
    * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
-   * SSH原理与运用：远程登录、远程操作与端口转发
+   * [SSH原理与运用：远程登录、远程操作与端口转发](blog/other/SSH原理与运用：远程登录、远程操作与端口转发.md)
 
