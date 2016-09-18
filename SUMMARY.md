@@ -43,6 +43,7 @@
    * [MySQL](blog/other/mysql/mysql.md)
        * [is not allowed to connect to this MySQL server 解决办法](blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md)
        * [MySQL备份--mysql dump](blog/other/mysql/MySQL备份--mysql dump.md)
+       * Mysql启动中 InnoDB: Error: log file ./ib_logfile0 is of different size 0 5242880 bytes 的问题
    * [nginx 403 forbidden 二种原因](blog/other/nginx 403 forbidden 二种原因.md)
    * [VirtualBox的四种网络连接方式](blog/other/VirtualBox的四种网络连接方式.md)
    * [在Windows的CMD中如何设置支持UTF8编码?](blog/other/在Windows的CMD中如何设置支持UTF8编码.md)
