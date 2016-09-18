@@ -28,6 +28,6 @@ mysql> FLUSH PRIVILEGES;
 ```shell
 mysqld_safe --skip-grant-tables&
 mysql -u root mysql
-mysql> UPDATE user SET password=PASSWORD("new password") WHERE user='root';
+mysql> UPDATE user SET password = PASSWORD("new password") WHERE user='root';
 mysql> FLUSH PRIVILEGES;
 ```
