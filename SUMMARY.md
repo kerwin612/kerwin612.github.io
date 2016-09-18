@@ -32,7 +32,7 @@
    * [配置CENTOS YUM更新源](blog/linux/配置CENTOS YUM更新源.md)
    * [在vim中使用查找命令查找指定字符串](blog/linux/在vim中使用查找命令查找指定字符串.md)
    * [Linux下终端利器tmux](blog/linux/Linux下终端利器tmux.md)
-   * scp命令
+   * [scp命令](blog/linux/scp命令.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
    * [Swagger](blog/other/swagger/README.md)
