@@ -89,7 +89,7 @@ app.directive('repeater', function($document) {
 
 -----  
 
-####为什么编译的过程要分成compile和link?
+####为什么编译的过程要分成 compile 和 link 
 简单的说就是为了解决性能问题，特别是那种 model 变化会影响 dom结构 变化的，而变化的结构还会有新的 scope 绑定及事件绑定，比如 `ng-repeat`  
 
 -----  
