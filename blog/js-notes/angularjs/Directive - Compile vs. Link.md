@@ -76,10 +76,40 @@ app.directive('repeater', function($document) {
 先从 `directive` 是如何在 angular 手下生效的说起吧~  
 
 ####编译三阶段：
-
 1. 标准浏览器API转化  
     将html转化成dom，所以自定义的html标签必须符合html的格式  
 2. Angular compile   
     搜索匹配directive，按照priority排序，并执行directive上的compile方法  
 3. Angular link  
-    执行directive上的link方法，进行scope绑定及事件绑定  
+    执行directive上的link方法，进行scope绑定及事件绑定   
+    
+####为什么编译的过程要分成compile和link?
+简单的说就是为了解决性能问题，特别是那种 model 变化会影响 dom结构 变化的，而变化的结构还会有新的 scope 绑定及事件绑定，比如 `ng-repeat`  
+
+####compile和link的形式
+
+**compile**  
+- `function compile(element, attrs, transclude) { ... }`
+- 在 `compile` 阶段要执行的函数，返回的 function 就是 `link` 时要执行的 function
+- 常用参数为 element 和 attrs，分别是 dom元素 和 元素上的属性 们，其它的以后细说
+- 较少使用，因为大部分 `directive` 是处理 dom元素 的行为绑定，而不是改变它们
+
+**link**  
+- `function link(scope, element, attrs, controller) { ... }`
+- 在 `link` 阶段要执行的函数，这个属性只有当 `compile` 属性没有设置时才生效
+- 常用参数为 scope，element 和 attrs，分别是当前元素所在的 scope，dom元素 和 元素上的属性 们，其它的以后细说
+- `directive` 基本上都会有此函数，可以注册事件，并与 `scope` 相绑
+
+####compile和link的使用时机
+
+**compile**  
+- 想在 dom渲染 前对它进行变形，并且不需要 `scope` 参数
+- 想在所有相同 `directive` 里共享某些方法，这时应该定义在 `compile` 里，性能会比较好
+- 返回值就是 `link` 的function，这时就是共同使用的时候
+
+**link**  
+- 对特定的元素注册事件
+- 需要用到 `scope` 参数来实现 dom元素 的一些行为
+
+
+转自：http://hellobug.github.io/blog/angularjs-directive-2-compile-vs-link/
