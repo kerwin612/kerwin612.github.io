@@ -49,7 +49,9 @@ app.directive('ngBlur', function($document) {
   };
 })
 ```
------
+
+-----  
+
 再来这样一个功能，我想让内容为 `哈哈哈哈` 的 dom元素 重复n遍，n是自定义的，以达到某种满屏大笑丧心病狂的效果 `-_-`，我知道 `ng-repeat` 就已经能干这事儿了，但是如果自己实现一下呢~  
 ```html
 <ul repeater="20">
@@ -69,8 +71,10 @@ app.directive('repeater', function($document) {
   }
 });
 ```
-在上面例子的 `compile` 方法里，子元素被复制成了 repeater 制定的数量。  
------
+在上面例子的 `compile` 方法里，子元素被复制成了 repeater 制定的数量。    
+
+-----  
+
 什么时候用 `compile`，什么时候用 `link` 呢，或者两者可不可以一起用呢？  
   
 先从 `directive` 是如何在 angular 手下生效的说起吧~  
@@ -79,12 +83,16 @@ app.directive('repeater', function($document) {
 1. 标准浏览器API转化  
     将html转化成dom，所以自定义的html标签必须符合html的格式  
 2. Angular compile   
-    搜索匹配directive，按照priority排序，并执行directive上的compile方法  
+    搜索匹配`directive`，按照`priority`排序，并执行`directive`上的`compile`方法  
 3. Angular link  
-    执行directive上的link方法，进行scope绑定及事件绑定   
-    
+    执行`directive`上的`link`方法，进行`scope`绑定及事件绑定   
+
+-----  
+
 ####为什么编译的过程要分成compile和link?
 简单的说就是为了解决性能问题，特别是那种 model 变化会影响 dom结构 变化的，而变化的结构还会有新的 scope 绑定及事件绑定，比如 `ng-repeat`  
+
+-----  
 
 ####compile和link的形式
 
@@ -99,6 +107,8 @@ app.directive('repeater', function($document) {
 - 在 `link` 阶段要执行的函数，这个属性只有当 `compile` 属性没有设置时才生效
 - 常用参数为 scope，element 和 attrs，分别是当前元素所在的 scope，dom元素 和 元素上的属性 们，其它的以后细说
 - `directive` 基本上都会有此函数，可以注册事件，并与 `scope` 相绑
+
+-----  
 
 ####compile和link的使用时机
 
