@@ -9,5 +9,6 @@
 [AngularJS的scope.$apply](http://blog.gejiawen.com/2014/07/14/usage-for-angularjs-scope-apply/)  
 [使用Angularjs的ng-cloak指令避免页面乱码](http://blog.gejiawen.com/2014/12/28/usage-for-angularjs-ng-cloak/)  
 [理解$watch ，$apply 和 $digest --- 理解数据绑定过程](http://www.angularjs.cn/A0a6)  
+[Directive - Compile vs. Link](http://hellobug.github.io/blog/angularjs-directive-2-compile-vs-link/)   
 
 
