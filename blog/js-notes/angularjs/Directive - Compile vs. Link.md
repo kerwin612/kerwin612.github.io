@@ -94,7 +94,7 @@ app.directive('repeater', function($document) {
 
 -----  
 
-####compile和link的形式
+####compile 和 link 的形式
 
 **compile**  
 - `function compile(element, attrs, transclude) { ... }`
@@ -110,7 +110,7 @@ app.directive('repeater', function($document) {
 
 -----  
 
-####compile和link的使用时机
+####compile 和 link 的使用时机
 
 **compile**  
 - 想在 dom渲染 前对它进行变形，并且不需要 `scope` 参数
