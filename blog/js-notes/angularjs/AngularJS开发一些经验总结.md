@@ -77,6 +77,6 @@ document.createElement('ng:view');
 
 13：对controller之间如果不是强依赖，只是弱引用则最好用事件$emit,$on,$broadcast,是的controller之间低耦合（**AngularJS Controller 间通信机制**）。   
 
-14：angularjs的的模块管理参见 [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md) .  
+14：angularjs的的模块管理参见 [如何组织大型JavaScript应用中的代码？](/blog/js-notes/如何组织大型JavaScript应用中的代码？.md) .  
 
 最后想说说angularjs也不是银弹，并不是万能的，不是所有的项目都适合应用，它适用于CRUD的应用系统，内置了一些默认规则（惯例优先），对于表现层频繁交互的项目不适用，对于一些特殊的项目比如spring hdiv的项目也不是那么友好，或者就是你希望兼容更多的IE8一下的版本的应用系统，同样也不实用。  
