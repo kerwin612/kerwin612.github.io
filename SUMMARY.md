@@ -24,7 +24,7 @@
        * [angular 代码日记](blog/js-notes/angularjs/angular 代码日记.md)
        * [AngularJS Directive 隔离 Scope 数据交互](blog/js-notes/angularjs/AngularJS Directive 隔离 Scope 数据交互.md)
        * [在Angular指令中使用NgModelController做数据绑定](blog/js-notes/angularjs/在Angular指令中使用NgModelController做数据绑定.md)
-       * AngularJS的ngTransclude
+       * [AngularJS的ngTransclude](blog/js-notes/angularjs/AngularJS的ngTransclude.md)
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
