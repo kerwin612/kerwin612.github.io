@@ -26,6 +26,7 @@
        * [在Angular指令中使用NgModelController做数据绑定](blog/js-notes/angularjs/在Angular指令中使用NgModelController做数据绑定.md)
        * [AngularJS的ngTransclude](blog/js-notes/angularjs/AngularJS的ngTransclude.md)
        * [使用Angularjs的ng-cloak指令避免页面乱码](blog/js-notes/angularjs/使用Angularjs的ng-cloak指令避免页面乱码.md)
+       * Directive - Compile vs. Link
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
