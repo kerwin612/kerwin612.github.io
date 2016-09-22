@@ -17,7 +17,7 @@
     </pane>
 </div>
 ```
-这里的 pane 是一个自定义 directive，标签里还有一个表达式，这个指令的目的是显示 input 中输入 title，和 textarea 中输入的 text，当然是按照一定的 dom结构 显示。看下 pane 是如何实现：  
+这里的 pane 是一个自定义 `directive`，标签里还有一个表达式，这个指令的目的是显示 input 中输入 title，和 textarea 中输入的 text，当然是按照一定的 dom结构 显示。看下 pane 是如何实现：  
 ```js
 app.directive('pane', function() {
     return {
@@ -74,7 +74,7 @@ app.directive('pane', function() {
 
 
 ###使用compile函数的transclude参数
-先看 pane 的 `directive 代码：  
+先看 pane 的 `directive` 代码：  
 ```js
 app.directive('pane', function() {
     return {
@@ -102,7 +102,7 @@ app.directive('pane', function() {
     };
 });
 ```
-`transcludeFn` 是一个 `function：transcludeFn(scope, function(clone){})` 作用域和嵌入包含的内容，clone 嵌入的内容是被 jquery 封装过的，有了它，我们就可以做任何想要做的dom操作了。  
+`transcludeFn` 是一个 `function：transcludeFn(scope, function(clone){})` 作用域和嵌入包含的内容，clone 嵌入的内容是被 jquery 封装过的，有了它，我们就可以做任何想要做的 dom操作 了。  
 
 
 ###在controller里注入$transclude
