@@ -40,7 +40,7 @@
 ##tcpdump
 
 
-##woreshark/tshark
+##woreshark
 
 
 ##telnet
