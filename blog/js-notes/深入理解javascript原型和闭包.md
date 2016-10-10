@@ -15,14 +15,14 @@
   
 ##目录：
 
-[深入理解javascript原型和闭包（1）——一切都是对象]()  
-[深入理解javascript原型和闭包（2）——函数和对象的关系]()  
-[深入理解javascript原型和闭包（3）——prototype原型]()  
-[深入理解javascript原型和闭包（4）——隐式原型]()  
-[深入理解javascript原型和闭包（5）——instanceof]()  
-[深入理解javascript原型和闭包（6）——继承]()  
-[深入理解javascript原型和闭包（7）——原型的灵活性]()  
-[深入理解javascript原型和闭包（8）——简述【执行上下文】上]()  
+[深入理解javascript原型和闭包（1）——一切都是对象](#1)  
+[深入理解javascript原型和闭包（2）——函数和对象的关系](#2)  
+[深入理解javascript原型和闭包（3）——prototype原型](#3)  
+[深入理解javascript原型和闭包（4）——隐式原型](#4)  
+[深入理解javascript原型和闭包（5）——instanceof](#5)  
+[深入理解javascript原型和闭包（6）——继承](#6)  
+[深入理解javascript原型和闭包（7）——原型的灵活性](#7)  
+[深入理解javascript原型和闭包（8）——简述【执行上下文】上](#7)  
 [深入理解javascript原型和闭包（9）——简述【执行上下文】下]()  
 [深入理解javascript原型和闭包（10）——this]()  
 [深入理解javascript原型和闭包（11）——执行上下文栈]()  
