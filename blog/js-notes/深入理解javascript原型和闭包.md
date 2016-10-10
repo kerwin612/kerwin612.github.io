@@ -227,7 +227,7 @@ console.log(fn.getYear());
 
 因为每个对象都有一个隐藏的属性——“__proto__”，这个属性引用了创建这个对象的函数的prototype。即：fn.__proto__ === Fn.prototype  
 
-这里的"__proto__"成为“隐式原型”，下回继续分解。  
+这里的"__proto__"称为“隐式原型”，下回继续分解。  
 
 
 
