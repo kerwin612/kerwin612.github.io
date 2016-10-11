@@ -1,4 +1,4 @@
-# 深入理解javascript原型和闭包
+# 转：深入理解javascript原型和闭包
 
 ###说明：
 
