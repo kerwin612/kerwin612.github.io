@@ -30,7 +30,7 @@
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
    * [深入理解javascript原型和闭包](blog/js-notes/深入理解javascript原型和闭包/README.md)
        * [1. 一切都是对象](blog/js-notes/深入理解javascript原型和闭包/1. 一切都是对象.md)
-       * [2. 函数和对象的关系](blog/js-notes/深入理解javascript原型和闭包/函数和对象的关系.md)
+       * [2. 函数和对象的关系](blog/js-notes/深入理解javascript原型和闭包/2. 函数和对象的关系.md)
        * [3. prototype原型](blog/js-notes/深入理解javascript原型和闭包/prototype原型.md)
        * [4. 隐式原型](blog/js-notes/深入理解javascript原型和闭包/隐式原型.md)
 * [Linux](blog/linux/README.md)
