@@ -32,7 +32,7 @@
        * [一切都是对象](blog/js-notes/深入理解javascript原型和闭包/一切都是对象.md)
        * [函数和对象的关系](blog/js-notes/深入理解javascript原型和闭包/函数和对象的关系.md)
        * [prototype原型](blog/js-notes/深入理解javascript原型和闭包/prototype原型.md)
-       * 隐式原型
+       * [隐式原型](blog/js-notes/深入理解javascript原型和闭包/隐式原型.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
