@@ -883,5 +883,4 @@ jQuery源码 的最外层是一个自动执行的匿名函数：
 
 
 
-
-
+转：http://www.cnblogs.com/wangfupeng1988/p/3977924.html
