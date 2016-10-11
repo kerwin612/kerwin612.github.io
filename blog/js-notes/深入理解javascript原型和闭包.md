@@ -332,7 +332,7 @@ OK 本节结束，是不是很乱？
 
 即，`instanceof`表示的就是一种继承关系，或者原型链的结构。请看下节分解。  
 
-（注：本节的图片来源于http://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/figure1.jpg）  
+（注：本节的图片来源于 http://www.ibm.com/developerworks/cn/web/1306_jiangjj_jsinstanceof/figure1.jpg ）  
 
 
 
