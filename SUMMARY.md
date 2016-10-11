@@ -29,7 +29,7 @@
        * [Directive - Compile vs. Link](blog/js-notes/angularjs/Directive - Compile vs. Link.md)
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
    * [深入理解javascript原型和闭包](blog/js-notes/深入理解javascript原型和闭包.md)
-       * 一切都是对象
+       * [一切都是对象](blog/js-notes/一切都是对象.md)
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
