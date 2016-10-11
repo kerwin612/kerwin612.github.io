@@ -33,6 +33,7 @@
        * [2. 函数和对象的关系](blog/js-notes/深入理解javascript原型和闭包/2. 函数和对象的关系.md)
        * [3. prototype原型](blog/js-notes/深入理解javascript原型和闭包/3. prototype原型.md)
        * [4. 隐式原型](blog/js-notes/深入理解javascript原型和闭包/4. 隐式原型.md)
+       * 5. instanceof
 * [Linux](blog/linux/README.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
    * [Linux 下执行定时任务 crontab 命令详解](blog/linux/Linux 下执行定时任务 crontab 命令详解.md)
