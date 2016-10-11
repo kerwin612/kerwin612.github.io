@@ -28,7 +28,7 @@
        * [使用Angularjs的ng-cloak指令避免页面乱码](blog/js-notes/angularjs/使用Angularjs的ng-cloak指令避免页面乱码.md)
        * [Directive - Compile vs. Link](blog/js-notes/angularjs/Directive - Compile vs. Link.md)
    * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
-   * [深入理解javascript原型和闭包](blog/js-notes/深入理解javascript原型和闭包.md)
+   * [深入理解javascript原型和闭包](blog/js-notes/深入理解javascript原型和闭包/README.md)
        * [一切都是对象](blog/js-notes/深入理解javascript原型和闭包/一切都是对象.md)
        * [函数和对象的关系](blog/js-notes/深入理解 /函数和对象的关系.md)
 * [Linux](blog/linux/README.md)
