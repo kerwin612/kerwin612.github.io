@@ -66,7 +66,7 @@
        * [nexus repair或update index 没反应 速度慢 手动配置nexus index](blog/other/maven/nexus repair或update index 没反应 速度慢 手动配置nexus index.md)
        * [nexus 搭建 maven 私服](blog/other/maven/nexus 搭建 maven 私服.md)
        * [Maven类包冲突终极解决小技若干](blog/other/maven/Maven类包冲突终极解决小技若干.md)
-       * [org.codehaus.plexus.archiver.jar.Manifest.merge(org.codehaus.plexus.archiver.jar.Manifest)](blog/other/maven/org.codehaus.plexus.archiver.jar.Manifest.merge(*).md)
+       * [org.codehaus.plexus.archiver.jar.Manifest.merge(org.codehaus.plexus.archiver.jar.Manifest)](blog/other/maven/org.codehaus.plexus.archiver.jar.Manifest.merge.md)
    * [MySQL](blog/other/mysql/mysql.md)
        * [is not allowed to connect to this MySQL server 解决办法](blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md)
        * [MySQL备份--mysql dump](blog/other/mysql/MySQL备份--mysql dump.md)
