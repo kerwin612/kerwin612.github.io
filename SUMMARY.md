@@ -81,5 +81,5 @@
    * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
    * [SSH原理与运用：远程登录、远程操作与端口转发](blog/other/SSH原理与运用：远程登录、远程操作与端口转发.md)
    * [SVN mime-type 笔记](blog/other/SVN mime-type 笔记.md)
-   * [Shell脚本/bin/bash^M: bad interpreter错误解决方法](blog/other/Shell脚本/bin/bash^M: bad interpreter错误解决方法.md)
+   * [Shell脚本/bin/bash^M: bad interpreter错误解决方法](blog/linux/Shell脚本 bad interpreter:No such file or directory & bash^M: bad interpreter错误解决方法.md)
 
