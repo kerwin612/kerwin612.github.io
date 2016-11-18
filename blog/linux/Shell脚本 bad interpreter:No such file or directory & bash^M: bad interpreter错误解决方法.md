@@ -1,4 +1,4 @@
-# Shell脚本/bin/bash^M: bad interpreter错误解决方法
+# Shell脚本 bad interpreter:No such file or directory & /bin/bash^M: bad interpreter错误解决方法
 
 在 windows 下保存了一个脚本文件，用 ssh 上传到 centos，添加权限执行 nginx 提示没有那个文件或目录。  
 shell脚本 放到`/etc/init.d/`目录下，再执行 /etc/init.d/nginx，提示多了这句`/bin/bash^M: bad interpreter`。
