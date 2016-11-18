@@ -57,6 +57,7 @@
    * [scp命令](blog/linux/scp命令.md)
    * [Linux系统管理常用命令](blog/linux/Linux系统管理常用命令.md)
    * [vim常用配置](blog/linux/vim常用配置.md)
+* [Shell脚本/bin/bash^M: bad interpreter错误解决方法](blog/linux/Shell脚本 bad interpreter:No such file or directory & bash^M: bad interpreter错误解决方法.md)
 * [杂碎](blog/other/README.md)
    * [解决 Virtualbox 共享文件夹 cannot create symlink error 问题](blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md)
    * [Swagger](blog/other/swagger/README.md)
