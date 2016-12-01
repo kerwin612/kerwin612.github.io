@@ -84,5 +84,5 @@
    * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
    * [SSH原理与运用：远程登录、远程操作与端口转发](blog/other/SSH原理与运用：远程登录、远程操作与端口转发.md)
    * [SVN mime-type 笔记](blog/other/SVN mime-type 笔记.md)
-   * 传统轮询、长轮询、服务器发送事件与WebSocket
+   * [传统轮询、长轮询、服务器发送事件与WebSocket](blog/other/传统轮询、长轮询、服务器发送事件与WebSocket.md)
 
