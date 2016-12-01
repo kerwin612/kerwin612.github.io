@@ -46,6 +46,7 @@
        * [15. 闭包](blog/js-notes/深入理解javascript原型和闭包/15. 闭包.md)
        * [16. 补充：上下文环境和作用域的关系](blog/js-notes/深入理解javascript原型和闭包/16. 补充：上下文环境和作用域的关系.md)
    * NodeJS
+       * npm的配置管理及设置代理
 * [Linux](blog/linux/README.md)
    * [Shell脚本 bad interpreter:No such file or directory & /bin/bash^M: bad interpreter错误解决方法](blog/linux/Shell脚本 bad interpreter:No such file or directory & bash^M: bad interpreter错误解决方法.md)
    * [10个重要的Linux ps命令实战](blog/linux/10个重要的Linux ps命令实战.md)
