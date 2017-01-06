@@ -12,16 +12,19 @@ JDK中文字体的设置为什么重要呢？我们经常会发现在Linux下，
 
 JDK中文处理办法基本步骤如下：
 
-1. cd $JAVA_HOME/jre/lib/fonts  
-2. mkdir fallback  
-3. cp xxx.ttf fallback #xxx.ttf代表你想要的中文字体文件  
-4. cd fallback  
-5. mkfontscale   
-        如果没有此命令就先执行（`apt-get install xfonts-utils`）  
-        如果出现 “Couldn't get family name for *****.**” 就先执行（`rm -f *****.**`）  
-6. mkfontdir  
-7. fc-cache   
-        如果没有此命令就先执行（`apt-get install fontconfig`）
+1. `cd $JAVA_HOME/jre/lib/fonts`  
+2. `mkdir fallback`  
+3. `cp xxx.ttf fallback #xxx.ttf代表你想要的中文字体文件`  
+4. `cd fallback`  
+5. `mkfontscale`       
+
+      如果没有此命令就先执行（`apt-get install xfonts-utils`）       
+      
+      如果出现 `Couldn't get family name for *****.**` 就先执行（`rm -f *****.**`）   
+6. `mkfontdir`  
+7. `fc-cache`     
+
+      如果没有此命令就先执行（`apt-get install fontconfig`）
 
 其实，我们可以一条命令解决来JDK中文问题。将Linux系统的字体目录作为JDK下面的一个字体目录连接。
 ```shell
