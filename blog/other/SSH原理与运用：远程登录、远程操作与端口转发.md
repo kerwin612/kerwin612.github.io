@@ -69,6 +69,9 @@ Are you sure you want to continue connecting (yes/no)?
 这时再输入下面的命令，将公钥传送到远程主机host上面：  
     `$ ssh-copy-id user@host`  
 好了，从此你再登录，就不需要输入密码了。
+```bash
+chmod 400 ~/.ssh/id_rsa
+```
 
 ### 六、authorized\_keys文件
 
@@ -81,7 +84,6 @@ Are you sure you want to continue connecting (yes/no)?
 （3）`$ mkdir -p .ssh` 的作用是，如果用户主目录中的 `.ssh` 目录不存在，就创建一个；  
 （4）`'cat >> .ssh/authorized_keys' < ~/.ssh/id_rsa.pub`的作用是，将本地的公钥文件 `~/.ssh/id_rsa.pub`，重定向追加到远程文件 **authorized\_keys** 的末尾。  
 写入 authorized\_keys 文件后，公钥登录的设置就完成了。  
-
 ```bash
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
