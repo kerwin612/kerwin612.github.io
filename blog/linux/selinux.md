@@ -97,7 +97,7 @@ drwxr-xr-x. root root system_u:object_r:httpd_sys_content_t:s0 /var/www/html
 # /var/www/html 则属于 httpd_sys_content_t 这个类型！
 ```
 httpd 属于 httpd_exec_t 这个可以执行的类型，而 /var/www/html 则属于 httpd_sys_content_t 这个可以让 httpd 领域 (domain) 读取的类型。文字看起来不太容易了解吧！我们使用图示来说明这两者的关系！
-![]()
+图片1
 上图的意义我们可以这样看的：  
 
 1. 首先，我们触发一个可执行的目标档案，那就是具有 httpd_exec_t 这个类型的 /usr/sbin/httpd
