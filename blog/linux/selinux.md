@@ -34,7 +34,7 @@ SELinux 主要想要管理的就是程序，因此你可以将『主体』跟本
 2. 若比对失败则无法存取目标，若比对成功则可以开始存取目标。问题是，最终能否存取目标还是与文件系统的 `rwx` 权限设定有关喔！如此一来，加入了**SELinux**之后，出现权限不符的情况时，你就得要一步一步的分析可能的问题了！
 
 
-1. ####安全性本文 (Security Context)
+#### 安全性本文 (Security Context)
 
 CentOS 6.x 的**target**政策已经帮我们制订好非常多的规则了，因此你只要知道如何开启/关闭某项规则的放行与否即可。 那个安全性本文比较麻烦！因为你可能需要自行配置文件案的安全性本文呢！为何需要自行设定啊？ 举例来说，你不也常常进行档案的 `rwx` 的重新设定吗？这个安全性本文你就将他想成**SELinux**内必备的 `rwx` 就是了！这样比较好理解啦。
 
@@ -74,7 +74,7 @@ Identify:role:type
 **domain** 需要与 **type** 搭配，则该程序才能够顺利的读取档案资源啦！
 
 
-2. ####程序与档案**SELinux** **type** 字段的相关性
+#### 程序与档案**SELinux** **type** 字段的相关性
 
 那么这三个字段如何利用呢？首先我们来瞧瞧主体程序在这三个字段的意义为何！透过身份识别与角色字段的定义， 我们可以约略知道某个程序所代表的意义喔！基本上，这些对应资料在 **targeted** 政策下的对应如下：
 
@@ -127,7 +127,7 @@ SELINUXTYPE=targeted <==目前仅有 targeted 与 mls
 ```
 
 
-1. ####SELinux 的启动与关闭
+#### SELinux 的启动与关闭
 
 上面是默认的政策与启动的模式！你要注意的是，如果改变了政策则需要重新启动；如果由 `enforcing` 或 `permissive` 改成 `disabled` ，或由 `disabled` 改成其他两个，那也必须要重新启动。这是因为**SELinux**是整合到核心里面去的， 你只可以在**SELinux**运作下切换成为强制 (`enforcing`) 或宽容 (`permissive`) 模式，不能够直接关闭**SELinux**的！ 如果刚刚你发现 `getenforce` 出现 `disabled` 时，请到上述档案修改成为 `enforcing` 然后重新启动吧！
 
@@ -174,7 +174,7 @@ drwxrwxrwt. root root system_u:object_r:tmp_t:s0 /tmp
 看到没有？当你单纯的复制时，**SELinux**的 **type** 字段是会继承目标目录的，所以 `/root/hosts` 的类型就会变成 `admin_home_t` 这个类型了。但是如果是移动呢？那么连同**SELinux**的类型也会被移动过去，因此 `/tmp/hosts` 会依旧保持 `admin_home_t` 而不会变成 `/tmp` 的 `tmp_t` 这个类型呦！要注意！要注意！那么，如何将 `/tmp/hosts` 变更成为最原始的 `net_conf_t` 这个类型呢？那就得要使用 `chcon` 啰！
 
 
-1. ####`chcon`
+#### `chcon`
 
 ```bash
 [root@www ~]# chcon [-R] [-t type] [-u user] [-r role] 档案
@@ -201,7 +201,7 @@ drwxrwxr-x. root mail system_u:object_r:mail_spool_t:s0 /var/spool/mail
 `chcon` 的修改方式中，我们必须要知道最终我们的**SELinux** **type** 是啥类型后，才能够变更成功。 如果你想要作的是『复原成原有的**SELinux** **type**』呢？那可以参考底下的指令来进行呦！
 
 
-2. ####`restorecon`
+#### `restorecon`
 
 ```bash
 [root@www ~]# restorecon [-Rv] 档案或目录
@@ -220,7 +220,7 @@ system_u:object_r:admin_home_t:s0
 ```
 
 
-3. ####默认目录的安全性本文查询与修改
+#### 默认目录的安全性本文查询与修改
 
 透过上面这几个练习，你就会知道啦，**SELinux** **type** 恐怕会在档案的复制/移动时产生一些变化，因此需要善用 `chcon`, `restorecon` 等指令来进行修订。那你应该还是会想到一件事，那就是， `restorecon` 怎么会知道每个目录记载的默认**SELinux** **type** 类型呢？这是因为系统有记录嘛！记录在 `/etc/selinux/targeted/contexts`，但是该目录内有很多不同的数据， 要使用文本编辑器去查阅很麻烦，此时，我们可以透过 `semanage` 这个指令的功能来查询与修改喔！
 ```bash
@@ -280,7 +280,7 @@ drwxr-xr-x. root root system_u:object_r:public_content_t:s0 /srv/vbird
 2. 程序与档案的**SELinux** **type** 要符合才能够放行。前一个小节谈的是**SELinux**的 **type** ，这个小节就是要谈一下政策内的规则啰， 包括如何查询与修改相关的规则放行与否啰。
 
 
-1. ####政策查阅
+#### 政策查阅
 
 CentOS 6.x 预设使使用 **targeted** 政策，那么这个政策提供多少相关的规则呢？此时可以透过 `seinfo` 来查询喔！
 ```bash
@@ -351,7 +351,7 @@ allow httpd_sys_script_t user_home_dir_t : dir { ioctl read getattr } ;
 从这个布尔值的设定我们可以看到里面规范了非常多的主体程序与目标档案资源的放行与否！ 所以你知道了，实际规范这些规则的，就是布尔值的项目啦！那也就是我们之前所说的一堆规则是也！ 你的主体程序能否对某些目标档案进行存取，与这个布尔值非常有关系喔！因为布尔值可以将规则设定为启动 (1) 或者是关闭 (0) 啦！
 
 
-2. ####布尔值的查询与修改
+#### 布尔值的查询与修改
 
 上面我们透过 `sesearch` 知道了，其实 **Subject** 与 **Object** 能否有存取的权限，是与布尔值有关的， 那么系统有多少布尔值可以透过 `seinfo -b` 来查询，但，每个布尔值是启动的还是关闭的呢？这就来查询看看吧：
 ```bash
@@ -390,7 +390,7 @@ httpd_enable_homedirs --> on
 上述的指令功能当中，尤其是 `setsebool`, `chcon`, `restorecon` 等，都是为了当你的某些网络服务无法正常提供相关功能时， 才需要进行修改的一些指令动作。但是，我们怎么知道哪个时候才需要进行这些指令的修改啊？我们怎么知道系统因为**SELinux**的问题导致网络服务不对劲啊？如果都要靠客户端联机失败才来哭诉，那也太没有效率了！所以，我们的 CentOS 6.x 有提供几支侦测的服务在登录**SELinux**产生的错误喔！那就是 `auditd` 与 `setroubleshootd`。
 
 
-1. ####`setroubleshoot` --> 错误讯息写入 `/var/log/messages`
+#### `setroubleshoot` --> 错误讯息写入 `/var/log/messages`
 
 几乎所有**SELinux**相关的程序都会以 `se` 为开头，这个服务也是以 `se` 为开头！而 `troubleshoot` 大家都知道是错误克服， 因此这个 `setroubleshoot` 自然就得要启动他啦！这个服务会将关于**SELinux**的错误讯息与克服方法记录到 `/var/log/messages` 与 `/var/log/setroubleshoot/*` 里头，所以你一定得要启动这个服务才好。启动这个服务之前当然就是得要安装它啦！ 这玩意儿总共需要两个软件，分别是 `setroublshoot` 与 `setroubleshoot-server`，如果你没有安装，请自行使用 `yum` 安装吧！
 
@@ -474,7 +474,7 @@ admin_home_t:s0->system_u:object_r:httpd_sys_content_t:s0
 重点就是上面特殊字体显示的地方！你只要照着『`Allowing Access`』里面的提示去进行处理， 就能够完成你的**SELinux**类型设定了！比对刚刚我们上个小节提到的 `restorecon` 与 `chcon` 你就能够知道， `setroubleshoot` 提供的讯息有多有效了吧！不管出了啥**SELinux**的问题，绝大部分在 `setroubleshoot` 的服务中就会告诉你解决之道！所以，很多东西都不用背的！
 
 
-2. ####用 `email` 或在指令列上面直接提供 `setroubleshoot` 错误讯息
+#### 用 `email` 或在指令列上面直接提供 `setroubleshoot` 错误讯息
 
 如果每次测试都得要到 `/var/log/messages` 去分析，那真是挺麻烦的啊！没关系，我们可以透过 `email` 或 `console` 的方式来将信息产生！也就是说，我们可以让 `setroubleshoot` 主动的发送产生的信息到我们指定的 `email`，这样可以方便我们实时的分析喔！怎么办到？就修改 `setroubleshoot` 的配置文件即可。你可以查阅 `/etc/setroubleshoot/setroubleshoot.cfg` 这个档案的内容，我们只需要修改的地方如下：
 ```bash
@@ -495,7 +495,7 @@ your@email.address
 之后你就可以透过分析你的 `email` 来取得**SELinux**的错误讯息啰！非常的简单吧！只是要注意，上述的填写 `email` 的档案中， 不能只写账号，你要连同 `@localhost` 都写上，这样本机上面的 root 才能收到信件喔！就这么简单哩！ ^_^
 
 
-3. ####SELinux 错误克服的总结
+#### SELinux 错误克服的总结
 
 我们来简单的做个总结吧！因为你的网络联机要通过**SELinux**才的权限判定后才能够继续 `rwx` 的权限比对。而**SELinux**的比对主要又分为： 
 1. 需要通过政策的各项规则比对后 
