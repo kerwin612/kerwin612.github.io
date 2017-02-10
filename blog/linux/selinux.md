@@ -509,3 +509,6 @@ your@email.address
 这样就能够很轻松的管理你的**SELinux**啦！不需要想太多！分析登录档就对啦！
 >Tips:
 当鸟哥第一次修改这个**SELinux**的部分时，在 `sealert` 的部分一直出现错误，信息为： `query_alert error (1003)...` 后来经过更新软件后，又发现无法以 `UTF8` 进行文字译码的问题！实在伤脑筋～最后还是修改了 `/etc/sysconfig/i18n` 将里面的数据设定为： `LANG=en_US` 并且重新启动，才顺利恢复 `sealert` 的信息说明！真的是很怪异！
+
+
+转自[鸟哥的linux私房菜](http://cn.linux.vbird.org/linux_server/0210network-secure_4.php)
