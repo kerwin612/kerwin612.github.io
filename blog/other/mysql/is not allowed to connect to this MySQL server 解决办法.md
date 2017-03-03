@@ -30,7 +30,10 @@ mysql>GRANT SELECT,INSERT,UPDATE,DELETE ON [db_name].* TO [username]@[ipadd] ide
 （其实就是在远端服务器上执行，地址填写本地主机的ip地址。）  
 也可以这样写
 ```shell
-mysql -u root -pvmwaremysql>use mysql;mysql>update user set host = ‘%’ where user = ‘root’;mysql>select host, user from user;
+mysql -u root -pvmware
+mysql>use mysql;
+mysql>update user set host = ‘%’ where user = ‘root’;
+mysql>select host, user from user;
 ```
 
 执行了上面的语句后，再执行下面的语句，方可立即生效。
