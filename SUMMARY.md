@@ -45,7 +45,7 @@
     * [\[12. 简介【作用域】\]\(blog/js-notes/深入理解javascript原型和闭包/12. 简介【作用域】.md\)](blog/js-notes/深入理解javascript原型和闭包/12.简介【作用域】.md)
     * [\[13. 【作用域】和【上下文环境】\]\(blog/js-notes/深入理解javascript原型和闭包/13. 【作用域】和【上下文环境】.md\)](blog/js-notes/深入理解javascript原型和闭包/14.从【自由变量】到【作用域链】.md)
     * [\[14. 从【自由变量】到【作用域链】\]\(blog/js-notes/深入理解javascript原型和闭包/14. 从【自由变量】到【作用域链】.md\)](blog/js-notes/深入理解javascript原型和闭包/15.闭包.md)
-    * \[15. 闭包\]\(blog/js-notes/深入理解javascript原型和闭包/15. 闭包.md\)
+    * [\[15. 闭包\]\(blog/js-notes/深入理解javascript原型和闭包/15. 闭包.md\)](blog/js-notes/深入理解javascript原型和闭包/15.闭包.md)
     * [\[16. 补充：上下文环境和作用域的关系\]\(blog/js-notes/深入理解javascript原型和闭包/16. 补充：上下文环境和作用域的关系.md\)](blog/js-notes/深入理解javascript原型和闭包/16.补充：上下文环境和作用域的关系.md)
   * [NodeJS](blog/js-notes/nodejs/README.md)
     * [npm的配置管理及设置代理](blog/js-notes/nodejs/npm的配置管理及设置代理.md)
