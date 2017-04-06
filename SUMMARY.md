@@ -92,5 +92,6 @@
   * [传统轮询、长轮询、服务器发送事件与WebSocket](blog/other/传统轮询、长轮询、服务器发送事件与WebSocket.md)
   * [HTTP](blog/other/http/README.md)
     * [HTTP 协议中的 Transfer-Encoding](blog/other/http/HTTP协议中的Transfer-Encoding.md)
-  * [Virtualbox虚拟机网络配置\(NAT + Host-only - Bridged\)](blog/other/Virtualbox虚拟机网络配置（NAT+Host-only-Bridged）.md)
+  * [VirtualBox虚拟机网络配置\(NAT + Host-only - Bridged\)](blog/other/VirtualBox虚拟机网络配置（NAT+Host-only-Bridged）.md)
+  * [VirtualBox绿色版的桥接网卡驱动安装](blog/other/VirtualBox绿色版的桥接网卡驱动安装.md)
 
