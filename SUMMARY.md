@@ -15,6 +15,7 @@
   * [JDK中文字体在Linux操作系统的设置方案](blog/java-notes/jdk中文字体在linux操作系统的设置方案.md)
   * [Shiro](blog/java-notes/shiro/README.md)
     * [Shiro-Authentication\(身份验证\)](blog/java-notes/shiro/Shiro-Authentication-身份验证.md)
+    * [Shiro-Authorization\(授权\)](blog/java-notes/shiro/Shiro-Authorization-授权.md)
 * [JS笔记](blog/js-notes/README.md)
   * [\[JS\/JQuery 代码、框架收藏\]\(blog/js-notes/JS&JQuery 代码、框架收藏.md\)](blog/js-notes/JS&JQuery-代码、框架收藏.md)
   * [\[用Mock.js + AngularJS来提高开发效率\]\(blog/js-notes/用Mock.js + AngularJS来提高开发效率.md\)](blog/js-notes/用Mock.js+AngularJS来提高开发效率.md)
