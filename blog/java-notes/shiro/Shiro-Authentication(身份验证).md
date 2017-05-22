@@ -128,7 +128,7 @@ public class MyRealm1 implements Realm{
 	public boolean supports(AuthenticationToken token) {
 		return token instanceof UsernamePasswordToken;
 	}
-	public AuthenticationInfo getAuthenticationInfo(AuthenticationToken token)
+	public AuthenticationInfo getAuthenticationInfo(A~~~~uthenticationToken token)
 			throws AuthenticationException {
         String username = token.getPrincipal().toString();
         String password = new String((char[])token.getCredentials());
@@ -137,7 +137,7 @@ public class MyRealm1 implements Realm{
         if(!username.equals("L.Tao")){
         	throw new UnknownAccountException("没有该用户");
         }
-        if(!password.equals("LCore")){
+        if(!password.equals("LCore")){~~~~
         	throw new IncorrectCredentialsException("密码错误");
         }
 		return new SimpleAuthenticationInfo(username+"1", password, getName());
