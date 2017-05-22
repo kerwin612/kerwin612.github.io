@@ -13,6 +13,8 @@
   * [\[Eclipse 使用技巧\]\(blog/java-notes/Eclipse 使用技巧.md\)](blog/java-notes/Eclipse使用技巧.md)
   * [HighChart利用servlet导出中文PNG图片乱码问题解决](blog/java-notes/highchart利用servlet导出中文png图片乱码问题解决.md)
   * [JDK中文字体在Linux操作系统的设置方案](blog/java-notes/jdk中文字体在linux操作系统的设置方案.md)
+  * [Shiro](blog/java-notes/shiro/README.md)
+    * [Shiro-Authentication\(身份验证\)](blog/java-notes/shiro/Shiro-Authentication%28身份验证%29.md)
 * [JS笔记](blog/js-notes/README.md)
   * [\[JS\/JQuery 代码、框架收藏\]\(blog/js-notes/JS&JQuery 代码、框架收藏.md\)](blog/js-notes/JS&JQuery-代码、框架收藏.md)
   * [\[用Mock.js + AngularJS来提高开发效率\]\(blog/js-notes/用Mock.js + AngularJS来提高开发效率.md\)](blog/js-notes/用Mock.js+AngularJS来提高开发效率.md)
