@@ -15,42 +15,42 @@
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
-<groupId>com.lcore.shiro_01</groupId>
-<artifactId>shiro_01</artifactId>
-<version>0.0.1-SNAPSHOT</version>
-<dependencies>
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.9</version>
-</dependency>
-<dependency>
-<groupId>commons-logging</groupId>
-<artifactId>commons-logging</artifactId>
-<version>1.1.3</version>
-</dependency>
-<dependency>
-<groupId>org.apache.shiro</groupId>
-<artifactId>shiro-core</artifactId>
-<version>1.2.2</version>
-</dependency>
-<dependency>
-<groupId>org.slf4j</groupId>
-<artifactId>slf4j-nop</artifactId>
-<version>1.7.5</version>
-</dependency>
-<dependency>
-<groupId>mysql</groupId>
-<artifactId>mysql-connector-java</artifactId>
-<version>5.1.25</version>
-</dependency>
-<dependency>
-<groupId>com.alibaba</groupId>
-<artifactId>druid</artifactId>
-<version>0.2.23</version>
-</dependency>
-</dependencies>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lcore.shiro_01</groupId>
+	<artifactId>shiro_01</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.9</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-nop</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.25</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>0.2.23</version>
+		</dependency>
+	</dependencies>
 </project>
 ```
 #####shiro配置文件ini方式(shiro.ini)
@@ -64,25 +64,24 @@ L.Tao=LCore
 ```java
 @Test
 public void testHello() {
-// 1、通过ini文件获取securityManager工厂
-Factory<SecurityManager> factory = new IniSecurityManagerFactory(
-"classpath:shiro.ini");
-// 2、得到securityManager实例,绑定SecurityUtils
-SecurityManager manager = factory.getInstance();
-SecurityUtils.setSecurityManager(manager);
-// 3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
-Subject subject = SecurityUtils.getSubject();
-UsernamePasswordToken token = new UsernamePasswordToken("L.Tao", "LCore");
-try {
-// 4、登录，即身份验证,委托给securityManager
-subject.login(token);
-} catch (AuthenticationException e) {
-// 5、身份验证失败
-e.printStackTrace();
-}
-Assert.assertEquals(true, subject.isAuthenticated()); // 断言用户已经登录
-// 6、退出:任何现有的session会清空
-subject.logout();
+	// 1、通过ini文件获取securityManager工厂
+	Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
+	// 2、得到securityManager实例,绑定SecurityUtils
+	SecurityManager manager = factory.getInstance();
+	SecurityUtils.setSecurityManager(manager);
+	// 3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
+	Subject subject = SecurityUtils.getSubject();
+	UsernamePasswordToken token = new UsernamePasswordToken("L.Tao", "LCore");
+	try {
+		// 4、登录，即身份验证,委托给securityManager
+		subject.login(token);
+	} catch (AuthenticationException e) {
+		// 5、身份验证失败
+		e.printStackTrace();
+	}
+	Assert.assertEquals(true, subject.isAuthenticated()); // 断言用户已经登录
+	// 6、退出:任何现有的session会清空
+	subject.logout();
 }
 ```
 关于上述demo的执行过程,注释已经说得很明白了,需要提及的是,在调用`subject.login()`身份验证失败时,请捕获`AuthenticationException`或其子类,常见的如`DisabledAccountException`(禁用的账户)、`LockedAccountException`(锁定的账户)、`UnknowAccountException`(错误的账户)等,具体情况如下图:
@@ -124,26 +123,26 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.realm.Realm;
 public class MyRealm1 implements Realm{
-public String getName() {
-return "myreal1";
-}
-public boolean supports(AuthenticationToken token) {
-return token instanceof UsernamePasswordToken;
-}
-public AuthenticationInfo getAuthenticationInfo(A~~~~uthenticationToken token)
-throws AuthenticationException {
-String username = token.getPrincipal().toString();
-String password = new String((char[])token.getCredentials());
-System.out.println("realm1");
-//自己实现验证逻辑
-if(!username.equals("L.Tao")){
-throw new UnknownAccountException("没有该用户");
-}
-if(!password.equals("LCore")){~~~~
-throw new IncorrectCredentialsException("密码错误");
-}
-return new SimpleAuthenticationInfo(username+"1", password, getName());
-}
+	public String getName() {
+		return "myreal1";
+	}
+	public boolean supports(AuthenticationToken token) {
+		return token instanceof UsernamePasswordToken;
+	}
+	public AuthenticationInfo getAuthenticationInfo(AuthenticationToken token)
+		throws AuthenticationException {
+		String username = token.getPrincipal().toString();
+		String password = new String((char[])token.getCredentials());
+		System.out.println("realm1");
+		//自己实现验证逻辑
+		if(!username.equals("L.Tao")){
+			throw new UnknownAccountException("没有该用户");
+		}
+		if(!password.equals("LCore")){
+			throw new IncorrectCredentialsException("密码错误");
+		}
+		return new SimpleAuthenticationInfo(username+"1", password, getName());
+	}
 }
 ```
 2、ini配置文件指定自定义的`Realm`
@@ -157,27 +156,24 @@ securityManager.realms=$myRealm1
 3、测试代码:
 ```java
 public void testCustomRealm() {
-// 1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
-Factory<org.apache.shiro.mgt.SecurityManager> factory = new IniSecurityManagerFactory(
-"classpath:shiro-realm.ini");
-// 2、得到SecurityManager实例 并绑定给SecurityUtils
-org.apache.shiro.mgt.SecurityManager securityManager = factory
-.getInstance();
-SecurityUtils.setSecurityManager(securityManager);
-// 3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
-Subject subject = SecurityUtils.getSubject();
-UsernamePasswordToken token = new UsernamePasswordToken("L.Tao",
-"LCore");
-try {
-// 4、登录，即身份验证
-subject.login(token);
-} catch (AuthenticationException e) {
-// 5、身份验证失败
-e.printStackTrace();
-}
-Assert.assertEquals(true, subject.isAuthenticated()); // 断言用户已经登录
-// 6、退出
-subject.logout();
+	// 1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
+	Factory<org.apache.shiro.mgt.SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-realm.ini");
+	// 2、得到SecurityManager实例 并绑定给SecurityUtils
+	org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
+	SecurityUtils.setSecurityManager(securityManager);
+	// 3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
+	Subject subject = SecurityUtils.getSubject();
+	UsernamePasswordToken token = new UsernamePasswordToken("L.Tao", "LCore");
+	try {
+		// 4、登录，即身份验证
+		subject.login(token);
+	} catch (AuthenticationException e) {
+		// 5、身份验证失败
+		e.printStackTrace();
+	}
+	Assert.assertEquals(true, subject.isAuthenticated()); // 断言用户已经登录
+	// 6、退出
+	subject.logout();
 }
 ```
 #####JDBC Realm
@@ -288,44 +284,44 @@ import org.apache.shiro.realm.Realm;
 import org.apache.shiro.util.CollectionUtils;
 import java.util.Collection;
 public class OnlyOneAuthenticatorStrategy extends AbstractAuthenticationStrategy {
-//所有Realm验证之前
-@Override
-public AuthenticationInfo beforeAllAttempts(Collection<? extends Realm> realms, AuthenticationToken token)
-throws AuthenticationException {
-return new SimpleAuthenticationInfo();//返回一个权限的认证信息
-}
-//每个Realm验证之前
-@Override
-public AuthenticationInfo beforeAttempt(Realm realm, AuthenticationToken token, AuthenticationInfo aggregate)
-throws AuthenticationException {
-return aggregate;//返回之前合并的
-}
-//每个Realm验证之后
-@Override
-public AuthenticationInfo afterAttempt(Realm realm, AuthenticationToken token,
-AuthenticationInfo singleRealmInfo, AuthenticationInfo aggregateInfo, Throwable t)
-throws AuthenticationException {
-AuthenticationInfo info;
-if (singleRealmInfo == null) {
-info = aggregateInfo;
-} else {
-if (aggregateInfo == null) {
-info = singleRealmInfo;
-} else {
-info = merge(singleRealmInfo, aggregateInfo);
-if(info.getPrincipals().getRealmNames().size() != 1) {
-throw new AuthenticationException("只能有一个验证通过");
-}
-}
-}
-return info;
-}
-//所有realm验证之后
-@Override
-public AuthenticationInfo afterAllAttempts(AuthenticationToken token, AuthenticationInfo aggregate)
-throws AuthenticationException {
-return aggregate;
-}
+	//所有Realm验证之前
+	@Override
+	public AuthenticationInfo beforeAllAttempts(Collection<? extends Realm> realms, AuthenticationToken token)
+		throws AuthenticationException {
+		return new SimpleAuthenticationInfo();//返回一个权限的认证信息
+	}
+	//每个Realm验证之前
+	@Override
+	public AuthenticationInfo beforeAttempt(Realm realm, AuthenticationToken token, AuthenticationInfo aggregate)
+		throws AuthenticationException {
+		return aggregate;//返回之前合并的
+	}
+	//每个Realm验证之后
+	@Override
+	public AuthenticationInfo afterAttempt(Realm realm, AuthenticationToken token,
+		AuthenticationInfo singleRealmInfo, AuthenticationInfo aggregateInfo, Throwable t)
+		throws AuthenticationException {
+		AuthenticationInfo info;
+		if (singleRealmInfo == null) {
+			info = aggregateInfo;
+		} else {
+			if (aggregateInfo == null) {
+				info = singleRealmInfo;
+			} else {
+				info = merge(singleRealmInfo, aggregateInfo);
+				if(info.getPrincipals().getRealmNames().size() != 1) {
+					throw new AuthenticationException("只能有一个验证通过");
+				}
+			}
+		}
+		return info;
+	}
+	//所有realm验证之后
+	@Override
+	public AuthenticationInfo afterAllAttempts(AuthenticationToken token, AuthenticationInfo aggregate)
+		throws AuthenticationException {
+		return aggregate;
+	}
 }
 ```
 根据策略,我们需要在每次验证之后,合并验证信息,只要验证信息不等于1(都没有通过/通过多于1次)即是验证失败.之后在ini配置文件中,手动指定验证策略即可
