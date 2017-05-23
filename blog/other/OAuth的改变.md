@@ -389,4 +389,6 @@ scope
 ```
 …
 
-不过并不是所有人都对OAuth2.0投赞成票，有空可以看看：[OAuth 2.0对Web有害吗？](http://www.infoq.com/cn/news/2010/09/oauth2-bad-for-web)
+不过并不是所有人都对OAuth2.0投赞成票，有空可以看看：[OAuth 2.0对Web有害吗？](http://www.infoq.com/cn/news/2010/09/oauth2-bad-for-web)  
+
+转：https://huoding.com/2011/11/08/126
