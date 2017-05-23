@@ -20,7 +20,7 @@ if(user.hasRole("项目经理")||user.hasRole("设计经理")){
 显然这种方式做权限控制是不合理的,因为角色拥有的权限根据企业的需要可能动态的进行调整,此处以角色为单位控制权限的访问(硬编码)完全无法适应。一个解决方法就是:  
 **判断某角色是否具有某种权限不能写死在代码中,应该是根据数据库读取来完成,角色聚合一组权限集合**,以资源为单位。这就是**RBAC**新解(Resources Based Acess Control:**基于资源的访问控制**)  
 **显示角色**:程序中通过权限控制谁能访问某个资源,角色聚合一组权限集合(对应资源),应用可以很明确的知道该角色有哪些权限,这样假设某个角色不能访问某个资源时,只需要从权限集合中移除即可,无需修改任何代码,粒度是以资源为单位的,粒度较细,推荐方式。如下图:  
-[1]  
+[1]   
 对应我们在编写权限代码的时候例子如下:
 ```velocity
 #if(shiro.hasPermission("user:create"))
@@ -104,7 +104,7 @@ public void test1() {
 	for(Boolean temp:subject.hasRoles(list)){
 	   System.out.println(temp);	
 	}
-       System.out.println(subject.hasAllRoles(list));
+	System.out.println(subject.hasAllRoles(list));
 	// 4、退出:任何现有的session会清空
 	subject.logout();
 }
@@ -175,9 +175,9 @@ false
 同样shiro提供`checkPermission/checkPermissions`的方式,不同的是当判断为假的时候,会抛出会抛出`UnauthorizedException`异常.  
 到此为止基于资源的访问控制就完成了,这种方式的一般规则是”资源标识符:操作”,以资源为单位,一个很大的好处是当权限规则发生变化的时候,基本都是资源级别的修改,不会对其他代码产生影响,粒度较小.需要维护”用户-角色,角色-权限(资源:操作)”之间的关系.就实际情况来说应用系统提供额外模块维护这一关系是非常必要的,可以灵活的定义权限规则.
 ##授权流程
-shiro内部的授权流程是如何的呢?如下图:
-[2]  
-流程如下:
+shiro内部的授权流程是如何的呢?如下图:  
+[2]   
+流程如下:  
 >首先调用`Subject.isPermitted/hasRole`接口,委托给`SecurityManager`,接着`SecuityManager`委托给`Authorizer`;   
 `Authorizer`是真正的授权者,如果调用`isPermitted()`,会通过`PermissionResolver`把字符串转换为相应的`Permission`实例;   
 进行授权之前,shiro会调用相应的`Realm`获取`Subject`相应的角色/权限用于匹配传入的角色/权限;  
