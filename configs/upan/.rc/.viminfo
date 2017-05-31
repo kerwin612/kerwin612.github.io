@@ -20,10 +20,10 @@
 $2.4.8
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1496197852,,"wq"
 :q
 |2,0,1496192097,,"q"
-:wq
-|2,0,1496191891,,"wq"
 :w
 |2,0,1489910474,,"w"
 :q!
@@ -210,36 +210,48 @@ $2.4.8
 |3,0,36,0,1,0,1494207651,"~"
 
 # File marks:
-'0  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,48,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
-'1  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,49,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
-'2  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,50,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
-'3  75  7  ~/.ssh/config
-|4,51,75,7,1494814833,"~/.ssh/config"
-'4  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,52,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
-'5  74  0  /h/a0a/ext
-|4,53,74,0,1494318813,"/h/a0a/ext"
-'6  161  8  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java
-|4,54,161,8,1494318675,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java"
-'7  79  15  ~/.ssh/config
-|4,55,79,15,1494300917,"~/.ssh/config"
-'8  79  15  ~/.ssh/config
-|4,56,79,15,1494300917,"~/.ssh/config"
+'0  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,48,2,0,1496197852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+'1  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
+|4,49,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
+'2  1  6  /u/u~u/a0a/ileler/configs/README.md
+|4,50,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
+'3  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,51,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+'4  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,52,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+'5  75  7  ~/.ssh/config
+|4,53,75,7,1494814833,"~/.ssh/config"
+'6  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,54,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+'7  74  0  /h/a0a/ext
+|4,55,74,0,1494318813,"/h/a0a/ext"
+'8  161  8  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java
+|4,56,161,8,1494318675,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java"
 '9  79  15  ~/.ssh/config
-|4,57,79,15,1494300689,"~/.ssh/config"
+|4,57,79,15,1494300917,"~/.ssh/config"
 
 # Jumplist (newest first):
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1496197852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,6,1496197822,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
 |4,39,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
+-'  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
+|4,39,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
+|4,39,1,0,1496192082,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
 |4,39,1,0,1496192082,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
 -'  1  6  /u/u~u/a0a/ileler/configs/README.md
 |4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
 -'  1  6  /u/u~u/a0a/ileler/configs/README.md
 |4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
+-'  1  6  /u/u~u/a0a/ileler/configs/README.md
+|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
+-'  1  6  /u/u~u/a0a/ileler/configs/README.md
+|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
 -'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
@@ -264,6 +276,38 @@ $2.4.8
 |4,39,75,7,1494814833,"~/.ssh/config"
 -'  75  7  ~/.ssh/config
 |4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  75  7  ~/.ssh/config
+|4,39,75,7,1494814833,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
+-'  79  15  ~/.ssh/config
+|4,39,79,15,1494814824,"~/.ssh/config"
 -'  79  15  ~/.ssh/config
 |4,39,79,15,1494814824,"~/.ssh/config"
 -'  79  15  ~/.ssh/config
@@ -312,6 +356,38 @@ $2.4.8
 |4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
 -'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
 |4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
 -'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
 |4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
 -'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
@@ -344,96 +420,28 @@ $2.4.8
 |4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
 -'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
 |4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  74  0  /h/a0a/ext
-|4,39,74,0,1494318813,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
--'  78  25  /h/a0a/ext
-|4,39,78,25,1494318742,"/h/a0a/ext"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+-'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
+|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
 
 # History of marks within files (newest to oldest):
+
+> /u/u~u/a0a/ileler/.git/info/sparse-checkout
+	*	1496197827	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	6
+	+	2	0
 
 > /u/u~u/a0a/ileler/.git/MERGE_MSG
 	*	1496192087	0
@@ -441,13 +449,6 @@ $2.4.8
 
 > /u/u~u/a0a/ileler/configs/README.md
 	*	1496191890	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
-
-> /u/u~u/a0a/ileler/.git/info/sparse-checkout
-	*	1496191850	0
 	"	1	6
 	^	1	7
 	.	1	6
