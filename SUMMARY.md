@@ -53,7 +53,8 @@
   * [NodeJS](blog/js-notes/nodejs/README.md)
     * [npm的配置管理及设置代理](blog/js-notes/nodejs/npm的配置管理及设置代理.md)
   * Angular
-    * [Angular2-Control Validation on blur](blog/js-notes/angular/Angular2-Control-Validation-on-blur.md)
+    * [Angular2 - Control Validation on blur](blog/js-notes/angular/Angular2-Control-Validation-on-blur.md)
+    * [Angular2 - how to call component function from outside the app](blog/js-notes/angular/angular2-how-to-call-component-function-from-outside-the-app.md)
 * [Linux](blog/linux/README.md)
   * [\[Shell脚本 bad interpreter:No such file or directory & \/bin\/bash^M: bad interpreter错误解决方法\]\(blog/linux/Shell脚本 bad interpreter:No such file or directory & bash^M: bad interpreter错误解决方法.md\)](blog/linux/Shell脚本-bad-interpreter:No-such-file-or-directory-&-bash^M:-bad-interpreter错误解决方法.md)
   * [\[10个重要的Linux ps命令实战\]\(blog/linux/10个重要的Linux ps命令实战.md\)](blog/linux/10个重要的Linux-ps命令实战.md)
