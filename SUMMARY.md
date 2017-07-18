@@ -104,4 +104,5 @@
   * [VirtualBox虚拟机网络配置\(NAT + Host-only - Bridged\)](blog/other/VirtualBox虚拟机网络配置（NAT+Host-only-Bridged）.md)
   * [VirtualBox绿色版的桥接网卡驱动安装](blog/other/VirtualBox绿色版的桥接网卡驱动安装.md)
   * [OAuth的改变](blog/other/OAuth的改变.md)
+  * [github 同步一个 fork](blog/other/github-tong-bu-yi-ge-fork.md)
 
