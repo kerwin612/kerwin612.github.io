@@ -7,7 +7,7 @@
 -----
 ####Configuring a remote for a fork
 * 给 fork 配置一个 remote
-* 主要使用 `git remote -v` 查看远程状态。
+* 主要使用 (`git remote -v`) 查看远程状态。
 ```bash
 git remote -v
 # origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
@@ -42,7 +42,7 @@ git fetch upstream
 git checkout master
 # Switched to branch 'master'
 ```
-* 把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容。(git merge upstream/master)  
+* 把 upstream/master 分支合并到本地 master 上，这样就完成了同步，并且不会丢掉本地修改的内容。(`git merge upstream/master`)  
 ```bash
 git merge upstream/master
 # Updating a422352..5fdff0f
@@ -53,7 +53,7 @@ git merge upstream/master
 #  delete mode 100644 README
 #  create mode 100644 README.md
 ```
-* 如果想更新到 GitHub 的 fork 上，直接 `git push origin master` 就好了。
+* 如果想更新到 GitHub 的 fork 上，直接 (`git push origin master`) 就好了。
 
     
 转：https://gaohaoyang.github.io/2015/04/12/Syncing-a-fork/
