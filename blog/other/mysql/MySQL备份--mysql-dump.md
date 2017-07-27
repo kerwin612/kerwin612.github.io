@@ -1,13 +1,13 @@
 # MySQL备份--mysql dump
 
-`mysqldump [OPTIONS] database [tables]`  如果你不给定任何表，整个数据库将被导出。
-
 ```bash
 Dumping structure and contents of MySQL databases and tables.
 Usage: mysqldump [OPTIONS] database [tables]
 OR     mysqldump [OPTIONS] --databases [OPTIONS] DB1 [DB2 DB3...]
 OR     mysqldump [OPTIONS] --all-databases [OPTIONS]
 ```
+
+`mysqldump [OPTIONS] database [tables]`  如果你不给定任何表，整个数据库将被导出。
 
 通过执行`mysqldump --help`，你能得到你`mysqldump`的版本支持的选项表。
 
