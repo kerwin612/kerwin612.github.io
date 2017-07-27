@@ -11,7 +11,7 @@ OR     mysqldump [OPTIONS] --all-databases [OPTIONS]
 
 通过执行`mysqldump --help`，你能得到你`mysqldump`的版本支持的选项表。
 
-注意，如果你运行`mysqldump`没有`--quick`或`--opt`选项，`mysqldump`将在导出结果前装载整个结果集到内存中，如果你正在导出一个大的数据库，这将可能是一个问题。  
+注意，如果你运行`mysqldump`没有`--quick`或`--opt`选项，`mysqldump`将在导出结果前装载整个结果集到内存中，如果你正在导出一个大的数据库，这将可能是一个问题。
 
 备份数据可以简单的使用命令：`mysqldump databasename > bak.sql`  
 恢复数据可以简单的使用命令：`source bak.sql`
@@ -26,15 +26,7 @@ mysqldump --user=root --password=root test > bak.sql
 
 这是因为系统需要确定备份的用户具有读数据库的权限
 
-备份所有数据库\(包含数据\)：\`mysqldump --all-databases &gt; dump.sql\`     
-
-备份多个数据库\(包含数据\)：\`mysqldump --databases db1 db2 db3 &gt; dump.sql\`      
-
-备份指定数据表\(包含数据\)：\`mysqldump --databases db1 --tables tb1 tb2 &gt; dump.sql\`      
-
-备份指定表结构\(不包含数据\)：\`mysqldump --no-data --databases db --tables tb1 tb2 &gt; dump.sql\`    `  `
-
-
+备份所有数据库\(包含数据\)：`mysqldump --all-databases > dump.sql`                                                                                                      备份多个数据库\(包含数据\)：`mysqldump --databases db1 db2 db3 > dump.sql`                                                                                       备份指定数据表\(包含数据\)：`mysqldump --databases db1 --tables tb1 tb2 > dump.sql`                                                                      备份指定表结构\(不包含数据\)：`mysqldump --no-data --databases db --tables tb1 tb2 > dump.sql`
 
 下边是自己简单实现的可以在Linux 下通过`crontab`命令定时备份最新N个数据库的Python脚本
 
