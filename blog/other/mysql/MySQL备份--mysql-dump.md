@@ -26,7 +26,10 @@ mysqldump --user=root --password=root test > bak.sql
 
 这是因为系统需要确定备份的用户具有读数据库的权限
 
-备份所有数据库\(包含数据\)：`mysqldump --all-databases > dump.sql`                                                                                                      备份多个数据库\(包含数据\)：`mysqldump --databases db1 db2 db3 > dump.sql`                                                                                       备份指定数据表\(包含数据\)：`mysqldump --databases db1 --tables tb1 tb2 > dump.sql`                                                                      备份指定表结构\(不包含数据\)：`mysqldump --no-data --databases db --tables tb1 tb2 > dump.sql`
+* 备份所有数据库\(包含数据\)：`mysqldump --all-databases > dump.sql`                                                                                                      
+* 备份多个数据库\(包含数据\)：`mysqldump --databases db1 db2 db3 > dump.sql`                                                                                       
+* 备份指定数据表\(包含数据\)：`mysqldump --databases db1 --tables tb1 tb2 > dump.sql`                                                                      
+* 备份指定表结构\(不包含数据\)：`mysqldump --no-data --databases db --tables tb1 tb2 > dump.sql`
 
 下边是自己简单实现的可以在Linux 下通过`crontab`命令定时备份最新N个数据库的Python脚本
 
