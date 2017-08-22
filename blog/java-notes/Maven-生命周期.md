@@ -31,7 +31,19 @@
 mvn clean dependency:copy-dependencies package
 ```
 
-这里的 `clean`  **phase **将会被首先执行，然后 `dependency:copy-dependencies` **goal **会被执行，最终 `package`  **phase **被执行。
+这里的 `clean`  **phase **将会被首先执行，然后 `dependency:copy-dependencies` **goal **会被执行，最终 `package`  **phase **被执行。  
+
+
+
+> **lifecycle：**生命周期，这是`maven`最高级别的的控制单元，它是一系列的`phase`组成，也就是说，一个生命周期，就是一个大任务的总称，不管它里面分成多少个子任务，反正就是运行一个`lifecycle`，就是交待了一个任务，运行完后，就得到了一个结果，中间的过程，是`phase`完成的，自己可以定义自己的`lifecycle`，包含自己想要的`phase`
+>
+> 常见的`lifecycle`有 _clean \| package ear \| pageage jar \| package war \| site_ 等等
+
+> **phase**：可以理解为任务单元，`lifecycle`是总任务，`phase`就是总任务分出来的一个个子任务，但是这些子任务是被规格化的，它可以同时被多个`lifecycle`所包含，一个`lifecycle`可以包含任意个`phase`，`phase`的执行是按顺序的，一个`phase`可以绑定很多个`goal`，至少为一个，没有`goal`的`phase`是没有意义的
+
+> **goal**：这是执行任务的最小单元，它可以绑定到任意个`phase`中，一个`phase`有一个或多个`goal`，`goal`也是按顺序执行的，一个`phase`被执行时，绑定到`phase`里的`goal`会按绑定的时间被顺序执行，不管`phase`己经绑定了多少个`goal`，你自己定义的`goal`都可以继续绑到`phase`中
+
+> **mojo**：`lifecycle`与`phase`与`goal`都是概念上的东西，`mojo`才是做具体事情的，可以简单理解`mojo`为`goal`的实现类，它继承于`AbstractMojo`，有一个`execute`方法，`goal`等的定义都是通过在`mojo`里定义一些注释的 anotation 来实现的，`maven`会在打包时，自动根据这些 anotation 生成一些 xml 文件，放在 plugin 的 jar 包里
 
 ## Clean 生命周期 {#6c87af6752f6ca0409e280bbc692063f}
 
