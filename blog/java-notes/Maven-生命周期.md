@@ -13,7 +13,7 @@
 | package | 打包 | 本阶段根据 pom.xml 中描述的打包配置创建 JAR / WAR 包 |
 | install | 安装 | 本阶段在本地 / 远程仓库中安装工程包 |
 
-当需要在某个特定 **phase **之前或之后执行 **goal **时，可以使用**`pre`**和**`post`**来定义这个 **goal **。
+当需要在某个特定 **phase **之前或之后执行 **goal **时，可以使用`pre`和`post`来定义这个 **goal **。
 
 当 Maven 开始构建工程，会按照所定义的 **phase **序列的顺序执行每个阶段注册的 **goal **。Maven 有以下三个标准的生命周期：
 
@@ -21,7 +21,9 @@
 * default\(or build\)
 * site
 
-**goal **表示一个特定的、对构建和管理工程有帮助的任务。它可能绑定了 0 个或多个构建 **phase **。没有绑定任何构建 **phase **的 **goal **可以在构建生命周期之外被直接调用执行。
+> **goal **表示一个特定的、对构建和管理工程有帮助的任务。它可能绑定了 0 个或多个构建 **phase **。
+>
+> 没有绑定任何构建 **phase **的 **goal **可以在构建生命周期之外被直接调用执行。
 
 执行的顺序依赖于 **goal **和构建 **phase **被调用的顺序。例如，考虑下面的命令。`clean` 和 `package` 参数是构建 **phase **，而 `dependency:copy-dependencies` 是一个 **goal **。
 
@@ -33,7 +35,7 @@ mvn clean dependency:copy-dependencies package
 
 ## Clean 生命周期 {#6c87af6752f6ca0409e280bbc692063f}
 
-当我们执行_`mvn post-clean`_命令时，Maven 调用 `clean` 生命周期，它包含以下 **phase **。
+当我们执行`mvn post-clean`命令时，Maven 调用 `clean` 生命周期，它包含以下 **phase **。
 
 * pre-clean
 * clean
@@ -395,7 +397,6 @@ C:\MVN\project>mvn site
 ```
 
 Maven 将会开始处理并显示直到 site  **phase **的构建生命周期的各个 **phase **。
-
 
     [INFO] Scanning for projects...
     [INFO] ------------------------------------------------------------------
