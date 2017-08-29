@@ -1,500 +1,500 @@
-vi app/app.module.ts 
-cnpm i
-less package.json 
-cnpm build
-cnpm bundles
-cbon run bundles
-cnpm run bundles
-vi app/app.module.ts 
-cnpm run build
-vi app/app.module.ts 
-less package.json 
-cd ../
-rm -rf ng2-breadcrumb/
-cd ../
-cnpm i
-ll node_modules/ng2-breadcrumb/
-cnpm i ng2-breadcrumb -S
-less ~/.ssh/
-ll ~/.ssh/
-less ~/.ssh/config 
-less ~/.ssh/config 
-ssh 22-jccs
-ssh 22jccs
-scp ~/.ssh/id_* 22jccs:~
-ssh 22jccs
-scp ~/.ssh/mba_* 22jccs:~
-ll ~/.ssh/
-scp ~/.ssh/moba_* 22jccs:~
-ssh 22jccs
-cd ws/ng2-publisher-pb/
-cnpm start -- -H 172.16.7.118
-ext-cd
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-ll node_modules/\@angular/http/
-ll node_modules/\@angular/http/src/
-less node_modules/\@angular/http/src/index.d.ts 
-less node_modules/\@angular/http/src/base_request_options.d.ts 
-less node_modules/\@angular/http/src/base_request_options.d.ts 
-kkkk
-c
-c
-cd ws/ng2-isli-zh-web/
+git push
+git push
+git push
+git push
+git status
 ll
-cnpm run build -- --prod
-ext-cd
-cnpm run build -- --prod
-ll node_modules/\@angular/http/src/
-cd ws/ng2-publisher-pb/
-ll node_modules/\@angular/http/src/
-ext-cd
-less node_modules/\@angular/http/src/url_search_params.d.ts 
-cnpm start
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-cnpm start -- -H 172.16.7.118
-ll
-ping 10.0.2.15
-ssh kerwin@10.0.2.15
-ssh kerwin@10.0.2.15
-ssh kerwin@10.0.2.15
-ping 10.0.2.15
-cd ws/webpack-starter-angular/
-ll
-cnpm i
-cnpm i
-cnpm start
-rm -rf node_modules/
 rm -rf node_modules/
 cnpm i
-rm -rf node_modules/ & 
-vi package.json 
 ll
 cnpm i
-cnpm start
-cnpm i open
-cnpm i open
-cnpm start
-cnpm i -g open
-cnpm start
-cnpm i -g webpack-dev-middleware
-cnpm start
-cnpm i -g express
-cnpm start
-cnpm i -g compression
-cnpm start
-cnpm i -g sockjs
-cnpm start
-cnpm i -g stream-cache
-cnpm start
-cnpm i -g http-proxy-middleware
-cnpm start
-cnpm i -g serve-index
-cnpm start
-cnpm i -g connect-history-api-fallback
-cnpm start
-cnpm i -g webpack
-cnpm start
-cnpm i -g optimist
-cnpm start
-cnpm i -g supports-color
-cnpm start
-ext-cd
-cnpm start
-ext-cd
-ccccnpm i resolve-url-loader@bholloway/resolve-url-loader#feature/support-sass-loader-6
-vi package.json 
 cnpm i
-cnpm start
-ll node_modules/node-sass/
-cnpm i
-rm -rf node_modules/node-sass
-cnpm -rf node_modules/webpack
-rm -rf node_modules/webpack
-cnpm uninstall webpack
-cnpm uninstall node-sass
-cnpm i
-cnpm i
-cnpm start
-cnpm i resolve-url-loader@bholloway/resolve-url-loader#feature/support-sass-loader-6
-cnpm i resolve-url-loader@bholloway/resolve-url-loader#feature/support-sass-loader-6
-webpack -v
-cnpm i resolve-url-loader@bholloway/resolve-url-loader
-cnpm start
-cnpm i webpack@^2.0.0
-cnpm start
-cnpm i -g webpack@^2.0.0
-webpack -v
-cnpm start
-cnpm i webpack@^2.0.0 -S
-cnpm start
-cd ../ng2-isli-zh-web/
 cnpm i
 cnpm start
 ext-cd
 cnpm start
-cd ../webpack-starter-angular/
+ll node_modules/.0.36.12\@electron-prebuilt/
+cnpm i
+ll node_modules/.0.36.12\@electron-prebuilt/
+rm rf node_modules/
+rm -rf node_modules/
+rm -rf node_modules/ &
+cnpm i -g electron
+cnpm i
 ll
-ll dist/
-cnpm start
+rm -rf node_modules/
+ll
 ext-cd
-cnpm i
-cnpm start
-rm -rf dist/
-cnpm start
-cnpm i -D webpack@^2.0.0
-cnpm start
+rm -rf node_modules/
+ll
+ll
+explorer .
 ext-cd
-cnpm start
-cd ../angularjs-webpack/
-cnpm i
-cnpm start
-cd ../webpack-starter-angular/
-cnpm start
-cnpm start
-ext-cd
-cnpm i
-ext-cd
-cnpm start
-cnpm start
-cnpm start
-cnpm start
-ext-cd
-cnpm i extract-text-webpack-plugin -S
-ext-cd
-cnpm start
-cnpm start
-cnpm start
-cnpm start
-cnpm i strip-ansi
-cnpm i sockjs-client
-cnpm start
-exit-cd
-ext-cd
-cnpm i strip-ansi
-cnpm i sockjs-client
-cnpm i sockjs-client -g
-cnpm i sockjs-client -g
-cnpm start
-cnpm i strip-ansi -g
-cnpm start
-cnpm start
-cnpm start
+explorer .
 exit
-vbox
-ext-cd
-ext-cd
-ll
-cd ws
-ext-cd
 exit
-vbox
-kill -9 %1
-ll /
-ll /bin
-ll /u/
-ll /u/\!\!KERWIN\!\!/
-ll /u/\!\!KERWIN\!\!/a0a/
-ll /u/\!\!KERWIN\!\!/a0a/bins/
-ll /u/\!\!KERWIN\!\!/a0a/bins/VirtualBoxPortable/
-/u/\!\!KERWIN\!\!/a0a/bins/VirtualBoxPortable/VirtualBoxPortable.exe 
+cd ws/Hozz/
+cd Hozz/
 ll
-cd ws
+cnpm i
+cnpm i
+cnpm i
+cnpm i
+cnpm start
+electron -v
 ext-cd
-ext-cd ddd
-echo $SHOME
+electron -v
+echo $appData
 echo $HOME
-cd ws
+electron -v
+echo $appData
+electron -v
+electron -v
+echo $APPDATA
+echo $XDG_CONFIG_HOME
 ext-cd
-ext-cd ~
-ext-cd ~
-cd ws
-ext-cd
-ext-cd ~
-ext-cd ~
-cd ws
-ext-cd
-ext-cd
-ext-cd ~
-ext-cd ~
-cd ws
-ext-cd
-ext-cd ~
-cd ws
-ext-cd
-ext-cd ~
-ext-cd 
-cd ws
-ext-vbox
-cd ws
-ext-cd
-ext-vbox
-jobs
-kill -9 %1
-jobs
-cd -
-cd ws
-ext-vbox
-cd ws
-ext-vbox
-jobs
-kill -9 %1
-jobs
-jobs
-ext-vbox
-ext-vb
-ext-vm
+electron -v
+cd ws/react-spa-demo/
 ll
+node mockserver.js 
 cat ext
 ext-vbox
- sc.exe query vboxdrv
-ext-vbox
-ext-vbox
-sc.exe query vboxdrv
-jobs
-kill -9 %2
-jobs
-exit
-ping 192.168.56.56
-ssh kerwin@192.168.56.56
-ssh kerwin@192.168.56.56
-exit
-ssh u-ubuntu
-echo $HOMEPATH
-echo %HOMEPATH%
-echo $HOMEPATH
-vi env
-echo $HOME
-echo $HOMEPATH
-ssh -h
-ssh kerwin@192.168.56.56
-exit
-ext-ssh u-ubuntu
-ssh --help
-ll /etc/ssh/
-vi /etc/ssh/ssh_config 
-vi /etc/ssh/sshd_config 
-echo $HOMEPATH
-vi env
-/usr/bin/bash --login -i
-exit
-ll /u
-ssh kerwin@192.168.56.56
-ssh kerwin@192.168.56.56
-ll ~/.ssh
-ssh kerwin@192.168.56.56 'mkdir -p .ssh && cat >> .ssh/authorized_keys' < ~/.ssh/upan.pub
-vi ~/.ssh/config 
-ssh ubuntu
-vi ~/.ssh/config 
-ssh ubuntu
-vi ~/.ssh/config 
-ssh upan-ubuntu
-cat ~/.ssh/config
-ssh kerwin@192.168.56.56
-vi ~/.ssh/config 
-type ssh
-ssh --help
-ssh u-ubuntu
-ssh -F ~/.ssh/config u-ubuntu
-cat ~/.ssh/config
-ssh -F ~/.ssh/config u-ubuntu
-ll /user
-ll /
-ll /usr
-ll /usr/bin
-ll ~
-cd ~
-pwd
-ll -a
-echo $HOME
-vi ~/.ssh/config
-ssh -F ~/.ssh/config u-ubuntu
-vi ~/.ssh/config 
-ssh u-ubuntu
-ssh --help
-cd ~
+cd ws/js/react/react-demos/tic-tac-toe/
 ll
-ll -a
-cat .bash_profile 
-ll -a
-. .bash_profile 
-cat .bash_profile 
-cd ~/../
-cd ..
-ll
-cat env
-. env
-echo ~
-echo $HOME
-ssh u-ubuntu
-vi ext 
-/usr/bin/bash --help
-/usr/bin/bash --login --help
-/usr/bin/bash --login help
-/usr/bin/bash --login -i
-ssh u-ubuntu
-vi ext 
-/usr/bin/bash --login -i
-ssh u-ubuntu
-  
-/usr/bin/bash --help
-/usr/bin/bash --login -i --init-file env
-/usr/bin/bash --init-file env --login
-ssh u-ubuntu
-ssh --help
-man ssh
-ping smtp.mpreader.com
-ping smtp.mpreader.com
-ping smtp.mpreader.com
-vi ext
-/usr/bin/bash --login -i
-ssh u-ubuntu
-vi ext
-/usr/bin/bash --login -i
-ssh --help
-vi ext
-/usr/bin/bash --login -i
-echo $HOMEPATH
-ssh u-ubuntu
-ext-ssh u-ubuntu
-vi ~/.ssh/config 
-ext-ssh u-ubuntu
-ssh -help
-vi ~/.ssh/config 
-cat /etc/ssh/sshd_config 
-cat /etc/ssh/sshd_config 
-cat /etc/ssh/sshd_config 
-ll ~/.ssh/
-ssh u-ubuntu
-vi ~/.ssh/environment 
-ssh u-ubuntu
-ssh u-ubuntu
-cat ~/.ssh/environment 
-vi ~/.ssh/environment 
-ssh -G u-ubuntu
-sshd -h
-ll ~/.ssh/environment 
-ll /c/Users/zhangle/.ssh
-vi /c/Users/zhangle/.ssh/environment
-ssh u-ubuntu
-rm -f /c/Users/zhangle/.ssh/environment 
-ll /c/Users/zhangle/.ssh
-ll /c/Users/zhangle/.ssh/environment
-ssh -h
-ext-ssh u-ubuntu
-ll ~/.ssh
-ll /u/\!\!KERWIN\!\!/a0a/.rc/.ssh/upan
-ssh u-ubuntu
-ssh u-ubuntu
+cnpm start
 exit
-ssh u-ubuntu
-set
-echo $VBOX_MSI_INSTALL_PATH
-ll $VBOX_MSI_INSTALL_PATH
-echo $VBOX_PATH
 EXIT
 exit
-set
-set | grep VBOX
-./ext
-ext-vbox
-./ext
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox
-ext-vbox-u
-ext-vbox
+cat ~/.ssh/config 
+ssh root@10.3.20.15
+ssh root@10.3.20.15 -i ~/.ssh/moba_rsa
 vi ~/.ssh/config 
-ssh u-u
-exit
-cd ws/
+ssh root@10.3.20.15 -i ~/.ssh/moba_rsa
+scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20 -i ~/.ssh/moba_rsa
+scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20
+ssh 10.3.20.20
+ssh root@10.3.20.20
+scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20:~
+ssh root@10.3.20.20
+scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/elasticsearch-1.5.2.tar.gz root@10.3.20.19:~
+scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
+ssh root@10.3.20.19
+scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
+ssh root@10.3.20.19
+scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
+ssh root@10.3.20.19
+scp /c/Users/Administrator/Desktop/22/22-07-27/3\)PCRS\&IMMS/imms/imms.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/3\)PCRS\&IMMS/pcrs/pcrs.tar.gz root@10.3.20.18:~
+ssh root@10.3.20.18
+scp /c/Users/Administrator/Desktop/22/22-07-27/2\)PCAS\&PSAC/pcas/pcas.tar.gz root@10.3.20.17:~
+ssh root@10.3.20.17
+scp /c/Users/Administrator/Desktop/22/22-07-27/2\)PCAS\&PSAC/psac/psac.tar.gz root@10.3.20.16:~
+ssh root@10.3.20.17
+ssh root@10.3.20.16
+scp /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/email/email.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/prap/prap.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/prms/prms.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/pcms/pcms.tar.gz root@10.3.20.15:~
+ssh root@10.3.20.15
+ssh root@10.3.20.15
+ll /g
+scp /g/usr.zip root@10.3.20.18:~
+scp /g/org.pdri.imms_0.0.1.SNAPSHOT.plan root@10.3.20.18:~
+ssh root@10.3.20.18
+ll /g
+scp /g/CentOS-7-x86_64-DVD-1511.iso root@10.3.20.15:/tmp
+ssh root@10.3.20.15
+ll /g/
+scp /g/usr\(1\)\ \(1\).zip root@10.3.20.18:~
 ll
-git clone gh:ileler/swagger-server.git
-cd swagger-server/
+unzip 'root@10.3.20.20' 
+ssh root@10.3.20.18
+ssh root@10.3.20.20
+ssh root@10.3.20.15
+ssh root@10.3.20.20
+cd ws/js/react/react-demos/router-study/
 ll
-ll lib
-cat package.json 
-cd samples/
+cnpm start
+cd ../../Hozz/Hozz/
+cnpm start
+cd -
 ll
-cd sample1
+cp -r src02 src03
 ll
-node server.js 
-cd ../
+rm -rf src
+ext-link src ./src03/
+ll
+cnpm start
+react-scripts --help
+ll -a ./.bin
+ll -a ./node_modules/.bin
+./node_modules/.bin/react-scripts --help
+./node_modules/.bin/react-scripts -help
+./node_modules/.bin/react-scripts ?
+./node_modules/.bin/react-scripts 
+./node_modules/.bin/react-scripts -v
+./node_modules/.bin/react-scripts --v
+./node_modules/.bin/react-scripts -ersion
+./node_modules/.bin/react-scripts -version
+vi .eslintrc
+cnpm start
+ll -a
+vi package.json 
+rm -rf src
+ext-link src src01
+cnpm start
+ll
+rm -rf src
+ext-link src ./src01
+ll
+cnpm start
+rm -rf src
+ext-link src ./src03
+cnpm start
+cd ws/js/react/Hozz/Hozz/
 cnpm i
 cnpm i
-cd sample1
-ll
-node server.js 
-cd ../
-cnpm run sample1
-cnpm i swagger-express-middleware
-cnpm run sample1
-cnpm i swagger-parser
-cnpm run sample1
-cnpm i ono
-cnpm run sample1
-cnpm i z-schema
-cnpm run sample1
-cnpm i swagger-schema-official
-cnpm run sample1
-cnpm i json-schema-ref-parser
-cnpm run sample1
-cnpm i multer
-cnpm run sample1
-cnpm run sample
-cnpm run sample1
-cnpm i dicer
-cnpm run sample1
+cnpm start
 ext-cd
-cd ws/swagger-server/
+cnpm start
 ext-cd
-cd ws/swagger-server/
-ext-cd
-ext-cd
-ext-cd
-cd samples/
-cnpm run sample1
+ll -a node_modules/.0.36.12\@electron-prebuilt/
+rm -rf node_modules/.0.36.12\@electron-prebuilt/
+cnpm i
+cnpm i yzuzl
+cnpm i yauzl
+cnpm i
+ll -a node_modules/.0.36.12\@electron-prebuilt/
+cnpm start
+cd node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+cnpm i pend
+node install.js 
+cnpm i pend
+node install.js 
+cnpm i -g pend
+cnpm start
+node install.js 
+cnpm i -S pend
+node install.js 
+ll -a node_modules/
 rm -rf node_modules/
-cd ws/swagger-server/
-ext-cd
-ext-cd
-ext-cd
-ll
-cd samples/
-ll
-ext-cd
 cnpm i
-cnpm run sample1
-ext-cd
-ext-cd
-ll -a
+cnpm i
+cnpm i
+rm -rf node_modules/
+cnpm i
+rm -rf node_modules/
+cnpm i
+cd ../../
+rm -rf node_modules/.0.36.12\@electron-prebuilt/
+cnpm i electron-prebuilt -S
+cd node_modules/.0.36.12\@electron-prebuilt/]
+cd node_modules/.0.36.12\@electron-prebuilt/
 ll
-cd ws
-ext-cd
-ext-cd
+cnpm i
+cnpm i concat-stream
+cnpm i
+cnpm i concat-stream -g
+cnpm i
+cnpm i ms -g
+cnpm i
+cnpm i safe-buffer -g
+cnpm i
+cnpm i aws4 -g
+cnpm i
+cnpm i is-typedarray -g
+cnpm i 
+cnpm i performance-now -g
+cnpm i
+cnpm i process-nextick-args -g
+cnpm i
+cnpm i speedometer -g
+cnpm i
+cnpm i concat-map -g
+cnpm i
+cnpm i balanced-match -g
+cnpm i
+cnpm i strip-json-comments -g
+cnpm i
+cnpm i deep-extend -g
+cnpm i
+cd ../../
+rm -rf ./node_modules/.0.36.12\@electron-prebuilt/
+cnpm i -g electron-prebuilt
+cnpm start
+vi package.json 
+git remote -v
+git fetch upstream
+git merge upstream/master
+git status
+cnpm i
+cd ./node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+rm -rf node_modules/
+vi install.js 
+vi package.json 
+node install.js 
+cat package.json 
+node install.js 
+cnpm i pend
+node install.js 
+cnpm i -g pend
+node install.js 
+cd ../.1.0.1\@fd-slicer/
+cnpm i pend
+cd -
+node install.js 
+cd ../.1.6.5\@extract-zip/
+cnpm i concat-stream
+cd -
+node install.js 
+cd ../.2.6.8\@debug/
+cnpm i ms
+cd-
+cd -
+node install.js 
+cd ../.2.81.0\@request/
+cnpm i safe-buffer
+cd -
+node install.js 
+cd ../.2.81.0\@request/
+cnpm i aws4
+cd -
+node install.js 
+cd ../.2.81.0\@request/
+cnpm i is-typedarray
+cd -
+node install.js 
+cd ../.2.81.0\@request/
+cnpm i
+cd -
+node install.js 
+cd ../.2.3.3\@readable-stream/
+cnpm i
+cd -
+node install.js 
+cd ../.1.2.0\@progress-stream/
+cnpm i
+cd -
+node install.js 
+cd ../.1.1.8\@brace-expansion/
+cnpm i
+cd -
+node install.js 
+cd ../.1.2.1\@rc/
+cnpm i
+cd -
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+node install.js 
+ll
+ll node_modules/
+rm -rf node_modules/
+node install.js 
+ll dist/
+node install.js 
+node install.js 
+node install.js 
+cat install.js 
+cat --help
+cat -n install.js 
+cat -n install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+node install.js 
+ll dist/
+cd ../../
+cnpm start
+cnpm i
+cnpm start
+cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
+   
+electron -v
+cd ../
+cd ../
+electron -v
+electron -v
+electron -v
+echo $appData
+echo $APPDATA
+electron -v
+export APPDATA=/c/Users/Administrator/AppData/Roaming
+echo $APPDATA
+electron -v
+explorer $APPDATA
+explorer .
+ll /c
+ll $APPDATA
+explorer $APPDATA
+ll $APPDATA
+export APPDATA=C:/Users/Administrator/AppData/Roaming
+ll $APPDATA
+explorer $APPDATA
+echo $APPDATA
+ll $APPDATA
+electron -v
+echo $XDG_CONFIG_HOME
+export XDG_CONFIG_HOME=$APPDATA
+echo $XDG_CONFIG_HOME
+electron -v
+ll -a ~/
+ll -a ~/.config/
+ll -a ~/.config/configstore/
+export XDG_CONFIG_HOME=/c/Users/Administrator/AppData/Roaming
+electron -v
+electron -v
+echo $APPDATA
+electron -v
+electron -h
+electron -h
+cat ~/ext
+cat ext
+cmd <<< "electron -v" > /dev/null
+cd $NODE_HOME
+cd npm-global/
+electron -v
+electron -v --verbose
+cd ~/../ws/js/react/Hozz/Hozz/
+cnpm start --verbose
+ll
+mkdir /g/a0a
+cp ws -R /g/a0a/
+mkdir /e/a0a
+cp -R ws /e/a0a/
+ll
 ll
 cd ../
+ll
+cd /i
+ll
+cp a0a.bat /e/
+cd /i
+cp a0a.bat /e/
+node -v
+ext-vbox
+cd ws/js/react/Hozz/
+explorer .
+cmd
+start cmd
+start ?
+cmd ?
+start cmd /v:on
+cat package.json 
+cat gulpfile.js 
+gulp watch
+cd ws/js/react/Hozz/
+gulp package
+cnpm update -S babel-core@6.10.4
+gulp package
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+gulp build
+cd ws/js/react/Hozz/
+gulp build
+explorer .
+gulp build
+gulp build
+gulp build
+gulp build
+cd ws/java/
+ll
+mkdir spring-cloud-demo
+ll
+cd spring-cloud-demo/
+ll ../spring-boot-demo/
+mkdir springcloud-learning-dalston
+cd springcloud-learning-dalston/
+git init
+git remote add origin git@github.com:dyc87112/SpringCloud-Learning.git
+git config core.sparseCheckout=true
+git config core.sparseCheckout true
+ll -a .git/
+ll -a .git/info/
+ll -a ~/../ileler/
+ll -a ~/../ileler/
+ll /u/u~u/a0a/ileler/
+ll -a /u/u~u/a0a/ileler/configs/
+ll -a /u/u~u/a0a/ileler/configs/upan/
+ll -a /u/u~u/a0a/ileler/configs/upan/.rc/
+ll -a /u/u~u/a0a/ileler/configs/upan
+ll -a /u/u~u/a0a/ileler/configs
+cat /u/u~u/a0a/ileler/configs/README.md 
+echo '2-Dalston版教程示例/' >> .git/info/sparse-checkout
+git pull orgin master
+git pull origin master
+ll
+ll 2-Dalston版教程示例/
+ll
+cd ../
+cd ../
+ll
+cd spring-boot-demo/
+ll
+rm -rf *
+ll
+git clone gh:dyc87112/SpringBoot-Learning springboot-learging
+rm -rf springboot-learging/
+git clone gh:dyc87112/SpringBoot-Learning springboot-learning
+cd ..
+ll
+mkdir intellij-plugin
+ll
+mv intellij-plugin-de* intellij-plugin
+ll
+mv intellij-plugin intellij-plugins
+ll
+mkdir eclipse-plugins
+mv eclipse-arcutil/ eclipse-dr/ eclipse-plugins/
+ll
+ll crawl/
+cd spring-boot-demo/
+ll
+cd springboot-learning/
+ll
+git pull
+git status
+git checkout -- Chapter9-2-2
+git status
+git status
+cd ../../spring-cloud-demo/springcloud-learning-dalston/
+ll
+cd 2-Dalston版教程示例/
+ll
+git status
+cd ../
+git status
+git pull
 ll -a
-echo $HOME
-echo $SHOME
-cat ~\..\env
-cat ~/../env
-exit
+git pull origin master
+git status
+cd ws/js/react/Hozz/
+ll
+cnpm start

@@ -21,13 +21,13 @@ $2.4.8
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1496197852,,"wq"
+|2,0,1503989700,,"wq"
 :q
-|2,0,1496192097,,"q"
-:w
-|2,0,1489910474,,"w"
+|2,0,1503987413,,"q"
 :q!
-|2,0,1489907330,,"q!"
+|2,0,1501568262,,"q!"
+:w
+|2,0,1501472300,,"w"
 :%s/\~2.4.3/2.4.8/g
 |2,0,1489905228,,"%s/\\~2.4.3/2.4.8/g"
 :%s/~2.4.3/2.4.8/g
@@ -167,41 +167,36 @@ $2.4.8
 
 # Registers:
 "0	LINE	0
-	#PermitUserEnvironment no
-|3,0,0,1,1,0,1494294332,"#PermitUserEnvironment no"
+			<div id="example"><div>
+|3,0,0,1,1,0,1496891136,"		<div id=\"example\"><div>"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1494318756,""
+	configs/upan/.rc/.electron/
+|3,1,1,1,1,0,1503989404,"configs/upan/.rc/.electron/"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1494318752,""
+	!configs/upan/.rc/.npminstall_tarball/
+|3,0,2,1,1,0,1503987125,"!configs/upan/.rc/.npminstall_tarball/"
 "3	LINE	0
-	ext-ssh() {
-		echo ssh -F ~/.ssh/config $*;
-		ssh -F ~/.ssh/config $*;
-	}
-|3,0,3,1,4,0,1494318751,"ext-ssh() {","	echo ssh -F ~/.ssh/config $*;","	ssh -F ~/.ssh/config $*;","}"
+	!configs/upan/.rc/AppData/
+|3,0,3,1,1,0,1503987124,"!configs/upan/.rc/AppData/"
 "4	LINE	0
-	ssh() {
-		echo ~ $*;
-		ssh -F ~/.ssh/config $*;
-	}
-|3,0,4,1,4,0,1494207554,"ssh() {","	echo ~ $*;","	ssh -F ~/.ssh/config $*;","}"
+	!configs/upan/.rc/.npminstall_tarball/
+|3,0,4,1,1,0,1503987092,"!configs/upan/.rc/.npminstall_tarball/"
 "5	LINE	0
-	    "webpack": "^2.3.3"
-|3,0,5,1,1,0,1492047495,"    \"webpack\": \"^2.3.3\""
+	!configs/upan/.rc/AppData/
+|3,0,5,1,1,0,1503987089,"!configs/upan/.rc/AppData/"
 "6	LINE	0
-	    "tv4": "1.2.7",
-|3,0,6,1,1,0,1492047492,"    \"tv4\": \"1.2.7\","
+	intellij-plugin-deployres/
+|3,0,6,1,1,0,1502091339,"intellij-plugin-deployres/"
 "7	LINE	0
-	    "script": "^0.1.4",
-|3,0,7,1,1,0,1492047491,"    \"script\": \"^0.1.4\","
+					Hello world: I am a comment box.
+|3,0,7,1,1,0,1496889768,"				Hello world: I am a comment box."
 "8	LINE	0
-	    "objectpath": "1.2.1",
-|3,0,8,1,1,0,1492047490,"    \"objectpath\": \"1.2.1\","
+	case `uname` in
+	    *CYGWIN*) basedir=`cygpath -w "$basedir"`;;
+|3,0,8,1,2,0,1496709810,"case `uname` in","    *CYGWIN*) basedir=`cygpath -w \"$basedir\"`;;"
 "9	LINE	0
-	    "lodash": "4.6.1",
-|3,0,9,1,1,0,1492047489,"    \"lodash\": \"4.6.1\","
+	
+|3,0,9,1,1,0,1494318756,""
 "l	CHAR	0
 	w
 |3,0,21,0,1,0,1484792898,"w"
@@ -210,253 +205,323 @@ $2.4.8
 |3,0,36,0,1,0,1494207651,"~"
 
 # File marks:
-'0  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,48,2,0,1496197852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
-'1  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,49,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
-'2  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,50,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
-'3  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,51,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
-'4  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,52,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
-'5  75  7  ~/.ssh/config
-|4,53,75,7,1494814833,"~/.ssh/config"
-'6  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,54,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
-'7  74  0  /h/a0a/ext
-|4,55,74,0,1494318813,"/h/a0a/ext"
-'8  161  8  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java
-|4,56,161,8,1494318675,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor.maven/src/main/java/org/eclipse/virgo/bundlor/maven/plugin/BundlorMojo.java"
-'9  79  15  ~/.ssh/config
-|4,57,79,15,1494300917,"~/.ssh/config"
+'0  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,48,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+'1  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,49,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'2  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,50,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'3  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,51,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'4  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,52,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'5  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,53,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'6  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,54,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'7  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,55,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+'8  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,56,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+'9  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,57,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 
 # Jumplist (newest first):
+-'  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1496197852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,1,6,1496197822,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,39,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
--'  2  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,39,2,0,1496192097,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
--'  1  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,39,1,0,1496192082,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
--'  1  0  /u/u~u/a0a/ileler/.git/MERGE_MSG
-|4,39,1,0,1496192082,"/u/u~u/a0a/ileler/.git/MERGE_MSG"
--'  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
--'  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
--'  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
--'  1  6  /u/u~u/a0a/ileler/configs/README.md
-|4,39,1,6,1496191891,"/u/u~u/a0a/ileler/configs/README.md"
--'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  1  6  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,1,6,1496191852,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  75  7  ~/.ssh/config
-|4,39,75,7,1494814833,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  79  15  ~/.ssh/config
-|4,39,79,15,1494814824,"~/.ssh/config"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  81  16  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,81,16,1494319123,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
--'  1  0  /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
-|4,39,1,0,1494318892,"/u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java"
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 
 # History of marks within files (newest to oldest):
 
+> /u/u~u/a0a/ileler/.gitignore
+	*	1503989699	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	12	11
+	+	15	0
+	+	16	36
+	+	15	0
+	+	16	0
+
 > /u/u~u/a0a/ileler/.git/info/sparse-checkout
-	*	1496197827	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	6
-	+	2	0
+	*	1503989176	0
+	"	1	9
+	^	1	10
+	.	1	0
+	+	2	6
+	+	3	0
+	+	4	0
+	+	3	0
+	+	1	0
 
-> /u/u~u/a0a/ileler/.git/MERGE_MSG
-	*	1496192087	0
-	"	2	0
+> /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+	*	1503987442	0
+	"	27	0
 
-> /u/u~u/a0a/ileler/configs/README.md
-	*	1496191890	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
+> /u/u~u/a0a/ws/js/react/Hozz/node_modules/_node-sass@3.13.1@node-sass/package.json
+	*	1502239467	0
+	"	1	0
+
+> /u/u~u/a0a/ws/js/react/Hozz/package.json
+	*	1502239348	0
+	"	1	0
+
+> /u/u~u/a0a/ws/java/intellij-plugin-deployres/.git/info/sparse-checkout
+	*	1502091770	0
+	"	1	25
+	^	1	26
+	.	1	26
+	+	1	26
+
+> /u/u~u/a0a/ws/java/intellij-plugin-deployres/.git/MERGE_MSG
+	*	1502091591	0
+	"	1	0
+
+> /u/u~u/a0a/ws/js/react/Hozz/Hozz/node_modules/.0.36.12@electron-prebuilt/package.json
+	*	1501568541	0
+	"	41	0
+
+> /u/u~u/a0a/ws/js/react/Hozz/Hozz/node_modules/.0.36.12@electron-prebuilt/install.js
+	*	1501568519	0
+	"	1	0
+
+> /u/u~u/a0a/ws/js/react/Hozz/Hozz/package.json
+	*	1501568257	0
+	"	15	0
+
+> /u/u~u/a0a/ws/js/react/react-demos/router-study/package.json
+	*	1501472426	0
+	"	1	0
+
+> /u/u~u/a0a/ws/js/react/react-demos/router-study/.eslintrc
+	*	1501472324	0
+	"	3	1
+	^	3	2
+	.	3	2
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	9	1
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	3
+	+	10	2
+	+	7	2
+	+	6	3
+	+	5	2
+	+	4	2
+	+	3	2
+	k	7	1
+	m	3	3
 
 > ~/.ssh/config
-	*	1494814832	0
-	"	75	7
+	*	1501204194	0
+	"	77	4
 	^	75	8
 	.	75	8
 	+	13	15
@@ -470,6 +535,154 @@ $2.4.8
 	+	75	6
 	+	78	15
 	+	75	8
+
+> /i/a0a/ws/react-demos/demo07/index.html
+	*	1497251986	0
+	"	1	0
+
+> /i/a0a/ws/react-demos/demo06/index.html
+	*	1497251973	0
+	"	1	0
+
+> /i/a0a/ws/react-demos/demo05/index.html
+	*	1497251963	0
+	"	1	0
+
+> /i/a0a/ws/react-demos/demo04/index.html
+	*	1497251952	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/demo08/index.html
+	*	1497156274	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/demo07/index.html
+	*	1497156108	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/demo06/index.html
+	*	1497155825	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/demo04/index.html
+	*	1497155764	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/demo05/index.html
+	*	1497155570	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/tic-tac-toe/public/index.html
+	*	1496912056	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/tic-tac-toe/public/manifest.json
+	*	1496912044	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/tic-tac-toe/src/index.js
+	*	1496911995	0
+	"	3	20
+	^	3	21
+	.	3	20
+	+	1	26
+	+	3	20
+
+> /u/u~u/a0a/ws/react-demos/tic-tac-toe/package.json
+	*	1496910452	0
+	"	1	0
+
+> ~/.npmrc
+	*	1496908948	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/tic-tac-toe/src/index.css
+	*	1496905339	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> /u/u~u/a0a/ws/react-demos/learn/src/comment.js
+	*	1496892645	0
+	"	3	0
+	^	3	0
+	.	2	33
+	+	38	0
+	+	11	0
+	+	10	18
+	+	4	36
+	+	5	0
+	+	2	33
+
+> /u/u~u/a0a/ws/react-demos/learn/build/index.html
+	*	1496891242	0
+	"	9	17
+	^	9	18
+	.	9	17
+	+	12	6
+	+	11	21
+	+	9	17
+
+> /u/u~u/a0a/ws/react-demos/learn/src/index.js
+	*	1496891220	0
+	"	7	1
+	^	7	2
+	.	7	1
+	+	7	1
+
+> /u/u~u/a0a/ws/react-demos/learn/build/index.
+	*	1496891124	0
+	"	1	0
+
+> /u/u~u/a0a/ws/react-demos/learn/webpack.config.js
+	*	1496891021	0
+	"	6	1
+	^	6	2
+	.	6	1
+	+	1	26
+	+	24	0
+	+	3	9
+	+	4	17
+	+	23	1
+	+	24	1
+	+	13	15
+	+	4	28
+	+	5	30
+	+	9	18
+	+	3	8
+	+	6	1
+
+> /u/u~u/a0a/ws/react-demos/learn/package.json
+	*	1496884877	0
+	"	1	0
+
+> /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/webpack/bin/webpack.js
+	*	1496710070	0
+	"	1	0
+
+> /u/u~u/a0a/bins/NodeJS/npm-global/webpack
+	*	1496710010	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	5	0
+	+	3	0
+
+> /u/u~u/a0a/ws/swagger-ui/dist/swagger-ui.js
+	*	1496361024	0
+	"	1	0
+
+> /u/u~u/a0a/ileler/.git/MERGE_MSG
+	*	1496192087	0
+	"	2	0
+
+> /u/u~u/a0a/ileler/configs/README.md
+	*	1496191890	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
 
 > /u/u~u/a0a/ws/org.eclipse.virgo.bundlor/org.eclipse.virgo.bundlor/src/main/java/org/eclipse/virgo/bundlor/support/contributors/xml/StandardXmlArtifactAnalyzer.java
 	*	1494318899	0
@@ -1095,502 +1308,3 @@ $2.4.8
 	.	5	0
 	+	4	9
 	+	5	0
-
-> /u/!!KERWIN!!/a0a/ws/business-monitor-portal/client/package.json
-	*	1487841522	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/business-monitor-portal/README.md
-	*	1487838593	0
-	"	3	30
-	^	3	31
-	.	3	30
-	+	1	26
-	+	2	0
-	+	3	30
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/component/app.component.ts
-	*	1487837552	0
-	"	46	58
-	^	46	59
-	.	46	58
-	+	88	24
-	+	58	28
-	+	117	3
-	+	118	0
-	+	115	0
-	+	93	29
-	+	99	56
-	+	51	50
-	+	16	47
-	+	104	29
-	+	53	0
-	+	88	9
-	+	49	55
-	+	7	7
-	+	88	23
-	+	49	21
-	+	53	53
-	+	58	53
-	+	88	0
-	+	120	0
-	+	116	38
-	+	52	0
-	+	47	7
-	+	37	33
-	+	39	40
-	+	50	51
-	+	90	23
-	+	50	30
-	+	36	43
-	+	38	6
-	+	39	43
-	+	21	64
-	+	19	60
-	+	41	42
-	+	39	30
-	+	19	12
-	+	40	6
-	+	44	46
-	+	42	42
-	+	44	3
-	+	43	6
-	+	45	11
-	+	45	82
-	+	46	58
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/app.module.ts
-	*	1487830634	0
-	"	28	12
-	^	28	13
-	.	28	12
-	+	43	0
-	+	40	0
-	+	74	10
-	+	38	52
-	+	50	13
-	+	25	54
-	+	39	15
-	+	24	55
-	+	37	10
-	+	43	0
-	+	44	0
-	+	24	54
-	+	30	63
-	+	57	15
-	+	55	4
-	+	28	12
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/index.js
-	*	1487757814	0
-	"	25	0
-	^	19	15
-	.	19	14
-	+	41	9
-	+	39	156
-	+	39	2
-	+	91	0
-	+	90	16
-	+	87	3
-	+	86	21
-	+	90	10
-	+	86	60
-	+	85	0
-	+	86	0
-	+	84	3
-	+	83	10
-	+	39	141
-	+	39	34
-	+	39	132
-	+	47	3
-	+	46	33
-	+	73	18
-	+	8	39
-	+	17	51
-	+	14	58
-	+	17	7
-	+	50	48
-	+	49	48
-	+	54	2
-	+	54	9
-	+	54	3
-	+	56	0
-	+	23	45
-	+	13	1
-	+	83	34
-	+	23	44
-	+	56	82
-	+	83	40
-	+	82	17
-	+	3	22
-	+	56	2
-	+	71	2
-	+	51	24
-	+	53	63
-	+	54	9
-	+	55	2
-	+	56	3
-	+	69	2
-	+	71	2
-	+	72	2
-	+	73	20
-	+	70	71
-	+	67	4
-	+	66	5
-	+	63	6
-	+	61	30
-	+	65	6
-	+	64	70
-	+	62	75
-	+	68	75
-	+	57	18
-	+	4	26
-	+	77	3
-	+	76	138
-	+	68	30
-	+	50	25
-	+	49	49
-	+	40	10
-	+	1	15
-	+	27	52
-	+	39	2
-	+	81	3
-	+	79	9
-	+	80	53
-	+	39	66
-	+	40	0
-	+	39	2
-	+	39	112
-	+	29	82
-	+	28	59
-	+	30	177
-	+	39	2
-	+	40	0
-	+	39	3
-	+	40	0
-	+	38	0
-	+	37	2
-	+	36	9
-	+	34	16
-	+	14	26
-	+	34	20
-	+	35	12
-	+	28	3
-	+	29	3
-	+	30	3
-	+	29	2
-	+	28	2
-	+	30	2
-	+	32	37
-	+	7	43
-	+	21	30
-	+	11	48
-	+	19	14
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/package.json
-	*	1487757707	0
-	"	7	19
-	^	7	20
-	.	7	20
-	+	2	25
-	+	3	34
-	+	10	0
-	+	8	0
-	+	7	20
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/component/login/login.component.ts
-	*	1487755707	0
-	"	58	0
-	^	50	59
-	.	50	58
-	+	11	0
-	+	14	58
-	+	37	34
-	+	56	0
-	+	47	23
-	+	55	3
-	+	54	3
-	+	53	27
-	+	46	69
-	+	56	0
-	+	13	50
-	+	35	29
-	+	50	58
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/service/app.service.ts
-	*	1487754279	0
-	"	12	17
-	^	12	18
-	.	12	17
-	+	2	0
-	+	36	0
-	+	14	35
-	+	14	34
-	+	22	1
-	+	21	29
-	+	32	48
-	+	35	2
-	+	33	39
-	+	34	47
-	+	11	44
-	+	12	48
-	+	17	0
-	+	30	1
-	+	29	29
-	+	18	35
-	+	11	16
-	+	12	17
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/component/login/login.component.html
-	*	1487752812	0
-	"	31	8
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/service/login.service.ts
-	*	1487752618	0
-	"	16	82
-	^	16	83
-	.	16	83
-	+	9	17
-	+	12	0
-	+	14	12
-	+	15	34
-	+	25	0
-	+	20	22
-	+	19	56
-	+	20	37
-	+	25	0
-	+	15	48
-	+	16	32
-	+	19	22
-	+	18	56
-	+	12	0
-	+	9	17
-	+	2	37
-	+	19	114
-	+	16	83
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/model/LoginInfo.ts
-	*	1487748249	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/component/login/login.component.css
-	*	1487747708	0
-	"	1	1
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/data/chart1-data.json
-	*	1487666027	0
-	"	72	379
-	^	72	380
-	.	72	379
-	+	72	379
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/routes/index.js
-	*	1487658818	0
-	"	2	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/use.js
-	*	1487658265	0
-	"	1	4
-	.	1	0
-	+	1	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/server/app.js
-	*	1487658207	0
-	"	1	26
-	^	1	27
-	.	1	26
-	+	24	27
-	+	20	33
-	+	22	2
-	+	1	26
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/service/Dash.service.ts
-	*	1486964719	0
-	"	11	32
-	^	11	33
-	.	11	32
-	+	32	0
-	+	4	36
-	+	11	26
-	+	31	0
-	+	30	0
-	+	4	19
-	+	15	7
-	+	19	20
-	+	16	38
-	+	21	40
-	+	22	5
-	+	22	0
-	+	20	25
-	+	11	32
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/component/dash/dash.component.ts
-	*	1486964486	0
-	"	27	22
-	^	27	23
-	.	27	22
-	+	28	0
-	+	27	27
-	+	9	57
-	+	31	32
-	+	36	43
-	+	27	22
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/model/RespObj.ts
-	*	1486957848	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	7	0
-	+	8	0
-	+	6	0
-	+	4	13
-	+	4	0
-	+	5	10
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/package.json
-	*	1486957600	0
-	"	118	4
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/custom-typings.d.ts
-	*	1486957537	0
-	"	119	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/main.browser.ts
-	*	1486957511	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/polyfills.browser.ts
-	*	1486957494	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/assets/dash-chart1.json
-	*	1486955854	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/dash/dash.service.ts
-	*	1486953129	0
-	"	13	67
-	^	13	68
-	.	13	67
-	+	17	0
-	+	16	0
-	+	15	1
-	+	14	0
-	+	13	67
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/dash/dash.component.ts
-	*	1486950952	0
-	"	3	5
-	^	92	3
-	.	92	2
-	+	6	40
-	+	25	0
-	+	92	2
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/app/dash/dash.component.html
-	*	1486950949	0
-	"	15	37
-	^	15	38
-	.	15	37
-	+	16	0
-	+	15	37
-
-> /u/!!KERWIN!!/a0a/ws/ng2-demo/src/index.html
-	*	1486950759	0
-	"	18	2
-	.	11	0
-	+	2	0
-	+	11	0
-
-> /u/!!KERWIN!!/a0a/ws/angular2-webpack-starter/src/app/app.component.ts
-	*	1486950157	0
-	"	142	0
-	^	85	9
-	.	85	9
-	+	10	40
-	+	21	3
-	+	59	37
-	+	88	0
-	+	87	3
-	+	78	2
-	+	77	15
-	+	80	47
-	+	86	1
-	+	85	9
-
-> /u/!!KERWIN!!/a0a/ws/angular2-webpack-starter/node_modules/.0.6.1@angular2-template-loader/index.js
-	*	1486544875	0
-	"	5	63
-	^	5	64
-	.	5	63
-	+	5	63
-
-> /etc/profile.d/aliases.sh
-	*	1484811729	0
-	"	1	0
-
-> /u/!!KERWIN!!/a0a/ws/webpack-demo/webpack.config.js
-	*	1484810866	0
-	"	2	0
-	.	2	0
-	+	28	0
-	+	18	2
-	+	17	15
-	+	18	3
-	+	22	2
-	+	21	22
-	+	23	11
-	+	24	24
-	+	26	4
-	+	25	24
-	+	28	1
-	+	1	4
-	+	4	39
-	+	13	16
-	+	13	1
-	+	13	0
-	+	14	1
-	+	15	15
-	+	45	0
-	+	37	28
-	+	47	23
-	+	5	45
-	+	6	37
-	+	37	3
-	+	44	3
-	+	43	4
-	+	42	25
-	+	47	32
-	+	39	9
-	+	40	8
-	+	41	10
-	+	2	0
-
-> /u/!!KERWIN!!/a0a/ws/webpack-demo/libs/parts.js
-	*	1484795423	0
-	"	15	18
-	^	15	19
-	.	15	18
-	+	19	1
-	+	18	2
-	+	17	2
-	+	11	20
-	+	16	5
-	+	15	18
-
-> libs/parts.js
-	*	1484794742	0
-	"	1	34
-	^	1	35
-	.	1	34
-	+	1	34
-
-> /u/!!KERWIN!!/a0a/ws/webpack-demo/package.json
-	*	1484794478	0
-	"	9	29
-	^	9	30
-	.	9	29
-	+	7	58
-	+	8	23
-	+	9	29
