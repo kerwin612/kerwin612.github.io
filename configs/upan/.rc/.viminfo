@@ -21,7 +21,7 @@ $2.4.8
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1503989700,,"wq"
+|2,0,1503992851,,"wq"
 :q
 |2,0,1503987413,,"q"
 :q!
@@ -205,34 +205,42 @@ $2.4.8
 |3,0,36,0,1,0,1494207651,"~"
 
 # File marks:
-'0  16  0  /u/u~u/a0a/ileler/.gitignore
-|4,48,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
-'1  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,49,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
-'2  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,50,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
-'3  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,51,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
-'4  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,52,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
-'5  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,53,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
-'6  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,54,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
-'7  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,55,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
-'8  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,56,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
-'9  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,57,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+'0  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,48,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
+'1  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,49,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+'2  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,50,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+'3  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,51,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'4  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,52,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'5  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,53,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'6  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,54,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'7  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,55,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'8  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,56,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'9  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,57,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
 
 # Jumplist (newest first):
+-'  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  35  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
 -'  16  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
 -'  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
 -'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
 -'  13  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
 -'  13  0  /u/u~u/a0a/ileler/.gitignore
@@ -245,6 +253,8 @@ $2.4.8
 |4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
 -'  1  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
@@ -261,6 +271,38 @@ $2.4.8
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
@@ -309,6 +351,38 @@ $2.4.8
 |4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
 |4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
+|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
 |4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
@@ -342,104 +416,35 @@ $2.4.8
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
 |4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 -'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987413,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  2  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,2,0,1503987127,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
 
 > /u/u~u/a0a/ileler/.gitignore
-	*	1503989699	0
-	"	16	0
-	^	16	1
-	.	16	0
+	*	1503992841	0
+	"	17	40
+	^	17	41
+	.	17	40
 	+	12	11
 	+	15	0
 	+	16	36
 	+	15	0
 	+	16	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	16	0
+	+	17	40
 
 > /u/u~u/a0a/ileler/.git/info/sparse-checkout
 	*	1503989176	0
