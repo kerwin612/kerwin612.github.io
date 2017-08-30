@@ -1,27 +1,3 @@
-git push
-git push
-git push
-git push
-git status
-ll
-rm -rf node_modules/
-cnpm i
-ll
-cnpm i
-cnpm i
-cnpm i
-cnpm start
-ext-cd
-cnpm start
-ll node_modules/.0.36.12\@electron-prebuilt/
-cnpm i
-ll node_modules/.0.36.12\@electron-prebuilt/
-rm rf node_modules/
-rm -rf node_modules/
-rm -rf node_modules/ &
-cnpm i -g electron
-cnpm i
-ll
 rm -rf node_modules/
 ll
 ext-cd
@@ -498,3 +474,27 @@ git status
 cd ws/js/react/Hozz/
 ll
 cnpm start
+cd bins/Cygwin/
+ll
+ext-link ~/.bash_profile .
+ll
+ext-link ~/.bash_profile .
+ext-link $HOME/.bash_prfile .
+ext-link
+ll
+cat ext
+cat ~/../ext
+ll
+ll -a ~/
+ext-link .bash_profile ~/.bash_profile 
+ll
+ll -a
+cat .bash_profile 
+ll
+Cygwin.bat
+ext-link ext ~/../ext 
+ll -a
+Cygwin.bat
+ll
+rm -rf ext .bash_profile 
+ll -a
