@@ -5,7 +5,7 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=cp936
 
 
 # hlsearch on (H) or off (h):
@@ -20,10 +20,10 @@
 $2.4.8
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1503992851,,"wq"
 :q
-|2,0,1503987413,,"q"
+|2,0,1504165176,,"q"
+:wq
+|2,0,1504165086,,"wq"
 :q!
 |2,0,1501568262,,"q!"
 :w
@@ -165,7 +165,7 @@ $2.4.8
 
 # Debug Line History (newest to oldest):
 
-# Registers:
+# 寄存器:
 "0	LINE	0
 			<div id="example"><div>
 |3,0,0,1,1,0,1496891136,"		<div id=\"example\"><div>"
@@ -204,39 +204,85 @@ $2.4.8
 	~
 |3,0,36,0,1,0,1494207651,"~"
 
-# File marks:
-'0  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,48,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
-'1  16  0  /u/u~u/a0a/ileler/.gitignore
-|4,49,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
-'2  16  0  /u/u~u/a0a/ileler/.gitignore
-|4,50,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
-'3  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,51,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
-'4  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,52,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+# 文件标记:
+'0  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
+|4,48,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
+'1  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+|4,49,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
+'2  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,50,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
+'3  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,51,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+'4  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,52,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
 '5  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,53,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
 '6  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,54,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
-'7  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,55,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
-'8  13  0  /u/u~u/a0a/ileler/.gitignore
-|4,56,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+'7  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,55,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'8  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,56,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
 '9  13  0  /u/u~u/a0a/ileler/.gitignore
 |4,57,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
 
-# Jumplist (newest first):
+# 跳转列表 (从新到旧):
+-'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
+|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
+-'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
+-'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
+-'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
+-'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
+-'  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
+-'  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
+-'  17  40  /u/u~u/a0a/ileler/.gitignore
+|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
 -'  17  40  /u/u~u/a0a/ileler/.gitignore
 |4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
 -'  16  35  /u/u~u/a0a/ileler/.gitignore
 |4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  35  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  35  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  35  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
+-'  16  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
 -'  16  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
 -'  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
 -'  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989685,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+-'  15  24  /u/u~u/a0a/ileler/.gitignore
+|4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
 -'  15  24  /u/u~u/a0a/ileler/.gitignore
 |4,39,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
 -'  13  0  /u/u~u/a0a/ileler/.gitignore
@@ -245,6 +291,30 @@ $2.4.8
 |4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
 -'  13  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989296,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
+-'  13  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
 -'  13  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,13,0,1503989273,"/u/u~u/a0a/ileler/.gitignore"
 -'  1  0  /u/u~u/a0a/ileler/.gitignore
@@ -255,6 +325,30 @@ $2.4.8
 |4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
 -'  1  0  /u/u~u/a0a/ileler/.gitignore
 |4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/ileler/.gitignore
+|4,39,1,0,1503989260,"/u/u~u/a0a/ileler/.gitignore"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
@@ -287,148 +381,65 @@ $2.4.8
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 -'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
 |4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  3  0  /u/u~u/a0a/ileler/.git/info/sparse-checkout
-|4,39,3,0,1503989167,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  27  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,27,0,1503987444,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
--'  1  0  /u/u~u/a0a/ileler/.git/COMMIT_EDITMSG
-|4,39,1,0,1503987430,"/u/u~u/a0a/ileler/.git/COMMIT_EDITMSG"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
+-'  1  9  /u/u~u/a0a/ileler/.git/info/sparse-checkout
+|4,39,1,9,1503989177,"/u/u~u/a0a/ileler/.git/info/sparse-checkout"
 
-# History of marks within files (newest to oldest):
+# 文件内的标记历史记录 (从新到旧):
+
+> /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
+	*	1504165146	0
+	"	1	0
+
+> /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
+	*	1504165085	0
+	"	14	14
+	^	14	15
+	.	14	14
+	+	14	14
 
 > /u/u~u/a0a/ileler/.gitignore
 	*	1503992841	0
@@ -1297,19 +1308,3 @@ $2.4.8
 	+	16	0
 	+	62	0
 	+	31	0
-
-> /u/!!KERWIN!!/a0a/ws/business-monitor-portal/client/src/app/home/home.component.ts
-	*	1488004265	0
-	"	4	9
-	^	4	10
-	.	5	0
-	+	4	9
-	+	5	0
-
-> /u/!!KERWIN!!/a0a/ws/business-monitor-portal/client/src/app/main/main.component.ts
-	*	1488004253	0
-	"	4	17
-	^	4	10
-	.	5	0
-	+	4	9
-	+	5	0

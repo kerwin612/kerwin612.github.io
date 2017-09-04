@@ -86,3 +86,4 @@ cd redis-4.0.1/
 make PREFIX=../../make_output install
 cd ../../redis/redis-4.0.1/bin/
 redis-server.exe 
+ll /

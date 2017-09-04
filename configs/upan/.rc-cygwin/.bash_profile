@@ -1,4 +1,4 @@
-SHOME='I:\a0a\ileler\configs\upan\..\..\..\'
+SHOME='E:\a0a\ileler\configs\upan\..\..\..\'
 #!/usr/bin/env sh
 source ../ext-cygwin
 

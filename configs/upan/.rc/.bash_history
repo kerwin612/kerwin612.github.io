@@ -1,46 +1,3 @@
-rm -rf node_modules/
-ll
-ext-cd
-rm -rf node_modules/
-ll
-ll
-explorer .
-ext-cd
-explorer .
-exit
-exit
-cd ws/Hozz/
-cd Hozz/
-ll
-cnpm i
-cnpm i
-cnpm i
-cnpm i
-cnpm start
-electron -v
-ext-cd
-electron -v
-echo $appData
-echo $HOME
-electron -v
-echo $appData
-electron -v
-electron -v
-echo $APPDATA
-echo $XDG_CONFIG_HOME
-ext-cd
-electron -v
-cd ws/react-spa-demo/
-ll
-node mockserver.js 
-cat ext
-ext-vbox
-cd ws/js/react/react-demos/tic-tac-toe/
-ll
-cnpm start
-exit
-EXIT
-exit
 cat ~/.ssh/config 
 ssh root@10.3.20.15
 ssh root@10.3.20.15 -i ~/.ssh/moba_rsa
@@ -498,3 +455,46 @@ Cygwin.bat
 ll
 rm -rf ext .bash_profile 
 ll -a
+cd /e/a0a/zookeeper-3.4.10
+ll
+cd conf
+ll
+cp zoo.cfg zoo1.cfg
+vi zoo1.cfg 
+cd ../bin/
+zkServer.cmd
+zkServer.cmd --help
+zkServer.cmd ../conf/zoo1.cfg 
+vi zkServer.cmd 
+zkServer.cmd ..\conf\zoo1.cfg
+cd /e/a0a/zookeeper-3.4.10/bin
+zkServer2.cmd
+zkServer2.cmd
+zkServer2.cmd
+cd /e/a0a/zookeeper-3.4.10/bin/
+zkServer1.cmd
+zkServer1.cmd
+cd /e/a0a/zookeeper-3.4.10/bin/
+zkServer.bat
+ll
+zkServer.cmd
+jobs
+zkServer.cmd
+zkServer.cmd
+zkServer.cmd
+zkServer.cmd
+zkServer.cmd
+zkServer.cmd
+cd ws/java/
+ll
+git clone gh:ileler/zkui.git
+cd zkui/
+git status
+git add .
+git commit -m 'trim input or textarea'
+git push origin master
+git status
+exit
+cd ws/js/react/Hozz/
+cnpm start
+echo $APPDATA

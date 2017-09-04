@@ -7,6 +7,10 @@ export __=$(pwd)
 export HOME=$__/.rc
 export HOMEPATH=$HOME
 export USERPROFILE=$HOME
+export APPDATA=$USERPROFILE/AppData/Roaming
+
+#some software need.(eg: electron)
+mkdir -p $APPDATA
 
 #nodejs
 export _NODEJS_=node-v6.10.0-win-x64
