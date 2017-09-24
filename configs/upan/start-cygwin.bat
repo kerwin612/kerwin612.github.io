@@ -1,7 +1,6 @@
 @echo off
 
 set "U=U:"
-set "_RC=.rc"
 set "RC=.rc-cygwin"
 set "a0a=a0a"
 
@@ -12,7 +11,6 @@ set "UHOME=%MROOT%\%a0a%"
 set "CHOME=%CROOT%\%a0a%"
 ::set "SHOME=%~dp0\"
 set "SHOME=%~dp0\..\..\..\"
-set "_RHOME=%UHOME%\%_RC%"
 set "RHOME=%UHOME%\%RC%"
 
 
@@ -43,9 +41,6 @@ if exist %U% (
 mklink /j %MROOT% %CROOT%
 mklink /j %CHOME% %SHOME%
 
-if exist %_RHOME% (
-	rmdir %_RHOME%
-)
 if exist %RHOME% (
 	rmdir %RHOME%
 )
@@ -55,10 +50,10 @@ if exist %UHOME%\env-cygwin (
 if exist %UHOME%\ext-cygwin (
 	rmdir %UHOME%\ext-cygwin
 )
-mklink /j %_RHOME% %~dp0\%_RC%
 mklink /j %RHOME% %~dp0\%RC%
 mklink /j %UHOME%\env-cygwin %~dp0\env-cygwin
 mklink /j %UHOME%\ext-cygwin %~dp0\ext-cygwin
+mklink /j %UHOME%\.common %~dp0\.common
 
 rem UHOME[U:\!!KERWIN!!\a0a]
 echo UHOME[%UHOME%]

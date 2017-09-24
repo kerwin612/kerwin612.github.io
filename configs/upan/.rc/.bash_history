@@ -1,500 +1,500 @@
-cat ~/.ssh/config 
-ssh root@10.3.20.15
-ssh root@10.3.20.15 -i ~/.ssh/moba_rsa
-vi ~/.ssh/config 
-ssh root@10.3.20.15 -i ~/.ssh/moba_rsa
-scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20 -i ~/.ssh/moba_rsa
-scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20
-ssh 10.3.20.20
-ssh root@10.3.20.20
-scp /c/Users/Administrator/Desktop/22/22-07-27/1\)MySQL/1\)MySQL.tar.gz root@10.3.20.20:~
-ssh root@10.3.20.20
-scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/elasticsearch-1.5.2.tar.gz root@10.3.20.19:~
-scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
-ssh root@10.3.20.19
-scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
-ssh root@10.3.20.19
-scp /c/Users/Administrator/Desktop/22/22-07-27/4\)PCSS/index.txt root@10.3.20.19:~
-ssh root@10.3.20.19
-scp /c/Users/Administrator/Desktop/22/22-07-27/3\)PCRS\&IMMS/imms/imms.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/3\)PCRS\&IMMS/pcrs/pcrs.tar.gz root@10.3.20.18:~
-ssh root@10.3.20.18
-scp /c/Users/Administrator/Desktop/22/22-07-27/2\)PCAS\&PSAC/pcas/pcas.tar.gz root@10.3.20.17:~
-ssh root@10.3.20.17
-scp /c/Users/Administrator/Desktop/22/22-07-27/2\)PCAS\&PSAC/psac/psac.tar.gz root@10.3.20.16:~
-ssh root@10.3.20.17
-ssh root@10.3.20.16
-scp /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/email/email.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/prap/prap.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/prms/prms.tar.gz /c/Users/Administrator/Desktop/22/22-07-27/5\)PCMS\&PRAP\&PRMS/pcms/pcms.tar.gz root@10.3.20.15:~
-ssh root@10.3.20.15
-ssh root@10.3.20.15
-ll /g
-scp /g/usr.zip root@10.3.20.18:~
-scp /g/org.pdri.imms_0.0.1.SNAPSHOT.plan root@10.3.20.18:~
-ssh root@10.3.20.18
-ll /g
-scp /g/CentOS-7-x86_64-DVD-1511.iso root@10.3.20.15:/tmp
-ssh root@10.3.20.15
-ll /g/
-scp /g/usr\(1\)\ \(1\).zip root@10.3.20.18:~
+pip -h
+pip install Pygments
+pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
+vi code.v
+pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
+mv code.v code.c
+pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
 ll
-unzip 'root@10.3.20.20' 
-ssh root@10.3.20.18
-ssh root@10.3.20.20
-ssh root@10.3.20.15
-ssh root@10.3.20.20
-cd ws/js/react/react-demos/router-study/
-ll
-cnpm start
-cd ../../Hozz/Hozz/
-cnpm start
-cd -
-ll
-cp -r src02 src03
-ll
-rm -rf src
-ext-link src ./src03/
-ll
-cnpm start
-react-scripts --help
-ll -a ./.bin
-ll -a ./node_modules/.bin
-./node_modules/.bin/react-scripts --help
-./node_modules/.bin/react-scripts -help
-./node_modules/.bin/react-scripts ?
-./node_modules/.bin/react-scripts 
-./node_modules/.bin/react-scripts -v
-./node_modules/.bin/react-scripts --v
-./node_modules/.bin/react-scripts -ersion
-./node_modules/.bin/react-scripts -version
-vi .eslintrc
-cnpm start
-ll -a
-vi package.json 
-rm -rf src
-ext-link src src01
-cnpm start
-ll
-rm -rf src
-ext-link src ./src01
-ll
-cnpm start
-rm -rf src
-ext-link src ./src03
-cnpm start
-cd ws/js/react/Hozz/Hozz/
-cnpm i
-cnpm i
-cnpm start
-ext-cd
-cnpm start
-ext-cd
-ll -a node_modules/.0.36.12\@electron-prebuilt/
-rm -rf node_modules/.0.36.12\@electron-prebuilt/
-cnpm i
-cnpm i yzuzl
-cnpm i yauzl
-cnpm i
-ll -a node_modules/.0.36.12\@electron-prebuilt/
-cnpm start
-cd node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-cnpm i pend
-node install.js 
-cnpm i pend
-node install.js 
-cnpm i -g pend
-cnpm start
-node install.js 
-cnpm i -S pend
-node install.js 
-ll -a node_modules/
-rm -rf node_modules/
-cnpm i
-cnpm i
-cnpm i
-rm -rf node_modules/
-cnpm i
-rm -rf node_modules/
-cnpm i
-cd ../../
-rm -rf node_modules/.0.36.12\@electron-prebuilt/
-cnpm i electron-prebuilt -S
-cd node_modules/.0.36.12\@electron-prebuilt/]
-cd node_modules/.0.36.12\@electron-prebuilt/
-ll
-cnpm i
-cnpm i concat-stream
-cnpm i
-cnpm i concat-stream -g
-cnpm i
-cnpm i ms -g
-cnpm i
-cnpm i safe-buffer -g
-cnpm i
-cnpm i aws4 -g
-cnpm i
-cnpm i is-typedarray -g
-cnpm i 
-cnpm i performance-now -g
-cnpm i
-cnpm i process-nextick-args -g
-cnpm i
-cnpm i speedometer -g
-cnpm i
-cnpm i concat-map -g
-cnpm i
-cnpm i balanced-match -g
-cnpm i
-cnpm i strip-json-comments -g
-cnpm i
-cnpm i deep-extend -g
-cnpm i
-cd ../../
-rm -rf ./node_modules/.0.36.12\@electron-prebuilt/
-cnpm i -g electron-prebuilt
-cnpm start
-vi package.json 
-git remote -v
-git fetch upstream
-git merge upstream/master
-git status
-cnpm i
-cd ./node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-rm -rf node_modules/
-vi install.js 
-vi package.json 
-node install.js 
-cat package.json 
-node install.js 
-cnpm i pend
-node install.js 
-cnpm i -g pend
-node install.js 
-cd ../.1.0.1\@fd-slicer/
-cnpm i pend
-cd -
-node install.js 
-cd ../.1.6.5\@extract-zip/
-cnpm i concat-stream
-cd -
-node install.js 
-cd ../.2.6.8\@debug/
-cnpm i ms
-cd-
-cd -
-node install.js 
-cd ../.2.81.0\@request/
-cnpm i safe-buffer
-cd -
-node install.js 
-cd ../.2.81.0\@request/
-cnpm i aws4
-cd -
-node install.js 
-cd ../.2.81.0\@request/
-cnpm i is-typedarray
-cd -
-node install.js 
-cd ../.2.81.0\@request/
-cnpm i
-cd -
-node install.js 
-cd ../.2.3.3\@readable-stream/
-cnpm i
-cd -
-node install.js 
-cd ../.1.2.0\@progress-stream/
-cnpm i
-cd -
-node install.js 
-cd ../.1.1.8\@brace-expansion/
-cnpm i
-cd -
-node install.js 
-cd ../.1.2.1\@rc/
-cnpm i
-cd -
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-node install.js 
-ll
-ll node_modules/
-rm -rf node_modules/
-node install.js 
-ll dist/
-node install.js 
-node install.js 
-node install.js 
-cat install.js 
-cat --help
-cat -n install.js 
-cat -n install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-node install.js 
-ll dist/
-cd ../../
-cnpm start
-cnpm i
-cnpm start
-cd ws/js/react/Hozz/Hozz/node_modules/.0.36.12\@electron-prebuilt/
-   
-electron -v
-cd ../
-cd ../
-electron -v
-electron -v
-electron -v
-echo $appData
-echo $APPDATA
-electron -v
-export APPDATA=/c/Users/Administrator/AppData/Roaming
-echo $APPDATA
-electron -v
-explorer $APPDATA
-explorer .
-ll /c
-ll $APPDATA
-explorer $APPDATA
-ll $APPDATA
-export APPDATA=C:/Users/Administrator/AppData/Roaming
-ll $APPDATA
-explorer $APPDATA
-echo $APPDATA
-ll $APPDATA
-electron -v
-echo $XDG_CONFIG_HOME
-export XDG_CONFIG_HOME=$APPDATA
-echo $XDG_CONFIG_HOME
-electron -v
-ll -a ~/
-ll -a ~/.config/
-ll -a ~/.config/configstore/
-export XDG_CONFIG_HOME=/c/Users/Administrator/AppData/Roaming
-electron -v
-electron -v
-echo $APPDATA
-electron -v
-electron -h
-electron -h
-cat ~/ext
-cat ext
-cmd <<< "electron -v" > /dev/null
-cd $NODE_HOME
-cd npm-global/
-electron -v
-electron -v --verbose
-cd ~/../ws/js/react/Hozz/Hozz/
-cnpm start --verbose
-ll
-mkdir /g/a0a
-cp ws -R /g/a0a/
-mkdir /e/a0a
-cp -R ws /e/a0a/
-ll
-ll
-cd ../
-ll
-cd /i
-ll
-cp a0a.bat /e/
-cd /i
-cp a0a.bat /e/
-node -v
-ext-vbox
+pygmentize -h
+pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
+vi hello.java
+pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
+rm -rf code.rtf 
+rm -rf code.rtf 
+pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
 cd ws/js/react/Hozz/
-explorer .
-cmd
-start cmd
-start ?
-cmd ?
-start cmd /v:on
-cat package.json 
-cat gulpfile.js 
+cnpm start
+cnpm start
+cd ws/js/react/Hozz/
+gulp
+cnpm i
+cnpm start
+vi gulpfile.js 
 gulp watch
-cd ws/js/react/Hozz/
-gulp package
-cnpm update -S babel-core@6.10.4
-gulp package
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-gulp build
-cd ws/js/react/Hozz/
-gulp build
-explorer .
-gulp build
-gulp build
-gulp build
-gulp build
-cd ws/java/
-ll
-mkdir spring-cloud-demo
-ll
-cd spring-cloud-demo/
-ll ../spring-boot-demo/
-mkdir springcloud-learning-dalston
-cd springcloud-learning-dalston/
-git init
-git remote add origin git@github.com:dyc87112/SpringCloud-Learning.git
-git config core.sparseCheckout=true
-git config core.sparseCheckout true
-ll -a .git/
-ll -a .git/info/
-ll -a ~/../ileler/
-ll -a ~/../ileler/
-ll /u/u~u/a0a/ileler/
-ll -a /u/u~u/a0a/ileler/configs/
-ll -a /u/u~u/a0a/ileler/configs/upan/
-ll -a /u/u~u/a0a/ileler/configs/upan/.rc/
-ll -a /u/u~u/a0a/ileler/configs/upan
-ll -a /u/u~u/a0a/ileler/configs
-cat /u/u~u/a0a/ileler/configs/README.md 
-echo '2-Dalstonç‰ˆæ•™ç¨‹ç¤ºä¾‹/' >> .git/info/sparse-checkout
-git pull orgin master
-git pull origin master
-ll
-ll 2-Dalstonç‰ˆæ•™ç¨‹ç¤ºä¾‹/
-ll
-cd ../
-cd ../
-ll
-cd spring-boot-demo/
-ll
-rm -rf *
-ll
-git clone gh:dyc87112/SpringBoot-Learning springboot-learging
-rm -rf springboot-learging/
-git clone gh:dyc87112/SpringBoot-Learning springboot-learning
-cd ..
-ll
-mkdir intellij-plugin
-ll
-mv intellij-plugin-de* intellij-plugin
-ll
-mv intellij-plugin intellij-plugins
-ll
-mkdir eclipse-plugins
-mv eclipse-arcutil/ eclipse-dr/ eclipse-plugins/
-ll
-ll crawl/
-cd spring-boot-demo/
-ll
-cd springboot-learning/
-ll
-git pull
-git status
-git checkout -- Chapter9-2-2
-git status
-git status
-cd ../../spring-cloud-demo/springcloud-learning-dalston/
-ll
-cd 2-Dalstonç‰ˆæ•™ç¨‹ç¤ºä¾‹/
-ll
-git status
-cd ../
-git status
-git pull
-ll -a
-git pull origin master
-git status
-cd ws/js/react/Hozz/
-ll
 cnpm start
-cd bins/Cygwin/
 ll
-ext-link ~/.bash_profile .
-ll
-ext-link ~/.bash_profile .
-ext-link $HOME/.bash_prfile .
-ext-link
-ll
-cat ext
-cat ~/../ext
-ll
-ll -a ~/
-ext-link .bash_profile ~/.bash_profile 
 ll
 ll -a
-cat .bash_profile 
-ll
-Cygwin.bat
-ext-link ext ~/../ext 
-ll -a
-Cygwin.bat
-ll
-rm -rf ext .bash_profile 
-ll -a
-cd /e/a0a/zookeeper-3.4.10
-ll
-cd conf
-ll
-cp zoo.cfg zoo1.cfg
-vi zoo1.cfg 
-cd ../bin/
-zkServer.cmd
-zkServer.cmd --help
-zkServer.cmd ../conf/zoo1.cfg 
-vi zkServer.cmd 
-zkServer.cmd ..\conf\zoo1.cfg
-cd /e/a0a/zookeeper-3.4.10/bin
-zkServer2.cmd
-zkServer2.cmd
-zkServer2.cmd
-cd /e/a0a/zookeeper-3.4.10/bin/
-zkServer1.cmd
-zkServer1.cmd
-cd /e/a0a/zookeeper-3.4.10/bin/
-zkServer.bat
-ll
-zkServer.cmd
-jobs
-zkServer.cmd
-zkServer.cmd
-zkServer.cmd
-zkServer.cmd
-zkServer.cmd
-zkServer.cmd
-cd ws/java/
-ll
-git clone gh:ileler/zkui.git
-cd zkui/
+cd ws/js/react/Hozz/
+cnpm start
+cnpm start
+cnpm start
+cnpm start
+cd ws/js/react/Hozz/
+git log
+git log --pretty=online
+git log --pretty=oneline
+git reflog
+git checkout -b src
+git branch
+git checkout master
+git checkout src
+git checkout -b dev
+git branch
+git commit -m 'Temporary save'
+git add .
+git commit -m 'Temporary save'
+git status
+git push origin dev
+git remote 
+git checkout src
+git status
+git log
+git log --pretty=oneline
+git reset -- ac901f5df4561e296645921d47dc355325198ef3
+git status
+git log --pretty-oneline
+git log --pretty=oneline
+git reset --hard ac901f5df4561e296645921d47dc355325198ef3
+git status
+git status
+gulp
+cnpm start
+cnpm start
 git status
 git add .
-git commit -m 'trim input or textarea'
-git push origin master
+git commit -m '1.ÐÞ¸´ÁËÐÂÔöHostÊ±Ô¶³ÌURL¿òÎ´ÏìÓ¦»Ø³µÊÂ¼þµÄBUG 2.ÐÞ¸´ÁËHost ItemÉÏ±à¼­µÈ°´Å¥µÄÃ°ÅÝÊÂ¼þ'
+git push origin src
+git branch --all
+git checkout dev
 git status
-exit
+ll -a ~/.ssh
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+grup
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+cnpm start
+gulp
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm star
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+cnpm start
+gulp
+cnpm start
+git status
+git add .
+git commit -m 'new feature: group hosts'
+git push origin dev
+git status
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+git status
+git reset -- HEAD
+git status
+git checkout -- HEAD
+git reset -- HEAD^
+git status
+git diff
+git logs
+git log
+git log --pretty-oneline
+git log --pretty=oneline
+git reset -- b5a6c8c6a1d391e9789c6a75ea41d70719967276
+git status
+git reset --hard b5a6c8c6a1d391e9789c6a75ea41d70719967276
+git status
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+git status
+git dif
+git diff
+git diff
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+git status
+git diff
+git add .
+git commit -m 'fix bug.'
+git push origin dev
+git status
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+git status
+git diff
+git add .
+git commit -m 'optimization style'
+git push origin dev
+gulp
+cnpm start
+git diff
+git add .
+git commit -m 'disable debug model'
+git push origin dev
+gulp package
+gulp clean
+gulp package
+cd ws/js/react/Hozz/
+gulp clean
+gulp package
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp
+cnpm start
+cnpm start
+gulp clean
+gulp clean
+gulp package
 cd ws/js/react/Hozz/
 cnpm start
-echo $APPDATA
+gulp clean
+gulp package
+explorer .
+exit
+cd ~/.ssh
+cd ~
+ll -a
+cd ~
+ll -a
+cd .ssh
+ll -a
+exit
+ll ~/.ssh
+ll ~/.ssh/config 
+ll -d ~/.ssh
+cd ileler/
+git status
+git add configs/upan/.common/
+git status
+git diff
+git status
+git add configs/upan/.rc/
+git status
+git diff configs/upan/env
+git diff configs/upan/start.bat
+git status
+git add configs/upan/
+git status
+cd ~
+ll
+ll -a
+echo $_USER_COMMON_
+ext-link .ssh /u/u~u/a0a/.common/.ssh/
+ll -a
+cd .ssh
+ll
+ll ~/.ssh
+ll -a ~/
+cd ~
+ext-link .ssh $_USER_COMMON_/.ssh
+ll -a
+cd ~/.ssh
+ll -a
+ll -a ~/.ssh
+cd ~/.ssh
+ll -a
+cd ~/.ssh/
+ll -a

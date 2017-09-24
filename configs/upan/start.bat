@@ -53,6 +53,7 @@ if exist %UHOME%\ext (
 mklink /j %RHOME% %~dp0\%RC%
 mklink /j %UHOME%\env %~dp0\env
 mklink /j %UHOME%\ext %~dp0\ext
+mklink /j %UHOME%\.common %~dp0\.common
 
 rem UHOME[U:\!!KERWIN!!\a0a]
 echo UHOME[%UHOME%]

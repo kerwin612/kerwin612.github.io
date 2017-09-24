@@ -20,7 +20,11 @@ ext-link() {
         # Link-creation mode.
         if windows; then
 			if [[ ${2:0:1} == "." ]]; then
-				temp=$(cd $2;pwd)
+				if [[ -d "$2" ]]; then
+					temp=$(cd $2;pwd)
+				else
+					temp=$(cd ${2%/*};pwd)/${2##*/}
+				fi
 			else
 				temp=$2
 			fi
@@ -34,10 +38,10 @@ ext-link() {
             # Windows needs to be told if it's a directory or not. Infer that.
             # Also: note that we convert `/` to `\`. In this case it's necessary.
             if [[ -d "$2" ]]; then
-				echo $target
+				echo 'link dir '$1' to '$target
 				cmd <<< "mklink /D \"$1\" \"$target\"" > /dev/null
             else
-				echo $target
+				echo 'link file '$1' to '$target
 				cmd <<< "mklink \"$1\" \"$target\"" > /dev/null
             fi
         else

@@ -31,8 +31,10 @@ ext-link() {
             # Windows needs to be told if it's a directory or not. Infer that.
             # Also: note that we convert `/` to `\`. In this case it's necessary.
             if [[ -d "$2" ]]; then
+				echo 'link dir '$1' to '$target
 				cmd <<< "mklink /D \"$1\" \"$target\"" > /dev/null
             else
+				echo 'link file '$1' to '$target
 				cmd <<< "mklink \"$1\" \"$target\"" > /dev/null
             fi
         else
