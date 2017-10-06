@@ -50,6 +50,9 @@ if exist %UHOME%\env-cygwin (
 if exist %UHOME%\ext-cygwin (
 	rmdir %UHOME%\ext-cygwin
 )
+if exist %UHOME%\.common (
+	rmdir %UHOME%\.common
+)
 mklink /j %RHOME% %~dp0\%RC%
 mklink /j %UHOME%\env-cygwin %~dp0\env-cygwin
 mklink /j %UHOME%\ext-cygwin %~dp0\ext-cygwin

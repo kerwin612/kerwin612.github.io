@@ -1,228 +1,3 @@
-pip -h
-pip install Pygments
-pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
-vi code.v
-pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
-mv code.v code.c
-pygmentize -f rtf -O style=paraiso-dark -l c -o code.rtf code.c
-ll
-pygmentize -h
-pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
-vi hello.java
-pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
-rm -rf code.rtf 
-rm -rf code.rtf 
-pygmentize -f rtf -O style=paraiso-dark -l java -o code.rtf hello.java
-cd ws/js/react/Hozz/
-cnpm start
-cnpm start
-cd ws/js/react/Hozz/
-gulp
-cnpm i
-cnpm start
-vi gulpfile.js 
-gulp watch
-cnpm start
-ll
-ll
-ll -a
-cd ws/js/react/Hozz/
-cnpm start
-cnpm start
-cnpm start
-cnpm start
-cd ws/js/react/Hozz/
-git log
-git log --pretty=online
-git log --pretty=oneline
-git reflog
-git checkout -b src
-git branch
-git checkout master
-git checkout src
-git checkout -b dev
-git branch
-git commit -m 'Temporary save'
-git add .
-git commit -m 'Temporary save'
-git status
-git push origin dev
-git remote 
-git checkout src
-git status
-git log
-git log --pretty=oneline
-git reset -- ac901f5df4561e296645921d47dc355325198ef3
-git status
-git log --pretty-oneline
-git log --pretty=oneline
-git reset --hard ac901f5df4561e296645921d47dc355325198ef3
-git status
-git status
-gulp
-cnpm start
-cnpm start
-git status
-git add .
-git commit -m '1.修复了新增Host时远程URL框未响应回车事件的BUG 2.修复了Host Item上编辑等按钮的冒泡事件'
-git push origin src
-git branch --all
-git checkout dev
-git status
-ll -a ~/.ssh
-gulp
-cnpm start
-cnpm start
-gulp
-cnpm start
-cnpm start
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-grup
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-cnpm start
-gulp
-cnpm start
-cnpm start
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-cnpm start
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-cnpm start
-gulp
-cnpm start
-cnpm start
-gulp
-cnpm start
-cnpm start
-cnpm start
-gulp
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
-gulp
-cnpm start
 gulp
 cnpm start
 gulp
@@ -497,4 +272,229 @@ ll -a ~/.ssh
 cd ~/.ssh
 ll -a
 cd ~/.ssh/
+ll -a
+cd ws/js/react/Hozz/
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+git status
+git checkout -- gulpfile.js
+git status
+git checkout -- src/browser.js src/js
+git status
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+git status
+git diff src/browser.js
+git status src/js/components/Editor.js 
+git diff src/js/components/Editor.js 
+git diff src/js/components/Editor.js 
+git status
+cnpm start
+git diff src/js/components/Editor.js 
+git diff src/browser.js
+git add src/js/components/Editor.js
+git commit -m 'add C+S event to save content'
+git push origin dev
+git status
+git branch src
+git checkout src
+git checkout -- src/browser.js
+git checkout src
+git status
+git diff src/js/components/Editor.js
+git commit -m 'add C+S event to save content'
+git add src/js/components/Editor.js 
+git commit -m 'add C+S event to save content'
+git push origin src
+git status
+git checkout dev
+git status
+cd ws/js/react/Hozz/
+git status
+gulp clean
+gulp package
+cnpm i -g gulp
+gulp package
+git status
+git diff gulpfile.js
+git checkout -- gulpfile.js
+git package
+gulp package
+vi /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js 
+cd ws/js/react/Hozz/
+ll
+gulp package
+cnpm ls node-sass
+cd ~/.ssh
+openssl
+openssl genrsa -out server.key 1024
+openssl rsa -in server.key -pubout -out server.pem
+openssl genrsa -out client.key 1024
+openssl rsa -in client.key -pubout -out client.pem
+openssl genrsa -out ca.key 1024
+openssl req -new -key ca.key -out ca.csr
+openssl req -new -key server.key -out server.csr
+openssl x509 -req -CA ca.crt -CAkey ca.key -CAcreateserial -in server.csr -out server.crt
+ll
+openssl x509 -req -CA ca.crt -CAkey ca.key -CAcreateserial -in server.csr -out server.csr
+openssl x509 -req -in ca.csr -signkey ca.key -out ca.crt
+openssl x509 -req -CA ca.crt -CAkey ca.key -CAcreateserial -in server.csr -out server.crt
+openssl req -new -key client.key -out client.csr
+openssl x509 -req -CA ca.crt -CAkey ca.key -CAcreateserial -in client.csr -out client.crt
+ll
+rm -rf c*
+ll
+rm -rf server*
+ll
+cd ws/js/react/Hozz/
+git status
+git diff gulpfile.js
+gulp
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+gulp
+cnpm start
+git status
+git diff src/js/components/Editor.js
+git add src/js/components/Editor.js
+git commit -m '优化 Ctrl + / 体验'
+git push origin dev
+cd ws/js/react/Hozz/
+git push origin dev
+cat ~/.ssh/config
+ll ~/.ssh
+cd ~/.ssh
+cd /u/u~u/a0a/
+ll
+ll -a
+cat ~/.ssh/config 
+cd ws/js/react/Hozz/
+git push origin dev
+git status
+git diff gulpfile.js
+git clean
+gulp clean
+gulp package
+explorer .
+git status
+git diff gulpfile.js
+clear
+cd ~
+mkdir .IntelliJIdea
+cd .IntelliJIdea/
+mkdir config
+idea64
+IDEA64 &
+echo $IDEA_PROPERTIES
+java -version
+type java
+type java
+java -versin
+java -version
+idea64
+idea64
+echo $user.home
+echo $`user.home`
+echo `$user.home`
+echo $'user.home'
+java -help
+javac -help
+vi test.java
+javac test.java 
+java test.
+java test.class 
+java test
+echo $USERPROFILE
+echo $HOMEDRIVE
+echo $HOMEPATH
+echo $USERPROFILE
+echo $HOMEPATH
+echo $SYSTEMDRIVE
+echo $HOMEPATH
+java test
+vi test.java 
+javac test.java 
+java test
+echo $HOMEPATH
+java test
+echo $HOMEDRIVER
+echo $HOMEDRIVE
+idea64 -Duser.home=$HOME
+java test -Duser.home=$HOME
+java -help
+java -Duser.home=$HOME test
+~/idea
+~/idea
+ll -a ~
+~/idea.bat
+~/idea.bat
+~/idea.bat
+echo $IDEA_JDK
+~/idea.bat
+~~jj
+~/idea.bat
+~/idea.bat
+cd ileler/
+git status
+cd ~
+ll -a
+cat idea.bat 
+cd -
+git status
+git diff configs/upan/env
+git diff configs/upan/start.bat
+git diff configs/upan/start-cygwin.bat
+git diff configs/upan/env
+git status
+cd ileler/configs/
+ll -a
+cd upan/.common/
+mkdir .bin
+mv idea.bat .bin/idea.bat
+ll -a
+cd .bin
+ll -a
+cd ~
 ll -a

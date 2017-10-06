@@ -1,0 +1,12 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Java" count="1" />
+      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.System_Settings" count="1" />
+      <entry feature="ideaapp.started" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

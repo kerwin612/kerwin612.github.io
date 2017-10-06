@@ -1,0 +1,11 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="EditorResetFontSize">
+    <mouse-shortcut keystroke="button3 doubleClick" />
+  </action>
+</keymap>

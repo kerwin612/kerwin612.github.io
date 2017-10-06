@@ -50,6 +50,9 @@ if exist %UHOME%\env (
 if exist %UHOME%\ext (
 	rmdir %UHOME%\ext
 )
+if exist %UHOME%\.common (
+	rmdir %UHOME%\.common
+)
 mklink /j %RHOME% %~dp0\%RC%
 mklink /j %UHOME%\env %~dp0\env
 mklink /j %UHOME%\ext %~dp0\ext

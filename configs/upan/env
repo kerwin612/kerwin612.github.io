@@ -13,7 +13,9 @@ export LOCALAPPDATA=$USERPROFILE/AppData/Local
 
 #COMMON DIR SET
 export _USER_COMMON_=$__/.common
+cd $HOME && rm -rf .bin && ext-link .bin $_USER_COMMON_/.bin && cd -
 cd $HOME && rm -rf .ssh && ext-link .ssh $_USER_COMMON_/.ssh && cd -
+cd $HOME && rm -rf .IntelliJIdea && ext-link .IntelliJIdea $_USER_COMMON_/.IntelliJIdea && cd -
 
 
 #some software need.(eg: electron)
@@ -34,8 +36,13 @@ export PYTHON_HOME=$__/bins/Python
 export PYTHON_SCRIPTS=Scripts
 export PYTHONHOME=$PYTHON_HOME/$_PYTHON_
 
+#java
+export JAVA_HOME=$__/bins/Java/jdk1.8.0_144
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
+export IDEA_PROPERTIES=$HOME/.IntelliJIdea/idea.properties
+
 #path
-export PATH=$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$NODE_HOME/$_NODEJS_:$npm_config_prefix:$NVM_HOME:$PATH
+export PATH=$JAVA_HOME/bin:$PYTHONHOME:$PYTHONHOME/$PYTHON_SCRIPTS:$NODE_HOME/$_NODEJS_:$npm_config_prefix:$NVM_HOME:$HOME/.bin:$PATH
 
 echo "current PATH:"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>"

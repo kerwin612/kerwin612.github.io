@@ -20,10 +20,10 @@
 $2.4.8
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1505605399,,"q"
 :wq
-|2,0,1505535730,,"wq"
+|2,0,1507169966,,"wq"
+:q
+|2,0,1506306381,,"q"
 :q!
 |2,0,1501568262,,"q!"
 :w
@@ -205,234 +205,251 @@ $2.4.8
 |3,0,36,0,1,0,1494207651,"~"
 
 # 文件标记:
-'0  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
-|4,48,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
-'1  18  10  /u/u~u/a0a/bins/Python/hello.java
-|4,49,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
-'2  3  0  /u/u~u/a0a/bins/Python/code.v
-|4,50,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
-'3  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,51,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
-'4  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,52,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
-'5  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,53,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
-'6  16  0  /u/u~u/a0a/ileler/.gitignore
-|4,54,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
-'7  16  0  /u/u~u/a0a/ileler/.gitignore
-|4,55,16,0,1503989700,"/u/u~u/a0a/ileler/.gitignore"
-'8  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,56,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
-'9  15  24  /u/u~u/a0a/ileler/.gitignore
-|4,57,15,24,1503989454,"/u/u~u/a0a/ileler/.gitignore"
+'0  3  49  /e/a0a/test.java
+|4,48,3,49,1507169966,"/e/a0a/test.java"
+'1  5  0  /e/a0a/test.java
+|4,49,5,0,1507167887,"/e/a0a/test.java"
+'2  5  0  /e/a0a/test.java
+|4,50,5,0,1507167887,"/e/a0a/test.java"
+'3  175  1  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,51,175,1,1506318244,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+'4  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,52,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+'5  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,53,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+'6  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,54,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+'7  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,55,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+'8  3  0  /u/u~u/a0a/bins/Python/code.v
+|4,56,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
+'9  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
+|4,57,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
 
 # 跳转列表 (从新到旧):
+-'  3  49  /e/a0a/test.java
+|4,39,3,49,1507169966,"/e/a0a/test.java"
+-'  5  0  /e/a0a/test.java
+|4,39,5,0,1507169936,"/e/a0a/test.java"
+-'  5  0  /e/a0a/test.java
+|4,39,5,0,1507167887,"/e/a0a/test.java"
+-'  1  0  /e/a0a/test.java
+|4,39,1,0,1507167798,"/e/a0a/test.java"
+-'  1  0  /e/a0a/test.java
+|4,39,1,0,1507167798,"/e/a0a/test.java"
+-'  175  1  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,175,1,1506318244,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  175  1  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,175,1,1506318244,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  175  1  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,175,1,1506318244,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  175  1  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,175,1,1506318244,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1506318232,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1506318232,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1506318232,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1506318232,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
+-'  1  0  /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+|4,39,1,0,1506306381,"/u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js"
 -'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
 |4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  209  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,209,0,1505605399,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
+-'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
+|4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
 -'  1  0  /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
 |4,39,1,0,1505605358,"/u/u~u/a0a/ws/js/react/Hozz/gulpfile.js"
 -'  18  10  /u/u~u/a0a/bins/Python/hello.java
 |4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
 -'  18  10  /u/u~u/a0a/bins/Python/hello.java
 |4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
+-'  18  10  /u/u~u/a0a/bins/Python/hello.java
+|4,39,18,10,1505535730,"/u/u~u/a0a/bins/Python/hello.java"
 -'  1  0  /u/u~u/a0a/bins/Python/hello.java
 |4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
 -'  1  0  /u/u~u/a0a/bins/Python/hello.java
 |4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
--'  3  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
--'  3  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
--'  3  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
--'  3  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,3,0,1505534979,"/u/u~u/a0a/bins/Python/code.v"
--'  1  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,1,0,1505534949,"/u/u~u/a0a/bins/Python/code.v"
--'  1  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,1,0,1505534949,"/u/u~u/a0a/bins/Python/code.v"
--'  1  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,1,0,1505534949,"/u/u~u/a0a/bins/Python/code.v"
--'  1  0  /u/u~u/a0a/bins/Python/code.v
-|4,39,1,0,1505534949,"/u/u~u/a0a/bins/Python/code.v"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  1  0  /e/a0a/zookeeper-3.4.10/bin/zkServer.cmd
-|4,39,1,0,1504165176,"/e/a0a/zookeeper-3.4.10/bin/zkServer.cmd"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  14  14  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,14,14,1504165086,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  1  0  /e/a0a/zookeeper-3.4.10/conf/zoo1.cfg
-|4,39,1,0,1504165074,"/e/a0a/zookeeper-3.4.10/conf/zoo1.cfg"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  17  40  /u/u~u/a0a/ileler/.gitignore
-|4,39,17,40,1503992851,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
--'  16  35  /u/u~u/a0a/ileler/.gitignore
-|4,39,16,35,1503992832,"/u/u~u/a0a/ileler/.gitignore"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
+-'  1  0  /u/u~u/a0a/bins/Python/hello.java
+|4,39,1,0,1505535706,"/u/u~u/a0a/bins/Python/hello.java"
 
 # 文件内的标记历史记录 (从新到旧):
 
+> /e/a0a/test.java
+	*	1507169965	0
+	"	3	49
+	^	3	50
+	.	3	49
+	+	2	40
+	+	3	42
+	+	5	0
+	+	3	49
+
 > /u/u~u/a0a/ws/js/react/Hozz/gulpfile.js
-	*	1505605376	0
-	"	209	0
+	*	1506318242	0
+	"	175	1
+	^	175	2
+	.	175	1
+	+	175	1
+
+> /u/u~u/a0a/bins/NodeJS/npm-global/node_modules/gulp/bin/gulp.js
+	*	1506306363	0
+	"	1	0
 
 > /u/u~u/a0a/bins/Python/hello.java
 	*	1505535729	0
@@ -1294,17 +1311,3 @@ $2.4.8
 	+	1096	0
 	+	919	0
 	+	1056	0
-
-> /u/!!KERWIN!!/a0a/ws/ng2-da/.angular-cli.json
-	*	1488118708	0
-	"	24	27
-	^	24	28
-	.	24	27
-	+	24	27
-
-> /u/!!KERWIN!!/a0a/ws/ng2-da/src/index.html
-	*	1488118416	0
-	"	12	5
-	^	12	6
-	.	12	6
-	+	12	6
