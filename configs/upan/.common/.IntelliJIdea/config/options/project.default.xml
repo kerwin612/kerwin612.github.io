@@ -5,6 +5,9 @@
         <option name="PROJECT_PROFILE" />
         <version value="1.0" />
       </component>
+      <component name="PropertiesComponent">
+        <property name="nodejs_interpreter_path" value="U:/u~u/a0a/bins/NodeJS/node-v6.10.0-win-x64/node" />
+      </component>
     </defaultProject>
   </component>
 </application>
