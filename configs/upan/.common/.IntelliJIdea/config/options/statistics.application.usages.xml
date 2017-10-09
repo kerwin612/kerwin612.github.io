@@ -1,25 +1,178 @@
 <application>
+  <component name="StatisticsApplicationUsages">
+    <group name="svn working copy format">
+      <project id="pdri" values="1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8" collectionTime="1500430865219" />
+      <project id="isli&amp;mpr" values="1.8,1.8,1.8,1.8,1.8,1.8,1.8,1.8" collectionTime="1499937554393" />
+      <project id="org.pdri.pcms" values="1.8,1.8,1.8,1.8,1.8" collectionTime="1491447634498" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="shiro-example-chapter17-client" values="ECMAScript 5.1" collectionTime="1491447748452" />
+      <project id="excel-ie" values="ECMAScript 5.1" collectionTime="1491354943593" />
+      <project id="frontend" values="ECMAScript 5.1" collectionTime="1500430404340" />
+      <project id="swagger-ui" values="ECMAScript 6" collectionTime="1497260867680" />
+      <project id="org.pdri.pcms" values="ECMAScript 5.1" collectionTime="1491447634501" />
+      <project id="com.mpr.mprsp.mcrc" values="ECMAScript 5.1" collectionTime="1462947897528" />
+      <project id="isli&amp;mpr" values="ECMAScript 5.1" collectionTime="1499937554616" />
+      <project id="pdri" values="ECMAScript 5.1" collectionTime="1500430865219" />
+      <project id="org.pdri.common.dbaroute" values="ECMAScript 5.1" collectionTime="1491359371983" />
+    </group>
+    <group name="module type">
+      <project id="com.mpr.mprsp.mcrc" values="JAVA_MODULE" collectionTime="1462947897053" />
+      <project id="excel-ie" values="JAVA_MODULE" collectionTime="1491354942991" />
+      <project id="swagger-ui" values="JAVA_MODULE" collectionTime="1497260867557" />
+      <project id="org.pdri.pcms" values="JAVA_MODULE" collectionTime="1491447634251" />
+      <project id="isli&amp;mpr" values="JAVA_MODULE" collectionTime="1499937553819" />
+      <project id="pdri" values="JAVA_MODULE" collectionTime="1500430864878" />
+      <project id="org.pdri.common.dbaroute" values="JAVA_MODULE" collectionTime="1491359371912" />
+    </group>
+    <group name="vcs">
+      <project id="excel-ie" values="Git" collectionTime="1491354942991" />
+      <project id="swagger-ui" values="Git" collectionTime="1497260867557" />
+      <project id="pdri" values="svn" collectionTime="1500430864878" />
+      <project id="isli&amp;mpr" values="svn" collectionTime="1499937553812" />
+      <project id="org.pdri.pcms" values="svn" collectionTime="1491447634251" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="excel-ie" values="com.intellij.dmserver.run.DMServerRunConfigurationType id.Spring dmServer (Local)" collectionTime="1491354942992" />
+      <project id="pdri" values="MavenRunConfiguration,Remote,Application,com.intellij.dmserver.run.DMServerRunConfigurationType id.Spring dmServer (Local)" collectionTime="1500430864879" />
+      <project id="isli&amp;mpr" values="com.intellij.dmserver.run.DMServerRunConfigurationType id.Spring dmServer (Local),MavenRunConfiguration" collectionTime="1499937553829" />
+      <project id="org.pdri.pcms" values="com.intellij.dmserver.run.DMServerRunConfigurationType id.Spring dmServer (Local),MavenRunConfiguration" collectionTime="1491447634252" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="pdri" values="Application" collectionTime="1500430864879" />
+    </group>
+    <group name="file-type">
+      <project id="com.mpr.mprsp.mcrc" values="Images,Native,HTML,PLAIN_TEXT,UNKNOWN,XML,FTL,IDEA_MODULE,Manifest,Eclipse,ARCHIVE,SWF,JAVA,Properties,JavaScript,CSS" collectionTime="1462947897097" />
+      <project id="excel-ie" values="IDEA_MODULE,JAVA,Manifest,XML" collectionTime="1491354943107" />
+      <project id="swagger-ui" values="ESLint,HTML,CSS,JSON,Images,Markdown,JavaScript,YAML,Less,JSX Harmony,SourceMap,SCSS,PLAIN_TEXT" collectionTime="1497260867591" />
+      <project id="org.pdri.pcms" values="IDEA_MODULE,Properties,UNKNOWN,Eclipse,JSON,JavaScript,CSS,Images,PLAIN_TEXT,SourceMap,JAVA,HTML,XML,FTL,Manifest,SWF,ARCHIVE" collectionTime="1491447634469" />
+      <project id="isli&amp;mpr" values="XML,YAML,PLAIN_TEXT,Eclipse,Properties,JSON,CLASS,JavaScript,Markdown,Images,FTL,IDEA_MODULE,Native,HTML,Manifest,ARCHIVE,ASP,JSHint,SWF,UNKNOWN,JAVA,CSS,SourceMap" collectionTime="1499937554160" />
+      <project id="pdri" values="Native,JAVA,CSS,HTML,PLAIN_TEXT,IDEA_MODULE,JavaScript,Manifest,Images,XML,Properties,UNKNOWN,SWF,JSON,SourceMap,Eclipse,FTL" collectionTime="1500430865003" />
+      <project id="org.pdri.common.dbaroute" values="Eclipse,XML,PLAIN_TEXT,JAVA,Manifest,IDEA_MODULE,Properties" collectionTime="1491359371974" />
+    </group>
+    <group name="Spring MVC">
+      <project id="org.pdri.common.dbaroute" values="mvcModelsInProject_0" collectionTime="1491359371990" />
+      <project id="isli&amp;mpr" values="mvcModelsInProject_0" collectionTime="1499937555082" />
+      <project id="pdri" values="mvcModelsInProject_0" collectionTime="1500430865396" />
+      <project id="org.pdri.pcms" values="mvcModelsInProject_0" collectionTime="1491447634541" />
+    </group>
+    <group name="spring">
+      <project id="pdri" values="xmlNS_www.springframework.org/schema/osgi,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/context,fileset_configFiles5,xmlNS_www.springframework.org/schema/tx,fileset_xmlContext" collectionTime="1500430865293" />
+      <project id="com.mpr.mprsp.mcrc" values="fileset_autodetect_NONE,fileset_configFiles5,xmlNS_www.springframework.org/schema/osgi,fileset_xmlContext,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/context,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/p,fileset_xmlContext,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,fileset_configFiles5,xmlNS_www.springframework.org/schema/jdbc,xmlNS_ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring,fileset_xmlContext,fileset_autodetect_NONE,fileset_configFiles5,fileset_xmlContext,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/jdbc,fileset_configFiles5,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/utils,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/osgi,fileset_configFiles5,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/osgi,fileset_configFiles5,xmlNS_www.springframework.org/schema/utils,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/utils,xmlNS_www.springframework.org/schema/aop,fileset_configFiles5,fileset_xmlContext,xmlNS_ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring,xmlNS_www.springframework.org/schema/tx,xmlNS_ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring,fileset_xmlContext,fileset_configFiles5,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/osgi,fileset_configFiles5,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/mvc,fileset_configFiles5,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/osgi,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/mvc,fileset_autodetect_NONE,fileset_xmlContext,xmlNS_www.springframework.org/schema/mvc,fileset_configFiles5,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/utils,fileset_xmlContext,xmlNS_www.springframework.org/schema/utils,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/osgi,fileset_configFiles5,xmlNS_www.springframework.org/schema/mvc,fileset_configFiles5,fileset_configFiles5,xmlNS_www.springframework.org/schema/aop,fileset_configFiles5,xmlNS_www.springframework.org/schema/aop,fileset_xmlContext,xmlNS_www.springframework.org/schema/osgi,fileset_autodetect_NONE,fileset_xmlContext,fileset_autodetect_NONE,fileset_autodetect_NONE,fileset_configFiles5,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/aop,fileset_configFiles5,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/p,fileset_configFiles5,fileset_configFiles5,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,fileset_autodetect_NONE,fileset_autodetect_NONE,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/jdbc,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,xmlNS_www.springframework.org/schema/mvc,fileset_autodetect_NONE,fileset_xmlContext,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/mvc,xmlNS_www.springframework.org/schema/osgi,fileset_xmlContext,fileset_xmlContext,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,fileset_xmlContext,xmlNS_www.springframework.org/schema/osgi,xmlNS_ehcache-spring-annotations.googlecode.com/svn/schema/ehcache-spring,xmlNS_www.springframework.org/schema/osgi,fileset_xmlContext,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/context,fileset_configFiles5,fileset_configFiles5,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/osgi,fileset_autodetect_NONE,fileset_configFiles5,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/jdbc,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/osgi,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/context,fileset_configFiles5,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/mvc,fileset_configFiles5,xmlNS_www.springframework.org/schema/utils,xmlNS_www.springframework.org/schema/p,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,fileset_autodetect_NONE,fileset_autodetect_NONE,xmlNS_www.springframework.org/schema/aop,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,fileset_configFiles5,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/tx,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/tx,fileset_configFiles5,fileset_xmlContext,xmlNS_www.springframework.org/schema/tx,fileset_autodetect_NONE,fileset_configFiles5,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,fileset_configFiles5,fileset_configFiles5,xmlNS_www.springframework.org/schema/context,fileset_xmlContext,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/aop,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/context,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/osgi,xmlNS_www.springframework.org/schema/tx,fileset_xmlContext,fileset_autodetect_NONE" collectionTime="1462947897591" />
+    </group>
+    <group name="frameworks">
+      <project id="pdri" values="Spring" collectionTime="1500430864878" />
+      <project id="com.mpr.mprsp.mcrc" values="Osmorc,dmServerComposite,web,Spring" collectionTime="1462947897052" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="shiro-example-chapter17-client" values="Project,Project" collectionTime="1491447748452" />
+      <project id="excel-ie" values="Project,Project" collectionTime="1491354943593" />
+      <project id="frontend" values="Project,Project" collectionTime="1500430404340" />
+      <project id="swagger-ui" values="Project,Project,Project" collectionTime="1497260867680" />
+      <project id="org.pdri.pcms" values="Project,Project" collectionTime="1491447634501" />
+      <project id="com.mpr.mprsp.mcrc" values="Project,Project" collectionTime="1462947897528" />
+      <project id="isli&amp;mpr" values="Project,Project" collectionTime="1499937554616" />
+      <project id="pdri" values="Project,Project" collectionTime="1500430865219" />
+      <project id="org.pdri.common.dbaroute" values="Project,Project" collectionTime="1491359371983" />
+    </group>
+    <group name="Git">
+      <project id="shiro-example-chapter17-client" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.save.policy.STASH,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT" collectionTime="1491447748451" />
+      <project id="excel-ie" values="config.warn.about.crlf.enabled,config.force.push.enabled,config.ssh.enabled,config.save.policy.STASH,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,data.remote.branches.count.1,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled" collectionTime="1491354943135" />
+      <project id="frontend" values="config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.force.push.enabled,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.save.policy.STASH,config.push.update.all.roots.enabled,config.push.autoupdate.disabled" collectionTime="1500430404302" />
+      <project id="swagger-ui" values="config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.repo.sync.NOT_DECIDED,config.ssh.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,data.remote.branches.count.8+,data.local.branches.count.1" collectionTime="1497260867667" />
+      <project id="org.pdri.pcms" values="config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.crlf.enabled,config.ssh.enabled" collectionTime="1491447634497" />
+      <project id="com.mpr.mprsp.mcrc" values="config.update.type.BRANCH_DEFAULT,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.warn.about.crlf.enabled,config.ssh.enabled" collectionTime="1462947897126" />
+      <project id="isli&amp;mpr" values="config.push.update.all.roots.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.ssh.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled" collectionTime="1499937554381" />
+      <project id="pdri" values="config.push.autoupdate.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.force.push.enabled,config.ssh.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled" collectionTime="1500430865218" />
+      <project id="org.pdri.common.dbaroute" values="config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.ssh.enabled,config.warn.about.detached.enabled,config.repo.sync.NOT_DECIDED,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled" collectionTime="1491359371981" />
+    </group>
+    <group name="libraries">
+      <project id="isli&amp;mpr" values="BeanValidation,spring-mvc,spring,CDI,org.osgi.core,JMS,hibernate" collectionTime="1499937554205" />
+      <project id="org.pdri.common.dbaroute" values="spring,spring-mvc,org.osgi.core" collectionTime="1491359371981" />
+      <project id="com.mpr.mprsp.mcrc" values="org.osgi.core" collectionTime="1462947897099" />
+      <project id="pdri" values="CDI,spring,BeanValidation,spring-mvc,org.osgi.core" collectionTime="1500430865216" />
+      <project id="org.pdri.pcms" values="CDI,spring-mvc,spring,org.osgi.core" collectionTime="1491447634473" />
+    </group>
+    <group name="language-level">
+      <project id="shiro-example-chapter17-client" values="JDK_1_7" collectionTime="1491447748451" />
+      <project id="excel-ie" values="JDK_1_7" collectionTime="1491354943132" />
+      <project id="frontend" values="JDK_1_7" collectionTime="1500430404281" />
+      <project id="swagger-ui" values="JDK_1_3" collectionTime="1497260867592" />
+      <project id="org.pdri.pcms" values="JDK_1_7" collectionTime="1491447634495" />
+      <project id="com.mpr.mprsp.mcrc" values="JDK_1_7,JDK_1_5" collectionTime="1462947897125" />
+      <project id="isli&amp;mpr" values="JDK_1_5,JDK_1_7,JDK_1_3,JDK_1_6" collectionTime="1499937554206" />
+      <project id="pdri" values="JDK_1_7,JDK_1_5" collectionTime="1500430865218" />
+      <project id="org.pdri.common.dbaroute" values="JDK_1_7" collectionTime="1491359371981" />
+    </group>
+  </component>
   <component name="UsageTrigger">
     <counts>
-      <entry feature="CreateFile.CreateFileAction" count="2" />
-      <entry feature="execute.SpringBootApplicationConfigurationType.Debug" count="2" />
-      <entry feature="ide.settings.Code_Style" count="1" />
-      <entry feature="ide.settings.Gradle" count="2" />
-      <entry feature="ide.settings.Inspections" count="2" />
-      <entry feature="ide.settings.Java" count="1" />
-      <entry feature="ide.settings.Keymap" count="3" />
-      <entry feature="ide.settings.Maven" count="3" />
-      <entry feature="ide.settings.System_Settings" count="1" />
-      <entry feature="ide.settings.Terminal" count="8" />
-      <entry feature="ideaapp.started" count="20" />
-      <entry feature="terminal.win" count="1" />
-      <entry feature="uml.ShowDiagram.JAVA" count="2" />
-      <entry feature="welcome.screen.WelcomeScreen.Configure" count="17" />
-      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="CreateFile.CreateFileAction" count="5" />
+      <entry feature="OpenInBrowser.Firefox" count="1" />
+      <entry feature="StripeButton[Favorites].hidden" count="1" />
+      <entry feature="StripeButton[Version_Control].shown" count="7" />
+      <entry feature="execute.#org.jetbrains.idea.devkit.run.PluginConfigurationType.Debug" count="1" />
+      <entry feature="execute.#org.jetbrains.idea.devkit.run.PluginConfigurationType.Run" count="11" />
+      <entry feature="execute.Application.Debug" count="46" />
+      <entry feature="execute.Application.Run" count="116" />
+      <entry feature="execute.MavenRunConfiguration.Run" count="735" />
+      <entry feature="execute.Remote.Debug" count="16" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Debug" count="225" />
+      <entry feature="execute.SpringBootApplicationConfigurationType.Run" count="73" />
+      <entry feature="execute.com.intellij.dmserver.run.DMServerRunConfigurationType id.Debug" count="515" />
+      <entry feature="execute.com.intellij.dmserver.run.DMServerRunConfigurationType id.Run" count="26" />
+      <entry feature="ide.help.debugging.DebugWindow" count="1" />
+      <entry feature="ide.help.editing.templates.defineTemplates.editTemplVars" count="3" />
+      <entry feature="ide.help.find.todoList" count="1" />
+      <entry feature="ide.help.ideaInterface.editor" count="1" />
+      <entry feature="ide.help.ixPasteSelected" count="2" />
+      <entry feature="ide.settings.Appearance" count="2" />
+      <entry feature="ide.settings.Application&#10;Servers" count="14" />
+      <entry feature="ide.settings.Auto_Import" count="2" />
+      <entry feature="ide.settings.Checkstyle" count="2" />
+      <entry feature="ide.settings.Code_Style" count="2" />
+      <entry feature="ide.settings.Compiler" count="2" />
+      <entry feature="ide.settings.Console" count="4" />
+      <entry feature="ide.settings.Eclipse_Code_Formatter" count="1" />
+      <entry feature="ide.settings.File_Encodings" count="2" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="12" />
+      <entry feature="ide.settings.General" count="2" />
+      <entry feature="ide.settings.Ignored_Files" count="2" />
+      <entry feature="ide.settings.Importing" count="3" />
+      <entry feature="ide.settings.Inspections" count="3" />
+      <entry feature="ide.settings.Java" count="2" />
+      <entry feature="ide.settings.JavaScript" count="1" />
+      <entry feature="ide.settings.Java_Compiler" count="2" />
+      <entry feature="ide.settings.Keymap" count="6" />
+      <entry feature="ide.settings.Live_Templates" count="8" />
+      <entry feature="ide.settings.Maven" count="5" />
+      <entry feature="ide.settings.Maven_Helper" count="1" />
+      <entry feature="ide.settings.OSGi" count="1" />
+      <entry feature="ide.settings.OSGi_Framework_Instances" count="5" />
+      <entry feature="ide.settings.Plugins" count="10" />
+      <entry feature="ide.settings.Project_Structure" count="24" />
+      <entry feature="ide.settings.Runner" count="6" />
+      <entry feature="ide.settings.Spring_dmServer" count="9" />
+      <entry feature="ide.settings.System_Settings" count="4" />
+      <entry feature="ide.settings.Usage_Scope" count="1" />
+      <entry feature="ide.settings.Vim_Emulation" count="2" />
+      <entry feature="ideaapp.started" count="129" />
+      <entry feature="json.schema.builtin.completion" count="11" />
+      <entry feature="show.recent.tests.action" count="1" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.java" count="8" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="4683" />
+      <entry feature="terminal.win" count="6" />
+      <entry feature="uml.ShowDiagram.JAVA" count="6" />
+      <entry feature="uml.ShowDiagram.JAVA.popup" count="6" />
+      <entry feature="uml.ShowDiagram.MAVEN" count="16" />
+      <entry feature="uml.ShowDiagram.MAVEN.popup" count="18" />
+      <entry feature="uml.ShowDiagram.SPRING" count="1" />
+      <entry feature="uml.ShowDiagram.SPRING.popup" count="1" />
+      <entry feature="uml.ShowDiagram.SpringLocalModels.popup" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="3" />
       <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="1" />
-      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="5" />
-      <entry feature="welcome.screen.WelcomeScreen.Settings" count="7" />
-      <entry feature="welcome.screen.null" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="4" />
     </counts>
   </component>
 </application>

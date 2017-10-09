@@ -1,0 +1,214 @@
+<application>
+  <component name="AppserversManager">
+    <ServerDK NAME="virgo-8180 dmServer (3.5.0.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <ServerDK NAME="virgo-8280 dmServer (3.5.0.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <ServerDK NAME="virgo-8380 dmServer (3.5.0.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <ServerDK NAME="virgo-8480 dmServer (3.5.0.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <ServerDK NAME="virgo dmServer (3.6.4.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.6.4.RELEASE" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <ServerDK NAME="virgo-8090 dmServer (3.5.0.RELEASE) Framework">
+      <option name="SOURCE_INTEGRATION_NAME" value="Spring dmServer" />
+      <DATA>
+        <integrationState>
+          <option name="deploymentTimeoutSecs" value="300" />
+          <option name="dumpsFolder" value="serviceability/dump" />
+          <option name="installationHome" value="E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090" />
+          <option name="pickupFolder" value="pickup" />
+          <DMServerRepositoryWatchedItem>
+            <option name="name" value="usr" />
+            <option name="path" value="repository/usr" />
+          </DMServerRepositoryWatchedItem>
+          <DMServerRepositoryExternalItem>
+            <option name="name" value="ext" />
+            <option name="path" value="repository/ext/{artifact}" />
+          </DMServerRepositoryExternalItem>
+        </integrationState>
+      </DATA>
+    </ServerDK>
+    <LibraryTable>
+      <library name="virgo dmServer (3.6.4.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.6.4.RELEASE/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.6.4.RELEASE/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+      <library name="virgo-8090 dmServer (3.5.0.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/usr/com.springsource.javax.validation-1.0.0.GA.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/usr/com.springsource.javax.mail-1.4.5.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8090/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+      <library name="virgo-8180 dmServer (3.5.0.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/usr/com.springsource.javax.mail-1.4.5.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8180/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+      <library name="virgo-8280 dmServer (3.5.0.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/usr/com.springsource.javax.mail-1.4.5.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8280/repository/usr/com.springsource.javax.validation-1.0.0.GA.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+      <library name="virgo-8380 dmServer (3.5.0.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/usr/com.springsource.javax.validation-1.0.0.GA.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/usr/com.springsource.javax.mail-1.4.5.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/usr/com.springsource.javax.management.j2ee-1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8380/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+      <library name="virgo-8480 dmServer (3.5.0.RELEASE) Framework">
+        <CLASSES>
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.activation_1.1.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.xml.soap_1.3.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.persistence_1.0.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.xml.stream_1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.mail_1.4.0.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.portlet_2.0.0.v20110525.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.servlet.jsp.jstl_1.2.0.v20110728.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/ext/com.springsource.javax.xml.bind_2.1.7.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/usr/com.springsource.javax.validation-1.0.0.GA.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/usr/com.springsource.javax.management.j2ee-1.0.1.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/usr/com.springsource.javax.mail-1.4.5.jar!/" />
+          <root url="jar://E:/a0a/Virgo/virgo-tomcat-server-3.5.0.RELEASE_8480/repository/usr/com.springsource.javax.servlet-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </LibraryTable>
+  </component>
+</application>

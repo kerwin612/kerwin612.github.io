@@ -1,9 +1,6 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="ctrl alt w" />
-  </action>
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
@@ -13,5 +10,23 @@
   </action>
   <action id="EditorResetFontSize">
     <mouse-shortcut keystroke="control button3 doubleClick" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
 </keymap>

@@ -1,13 +1,34 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="InspectionProjectProfileManager">
-        <profile version="1.0">
-          <option name="myName" value="Project Default" />
-          <inspection_tool class="SpringJavaAutowiringInspection" enabled="false" level="ERROR" enabled_by_default="false" />
-          <inspection_tool class="SpringKotlinAutowiring" enabled="false" level="ERROR" enabled_by_default="false" />
-        </profile>
-        <version value="1.0" />
+      <component name="CheckStyle-IDEA">
+        <option name="configuration">
+          <map>
+            <entry key="checkstyle-version" value="7.7" />
+            <entry key="location-0" value="CLASSPATH:/sun_checks.xml:The default Checkstyle rules" />
+            <entry key="scanscope" value="JavaOnly" />
+            <entry key="suppress-errors" value="false" />
+            <entry key="thirdparty-classpath" value="" />
+          </map>
+        </option>
+      </component>
+      <component name="EclipseCodeFormatter">
+        <option name="defaultSettings" value="true" />
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1495682282718" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="E:/mpr/代码规范/tianlang java code formatter.xml" />
+        <option name="selectedJavaProfile" value="tianlang Eclipse [built-in]" />
+      </component>
+      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>false</service-enabled>
+        <exe-path />
+        <annotation-enable>false</annotation-enable>
+        <other-services-enabled>false</other-services-enabled>
+        <auto-save>true</auto-save>
       </component>
       <component name="MavenImportPreferences">
         <option name="generalSettings">
@@ -15,6 +36,14 @@
             <option name="mavenHome" value="U:/u~u/a0a/bins/Maven/apache-maven-3.5.0" />
           </MavenGeneralSettings>
         </option>
+      </component>
+      <component name="Osmorc">
+        <option name="bndAutoImport" value="true" />
+        <option name="bundlesOutputPath" value="C:\Users\zhangle\AppData\Local\Temp" />
+        <option name="frameworkInstanceName" value="dmServer" />
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="zhangle" />
       </component>
       <component name="ProjectInspectionProfilesVisibleTreeState">
         <entry key="Project Default">
@@ -24,36 +53,71 @@
                 <id />
               </State>
               <State>
-                <id>CodeSpring CoreSpring</id>
+                <id>Android &gt; Lint &gt; Correctness</id>
               </State>
               <State>
-                <id>Spring</id>
+                <id>Android &gt; Lint &gt; Performance</id>
               </State>
               <State>
-                <id>Spring CoreSpring</id>
+                <id>Data flow issuesJava</id>
+              </State>
+              <State>
+                <id>Data flow issuesJavaScript</id>
+              </State>
+              <State>
+                <id>ECMAScript 6 migration aidsJavaScript</id>
+              </State>
+              <State>
+                <id>General</id>
+              </State>
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+              <State>
+                <id>Kotlin</id>
+              </State>
+              <State>
+                <id>Plugin DevKit</id>
+              </State>
+              <State>
+                <id>XPath</id>
+              </State>
+              <State>
+                <id>XSLT</id>
               </State>
             </expanded-state>
             <selected-state>
               <State>
-                <id>SpringKotlinAutowiring</id>
+                <id>Android</id>
               </State>
             </selected-state>
           </profile-state>
         </entry>
       </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="nodejs_interpreter_path" value="U:/u~u/a0a/bins/NodeJS/node-v6.10.0-win-x64/node" />
-        <property name="settings.editor.selected.configurable" value="MavenSettings" />
-        <property name="project.structure.last.edited" value="Project" />
+        <property name="settings.editor.selected.configurable" value="project.scopes" />
+        <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
-        <property name="project.structure.side.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.37586206" />
+        <property name="nodejs_interpreter_path" value="E:/a0a/nodejs/v6.9.2/node" />
       </component>
       <component name="RunManager">
+        <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+          <module name="" />
+          <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+          <option name="PROGRAM_PARAMETERS" />
+          <method />
+        </configuration>
         <configuration default="true" type="Applet" factoryName="Applet">
           <option name="WIDTH" value="400" />
           <option name="HEIGHT" value="300" />
           <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
           <module />
+          <method />
         </configuration>
         <configuration default="true" type="Application" factoryName="Application">
           <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -68,6 +132,7 @@
           <option name="PASS_PARENT_ENVS" value="true" />
           <module name="" />
           <envs />
+          <method />
         </configuration>
         <configuration default="true" type="JUnit" factoryName="JUnit">
           <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -88,12 +153,7 @@
           </option>
           <envs />
           <patterns />
-        </configuration>
-        <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-          <module name="" />
-          <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-          <option name="PROGRAM_PARAMETERS" />
-          <predefined_log_file id="idea.log" enabled="true" />
+          <method />
         </configuration>
         <configuration default="true" type="Remote" factoryName="Remote">
           <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -101,6 +161,7 @@
           <option name="SHMEM_ADDRESS" value="javadebug" />
           <option name="HOST" value="localhost" />
           <option name="PORT" value="5005" />
+          <method />
         </configuration>
         <configuration default="true" type="TestNG" factoryName="TestNG">
           <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -128,22 +189,28 @@
           <envs />
           <properties />
           <listeners />
+          <method />
         </configuration>
-      </component>
-      <component name="SvnConfiguration">
-        <configuration>U:\u~u\a0a\.rc\AppData\Roaming\Subversion</configuration>
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
       </component>
       <component name="masterDetails">
         <states>
-          <state key="GlobalLibrariesConfigurable.UI">
+          <state key="Copyright.UI">
             <settings>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
                     <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.37586206" />
                   </list>
                 </option>
               </splitter-proportions>
@@ -151,11 +218,11 @@
           </state>
           <state key="JdkListConfigurable.UI">
             <settings>
-              <last-edited>1.8</last-edited>
+              <last-edited>1.7</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
-                    <option value="0.2" />
+                    <option value="0.37586206" />
                   </list>
                 </option>
               </splitter-proportions>
@@ -163,7 +230,7 @@
           </state>
           <state key="ProjectJDKs.UI">
             <settings>
-              <last-edited>1.8</last-edited>
+              <last-edited>1.7</last-edited>
               <splitter-proportions>
                 <option name="proportions">
                   <list>
@@ -178,7 +245,7 @@
               <splitter-proportions>
                 <option name="proportions">
                   <list>
-                    <option value="0.2" />
+                    <option value="0.37586206" />
                   </list>
                 </option>
               </splitter-proportions>
@@ -189,7 +256,7 @@
               <splitter-proportions>
                 <option name="proportions">
                   <list>
-                    <option value="0.37586206" />
+                    <option value="0.2" />
                   </list>
                 </option>
               </splitter-proportions>

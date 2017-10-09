@@ -1,0 +1,16 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="defaultSettings" value="true" />
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1495682282718" />
+          <option name="name" value="default" />
+          <option name="pathToConfigFileJava" value="E:/mpr/代码规范/tianlang java code formatter.xml" />
+          <option name="selectedJavaProfile" value="tianlang Eclipse [built-in]" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>
