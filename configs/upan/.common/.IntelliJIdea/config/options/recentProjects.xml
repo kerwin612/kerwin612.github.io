@@ -2,10 +2,10 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="E:/a0a/IdeaProjects/publisher" />
-        <option value="U:/u~u/a0a/ws/js" />
         <option value="E:/a0a/IdeaProjects/old-proj" />
         <option value="E:/a0a/IdeaProjects/pdri" />
+        <option value="E:/a0a/IdeaProjects/publisher" />
+        <option value="U:/u~u/a0a/ws/js" />
         <option value="U:/u~u/a0a/ws/java" />
         <option value="E:/a0a/IdeaProjects/world" />
         <option value="E:/a0a/IdeaProjects/isli&amp;mpr" />
@@ -16,9 +16,10 @@
     <option name="openPaths">
       <list>
         <option value="E:/a0a/IdeaProjects/publisher" />
+        <option value="E:/a0a/IdeaProjects/old-proj" />
       </list>
     </option>
-    <option name="lastPath" value="E:/a0a/IdeaProjects/publisher" />
+    <option name="lastPath" value="E:/a0a/IdeaProjects/old-proj" />
     <option name="additionalInfo">
       <map>
         <entry key="E:/a0a/Eclipse/pdri/org.pdri.common.dbaroute">
@@ -104,8 +105,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1506670856365" />
-              <option name="buildTimestamp" value="1500115285487" />
+              <option name="projectOpenTimestamp" value="1507535237607" />
+              <option name="buildTimestamp" value="1500115296239" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -115,8 +116,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1506560702306" />
-              <option name="buildTimestamp" value="1500115285487" />
+              <option name="projectOpenTimestamp" value="1507535040751" />
+              <option name="buildTimestamp" value="1500115296239" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -126,8 +127,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1507510682433" />
-              <option name="buildTimestamp" value="1500115308908" />
+              <option name="projectOpenTimestamp" value="1507511465485" />
+              <option name="buildTimestamp" value="1500115296239" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

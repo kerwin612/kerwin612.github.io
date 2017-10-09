@@ -25,7 +25,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
     <property name="ColorChooser.RecentColors" value="49-51-53-255" />
-    <property name="KEYMAP" value="line&#10;Size&#10;f&#10;import&#10;vim" />
+    <property name="KEYMAP" value="scroll&#10;line&#10;Size&#10;f&#10;import" />
     <property name="SpringBeansModulesPanel[0]" value="0.10857763" />
     <property name="MoveClassWithTarget.OpenInEditor" value="false" />
     <property name="favorites.view.settings.show.members" value="false" />
