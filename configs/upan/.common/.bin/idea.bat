@@ -77,7 +77,7 @@ IF NOT EXIST "%VM_OPTIONS_FILE%" (
 )
 IF NOT EXIST "%VM_OPTIONS_FILE%" (
   :: user-overridden
-  SET VM_OPTIONS_FILE=%USERPROFILE%\.IntelliJIdea2017.2\config\idea%BITS%.exe.vmoptions
+  SET VM_OPTIONS_FILE=%USERPROFILE%\.IntelliJIdea\config\idea%BITS%.exe.vmoptions
 )
 IF NOT EXIST "%VM_OPTIONS_FILE%" (
   :: default, standard installation

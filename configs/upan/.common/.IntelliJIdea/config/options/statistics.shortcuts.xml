@@ -1,10 +1,25 @@
 <application>
   <component name="ShortcutsCollector">
     <counts>
-      <entry shortcut="Backspace" count="6" />
-      <entry shortcut="Ctrl+S" count="32" />
+      <entry shortcut="Alt+Enter" count="1" />
+      <entry shortcut="Backspace" count="19" />
+      <entry shortcut="Ctrl+Alt+Left" count="13" />
+      <entry shortcut="Ctrl+Alt+Right" count="1" />
+      <entry shortcut="Ctrl+Alt+Shift+U" count="1" />
+      <entry shortcut="Ctrl+Enter" count="1" />
+      <entry shortcut="Ctrl+F" count="1" />
+      <entry shortcut="Ctrl+S" count="40" />
+      <entry shortcut="Ctrl+Shift+Right" count="2" />
+      <entry shortcut="Ctrl+Shift+W" count="1" />
+      <entry shortcut="Ctrl+Space" count="2" />
       <entry shortcut="Ctrl+V" count="5" />
-      <entry shortcut="Delete" count="1" />
+      <entry shortcut="Ctrl+Z" count="4" />
+      <entry shortcut="Delete" count="2" />
+      <entry shortcut="Down" count="2" />
+      <entry shortcut="Enter" count="2" />
+      <entry shortcut="F8" count="8" />
+      <entry shortcut="Left" count="3" />
+      <entry shortcut="Right" count="2" />
     </counts>
   </component>
 </application>

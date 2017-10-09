@@ -1,0 +1,55 @@
+2017-10-07 18:27:50,326 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: F:/a0a/bins/idea/ideaIU-2017.2.win/lib/jps-launcher.jar;U:/u~u/a0a/bins/Java/jdk1.8.0_144/lib/tools.jar;F:/a0a/bins/idea/ideaIU-2017.2.win/lib/optimizedFileManager.jar
+2017-10-07 18:27:50,467 [    141]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2017-10-07 18:27:51,187 [    861]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 800 ms
+2017-10-07 18:27:51,396 [   1070]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = U:/u~u/a0a/ws/java, global options path = U:/u~u/a0a/.rc/.IntelliJIdea/config/options
+2017-10-07 18:27:55,716 [   5390]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 4320 ms
+2017-10-07 18:27:55,717 [   5391]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 52 modules, 455 libraries
+2017-10-07 18:27:56,265 [   5939]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2017-10-07 18:27:59,275 [   8949]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:false parallel compilation:false
+2017-10-07 18:27:59,281 [   8955]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled: true
+2017-10-07 18:27:59,281 [   8955]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin experimental incremental compilation enabled: true
+2017-10-07 18:27:59,318 [   8992]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2017-10-07 18:27:59,319 [   8993]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 490c8ab0
+2017-10-07 18:28:01,698 [  11372]   INFO - CompilerBackwardReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException
+2017-10-07 18:28:03,106 [  12780]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 1407 ms
+2017-10-07 18:28:11,352 [  21026]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-10-07 18:28:15,453 [  25127]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: Chapter1
+2017-10-07 18:28:19,370 [  29044]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2017-10-07 18:28:21,632 [  31306]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: Chapter1 (tests)
+2017-10-07 18:28:22,876 [  32550]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2017-10-07 18:28:22,977 [  32651]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_144 was used to compile [Chapter1]
+2017-10-07 18:28:31,947 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: F:/a0a/bins/idea/ideaIU-2017.2.win/lib/jps-launcher.jar;U:/u~u/a0a/bins/Java/jdk1.8.0_144/lib/tools.jar;F:/a0a/bins/idea/ideaIU-2017.2.win/lib/optimizedFileManager.jar
+2017-10-07 18:28:32,035 [     88]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2017-10-07 18:28:32,349 [    402]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 354 ms
+2017-10-07 18:28:32,370 [    423]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-10-07 18:28:32,388 [    441]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = U:/u~u/a0a/ws/java, global options path = U:/u~u/a0a/.rc/.IntelliJIdea/config/options
+2017-10-07 18:28:33,850 [   1903]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1462 ms
+2017-10-07 18:28:33,850 [   1903]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 52 modules, 455 libraries
+2017-10-07 18:28:34,270 [   2323]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2017-10-07 18:28:40,341 [   8394]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 8395 ms
+2017-10-07 18:33:22,552 [ 290605]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2017-10-07 18:37:04,516 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: F:/a0a/bins/idea/ideaIU-2017.2.win/lib/jps-launcher.jar;U:/u~u/a0a/bins/Java/jdk1.8.0_144/lib/tools.jar;F:/a0a/bins/idea/ideaIU-2017.2.win/lib/optimizedFileManager.jar
+2017-10-07 18:37:04,628 [    112]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2017-10-07 18:37:04,965 [    449]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 384 ms
+2017-10-07 18:37:05,057 [    541]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = U:/u~u/a0a/ws/java, global options path = U:/u~u/a0a/.rc/.IntelliJIdea/config/options
+2017-10-07 18:37:06,703 [   2187]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1646 ms
+2017-10-07 18:37:06,703 [   2187]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 52 modules, 455 libraries
+2017-10-07 18:37:07,248 [   2732]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2017-10-07 18:37:07,449 [   2933]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2017-10-07 18:37:07,453 [   2937]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled: true
+2017-10-07 18:37:07,453 [   2937]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin experimental incremental compilation enabled: true
+2017-10-07 18:37:07,483 [   2967]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2017-10-07 18:37:07,483 [   2967]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 357f27a2
+2017-10-07 18:37:07,489 [   2973]   INFO - CompilerBackwardReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException
+2017-10-07 18:37:07,561 [   3045]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 71 ms
+2017-10-07 18:37:09,275 [   4759]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-10-07 18:37:13,051 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: F:/a0a/bins/idea/ideaIU-2017.2.win/lib/jps-launcher.jar;U:/u~u/a0a/bins/Java/jdk1.8.0_144/lib/tools.jar;F:/a0a/bins/idea/ideaIU-2017.2.win/lib/optimizedFileManager.jar
+2017-10-07 18:37:13,145 [     94]   INFO - til.internal.PlatformDependent - Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2017-10-07 18:37:13,456 [    405]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 357 ms
+2017-10-07 18:37:13,474 [    423]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational
+2017-10-07 18:37:13,492 [    441]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = U:/u~u/a0a/ws/java, global options path = U:/u~u/a0a/.rc/.IntelliJIdea/config/options
+2017-10-07 18:37:15,019 [   1968]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 1527 ms
+2017-10-07 18:37:15,020 [   1969]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 52 modules, 455 libraries
+2017-10-07 18:37:15,967 [   2916]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=602
+2017-10-07 18:37:17,651 [   4600]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 4601 ms
+2017-10-07 20:21:28,576 [6255525]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.

@@ -3,9 +3,26 @@
     <location key="FileChooserDialogImpl.0.0.1366.768" x="398" y="107" />
     <location key="WELCOME_SCREEN.0.0.1366.768" x="685" y="333" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="390" y="175" />
-    <location key="SettingsEditor.0.0.1366.768" x="164" y="13" />
+    <location key="SettingsEditor.0.0.1366.768" x="164" y="0" />
     <location key="new project wizard.0.0.1366.768" x="308" y="0" />
     <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1366.768" x="263" y="12" />
     <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1366.768" x="520" y="247" />
+    <location key="#Notifications.0.0.1366.768" x="432" y="85" />
+    <location key="ProcessPopupWindow.0.0.1366.768" x="795" y="618" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="140" y="0" />
+    <location key="NewModule_or_Project.wizard.0.0.1366.768" x="328" y="0" />
+    <size key="ProcessPopupWindow.0.0.1366.768" width="400" height="116" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.2.left.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.2.center.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.2.right.0.0.1366.768" width="656" height="218" />
+    <size key="GridCell.Tab.2.bottom.0.0.1366.768" width="656" height="218" />
   </component>
 </application>

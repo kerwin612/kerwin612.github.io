@@ -1,7 +1,11 @@
 <application>
   <component name="ToolbarClicksCollector">
     <counts>
+      <entry action="ShowProjectStructureSettings@NavBarToolbar" count="2" />
+      <entry action="Stop@DebuggerToolbar" count="1" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="1" />
       <entry action="com.intellij.ui.AnActionButton$AnActionButtonWrapper@ToolbarDecorator" count="1" />
+      <entry action="com.intellij.ui.navigation.BackAction@ProjectStructure" count="6" />
     </counts>
   </component>
 </application>

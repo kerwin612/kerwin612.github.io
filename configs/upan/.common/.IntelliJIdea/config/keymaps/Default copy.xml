@@ -1,4 +1,10 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="EditorDecreaseFontSize">
     <mouse-shortcut keystroke="control button142" />
   </action>
@@ -6,6 +12,6 @@
     <mouse-shortcut keystroke="control button143" />
   </action>
   <action id="EditorResetFontSize">
-    <mouse-shortcut keystroke="button3 doubleClick" />
+    <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
 </keymap>
