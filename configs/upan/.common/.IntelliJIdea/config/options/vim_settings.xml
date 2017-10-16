@@ -128,6 +128,12 @@
         <mark key="^" line="47" column="30" />
         <mark key="." line="47" column="30" />
       </file>
+      <file name="U:/u~u/a0a/ws/tl/publisher/test/src/main/java/com/test/sixsixsix/Test.java" timestamp="1508069925123">
+        <mark key="[" line="11" column="36" />
+        <mark key="]" line="11" column="40" />
+        <mark key="^" line="11" column="40" />
+        <mark key="." line="11" column="40" />
+      </file>
       <file name="E:/a0a/Eclipse/pdri/org.pdri.commons.service/src/main/resources/template/EMAIL_TYPE_RA_PUBLISHER_REGISTER.ftl" timestamp="1500621729584">
         <mark key="[" line="17" column="51" />
         <mark key="]" line="17" column="47" />
@@ -220,7 +226,7 @@
         <text encoding="base64">ICAgIDxkaXY+CiAgICAgICAgPGgyPlRvcGljczwvaDI+CiAgICAgICAgPHVsPgogICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICA8TGluayB0bz17YCR7bWF0Y2gudXJsfS9yZW5kZXJpbmdgfT4KICAgICAgICAgICAgICAgICAgICBSZW5kZXJpbmcgd2l0aCBSZWFjdAogICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICA8TGluayB0bz17YCR7bWF0Y2gudXJsfS9jb21wb25lbnRzYH0+CiAgICAgICAgICAgICAgICAgICAgQ29tcG9uZW50cwogICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICA8TGluayB0bz17YCR7bWF0Y2gudXJsfS9wcm9wcy12LXN0YXRlYH0+CiAgICAgICAgICAgICAgICAgICAgUHJvcHMgdi4gU3RhdGUKICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPC9saT4KICAgICAgICA8L3VsPgoKICAgICAgICA8Um91dGUgcGF0aD17YCR7bWF0Y2gudXJsfS86dG9waWNJZGB9IGNvbXBvbmVudD17VG9waWN9Lz4KICAgICAgICA8Um91dGUgcGF0aD17bWF0Y2gudXJsfSByZW5kZXI9eygpID0+ICgKICAgICAgICAgICAgPGgzPlBsZWFzZSBzZWxlY3QgYSB0b3BpYy48L2gzPgogICAgICAgICl9Lz4KICAgIDwvZGl2Pgo=</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -237,8 +243,8 @@
         <entry>user_add</entry>
       </history-search>
       <history-cmd>
-        <entry>w</entry>
         <entry>wq</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />

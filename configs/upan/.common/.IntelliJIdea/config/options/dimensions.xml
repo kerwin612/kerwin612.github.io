@@ -2,7 +2,7 @@
   <component name="DimensionService">
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="1029" y="108" />
     <location key="#Spring_dmServer.0.0.1920.1080" x="707" y="181" />
-    <location key="SettingsEditor.0.0.1920.1080" x="239" y="126" />
+    <location key="SettingsEditor.0.0.1920.1080" x="788" y="96" />
     <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="598" y="70" />
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="962" y="437" />
     <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="667" y="330" />
@@ -41,7 +41,7 @@
     <location key="#Project_Structure.-1920.0.1920.1080" x="-1480" y="87" />
     <location key="FileChooserDialogImpl.-1920.0.1920.1080" x="-911" y="136" />
     <location key="NewModule_or_Project.wizard.-1920.0.1920.1080" x="-1878" y="82" />
-    <location key="SettingsEditor.-1920.0.1920.1080" x="-1322" y="157" />
+    <location key="SettingsEditor.-1920.0.1920.1080" x="-1378" y="151" />
     <location key="ProcessPopupWindow.-1920.0.1920.1080" x="-650" y="805" />
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.-1920.0.1920.1080" x="-1230" y="268" />
     <location key="findTextDialog.0.0.1920.1080" x="714" y="231" />
@@ -85,7 +85,7 @@
     <location key="RollbackChangesDialog.-1920.0.1920.1080" x="-1181" y="227" />
     <location key="#Usage_Scope.-1920.0.1920.1080" x="-1218" y="144" />
     <location key="#com.intellij.tools.ToolEditorDialog.-1920.0.1920.1080" x="-1429" y="182" />
-    <location key="find.popup.-1920.0.1920.1080" x="-1315" y="93" />
+    <location key="find.popup.-1920.0.1920.1080" x="-1321" y="87" />
     <location key="#Notifications.-1920.0.1920.1080" x="-1212" y="244" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.-1920.0.1920.1080" x="-1231" y="308" />
     <location key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" x="407" y="367" />
@@ -105,6 +105,26 @@
     <location key="com.intellij.database.view.ui.AbstractDbRefactoringDialog.-1920.0.1920.1080" x="-1277" y="192" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="713" y="308" />
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.1920.1080" x="427" y="244" />
+    <location key="VcsDiffUtil.ChangesDialog.-1920.0.1920.1080" x="-1460" y="242" />
+    <location key="VcsDiffUtil.ChangesDialog.0.0.1920.1080" x="-1460" y="242" />
+    <location key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog.-1920.0.1920.1080" x="-1070" y="250" />
+    <location key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.-1920.0.1920.1080" x="-970" y="204" />
+    <location key="com.intellij.jarRepository.RepositoryAttachDialog.-1920.0.1920.1080" x="-1101" y="389" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="685" y="333" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1366.768" x="508" y="231" />
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="172" y="140" />
+    <location key="SettingsEditor.0.0.1366.768" x="119" y="0" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1366.768" x="488" y="45" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1366.768" x="413" y="112" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1366.768" x="461" y="240" />
+    <location key="EditParametersPopupWindow.0.0.1366.768" x="511" y="203" />
+    <location key="ProcessPopupWindow.0.0.1366.768" x="14" y="618" />
+    <location key="com.intellij.jarRepository.RepositoryAttachDialog.0.0.1366.768" x="387" y="253" />
+    <location key="new project wizard.0.0.1366.768" x="308" y="0" />
+    <location key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog.0.0.1366.768" x="413" y="112" />
+    <location key="Maven.ArtifactSearchDialog.0.0.1366.768" x="213" y="12" />
+    <location key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog.0.0.1366.768" x="505" y="77" />
+    <location key="#com.intellij.codeInsight.daemon.impl.quickfix.LocateLibraryDialog.0.0.1366.768" x="538" y="267" />
     <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="850" height="708" />
     <size key="javadoc.popup.1920.0.1920.1080" width="446" height="166" />
     <size key="ProcessPopupWindow.1920.0.1920.1080" width="187" height="113" />
@@ -119,19 +139,19 @@
     <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1920" height="353" />
     <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1920" height="353" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="339" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="278" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="278" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="278" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="278" />
     <size key="ProcessPopupWindow.-1920.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.right.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.bottom.-1920.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.1.left.-1920.0.1920.1080" width="1876" height="343" />
-    <size key="GridCell.Tab.1.center.-1920.0.1920.1080" width="1876" height="343" />
-    <size key="GridCell.Tab.1.right.-1920.0.1920.1080" width="1876" height="343" />
-    <size key="GridCell.Tab.1.bottom.-1920.0.1920.1080" width="1876" height="343" />
+    <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.0.right.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.0.bottom.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.1.left.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.1.center.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.1.right.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.1.bottom.-1920.0.1920.1080" width="1876" height="340" />
     <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1876" height="339" />
     <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1876" height="339" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1876" height="339" />
@@ -153,10 +173,10 @@
     <size key="find.popup.-1920.0.1920.1080" width="871" height="657" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.-1920.0.1920.1080" width="1092" height="804" />
     <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.1920.1080" width="1191" height="313" />
-    <size key="GridCell.Tab.2.left.-1920.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.2.center.-1920.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.2.right.-1920.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.2.bottom.-1920.0.1920.1080" width="1876" height="339" />
+    <size key="GridCell.Tab.2.left.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.2.center.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.2.right.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.2.bottom.-1920.0.1920.1080" width="1876" height="340" />
     <size key="find.popup.0.0.1920.1080" width="871" height="657" />
     <size key="new project wizard.0.0.1920.1080" width="778" height="596" />
     <size key="SettingsEditor.-1920.0.1920.1080" width="1157" height="702" />
@@ -166,5 +186,21 @@
     <size key="GridCell.Tab.2.bottom.0.0.1920.1080" width="1876" height="339" />
     <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1344" height="759" />
     <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1059" height="702" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="656" height="176" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="656" height="176" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="656" height="176" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="656" height="176" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1322" height="219" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1322" height="219" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1322" height="219" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1322" height="219" />
+    <size key="GridCell.Tab.2.left.0.0.1366.768" width="642" height="217" />
+    <size key="GridCell.Tab.2.center.0.0.1366.768" width="642" height="217" />
+    <size key="GridCell.Tab.2.right.0.0.1366.768" width="642" height="217" />
+    <size key="GridCell.Tab.2.bottom.0.0.1366.768" width="642" height="217" />
+    <size key="javadoc.popup.0.0.1366.768" width="520" height="184" />
+    <size key="DebuggerActiveHint.0.0.1366.768" width="432" height="423" />
+    <size key="ProcessPopupWindow.0.0.1366.768" width="400" height="116" />
   </component>
 </application>

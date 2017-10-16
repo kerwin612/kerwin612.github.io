@@ -76,6 +76,19 @@ ext-cd() {
 	fi
 }
 
+ext-winpath() {
+	temp=$1
+	if [[ -z "$1" ]]; then
+        temp=$(pwd)
+    fi
+	if [[ ${temp:0:1} == '/' ]]; then
+		temp=${temp:1:1}:${temp:2}
+		echo ${temp//\//\\}
+	else
+        echo ${temp}
+    fi
+}
+
 
 ext-vbox() {
 	cmd <<< "\"$VBOX_MSI_INSTALL_PATH\VirtualBox.exe\"" > /dev/null & 

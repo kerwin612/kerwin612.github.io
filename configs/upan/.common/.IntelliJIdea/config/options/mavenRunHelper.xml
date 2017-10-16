@@ -1,5 +1,6 @@
 <application>
   <component name="MavenRunHelper">
+    <option name="findNearbyPom" value="true" />
     <option name="goals">
       <Goals>
         <option name="goals">
@@ -33,6 +34,9 @@
             </Goal>
             <Goal>
               <option name="commandLine" value="clean install" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -X" />
             </Goal>
           </list>
         </option>

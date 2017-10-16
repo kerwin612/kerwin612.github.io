@@ -2,11 +2,11 @@
   <component name="RecentProjectsManager">
     <option name="recentPaths">
       <list>
-        <option value="E:/a0a/IdeaProjects/old-proj" />
-        <option value="E:/a0a/IdeaProjects/pdri" />
-        <option value="E:/a0a/IdeaProjects/publisher" />
-        <option value="U:/u~u/a0a/ws/js" />
+        <option value="U:/u~u/a0a/ws/tl/publisher" />
         <option value="U:/u~u/a0a/ws/java" />
+        <option value="U:/u~u/a0a/ws/tl/old-proj" />
+        <option value="E:/a0a/IdeaProjects/pdri" />
+        <option value="U:/u~u/a0a/ws/js" />
         <option value="E:/a0a/IdeaProjects/world" />
         <option value="E:/a0a/IdeaProjects/isli&amp;mpr" />
         <option value="E:/a0a/IdeaProjects/idea-default" />
@@ -15,11 +15,10 @@
     </option>
     <option name="openPaths">
       <list>
-        <option value="E:/a0a/IdeaProjects/publisher" />
-        <option value="E:/a0a/IdeaProjects/old-proj" />
+        <option value="U:/u~u/a0a/ws/tl/publisher" />
       </list>
     </option>
-    <option name="lastPath" value="E:/a0a/IdeaProjects/old-proj" />
+    <option name="lastPath" value="U:/u~u/a0a/ws/tl/publisher" />
     <option name="additionalInfo">
       <map>
         <entry key="E:/a0a/Eclipse/pdri/org.pdri.common.dbaroute">
@@ -105,8 +104,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1507535237607" />
-              <option name="buildTimestamp" value="1500115296239" />
+              <option name="projectOpenTimestamp" value="1507950582110" />
+              <option name="buildTimestamp" value="1500115260137" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -127,8 +126,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1507511465485" />
-              <option name="buildTimestamp" value="1500115296239" />
+              <option name="projectOpenTimestamp" value="1507945736239" />
+              <option name="buildTimestamp" value="1500115260137" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -171,8 +170,8 @@
               <option name="build" value="IU-172.3317.76" />
               <option name="productionCode" value="IU" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="projectOpenTimestamp" value="1506064685934" />
-              <option name="buildTimestamp" value="1500115302032" />
+              <option name="projectOpenTimestamp" value="1508050696779" />
+              <option name="buildTimestamp" value="1500115297355" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -220,8 +219,30 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="U:/u~u/a0a/ws/tl/old-proj">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3317.76" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1507959433981" />
+              <option name="buildTimestamp" value="1500115318851" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="U:/u~u/a0a/ws/tl/publisher">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-172.3317.76" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1508071871647" />
+              <option name="buildTimestamp" value="1500115319147" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
-    <option name="lastProjectLocation" value="E:/a0a/IdeaProjects" />
+    <option name="lastProjectLocation" value="U:/u~u/a0a/ws/tl" />
   </component>
 </application>

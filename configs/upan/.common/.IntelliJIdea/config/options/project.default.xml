@@ -40,6 +40,14 @@
             <option name="mavenHome" value="U:/u~u/a0a/bins/Maven/apache-maven-3.5.0" />
           </MavenGeneralSettings>
         </option>
+        <option name="importingSettings">
+          <MavenImportingSettings>
+            <option name="createModulesForAggregators" value="false" />
+          </MavenImportingSettings>
+        </option>
+      </component>
+      <component name="MavenRunner">
+        <option name="vmOptions" value="-Duser.home=U:\u~u\a0a\.rc" />
       </component>
       <component name="Osmorc">
         <option name="bndAutoImport" value="true" />
@@ -63,6 +71,12 @@
                 <id>Android &gt; Lint &gt; Performance</id>
               </State>
               <State>
+                <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+              </State>
+              <State>
+                <id>Android Lint for Kotlin</id>
+              </State>
+              <State>
                 <id>Data flow issuesJava</id>
               </State>
               <State>
@@ -75,6 +89,9 @@
                 <id>General</id>
               </State>
               <State>
+                <id>Groovy</id>
+              </State>
+              <State>
                 <id>Java</id>
               </State>
               <State>
@@ -84,7 +101,16 @@
                 <id>Kotlin</id>
               </State>
               <State>
+                <id>Numeric issuesJava</id>
+              </State>
+              <State>
                 <id>Plugin DevKit</id>
+              </State>
+              <State>
+                <id>Threading issuesGroovy</id>
+              </State>
+              <State>
+                <id>Threading issuesJava</id>
               </State>
               <State>
                 <id>XPath</id>
@@ -103,7 +129,7 @@
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="project.scopes" />
+        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
         <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.37586206" />
