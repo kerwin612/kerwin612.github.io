@@ -83,6 +83,7 @@
     * [Maven类包冲突终极解决小技若干](blog/other/maven/Maven类包冲突终极解决小技若干.md)
     * [org.codehaus.plexus.archiver.jar.Manifest.merge\(org.codehaus.plexus.archiver.jar.Manifest\)](blog/other/maven/org.codehaus.plexus.archiver.jar.Manifest.merge.md)
     * [Maven 生命周期](blog/other/maven/Maven-生命周期.md)
+    * [wagon-maven-plugin](blog/other/maven/wagon-maven-plugin.md)
   * [MySQL](blog/other/mysql/mysql.md)
     * [\[is not allowed to connect to this MySQL server 解决办法\]\(blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md\)](blog/other/mysql/is-not-allowed-to-connect-to-this-MySQL-server-解决办法.md)
     * [\[MySQL备份--mysql dump\]\(blog/other/mysql/MySQL备份--mysql dump.md\)](blog/other/mysql/MySQL备份--mysql-dump.md)
