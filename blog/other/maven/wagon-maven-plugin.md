@@ -236,6 +236,16 @@ mvn clean package wagon:upload-single wagon:sshexec
     <id>webserver</id>  
     <username>hadoop</username>  
     <password>123</password>  
+<!--
+<configuration>
+	diabled `The authenticity of host 'xxx' can't be established.Are you sure you want to continue connecting? (yes/no):`
+	<strictHostKeyChecking>no</strictHostKeyChecking>
+	or
+	<knownHostsProvider implementation="org.apache.maven.wagon.providers.ssh.knownhost.NullKnownHostProvider">
+		<hostKeyChecking>no</hostKeyChecking>
+	</knownHostsProvider>
+</configuration>
+-->
 </server>
 ```
 然后`configuration`里面加上`serverId`，并且去掉`url`里面的用户名和密码。
