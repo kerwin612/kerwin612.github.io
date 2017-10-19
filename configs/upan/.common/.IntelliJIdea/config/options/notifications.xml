@@ -1,6 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Gradle Import" displayType="NONE" shouldLog="false" />
-    <notification groupId="Maven Import" displayType="NONE" />
-  </component>
-</application>

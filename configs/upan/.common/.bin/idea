@@ -1,2 +1,0 @@
-. ~/../ext
-cmd <<< "start \"\" "`ext-winpath $HOME/.bin/idea.bat` > /dev/null
