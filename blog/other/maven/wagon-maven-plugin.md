@@ -238,7 +238,7 @@ mvn clean package wagon:upload-single wagon:sshexec
     <password>123</password>  
 <!--
 <configuration>
-	diabled `Are you sure you want to continue connecting? (yes/no):`
+	diabled `The authenticity of host 'xxx' can't be established.Are you sure you want to continue connecting? (yes/no):`
 	<strictHostKeyChecking>no</strictHostKeyChecking>
 	or
 	<knownHostsProvider implementation="org.apache.maven.wagon.providers.ssh.knownhost.NullKnownHostProvider">
