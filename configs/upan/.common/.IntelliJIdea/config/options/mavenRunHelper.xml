@@ -38,6 +38,21 @@
             <Goal>
               <option name="commandLine" value="clean install -X" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="wagon:upload-single wagon:sshexec" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install wagon:upload-single wagon:sshexec" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="wagon:sshexec -X" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="wagon:sshexec -e" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package wagon:upload-single wagon:sshexec" />
+            </Goal>
           </list>
         </option>
       </Goals>

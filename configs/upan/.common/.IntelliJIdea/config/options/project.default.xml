@@ -129,7 +129,7 @@
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
         <property name="project.structure.last.edited" value="Problems" />
         <property name="project.structure.proportion" value="0.0" />
         <property name="project.structure.side.proportion" value="0.37586206" />

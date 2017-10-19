@@ -139,23 +139,23 @@
     <size key="GridCell.Tab.1.right.1920.0.1920.1080" width="1920" height="353" />
     <size key="GridCell.Tab.1.bottom.1920.0.1920.1080" width="1920" height="353" />
     <size key="ProcessPopupWindow.0.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="278" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="278" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1876" height="342" />
     <size key="ProcessPopupWindow.-1920.0.1920.1080" width="650" height="117" />
-    <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="340" />
-    <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="340" />
-    <size key="GridCell.Tab.0.right.-1920.0.1920.1080" width="1876" height="340" />
-    <size key="GridCell.Tab.0.bottom.-1920.0.1920.1080" width="1876" height="340" />
+    <size key="GridCell.Tab.0.left.-1920.0.1920.1080" width="1876" height="277" />
+    <size key="GridCell.Tab.0.center.-1920.0.1920.1080" width="1876" height="277" />
+    <size key="GridCell.Tab.0.right.-1920.0.1920.1080" width="1876" height="277" />
+    <size key="GridCell.Tab.0.bottom.-1920.0.1920.1080" width="1876" height="277" />
     <size key="GridCell.Tab.1.left.-1920.0.1920.1080" width="1876" height="340" />
     <size key="GridCell.Tab.1.center.-1920.0.1920.1080" width="1876" height="340" />
     <size key="GridCell.Tab.1.right.-1920.0.1920.1080" width="1876" height="340" />
     <size key="GridCell.Tab.1.bottom.-1920.0.1920.1080" width="1876" height="340" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1876" height="339" />
-    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1876" height="339" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1876" height="342" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1876" height="342" />
     <size key="javadoc.popup.0.0.1920.1080" width="512" height="292" />
     <size key="javadoc.popup.-1920.0.1920.1080" width="1129" height="336" />
     <size key="DebuggerActiveHint.-1920.0.1920.1080" width="530" height="444" />

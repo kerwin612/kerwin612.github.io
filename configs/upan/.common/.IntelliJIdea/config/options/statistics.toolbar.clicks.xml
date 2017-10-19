@@ -4,30 +4,30 @@
       <entry action="AppServers.DebugServer@ServersToolWindowContent#Toolbar" count="7" />
       <entry action="AppServers.RunServer@ServersToolWindowContent#Toolbar" count="1" />
       <entry action="DatabaseView.AddActionGroupPopup@ProjectViewToolbar" count="2" />
-      <entry action="Debug@NavBarToolbar" count="62" />
+      <entry action="Debug@NavBarToolbar" count="64" />
       <entry action="FileChooser.Delete@FileChooserDialog" count="2" />
       <entry action="FileChooser.GotoHome@FileChooserDialog" count="2" />
       <entry action="FileChooser.Refresh@FileChooserDialog" count="7" />
       <entry action="ForceStepInto@DebuggerToolbar" count="1" />
       <entry action="Maven.AddManagedFiles@Maven_Navigator_Toolbar" count="1" />
       <entry action="Maven.CollapseAll@Maven_Navigator_Toolbar" count="1" />
-      <entry action="Maven.ExecuteGoal@Maven_Navigator_Toolbar" count="79" />
+      <entry action="Maven.ExecuteGoal@Maven_Navigator_Toolbar" count="82" />
       <entry action="Maven.Reimport@Maven_Navigator_Toolbar" count="20" />
       <entry action="Maven.RunBuild@Maven_Navigator_Toolbar" count="3" />
       <entry action="Maven.ShowSettings@Maven_Navigator_Toolbar" count="7" />
       <entry action="Maven.ToggleSkipTests@Maven_Navigator_Toolbar" count="2" />
       <entry action="Print@RunnerToolbar" count="1" />
-      <entry action="Rerun@DebuggerToolbar" count="244" />
-      <entry action="Rerun@RunnerToolbar" count="106" />
+      <entry action="Rerun@DebuggerToolbar" count="245" />
+      <entry action="Rerun@RunnerToolbar" count="123" />
       <entry action="Resume@DebuggerToolbar" count="104" />
       <entry action="Run@NavBarToolbar" count="81" />
-      <entry action="ShowProjectStructureSettings@NavBarToolbar" count="107" />
+      <entry action="ShowProjectStructureSettings@NavBarToolbar" count="110" />
       <entry action="ShowUmlDiagram@Maven_Navigator_Toolbar" count="2" />
       <entry action="StepOut@DebuggerToolbar" count="3" />
       <entry action="StepOver@DebuggerToolbar" count="1" />
-      <entry action="Stop@DebuggerToolbar" count="251" />
+      <entry action="Stop@DebuggerToolbar" count="254" />
       <entry action="Stop@NavBarToolbar" count="39" />
-      <entry action="Stop@RunnerToolbar" count="83" />
+      <entry action="Stop@RunnerToolbar" count="94" />
       <entry action="UML.ActualSize@Diagrams" count="11" />
       <entry action="UML.ApplyCurrentLayout@Diagrams" count="2" />
       <entry action="UML.FitContent@Diagrams" count="1" />
@@ -40,12 +40,12 @@
       <entry action="com.intellij.diff.actions.impl.SetEditorSettingsAction@DiffToolbar" count="1" />
       <entry action="com.intellij.diff.impl.DiffRequestProcessor$MyNextDifferenceAction@DiffToolbar" count="13" />
       <entry action="com.intellij.execution.impl.ConsoleViewImpl$7@RunnerToolbar" count="1" />
-      <entry action="com.intellij.execution.impl.ConsoleViewImpl$ClearAllAction@RunnerToolbar" count="123" />
+      <entry action="com.intellij.execution.impl.ConsoleViewImpl$ClearAllAction@RunnerToolbar" count="129" />
       <entry action="com.intellij.execution.impl.ConsoleViewImpl$ClearAllAction@unknown" count="2" />
       <entry action="com.intellij.find.SearchTextArea$ClearAction@unknown" count="13" />
       <entry action="com.intellij.find.SearchTextArea$ShowHistoryAction@unknown" count="6" />
-      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="663" />
-      <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="186" />
+      <entry action="com.intellij.find.editorHeaderActions.NextOccurrenceAction@EditorToolbar" count="699" />
+      <entry action="com.intellij.find.editorHeaderActions.PrevOccurrenceAction@EditorToolbar" count="187" />
       <entry action="com.intellij.find.impl.FindPopupPanel$MySelectScopeToggleAction@EditorToolbar" count="11" />
       <entry action="com.intellij.find.impl.FindPopupPanel$MyShowFilterPopupAction@unknown" count="2" />
       <entry action="com.intellij.ide.actions.NextOccurenceToolbarAction@RunnerToolbar" count="1" />
@@ -54,14 +54,14 @@
       <entry action="com.intellij.ide.util.gotoByName.ChooseByNameFilter$FilterAction@gotfile.filter" count="2" />
       <entry action="com.intellij.ide.util.importProject.ProjectLayoutPanel$RenameAction@ProjectLayoutPanel.Entries" count="4" />
       <entry action="com.intellij.notification.EventLogConsole$ClearLogAction@EventLog" count="12" />
-      <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@RunnerToolbar" count="9" />
+      <entry action="com.intellij.openapi.editor.actions.ScrollToTheEndToolbarAction@RunnerToolbar" count="12" />
       <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$10@Keymap" count="1" />
       <entry action="com.intellij.openapi.keymap.impl.ui.KeymapPanel$9@Keymap" count="2" />
       <entry action="com.intellij.openapi.roots.ui.configuration.CommonContentEntriesEditor$AddContentEntryAction@unknown" count="39" />
       <entry action="com.intellij.openapi.roots.ui.configuration.actions.ToggleSourcesStateAction@ProjectStructureContentEntries" count="62" />
       <entry action="com.intellij.openapi.roots.ui.configuration.classpath.ClasspathPanelImpl$6@ToolbarDecorator" count="1" />
       <entry action="com.intellij.spring.facet.SpringConfigurationTab$MyCheckedActionGroup@ToolbarDecorator" count="1" />
-      <entry action="com.intellij.ui.AnActionButton$AnActionButtonWrapper@ToolbarDecorator" count="103" />
+      <entry action="com.intellij.ui.AnActionButton$AnActionButtonWrapper@ToolbarDecorator" count="104" />
       <entry action="com.intellij.ui.CommonActionsPanel$MyActionButton@ToolbarDecorator" count="58" />
       <entry action="com.intellij.ui.navigation.BackAction@ProjectStructure" count="4" />
       <entry action="com.intellij.uml.core.actions.visibility.UmlVisibilityActionGroup@Diagrams" count="4" />

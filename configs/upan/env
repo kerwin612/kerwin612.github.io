@@ -16,6 +16,7 @@ export _USER_COMMON_=$__/.common
 cd $HOME && rm -rf .bin && ext-link .bin $_USER_COMMON_/.bin && cd -
 cd $HOME && rm -rf .ssh && ext-link .ssh $_USER_COMMON_/.ssh && cd -
 cd $HOME && rm -rf .IntelliJIdea && ext-link .IntelliJIdea $_USER_COMMON_/.IntelliJIdea && cd -
+cd $HOME && rm -rf .m2 && ext-link .m2 $_USER_COMMON_/.m2 && cd -
 
 
 #some software need.(eg: electron)
