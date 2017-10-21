@@ -4,14 +4,14 @@
 实际上的代码在复杂环境下是不准的
 
 
-网上一个比较普遍的说法是InetAddress.getLocalHost().getHostAddress()
+网上一个比较普遍的说法是`InetAddress.getLocalHost().getHostAddress()`
 似乎很简单，但忽略了一个问题，即IP地址在现在的网络环境更加复杂了，比如有Lan，WIFI，蓝牙热点，虚拟机网卡...
 即存在很多的网络接口（network interfaces），每个网络接口就包含一个IP地址，并不是所有的IP地址能被外部或局域网访问，比如说虚拟机网卡地址等等。
-也就是说InetAddress.getLocalHost().getHostAddress()的IP不一定是正确的IP。
+也就是说`InetAddress.getLocalHost().getHostAddress()`的IP不一定是正确的IP。
 
 写代码前，先明确一些规则：
 
-* `127.xxx.xxx.xxx` 属于"`loopback`" 地址，即只能你自己的本机可见，就是本机地址，比较常见的有127.0.0.1；
+* `127.xxx.xxx.xxx` 属于"`loopback`" 地址，即只能你自己的本机可见，就是本机地址，比较常见的有`127.0.0.1`；
 * `192.168.xxx.xxx` 属于`private` 私有地址(site local address)，属于本地组织内部访问，只能在本地局域网可见。同样`10.xxx.xxx.xxx`、从`172.16.xxx.xxx` 到 `172.31.xxx.xxx`都是私有地址，也是属于组织内部访问；
 * `169.254.xxx.xxx` 属于连接本地地址（link local IP），在单独网段可用
 * 从`224.xxx.xxx.xxx` 到 `239.xxx.xxx.xxx` 属于组播地址
