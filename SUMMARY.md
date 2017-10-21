@@ -16,6 +16,7 @@
   * [Shiro](blog/java-notes/shiro/README.md)
     * [Shiro-Authentication\(身份验证\)](blog/java-notes/shiro/Shiro-Authentication-身份验证.md)
     * [Shiro-Authorization\(授权\)](blog/java-notes/shiro/Shiro-Authorization-授权.md)
+  * [详谈再论JAVA获取本机IP地址](blog/java-notes/xiang-tan-zailun-java-huo-qu-ben-ji-ip-di-zhi.md)
 * [JS笔记](blog/js-notes/README.md)
   * [\[JS\/JQuery 代码、框架收藏\]\(blog/js-notes/JS&JQuery 代码、框架收藏.md\)](blog/js-notes/JS&JQuery-代码、框架收藏.md)
   * [\[用Mock.js + AngularJS来提高开发效率\]\(blog/js-notes/用Mock.js + AngularJS来提高开发效率.md\)](blog/js-notes/用Mock.js+AngularJS来提高开发效率.md)
