@@ -109,4 +109,5 @@
   * [VirtualBox绿色版的桥接网卡驱动安装](blog/other/VirtualBox绿色版的桥接网卡驱动安装.md)
   * [OAuth的改变](blog/other/OAuth的改变.md)
   * [github 同步一个 fork](blog/other/github-同步一个-fork.md)
+  * [MavenActionUtil.getMavenProject\(e.getDataContext\(\)\) is Null when developing a intellij plugin](blog/other/mavenactionutilgetmavenprojectegetdatacontext-is-null-when-developing-a-intellij-plugin.md)
 
