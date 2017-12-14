@@ -111,4 +111,5 @@
   * [OAuth的改变](blog/other/OAuth的改变.md)
   * [github 同步一个 fork](blog/other/github-同步一个-fork.md)
   * [MavenActionUtil.getMavenProject\(e.getDataContext\(\)\) is Null when developing a intellij plugin](blog/other/mavenactionutilgetmavenprojectegetdatacontext-is-null-when-developing-a-intellij-plugin.md)
+  * [Git 如何 clone 非 master 分支的代码](blog/other/git-ru-he-clone-fei-master-fen-zhi-de-dai-ma.md)
 
