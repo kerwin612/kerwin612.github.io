@@ -15,3 +15,5 @@ git config --system http.sslcainfo "C:\Program Files (x86)\git\bin\curl-ca-bundl
 ```
 git config --system http.sslverify false
 ```
+
+`git config --global core.autocrlf true`
