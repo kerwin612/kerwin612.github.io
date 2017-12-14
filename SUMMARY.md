@@ -113,4 +113,5 @@
   * [MavenActionUtil.getMavenProject\(e.getDataContext\(\)\) is Null when developing a intellij plugin](blog/other/mavenactionutilgetmavenprojectegetdatacontext-is-null-when-developing-a-intellij-plugin.md)
   * [Git 如何 clone 非 master 分支的代码](blog/other/git-ru-he-clone-fei-master-fen-zhi-de-dai-ma.md)
   * [git提示error setting certificate verify locations解决办法](blog/other/gitti-shi-error-setting-certificate-verify-locations-jie-jue-ban-fa.md)
+  * [该死的 ^M](blog/other/gai-si-de-m.md)
 
