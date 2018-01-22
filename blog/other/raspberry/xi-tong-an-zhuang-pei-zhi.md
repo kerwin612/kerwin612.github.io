@@ -42,7 +42,7 @@ network={
   key_mgmt=NONE
 }
 ```
-* 如果你的 WiFi 使用WEP加密
+* 如果你的 WiFi 使用`WEP`加密
 ```
 network={
   ssid="你的无线网络名称（ssid）"
@@ -50,7 +50,7 @@ network={
   wep_key0="你的wifi密码"
 }
 ```
-* 如果你的 WiFi 使用WPA/WPA2加密
+* 如果你的 WiFi 使用`WPA/WPA2`加密
 ```
 network={
   ssid="你的无线网络名称（ssid）"
