@@ -27,5 +27,37 @@ network={
 }
 ```
  * 把上面内容复制到文件里就可以了，然后【ssid】项的值(WiFi-A)改为你家WIFI名称，【psk】项的值(12345678)改为你家WIFI密码，
- * 大功告成，这个时候你可以拔出读卡器，然后把内存卡插到树莓派，通电开机，，，这个时候你上你家路由器的管理APP应该可以看到树莓派已经成功接入你家网络。记下树莓派的IP地址。
+ * 大功告成，这个时候你可以拔出读卡器，然后把内存卡插到树莓派，通电开机，，，这个时候你上你家路由器的管理APP应该可以看到树莓派已经成功接入你家网络。记下树莓派的IP地址。  
+ 
+**说明以及不同安全性的 WiFi 配置示例：**
+* ssid:网络的ssid
+* psk:密码
+* priority:连接优先级，数字越大优先级越高（不可以是负数）
+* scan_ssid:连接隐藏WiFi时需要指定该值为1  
 
+* 如果你的 WiFi 没有密码
+```
+network={
+  ssid="你的无线网络名称（ssid）"
+  key_mgmt=NONE
+}
+```
+* 如果你的 WiFi 使用WEP加密
+```
+network={
+  ssid="你的无线网络名称（ssid）"
+  key_mgmt=NONE
+  wep_key0="你的wifi密码"
+}
+```
+* 如果你的 WiFi 使用WPA/WPA2加密
+```
+network={
+  ssid="你的无线网络名称（ssid）"
+  key_mgmt=WPA-PSK
+  psk="你的wifi密码"
+}
+```  
+* 如果你不清楚 WiFi 的加密模式，可以在安卓手机上用 `root explorer` 打开 `/data/misc/wifi/wpa/wpa_supplicant.conf`，查看 WiFi 的信息。
+
+参考: http://shumeipai.nxez.com/2017/09/13/raspberry-pi-network-configuration-before-boot.html
