@@ -116,4 +116,5 @@
   * [该死的 ^M](blog/other/gai-si-de-m.md)
   * Raspberry
     * [系统安装配置](blog/other/raspberry/xi-tong-an-zhuang-pei-zhi.md)
+  * [Windows下使用Beyond Compare作为git的比对与合并工具](blog/other/windowsxia-shi-yong-beyond-compare-zuo-wei-git-de-bi-dui-yu-he-bing-gong-ju.md)
 
