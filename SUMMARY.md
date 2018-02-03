@@ -117,4 +117,5 @@
   * Raspberry
     * [系统安装配置](blog/other/raspberry/xi-tong-an-zhuang-pei-zhi.md)
   * [Windows下使用Beyond Compare作为git的比对与合并工具](blog/other/windowsxia-shi-yong-beyond-compare-zuo-wei-git-de-bi-dui-yu-he-bing-gong-ju.md)
+  * [Cygwin的安装和配置apt-cyg源](blog/other/cygwinde-an-zhuang-he-pei-zhi-apt-cyg-yuan.md)
 
