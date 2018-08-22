@@ -122,4 +122,5 @@
   * [Cygwin的安装和配置apt-cyg源](blog/other/cygwinde-an-zhuang-he-pei-zhi-apt-cyg-yuan.md)
   * [Zookeeper运维常用四字命令](blog/other/zookeeperyun-wei-chang-yong-si-zi-ming-ling.md)
   * [pip国内镜像源的配置](blog/other/pipguo-nei-jing-xiang-yuan-de-pei-zhi.md)
+  * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
 
