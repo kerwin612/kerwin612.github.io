@@ -121,24 +121,24 @@ if __name__ == '__main__':
 ```
 
 
-**mysqldump备份：**
-`mysqldump -u用户名 -p密码 -h主机 数据库 a -w "sql条件" --lock-all-tables > 路径`
+**mysqldump备份：**  
+`mysqldump -u用户名 -p密码 -h主机 数据库 a -w "sql条件" --lock-all-tables > 路径`  
 eg:`mysqldump -uroot -p1234 -hlocalhost db1 a -w "id in (select id from b)" --lock-all-tables > c:\aa.txt`  
 
-**mysqldump还原：**
-`mysqldump -u用户名 -p密码 -h主机 数据库 < 路径`
+**mysqldump还原：**  
+`mysqldump -u用户名 -p密码 -h主机 数据库 < 路径`  
 eg:`mysql -uroot -p1234 db1 < c:\aa.txt`  
 
-**mysqldump按条件导出：**
-`mysqldump -u用户名 -p密码 -h主机 数据库  a --where "条件语句" --no-建表> 路径`
+**mysqldump按条件导出：**  
+`mysqldump -u用户名 -p密码 -h主机 数据库  a --where "条件语句" --no-建表> 路径`  
 eg:`mysqldump -uroot -p1234 dbname a --where "tag='88'" --no-create-info> c:\a.sql`  
 
-**mysqldump按导入：**
-`mysqldump -u用户名 -p密码 -h主机 数据库 < 路径`
+**mysqldump按导入：**  
+`mysqldump -u用户名 -p密码 -h主机 数据库 < 路径`  
 eg:`mysql -uroot -p1234 db1 < c:\a.txt`  
 
-**mysqldump导出表：**
-`mysqldump -u用户名 -p密码 -h主机 数据库 表`
+**mysqldump导出表：**  
+`mysqldump -u用户名 -p密码 -h主机 数据库 表`  
 eg:`mysqldump -uroot -p sqlhk9 a --no-data`  
 
 
