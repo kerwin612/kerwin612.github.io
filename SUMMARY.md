@@ -95,6 +95,7 @@
     * [MySQL修改root密码的多种方法](blog/other/mysql/MySQL修改root密码的多种方法.md)
     * [MySQL长事务导致的Table Metadata Lock](blog/other/mysql/mysqlchang-shi-wu-dao-zhi-de-table-metadata-lock.md)
     * [com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure](blog/other/mysql/commysqljdbcexceptionsjdbc4communicationsexception-communications-link-failure.md)
+    * [解决mysql插入数据时出现Incorrect string value: '\xF0\x9F...' for column 'name' at row 1的异常](blog/other/mysql/jie-jue-mysql-cha-ru-shu-ju-shi-chuxian-incorrect-string-value-xf0-x9f-for-column-name-at-row-1-de-yi-chang.md)
   * [\[nginx 403 forbidden 二种原因\]\(blog/other/nginx 403 forbidden 二种原因.md\)](blog/other/nginx-403-forbidden二种原因.md)
   * [VirtualBox的四种网络连接方式](blog/other/VirtualBox的四种网络连接方式.md)
   * [在Windows的CMD中如何设置支持UTF8编码?](blog/other/在Windows的CMD中如何设置支持UTF8编码.md)
