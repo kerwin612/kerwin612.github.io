@@ -90,7 +90,7 @@
     * [Maven中-DskipTests和-Dmaven.test.skip=true的区别](blog/other/maven/maven4e2d-dskiptests-548c-dmaven-test-skip-true-de-qu-bie.md)
   * [MySQL](blog/other/mysql/mysql.md)
     * [\[is not allowed to connect to this MySQL server 解决办法\]\(blog/other/mysql/is not allowed to connect to this MySQL server 解决办法.md\)](blog/other/mysql/is-not-allowed-to-connect-to-this-MySQL-server-解决办法.md)
-    * [\[MySQL备份--mysql dump\]\(blog/other/mysql/MySQL备份--mysql dump.md\)](blog/other/mysql/MySQL备份--mysql-dump.md)
+    * [MySQL备份--mysql dump](blog/other/mysql/MySQL备份--mysql-dump.md)
     * [MySQL启动中 InnoDB: Error: log file .\/ib\_logfile0 is of different size 0 5242880 bytes 的问题](blog/other/mysql/MySQL启动中-InnoDB:-Error:-log-file-ib_logfile0-is-of-different-size-0-5242880-bytes-的问题.md)
     * [MySQL修改root密码的多种方法](blog/other/mysql/MySQL修改root密码的多种方法.md)
     * [MySQL长事务导致的Table Metadata Lock](blog/other/mysql/mysqlchang-shi-wu-dao-zhi-de-table-metadata-lock.md)
