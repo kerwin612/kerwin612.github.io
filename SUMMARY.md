@@ -10,6 +10,7 @@
     * [SpringMVC中用@ParamVariable传递的参数包含斜杠\(\/\)时，匹配不了报404错误的解决方案](blog/java-notes/spring/SpringMVC中用@ParamVariable传递的参数包含斜杠时，匹配不了报404错误的解决方案.md)
     * [\[SpringMVC 中HttpMessageConverter简介和Http请求415 Unsupported Media Type的问题\]\(blog/java-notes/spring/SpringMVC 中HttpMessageConverter简介和Http请求415 Unsupported Media Type的问题.md\)](blog/java-notes/spring/SpringMVC中HttpMessageConverter简介和Http请求415-Unsupported-Media-Type的问题.md)
     * [Spring Boot 打包，分离依赖jar，配置文件](blog/java-notes/spring/spring-boot-da-bao-ff0c-fen-li-yi-lai-jar-ff0c-pei-zhi-wen-jian.md)
+    * [SpringBoot启动后 Stopping service \[Tomcat\]](blog/java-notes/spring/springbootqi-dong-hou-stopping-service-tomcat.md)
   * [第一个Eclipse插件](blog/java-notes/第一个Eclipse插件.md)
   * [\[Eclipse 使用技巧\]\(blog/java-notes/Eclipse 使用技巧.md\)](blog/java-notes/Eclipse使用技巧.md)
   * [HighChart利用servlet导出中文PNG图片乱码问题解决](blog/java-notes/highchart利用servlet导出中文png图片乱码问题解决.md)
