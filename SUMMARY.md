@@ -126,4 +126,5 @@
   * [pip国内镜像源的配置](blog/other/pipguo-nei-jing-xiang-yuan-de-pei-zhi.md)
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
+  * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
 
