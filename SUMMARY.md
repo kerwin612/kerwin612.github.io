@@ -128,4 +128,5 @@
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
   * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
+  * [Install Home Assistant, Mosquitto broker and Node-Red on Android](blog/other/install-home-assistant-mosquitto-broker-and-node-red-on-android.md)
 
