@@ -1,6 +1,6 @@
 #Install Home Assistant, Mosquitto broker and Node-Red on Android  
 
-This is Homeassistant, MQTT broker - Mosquitto, Node-RED installation. **Requires Android 5.0 and up.** Works without root. Install `Termux` and `Termux:API` from play store or F-droid. Install Hacker’s keyboard. This works for me, why you have a problem with this i don’t have a clue. ￼:)
+This is `Home Assistant`, `MQTT` broker - `Mosquitto`, `Node-RED` installation. **Requires Android 5.0 and up.** Works without root. Install `Termux` and `Termux:API` from `Play Store` or `F-droid`. Install Hacker’s keyboard. This works for me, why you have a problem with this i don’t have a clue. ￼:)
 
 Start Termux  
 
