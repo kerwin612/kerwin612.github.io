@@ -61,6 +61,7 @@
     * [Shiro-Authorization\(授权\)](blog/java-notes/shiro/Shiro-Authorization-授权.md)
   * [详谈再论JAVA获取本机IP地址](blog/java-notes/详谈再论JAVA获取本机IP地址.md)
 * Python
+  * [pip国内镜像源的配置](blog/other/pipguo-nei-jing-xiang-yuan-de-pei-zhi.md)
 * [Linux](blog/linux/README.md)
   * [Shell脚本 bad interpreter:No such file or directory & \/bin\/bash^M: bad interpreter错误解决方法](blog/linux/Shell脚本-bad-interpreter:No-such-file-or-directory错误解决方法.md)
   * [\[10个重要的Linux ps命令实战\]\(blog/linux/10个重要的Linux ps命令实战.md\)](blog/linux/10个重要的Linux-ps命令实战.md)
@@ -127,7 +128,6 @@
   * [Windows下使用Beyond Compare作为git的比对与合并工具](blog/other/windowsxia-shi-yong-beyond-compare-zuo-wei-git-de-bi-dui-yu-he-bing-gong-ju.md)
   * [Cygwin的安装和配置apt-cyg源](blog/other/cygwinde-an-zhuang-he-pei-zhi-apt-cyg-yuan.md)
   * [Zookeeper运维常用四字命令](blog/other/zookeeperyun-wei-chang-yong-si-zi-ming-ling.md)
-  * [pip国内镜像源的配置](blog/other/pipguo-nei-jing-xiang-yuan-de-pei-zhi.md)
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
   * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
