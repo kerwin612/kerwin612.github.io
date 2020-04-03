@@ -139,6 +139,4 @@
   * VIM
     * [1111](blog/other/vim/vim常用配置.md)
     * [2222](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
-  * [在vim中使用查找命令查找指定字符串](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
-  * [vim常用配置](blog/other/vim/vim常用配置.md)
 
