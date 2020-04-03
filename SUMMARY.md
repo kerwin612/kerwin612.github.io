@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * GO
-  * [How to Test Local Changes with Go Mod](how-to-test-local-changes-with-go-mod.md)
+  * [How to Test Local Changes with Go Mod](blog/go-notes/how-to-test-local-changes-with-go-mod.md)
 * [JS](blog/js-notes/README.md)
   * [\[JS\/JQuery 代码、框架收藏\]\(blog/js-notes/JS&JQuery 代码、框架收藏.md\)](blog/js-notes/JS&JQuery-代码、框架收藏.md)
   * [\[用Mock.js + AngularJS来提高开发效率\]\(blog/js-notes/用Mock.js + AngularJS来提高开发效率.md\)](blog/js-notes/用Mock.js+AngularJS来提高开发效率.md)
@@ -70,11 +70,9 @@
   * [\[CentOS 7 下使用 Firewall\]\(blog/linux/CentOS 7 下使用 Firewall.md\)](blog/linux/CentOS7.x-下使用-Firewall.md)
   * [\[在Ubuntu 12.04安装和设置SSH服务\]\(blog/linux/在Ubuntu 12.04安装和设置SSH服务.md\)](blog/linux/在Ubuntu12.04安装和设置SSH服务.md)
   * [\[配置CENTOS YUM更新源\]\(blog/linux/配置CENTOS YUM更新源.md\)](blog/linux/配置CENTOS-YUM更新源.md)
-  * [在vim中使用查找命令查找指定字符串](blog/linux/在vim中使用查找命令查找指定字符串.md)
   * [Linux下终端利器tmux](blog/linux/Linux下终端利器tmux.md)
   * [scp命令](blog/linux/scp命令.md)
   * [Linux系统管理常用命令](blog/linux/Linux系统管理常用命令.md)
-  * [vim常用配置](blog/linux/vim常用配置.md)
   * [让你提升命令行效率的 Bash 快捷键 \[完整版\]](blog/linux/让你提升命令行效率的-bash-快捷键-完整版.md)
   * [SELinux](blog/linux/selinux.md)
   * [SELinux下更改mysql端口](blog/linux/SELinux下更改mysql端口.md)
@@ -132,4 +130,9 @@
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
   * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
   * [Install Home Assistant, Mosquitto broker and Node-Red on Android](blog/other/install-home-assistant-mosquitto-broker-and-node-red-on-android.md)
+  * VIM
+    * [1111](blog/other/vim/vim常用配置.md)
+    * [2222](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
+  * [在vim中使用查找命令查找指定字符串](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
+  * [vim常用配置](blog/other/vim/vim常用配置.md)
 
