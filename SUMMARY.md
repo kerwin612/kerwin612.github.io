@@ -124,6 +124,7 @@
   * [\[VMWare 随系统启动指定虚拟机\]\(blog/other/VMWare 随系统启动指定虚拟机.md\)](blog/other/VMWare-随系统启动指定虚拟机.md)
   * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
   * [该死的^M](blog/other/gai-si-de-m.md)
+  * [install home-assistant mosquitto-broker and node-red on android](blog/other/install-home-assistant-mosquitto-broker-and-node-red-on-android.md)
   * [SSH原理与运用：远程登录、远程操作与端口转发](blog/other/SSH原理与运用：远程登录、远程操作与端口转发.md)
   * [\[SVN mime-type 笔记\]\(blog/other/SVN mime-type 笔记.md\)](blog/other/SVN-mime-type-笔记.md)
   * [VirtualBox虚拟机网络配置\(NAT + Host-only - Bridged\)](blog/other/VirtualBox虚拟机网络配置（NAT+Host-only-Bridged）.md)
