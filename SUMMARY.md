@@ -79,7 +79,6 @@
   * [centos 7 升级后yum install出现Exiting on user cancel](blog/linux/centos-7-升级后yum-install出现Exiting-on-user-cancel.md)
   * [Linux Shell 通配符、元字符、转义符使用实例介绍](blog/linux/linux-shell-tong-pei-fu-3001-yuan-zi-fu-3001-zhuan-yi-fu-shi-yong-shi-li-jie-shao.md)
 * [杂碎](blog/other/README.md)
-  * [\[解决 Virtualbox 共享文件夹 cannot create symlink error 问题\]\(blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md\)](blog/other/解决-Virtualbox-共享文件夹-cannot-create-symlink-error-问题.md)
   * [Swagger](blog/other/swagger/README.md)
     * [Spring MVC 集成 Swagger](blog/other/swagger/SpringMVC集成Swagger.md)
   * [Maven](blog/other/maven/README.md)
@@ -99,6 +98,16 @@
     * [MySQL长事务导致的Table Metadata Lock](blog/other/mysql/mysqlchang-shi-wu-dao-zhi-de-table-metadata-lock.md)
     * [com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure](blog/other/mysql/commysqljdbcexceptionsjdbc4communicationsexception-communications-link-failure.md)
     * [解决mysql插入数据时出现Incorrect string value: '\xF0\x9F...' for column 'name' at row 1的异常](blog/other/mysql/jie-jue-mysql-cha-ru-shu-ju-shi-chuxian-incorrect-string-value-xf0-x9f-for-column-name-at-row-1-de-yi-chang.md)
+  * [HTTP](blog/other/http/README.md)
+    * [HTTP 协议中的 Transfer-Encoding](blog/other/http/HTTP协议中的Transfer-Encoding.md)
+    * [四种常见的 POST 提交数据方式](blog/other/http/四种常见的POST提交数据方式.md)
+    * [HTTP 请求头中的 X-Forwarded-For](blog/other/http/HTTP请求头中的X-Forwarded-For.md)
+  * Raspberry
+    * [系统安装配置](blog/other/raspberry/xi-tong-an-zhuang-pei-zhi.md)
+  * VIM
+    * [1111](blog/other/vim/vim常用配置.md)
+    * [2222](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
+  * [\[解决 Virtualbox 共享文件夹 cannot create symlink error 问题\]\(blog/other/解决 Virtualbox 共享文件夹 cannot create symlink error 问题.md\)](blog/other/解决-Virtualbox-共享文件夹-cannot-create-symlink-error-问题.md)
   * [\[nginx 403 forbidden 二种原因\]\(blog/other/nginx 403 forbidden 二种原因.md\)](blog/other/nginx-403-forbidden二种原因.md)
   * [VirtualBox的四种网络连接方式](blog/other/VirtualBox的四种网络连接方式.md)
   * [在Windows的CMD中如何设置支持UTF8编码?](blog/other/在Windows的CMD中如何设置支持UTF8编码.md)
@@ -108,7 +117,6 @@
   * [使用命令行启动VirtualBox虚拟机](blog/other/使用命令行启动VirtualBox虚拟机.md)
   * [SSH原理与运用：远程登录、远程操作与端口转发](blog/other/SSH原理与运用：远程登录、远程操作与端口转发.md)
   * [\[SVN mime-type 笔记\]\(blog/other/SVN mime-type 笔记.md\)](blog/other/SVN-mime-type-笔记.md)
-  * [传统轮询、长轮询、服务器发送事件与WebSocket](blog/other/传统轮询、长轮询、服务器发送事件与WebSocket.md)
   * [HTTP](blog/other/http/README.md)
     * [HTTP 协议中的 Transfer-Encoding](blog/other/http/HTTP协议中的Transfer-Encoding.md)
     * [四种常见的 POST 提交数据方式](blog/other/http/四种常见的POST提交数据方式.md)
@@ -120,7 +128,6 @@
   * [MavenActionUtil.getMavenProject\(e.getDataContext\(\)\) is Null when developing a intellij plugin](blog/other/mavenactionutilgetmavenprojectegetdatacontext-is-null-when-developing-a-intellij-plugin.md)
   * [Git 如何 clone 非 master 分支的代码](blog/other/git-ru-he-clone-fei-master-fen-zhi-de-dai-ma.md)
   * [git提示error setting certificate verify locations解决办法](blog/other/gitti-shi-error-setting-certificate-verify-locations-jie-jue-ban-fa.md)
-  * [该死的 ^M](blog/other/gai-si-de-m.md)
   * Raspberry
     * [系统安装配置](blog/other/raspberry/xi-tong-an-zhuang-pei-zhi.md)
   * [Windows下使用Beyond Compare作为git的比对与合并工具](blog/other/windowsxia-shi-yong-beyond-compare-zuo-wei-git-de-bi-dui-yu-he-bing-gong-ju.md)
@@ -129,7 +136,6 @@
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
   * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
-  * [Install Home Assistant, Mosquitto broker and Node-Red on Android](blog/other/install-home-assistant-mosquitto-broker-and-node-red-on-android.md)
   * VIM
     * [1111](blog/other/vim/vim常用配置.md)
     * [2222](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
