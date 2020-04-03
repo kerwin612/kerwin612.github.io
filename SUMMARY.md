@@ -109,6 +109,7 @@
   * [VIM](blog/other/vim/README.md)
     * [vim常用配置](blog/other/vim/vim常用配置.md)
     * [在vim中使用查找命令查找指定字符串](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
+    * [Vim缩进有关的设置总结](blog/other/vim/vimsuo-jin-you-guan-de-she-zhi-zong-jie.md)
   * [Git](blog/other/git/README.md)
     * [github 同步一个 fork](blog/other/git/github-同步一个-fork.md)
     * [Git 如何 clone 非 master 分支的代码](blog/other/git/git-ru-he-clone-fei-master-fen-zhi-de-dai-ma.md)
@@ -135,3 +136,4 @@
   * [Cygwin的安装和配置apt-cyg源](blog/other/cygwinde-an-zhuang-he-pei-zhi-apt-cyg-yuan.md)
   * [Zookeeper运维常用四字命令](blog/other/zookeeperyun-wei-chang-yong-si-zi-ming-ling.md)
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
+
