@@ -75,6 +75,7 @@
   * [Linux系统管理常用命令](blog/linux/Linux系统管理常用命令.md)
   * [让你提升命令行效率的 Bash 快捷键 \[完整版\]](blog/linux/让你提升命令行效率的-bash-快捷键-完整版.md)
   * [SELinux](blog/linux/selinux.md)
+  * [Linux下 RabbitMQ的安装与配置](blog/linux/Linux下 RabbitMQ的安装与配置.md)
   * [SELinux下更改mysql端口](blog/linux/SELinux下更改mysql端口.md)
   * [centos 7 升级后yum install出现Exiting on user cancel](blog/linux/centos-7-升级后yum-install出现Exiting-on-user-cancel.md)
   * [Linux Shell 通配符、元字符、转义符使用实例介绍](blog/linux/linux-shell-tong-pei-fu-3001-yuan-zi-fu-3001-zhuan-yi-fu-shi-yong-shi-li-jie-shao.md)
