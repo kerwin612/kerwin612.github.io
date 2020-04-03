@@ -4,7 +4,7 @@
 * [GO](blog/go-notes/README.md)
   * [How to Test Local Changes with Go Mod](blog/go-notes/how-to-test-local-changes-with-go-mod.md)
 * [JS](blog/js-notes/README.md)
-  * [JS\/JQuery 代码、框架收藏](blog/js-notes/JS&JQuery-代码、框架收藏.md)
+  * [JS / JQuery 代码、框架收藏](blog/js-notes/JS&JQuery-代码、框架收藏.md)
   * [用Mock.js + AngularJS来提高开发效率](blog/js-notes/用Mock.js+AngularJS来提高开发效率.md)
   * [在JavaScript中监听 IME 键盘输入事件](blog/js-notes/在JavaScript中监听IME键盘输入事件.md)
   * [如何组织大型JavaScript应用中的代码？](blog/js-notes/如何组织大型JavaScript应用中的代码？.md)
