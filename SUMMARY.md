@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* GO
+* [GO](blog/go-notes/README.md)
   * [How to Test Local Changes with Go Mod](blog/go-notes/how-to-test-local-changes-with-go-mod.md)
 * [JS](blog/js-notes/README.md)
   * [\[JS\/JQuery 代码、框架收藏\]\(blog/js-notes/JS&JQuery 代码、框架收藏.md\)](blog/js-notes/JS&JQuery-代码、框架收藏.md)
@@ -128,7 +128,7 @@
   * [MavenActionUtil.getMavenProject\(e.getDataContext\(\)\) is Null when developing a intellij plugin](blog/other/mavenactionutilgetmavenprojectegetdatacontext-is-null-when-developing-a-intellij-plugin.md)
   * [Git 如何 clone 非 master 分支的代码](blog/other/git-ru-he-clone-fei-master-fen-zhi-de-dai-ma.md)
   * [git提示error setting certificate verify locations解决办法](blog/other/gitti-shi-error-setting-certificate-verify-locations-jie-jue-ban-fa.md)
-  * Raspberry
+  * [Raspberry](blog/other/raspberry/README.md)
     * [系统安装配置](blog/other/raspberry/xi-tong-an-zhuang-pei-zhi.md)
   * [Windows下使用Beyond Compare作为git的比对与合并工具](blog/other/windowsxia-shi-yong-beyond-compare-zuo-wei-git-de-bi-dui-yu-he-bing-gong-ju.md)
   * [Cygwin的安装和配置apt-cyg源](blog/other/cygwinde-an-zhuang-he-pei-zhi-apt-cyg-yuan.md)
@@ -136,7 +136,7 @@
   * [svn sqlite\[S11\]: database disk image is malformed](blog/other/svn-sqlites11-database-disk-image-is-malformed.md)
   * [How to Delete Commit History in Github](blog/other/how-to-delete-commit-history-in-github.md)
   * [git设置和取消代理](blog/other/gitshe-zhi-he-qu-xiao-dai-li.md)
-  * VIM
-    * [1111](blog/other/vim/vim常用配置.md)
-    * [2222](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
+  * [VIM](blog/other/vim/README.md)
+    * [vim常用配置](blog/other/vim/vim常用配置.md)
+    * [在vim中使用查找命令查找指定字符串](blog/other/vim/在vim中使用查找命令查找指定字符串.md)
 
