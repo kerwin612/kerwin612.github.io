@@ -1,0 +1,124 @@
+pom.xml  
+```xml
+<properties>
+	<!-- 不需要打包到jar包里的依赖复制到该路径下 -->
+	<libPath>${project.build.directory}/lib/</libPath>
+	<!-- 需要打包到jar包里的依赖：用逗号分隔的GroupIds -->
+	<selfLib>xxx.xxx.aaa,xxx.xxx.bbb</selfLib>
+</properties>
+...
+<profiles>
+	<profile>
+		<id>spring-boot-package-with-third-lib</id>
+		<activation>
+			<activeByDefault>false</activeByDefault>
+			<file>
+				<exists>src/main/resources/application.yml</exists>
+			</file>
+			<property>
+				<name>!spring_boot_package_without_third_lib</name>
+			</property>
+		</activation>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>buildnumber-maven-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+	<profile>
+		<id>spring-boot-package-without-third-lib</id>
+		<activation>
+			<activeByDefault>false</activeByDefault>
+			<file>
+				<exists>src/main/resources/application.yml</exists>
+			</file>
+			<property>
+				<name>spring_boot_package_without_third_lib</name>
+			</property>
+		</activation>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-dependency-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>unpack-self-dependencies</id>
+							<phase>package</phase>
+							<goals>
+								<goal>unpack-dependencies</goal>
+							</goals>
+							<configuration>
+								<includeGroupIds>${selfLib}</includeGroupIds>
+								<outputDirectory>${project.build.outputDirectory}</outputDirectory>
+							</configuration>
+						</execution>
+						<execution>
+							<id>copy-third-dependencies</id>
+							<phase>package</phase>
+							<goals>
+								<goal>copy-dependencies</goal>
+							</goals>
+							<configuration>
+								<excludeGroupIds>${selfLib}</excludeGroupIds>
+								<outputDirectory>${libPath}</outputDirectory>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>default-jar</id>
+							<phase>none</phase>
+						</execution>
+						<execution>
+							<id>package-jar</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+							<phase>package</phase>
+							<configuration>
+								<archive>
+									<manifest>
+										<addClasspath>true</addClasspath>
+										<classpathPrefix>../ext-lib/</classpathPrefix>
+										<useUniqueVersions>false</useUniqueVersions>
+									</manifest>
+								</archive>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+					<configuration>
+						<includes>
+							<include>
+								<groupId>null</groupId>
+								<artifactId>null</artifactId>
+							</include>
+						</includes>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+</profiles>
+```  
+正常打包方式[微服务jar包 包含第三方依赖]： `mvn clean install`  
+特殊打包方式[微服务jar包 不包含第三方依赖]： `mvn clean install -Dspring_boot_package_without_third_lib=true`  
+
+查询当前环境所激活的`profile`：`mvn help:active-profiles`
