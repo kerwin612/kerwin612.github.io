@@ -128,13 +128,13 @@ Swagger-Annotations的依赖：
 </dependency>
 ```
 
-根据Swagger注解生成文档有两种形式：
-1. [swagger-springmvc](https://github.com/springfox/springfox) 现在已升级为**springfox**
-2. [swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)
-第一种会在项目启动的时候创建一个**api-doc**的接口访问路径然后配合SwaggerUI，这种方式需要SpringMVC3.2以上的版本
-第二种会在项目打包的时候生成一份swagger文档，然后根据swagger文档配合SwaggerUI做你想做的。
+根据Swagger注解生成文档有两种形式：  
+1. [swagger-springmvc](https://github.com/springfox/springfox) 现在已升级为**springfox**  
+2. [swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)  
+第一种会在项目启动的时候创建一个**api-doc**的接口访问路径然后配合SwaggerUI，这种方式需要SpringMVC3.2以上的版本  
+第二种会在项目打包的时候生成一份swagger文档，然后根据swagger文档配合SwaggerUI做你想做的。  
 
-网上大把的第一种教程。我们项目特殊原因，只能选择后者：
+网上大把的第一种教程。我们项目特殊原因，只能选择后者：  
 #### 利用Swagger Maven Plugin生成Rest API文档
 首先在项目的pom中添加插件：
 ```xml
@@ -200,8 +200,8 @@ Swagger-Annotations的依赖：
 	</plugins>
 </build>
 ```
-里面用到的模板是官方demo（[swagger-maven-example](https://github.com/swagger-maven-plugin/swagger-maven-example)）中的模板，模板是啥意思不知道就去看插件的官方介绍。
+里面用到的模板是官方demo（[swagger-maven-example](https://github.com/swagger-maven-plugin/swagger-maven-example)）中的模板，模板是啥意思不知道就去看插件的官方介绍。  
 
-添加好插件后直接在项目下执行`mvn clean compile`就会得到**generated/swagger-ui/swagger.json**
+添加好插件后直接在项目下执行`mvn clean compile`就会得到**generated/swagger-ui/swagger.json**  
 
 
