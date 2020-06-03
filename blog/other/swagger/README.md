@@ -1,9 +1,9 @@
 # [Swagger](http://www.swagger.io)
 Swagger是干嘛的，请看官网或问谷歌。
 
-Swagger的主要工作流程是：
-1. 编写swagger文档，兼容json/yaml两个格式，官方提供[在线编辑器](http://swagger.io/swagger-editor/) -> [Swagger Editor](http://editor.swagger.io)
-2. 然后通过[SwaggerUI](http://swagger.io/swagger-ui/)请求第一步编写的swagger文档 -> [Swagger UI](http://petstore.swagger.io/)
+Swagger的主要工作流程是：  
+1. 编写`swagger`文档，兼容`json`/`yaml`两个格式，官方提供[在线编辑器](http://swagger.io/swagger-editor/) -> [Swagger Editor](http://editor.swagger.io)  
+2. 然后通过[SwaggerUI](http://swagger.io/swagger-ui/)请求第一步编写的swagger文档 -> [Swagger UI](http://petstore.swagger.io/)  
 
 
 so，我们要想用Swagger就必须编写swagger文档，这个时候问题就来了，看看官方的例子：
@@ -135,7 +135,7 @@ Swagger-Annotations的依赖：
 第二种会在项目打包的时候生成一份swagger文档，然后根据swagger文档配合SwaggerUI做你想做的。
 
 网上大把的第一种教程。我们项目特殊原因，只能选择后者：
-####利用Swagger Maven Plugin生成Rest API文档
+#### 利用Swagger Maven Plugin生成Rest API文档
 首先在项目的pom中添加插件：
 ```xml
 <build>
