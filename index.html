@@ -596,8 +596,15 @@
 </script>
 <script type="text/javascript">
     $(document).ready(function () {
-		$.getJSON( "posts.json", function( data ) {
-		    console.dir(data);
+		//$.getJSON( "posts.json", function( data ) {
+		//    console.dir(data);
+		//});
+		$.ajax({
+		    dataType: 'json',
+		    url: 'posts.json',
+		    success: function( data ) {
+			    console.dir(data);
+		    }
 		});
     });
 </script>
