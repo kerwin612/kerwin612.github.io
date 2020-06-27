@@ -353,6 +353,10 @@
             float: left;
             width: 100%;
         }
+		
+		.blog-item p strong {
+			font-weight: bold !important;
+		}
 
 
         /* satic pages */
@@ -543,6 +547,7 @@
     </div>
 </section>
 <script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/marked.min.js"></script>
 <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
@@ -553,8 +558,8 @@
 				$('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
 						<h3>'+v.title+'</h3>\
-						<h5>'+v.content+'</h5>\
-						'+(v.url?('<a href="'+v.url+'">Read More</a>'):'')+'\
+						<h5>'+marked(v.content)+'</h5>\
+						'+(v.url?('<a href="'+v.url+'" target="_blank">Read More</a>'):'')+'\
 						<span class="icon-sec"><i class="far fa-newspaper"></i></span>\
 					</div>\
 				');

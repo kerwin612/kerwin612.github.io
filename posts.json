@@ -1,5 +1,33 @@
 [
 {
+	"tag": "java",
+	"date": "2017-10-15",
+	"title": "#PR [krasa/MavenHelper]",
+	"content": "最近发现一个`IDEAJ`插件[Maven Helper](https://plugins.jetbrains.com/plugin/7179)，还挺好用的，顺便给该插件新增了一个功能：  \n支持在包含`pom.xml`文件的任意 文件/文件夹 上右击执行`mvn`命令。",
+	"url": "https://github.com/krasa/MavenHelper/pull/22"
+},
+{
+	"tag": "js",
+	"date": "2017-01-26",
+	"title": "#PR [wangshijun/angular-echarts]",
+	"content": "给[angular-echarts](https://github.com/wangshijun/angular-echarts)库新增了一个配置项： **graphic** 。",
+	"url": "https://github.com/wangshijun/angular-echarts/pull/45"
+},
+{
+	"tag": "js",
+	"date": "2016-11-30",
+	"title": "#PR [ppoffice/Hozz]",
+	"content": "给[Hozz](https://blog.zhangruipeng.me/Hozz/)修复了几个异常，添加了几个新功能。",
+	"url": "https://github.com/ppoffice/Hozz/pulls?q=is%3Apr+is%3Aclosed+author%3Aileler"
+},
+{
+	"tag": "java",
+	"date": "2016-04-20",
+	"title": "#PR [kongchen/swagger-maven-plugin]",
+	"content": "最近用到[swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)库，  \n给该库新增了一个功能：  \n新增配置项 **swaggerFileName** ，支持让用户自定义输出`swagger`文件的名称。",
+	"url": "https://github.com/kongchen/swagger-maven-plugin/pull/320"
+},
+{
 	"date": "xxxxx-xx-xx",
 	"title": "",
 	"content": "",
