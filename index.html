@@ -547,8 +547,10 @@
 <script type="text/javascript">
     $(document).ready(function () {
 		$.getJSON('posts.json', function(data){
-		    ((data||[]).filter(v => v.title)).forEach((v, i) => {
-				$('#' + (((i + 1) % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
+			let count = 0;
+		    (data||[]).forEach((v, i) => {
+				if (count === (count = count + (v && v.title ? 1 : 0))) return;
+				$('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
 						<h3>'+v.title+'</h3>\
 						<h5>'+v.content+'</h5>\
@@ -557,6 +559,7 @@
 					</div>\
 				');
 			});
+			console.log(count);
 		});
     });
 </script>
