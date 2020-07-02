@@ -353,10 +353,22 @@
             float: left;
             width: 100%;
         }
-		
-		.blog-item p strong {
-			font-weight: bold !important;
-		}
+
+        .blog-item p strong {
+            font-weight: bold !important;
+        }
+
+        .tag {
+            cursor: pointer;
+            margin: 5px 10px;
+            padding: 5px 15px;
+            border-radius: 15px;
+            background-color: #6c757d;
+        }
+
+        .tag.selected {
+            background-color: #17a2b8 !important;
+        }
 
 
         /* satic pages */
@@ -422,7 +434,6 @@
             }
 
         }
-
 
         @media only screen and (max-width: 675px) {
             .left-sec {
@@ -509,7 +520,6 @@
             }
         }
 
-
         @media only screen and (max-width: 480px) {
 
             header {
@@ -540,6 +550,7 @@
     <div class="container">
         <h2>“说说”</h2>
         <h5>分享新鲜事</h5>
+        <div id="tags" style="margin: 10px"></div>
         <div class="row blog-posts">
             <div id="leftCol" class="col-md-6 left-sec"></div>
             <div id="rightCol" class="col-md-6 right-sec"></div>
@@ -551,21 +562,55 @@
 <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
-		$.getJSON('posts.json', function(data){
-			let count = 0;
-		    (data||[]).forEach((v, i) => {
-				if (count === (count = count + (v && v.title ? 1 : 0))) return;
-				$('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
+
+        let data = [];
+        let tags = [];
+
+        load = function (data, arr) {
+            $('#leftCol').empty();
+            $('#rightCol').empty();
+            let count = 0;
+            (data || []).forEach((v) => {
+                if (count === (count = count + (v && v.title ? 1 : 0)) || (arr && $.inArray(v.tag, arr) === -1)) return;
+                $('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
-						<h3>'+v.title+'</h3>\
-						<h5>'+marked(v.content)+'</h5>\
-						'+(v.url?('<a href="'+v.url+'" target="_blank">Read More</a>'):'')+'\
+						<h3 date="' + v.date + '">' + v.title + '</h3>\
+						<h5>' + marked(v.content) + '</h5>\
+						' + (v.url ? ('<a href="' + v.url + '" target="_blank">Read More</a>') : '') + '\
 						<span class="icon-sec"><i class="far fa-newspaper"></i></span>\
 					</div>\
 				');
-			});
-			console.log(count);
-		});
+                if ($.inArray(v.tag, tags) === -1) tags.push(v.tag);
+            });
+            console.log(count);
+
+            if (arr) return;
+
+            tags.forEach((v) => {
+                $('#tags').append('\
+                    <span class="tag selected">' + v + '</span>\
+                ');
+            });
+
+            $('.tag').click((e) => {
+                let tag = $(e.target).html();
+                if ($.inArray(tag, tags) !== -1) {
+                    $(e.target).removeClass('selected');
+                    tags = $.grep(tags, function (value) {
+                        return value != tag;
+                    });
+                } else {
+                    $(e.target).addClass('selected');
+                    tags.push(tag);
+                }
+                load(data, tags);
+            });
+        }
+
+        $.getJSON('posts.json', function (d) {
+            load(data = d);
+        });
+
     });
 </script>
 </body>
