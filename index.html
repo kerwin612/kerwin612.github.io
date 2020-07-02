@@ -359,7 +359,6 @@
         }
 
         .tag {
-            cursor: pointer;
             margin: 5px 10px;
             padding: 5px 15px;
             border-radius: 15px;
@@ -368,6 +367,10 @@
 
         .tag.selected {
             background-color: #17a2b8 !important;
+        }
+
+        #tags .tag {
+            cursor: pointer;
         }
 
 
@@ -575,6 +578,7 @@
                 $('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
 						<h3 date="' + v.date + '">' + v.title + '</h3>\
+						<div style="margin: 10px"><span class="tag">' + v.tag + '</span><span class="tag">' + v.date + '</span></div>\
 						<h5>' + marked(v.content) + '</h5>\
 						' + (v.url ? ('<a href="' + v.url + '" target="_blank">Read More</a>') : '') + '\
 						<span class="icon-sec"><i class="far fa-newspaper"></i></span>\
@@ -592,7 +596,7 @@
                 ');
             });
 
-            $('.tag').click((e) => {
+            $('#tags .tag').click((e) => {
                 let tag = $(e.target).html();
                 if ($.inArray(tag, tags) !== -1) {
                     $(e.target).removeClass('selected');
