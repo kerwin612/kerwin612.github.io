@@ -118,7 +118,7 @@ pom.xml
 	</profile>
 </profiles>
 ```  
-正常打包方式[微服务jar包 包含第三方依赖]： `mvn clean install`  
-特殊打包方式[微服务jar包 不包含第三方依赖]： `mvn clean install -Dspring_boot_package_without_third_lib=true`  
+正常打包方式[微服务jar包 包含第三方依赖]： `mvn clean package`  
+特殊打包方式[微服务jar包 不包含第三方依赖]： `mvn clean package -Dspring_boot_package_without_third_lib=true`  
 
 查询当前环境所激活的`profile`：`mvn help:active-profiles`
