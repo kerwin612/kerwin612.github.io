@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'AlibabaPuHuiTi';
+    src: url('file:///D:/font/alibaba/zh-cn/Alibaba-PuHuiTi-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTi-Bold';
+    src: url('file:///D:/font/alibaba/zh-cn/Alibaba-PuHuiTi-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTi-Light';
+    src: url('file:///D:/font/alibaba/zh-cn/Alibaba-PuHuiTi-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTi-Medium';
+    src: url('file:///D:/font/alibaba/zh-cn/Alibaba-PuHuiTi-Medium.ttf');
+    font-weight: Medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTi-Heavy';
+    src: url('file:///D:/font/alibaba/zh-cn/Alibaba-PuHuiTi-Heavy.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Normal-Italics';
+    src: url('file:///D:/font/alibaba/sans/italics/AlibabaSans-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Bold-Italics';
+    src: url('file:///D:/font/alibaba/sans/italics/AlibabaSans-BoldItalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-light-Italics';
+    src: url('file:///D:/font/alibaba/sans/italics/AlibabaSans-LightItalic.otf');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Heavy-Italics';
+    src: url('file:///D:/font/alibaba/sans/italics/AlibabaSans-HeavyItalic.otf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Medium-Italics';
+    src: url('file:///D:/font/alibaba/sans/italics/AlibabaSans-MediumItalic.otf');
+    font-weight: Medium;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Normal';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Light';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Light.otf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Medium';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Medium.otf');
+    font-weight: Medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Bold';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Heavy';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Heavy.otf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AlibabaSans-Black';
+    src: url('file:///D:/font/alibaba/sans/nornal/AlibabaSans-Black.otf');
+    font-weight: 900;
+    font-style: normal;
+}
