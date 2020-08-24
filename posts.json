@@ -1,6 +1,48 @@
 [
 {
 	"tag": "java",
+	"date": "2019-09-12",
+	"title": "[ileler/request-service-mapping]",
+	"content": "我们在使用spring-cloud开发的时候，在开发/测试环境需要debug时经常会碰到一个问题：多个实例，不确定请求会打到哪台实例机器；于是写了一个`ribbon`插件：支持通过配置将请求映射到目标服务器。",
+	"url": "https://github.com/ileler/request-service-mapping"
+},
+{
+	"tag": "java",
+	"date": "2019-09-03",
+	"title": "[ileler/spring-web-json-param]",
+	"content": "允许用户在`spring-web`项目中自由使用`json`参数，支持`spring-webmvc`和`spring-webflux`。",
+	"url": "https://github.com/ileler/spring-web-json-param"
+},
+{
+	"tag": "go",
+	"date": "2020-04-11",
+	"title": "[ileler/miio-serial-tools]",
+	"content": "`小米米家App`的插件开发-接口调试工具",
+	"url": "https://github.com/ileler/miio-serial-tools"
+},
+{
+	"tag": "python",
+	"date": "2019-06-14",
+	"title": "[ileler/spw]",
+	"content": "最近用到`sshpass`这个工具，可以明文传密码给ssh，非常方便；但是每次执行命令时还是要手动输入密码，于是写了个小工具来保存ssh密码，大大提升效率。",
+	"url": "https://github.com/ileler/spw"
+},
+{
+	"tag": "python",
+	"date": "2018-06-29",
+	"title": "[ileler/iu-jar]",
+	"content": "最近公司切到spring-boot微服务，多服务部署、升级时，涉及到多个服务jar包上传到服务器，经常很费时，因为我们的spring-boot服务是单jar包部署的，单个jar包体积都很大，上传到线上服务器需要浪费掉很多时间，于是写了个增量升级的小工具：对比新旧jar包生成增量包，升级时只用上传增量包（不新增依赖的情况下，增量包通常在几k左右），大大提高了升级部署效率。",
+	"url": "https://github.com/ileler/iu-jar"
+},
+{
+	"tag": "js",
+	"date": "2018-06-08",
+	"title": "[ileler/aqara-gateway-faker]",
+	"content": "最近频繁将Aqara的设备接入HA（Home-Assistant）/HK（HomeKit），涉及到一些新设备的接入时，需要联合Aqara网关做配合调试，于是做了一个虚拟的Aqara网关，实现了Aqara的网关协议，方便开发者在没有Aqara网关的情况下，也可以做接入新设备的适配工作。",
+	"url": "https://github.com/ileler/aqara-gateway-faker"
+},
+{
+	"tag": "java",
 	"date": "2019-08-06",
 	"title": "#PR [springfox/springfox]",
 	"content": "给[springfox](http://springfox.io/)(Automated JSON API documentation for API's built with Spring)新增：**support multiple ApiImplicitParameters**。",
