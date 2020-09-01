@@ -1,158 +1,181 @@
 [
 {
-	"tag": "java",
+	"tag": ["spring-cloud", "ribbon"],
+	"lang": ["java"],
 	"date": "2019-09-12",
 	"title": "[ileler/request-service-mapping]",
 	"content": "我们在使用spring-cloud开发的时候，在开发/测试环境需要debug时经常会碰到一个问题：多个实例，不确定请求会打到哪台实例机器；于是写了一个`ribbon`插件：支持通过配置将请求映射到目标服务器。",
 	"url": "https://github.com/ileler/request-service-mapping"
 },
 {
-	"tag": "java",
+	"tag": ["spring-web", "spring-webmvc", "spring-webflux"],
+	"lang": ["java"],
 	"date": "2019-09-03",
 	"title": "[ileler/spring-web-json-param]",
 	"content": "允许用户在`spring-web`项目中自由使用`json`参数，支持`spring-webmvc`和`spring-webflux`。",
 	"url": "https://github.com/ileler/spring-web-json-param"
 },
 {
-	"tag": "go",
+	"tag": [],
+	"lang": ["go"],
 	"date": "2020-04-11",
 	"title": "[ileler/miio-serial-tools]",
 	"content": "`小米米家App`的插件开发-接口调试工具",
 	"url": "https://github.com/ileler/miio-serial-tools"
 },
 {
-	"tag": "python",
+	"tag": ["sshpass"],
+	"lang": ["python"],
 	"date": "2019-06-14",
 	"title": "[ileler/spw]",
 	"content": "最近用到`sshpass`这个工具，可以明文传密码给ssh，非常方便；但是每次执行命令时还是要手动输入密码，于是写了个小工具来保存ssh密码，大大提升效率。",
 	"url": "https://github.com/ileler/spw"
 },
 {
-	"tag": "python",
+	"tag": ["spring-boot"],
+	"lang": ["python"],
 	"date": "2018-06-29",
 	"title": "[ileler/iu-jar]",
 	"content": "最近公司切到spring-boot微服务，多服务部署、升级时，涉及到多个服务jar包上传到服务器，经常很费时，因为我们的spring-boot服务是单jar包部署的，单个jar包体积都很大，上传到线上服务器需要浪费掉很多时间，于是写了个增量升级的小工具：对比新旧jar包生成增量包，升级时只用上传增量包（不新增依赖的情况下，增量包通常在几k左右），大大提高了升级部署效率。",
 	"url": "https://github.com/ileler/iu-jar"
 },
 {
-	"tag": "js",
+	"tag": ["Home-Assistant", "HomeKit", "Aqara"],
+	"lang": ["js"],
 	"date": "2018-06-08",
 	"title": "[ileler/aqara-gateway-faker]",
 	"content": "最近频繁将Aqara的设备接入HA（Home-Assistant）/HK（HomeKit），涉及到一些新设备的接入时，需要联合Aqara网关做配合调试，于是做了一个虚拟的Aqara网关，实现了Aqara的网关协议，方便开发者在没有Aqara网关的情况下，也可以做接入新设备的适配工作。",
 	"url": "https://github.com/ileler/aqara-gateway-faker"
 },
 {
-	"tag": "java",
+	"tag": ["springfox"],
+	"lang": ["java"],
 	"date": "2019-08-06",
 	"title": "#PR [springfox/springfox]",
 	"content": "给[springfox](http://springfox.io/)(Automated JSON API documentation for API's built with Spring)新增：**support multiple ApiImplicitParameters**。",
 	"url": "https://github.com/springfox/springfox/pull/3064"
 },
 {
-	"tag": "python",
+	"tag": ["ansible"],
+	"lang": ["python"],
 	"date": "2019-07-07",
 	"title": "#PR [ansible/ansible]",
 	"content": "最近用到`ansible`，调试时看了部分源码，感觉有点乱就给优化了一下。",
 	"url": "https://github.com/ansible/ansible/pull/56827"
 },
 {
-	"tag": "java",
+	"tag": ["jenkins", "maven"],
+	"lang": ["java"],
 	"date": "2018-12-05",
 	"title": "#PR [jenkinsci/maven-hpi-plugin]",
 	"content": "最近用`jenkins`碰到`maven`下载的问题，也没有一个友好提示，不方便定位问题，给处理了一下。",
 	"url": "https://github.com/jenkinsci/maven-hpi-plugin/pull/83"
 },
 {
-	"tag": "js",
+	"tag": ["HomeKit", "Aqara"],
+	"lang": ["js"],
 	"date": "2018-09-24",
 	"title": "#PR [YinHangCode/homebridge-mi-aqara]",
 	"content": "最近玩homekit，找到这个库，给这个库优化了一下代码，方便新增'硬件支持'。",
 	"url": "https://github.com/YinHangCode/homebridge-mi-aqara/pull/139"
 },
 {
-	"tag": "java",
+	"tag": ["spring-cloud", "spring-cloud-openfeign"],
+	"lang": ["java"],
 	"date": "2018-09-13",
 	"title": "#PR [spring-cloud/spring-cloud-openfeign]",
 	"content": "因项目需要，需要给`spring-cloud-openfeign`新增一个根据**key**选择指定**instance**的功能；结果跟了一圈代码发现官方还没法支持，于是提交了几个PR： [spring-cloud/spring-cloud-openfeign](https://github.com/spring-cloud/spring-cloud-openfeign/pull/50)、[spring-cloud/spring-cloud-sleuth](https://github.com/spring-cloud/spring-cloud-sleuth/pull/1043)、[spring-cloud/spring-cloud-netflix](https://github.com/spring-cloud/spring-cloud-netflix/pull/2536)。",
 	"url": "https://github.com/spring-cloud/spring-cloud-openfeign/pull/50"
 },
 {
-	"tag": "java",
+	"tag": ["eureka"],
+	"lang": ["java"],
 	"date": "2018-09-03",
 	"title": "#PR [Netflix/eureka]",
 	"content": "最近配置`eureka`时发现配置项**defaultZone**居然连空格都没自动过滤，这简直太不能忍了，必须要支持。",
 	"url": "https://github.com/Netflix/eureka/pull/1119"
 },
 {
-	"tag": "java",
+	"tag": ["spring-cloud", "spring-cloud-gateway"],
+	"lang": ["java"],
 	"date": "2018-08-16",
 	"title": "#PR [spring-cloud/spring-cloud-gateway]",
 	"content": "因项目需要，需要扩展`spring-cloud-gateway`的**LoadBalancerClientFilter**，结果官方还不支持，所以给支持了一下。",
 	"url": "https://github.com/spring-cloud/spring-cloud-gateway/pull/448"
 },
 {
-	"tag": "java",
+	"tag": ["spring-cloud", "spring-cloud-gateway"],
+	"lang": ["java"],
 	"date": "2018-07-03",
 	"title": "#PR [spring-cloud/spring-cloud-gateway]",
 	"content": "最近项目组将`zuul`切到`spring-cloud-gateway`，结果一上来就碰到NPE，没有异常处理，所以给支持了一下。",
 	"url": "https://github.com/spring-cloud/spring-cloud-gateway/pull/407"
 },
 {
-	"tag": "python",
+	"tag": ["Home-Assistant", "Aqara"],
+	"lang": ["python"],
 	"date": "2018-05-18",
 	"title": "#PR [home-assistant/core]",
 	"content": "给[Home-Assistant](https://www.home-assistant.io/)新增了“支持忽略指定网关”的功能。详见：[PyXiaomiGateway](https://github.com/Danielhiversen/PyXiaomiGateway/pull/72) & [home-assistant/core](https://github.com/home-assistant/core/pull/14428)",
 	"url": "https://github.com/home-assistant/core/pull/14428"
 },
 {
-	"tag": "python",
+	"tag": ["Home-Assistant", "Aqara"],
+	"lang": ["python"],
 	"date": "2018-04-25",
 	"title": "#PR [home-assistant/core]",
 	"content": "最近玩[Home-Assistant](https://www.home-assistant.io/)，基于Aqara官方文档，给HA支持了 *新的Aqara网关* 和 *新的局域网协议* 。详见：[PyXiaomiGateway](https://github.com/Danielhiversen/PyXiaomiGateway/pull/66) & [home-assistant/core](https://github.com/home-assistant/core/pull/13540)",
 	"url": "https://github.com/home-assistant/core/pull/13540"
 },
 {
-	"tag": "java",
+	"tag": ["maven", "wagon-maven-plugin"],
+	"lang": ["java"],
 	"date": "2018-04-09",
 	"title": "#PR [mojohaus/wagon-maven-plugin]",
 	"content": "给`Maven`插件[wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)修复了一个异常；",
 	"url": "https://github.com/mojohaus/wagon-maven-plugin/pull/14"
 },
 {
-	"tag": "java",
+	"tag": ["maven", "IDEA"],
+	"lang": ["java"],
 	"date": "2017-10-15",
 	"title": "#PR [krasa/MavenHelper]",
 	"content": "最近发现一个`IDEAJ`插件[Maven Helper](https://plugins.jetbrains.com/plugin/7179)，还挺好用的，顺便给该插件新增了一个功能：  \n支持在包含`pom.xml`文件的任意 文件/文件夹 上右击执行`mvn`命令。",
 	"url": "https://github.com/krasa/MavenHelper/pull/22"
 },
 {
-	"tag": "js",
+	"tag": [],
+	"lang": ["js"],
 	"date": "2017-01-26",
 	"title": "#PR [wangshijun/angular-echarts]",
 	"content": "给[angular-echarts](https://github.com/wangshijun/angular-echarts)库新增了一个配置项： **graphic** 。",
 	"url": "https://github.com/wangshijun/angular-echarts/pull/45"
 },
 {
-	"tag": "js",
+	"tag": [],
+	"lang": ["js"],
 	"date": "2016-11-30",
 	"title": "#PR [ppoffice/Hozz]",
 	"content": "给[Hozz](https://blog.zhangruipeng.me/Hozz/)修复了几个异常，添加了几个新功能。",
 	"url": "https://github.com/ppoffice/Hozz/pulls?q=is%3Apr+is%3Aclosed+author%3Aileler"
 },
 {
-	"tag": "java",
+	"tag": ["maven", "Swagger"],
+	"lang": ["java"],
 	"date": "2016-04-20",
 	"title": "#PR [kongchen/swagger-maven-plugin]",
 	"content": "最近用到[swagger-maven-plugin](https://github.com/kongchen/swagger-maven-plugin)库，  \n给该库新增了一个功能：  \n新增配置项 **swaggerFileName** ，支持让用户自定义输出`swagger`文件的名称。",
 	"url": "https://github.com/kongchen/swagger-maven-plugin/pull/320"
 },
 {
+	"tag": [],
 	"date": "xxxxx-xx-xx",
 	"title": "",
 	"content": "",
 	"url": "ileler.com"
 },
 {
+	"tag": [],
 	"date": "xxxxx-xx-xx",
 	"title": "",
 	"content": ""

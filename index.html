@@ -369,6 +369,16 @@
             background-color: #17a2b8 !important;
         }
 
+        #lang .tag {
+            cursor: pointer;
+        }
+
+        #tags {
+            display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+        }
+
         #tags .tag {
             cursor: pointer;
         }
@@ -553,6 +563,7 @@
     <div class="container">
         <h2>“说说”</h2>
         <h5>分享新鲜事</h5>
+        <div id="lang" style="margin: 10px"></div>
         <div id="tags" style="margin: 10px"></div>
         <div class="row blog-posts">
             <div id="leftCol" class="col-md-6 left-sec"></div>
@@ -568,50 +579,68 @@
 
         let data = [];
         let tags = [];
+        let lang = [];
+        let _slt = '';
 
-        load = function (data, arr) {
+        load = function (data, grep) {
+            $('#lang').empty();
+            $('#tags').empty();
             $('#leftCol').empty();
             $('#rightCol').empty();
+			
             let count = 0;
             (data || []).forEach((v) => {
-                if (count === (count = count + (v && v.title ? 1 : 0)) || (arr && $.inArray(v.tag, arr) === -1)) return;
+				if (grep) {
+					if (($.inArray(grep, (v.tag || [])) === -1) && ($.inArray(grep, (v.lang || [])) === -1)) return;
+				} else {
+					(v.tag || []).forEach((t) => {
+						if ($.inArray(t, tags) === -1) tags.push(t);
+					});
+					(v.lang || []).forEach((l) => {
+						if ($.inArray(l, lang) === -1) lang.push(l);
+					});
+				}
+                if (count === (count = count + (v && v.title ? 1 : 0))) return;
+				let langEle = '';
+				(v.lang || []).forEach((l) => {
+					langEle += '<span class="tag">' + l + '</span>';
+				});
                 $('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
 						<h3 date="' + v.date + '">' + v.title + '</h3>\
-						<div style="margin: 10px"><span class="tag">' + v.tag + '</span><span class="tag">' + v.date + '</span></div>\
+						<div style="margin: 10px">' + langEle + '<span class="tag">' + v.date + '</span></div>\
 						<h5>' + marked(v.content) + '</h5>\
 						' + (v.url ? ('<a href="' + v.url + '" target="_blank">Read More</a>') : '') + '\
 						<span class="icon-sec"><i class="far fa-newspaper"></i></span>\
 					</div>\
 				');
-                if ($.inArray(v.tag, tags) === -1) tags.push(v.tag);
             });
             console.log(count);
 
-            if (arr) return;
-
-            tags.forEach((v) => {
-                $('#tags').append('\
-                    <span class="tag selected">' + v + '</span>\
+            lang.forEach((v) => {
+                $('#lang').append('\
+                    <span class="tag ' + ((!grep || v === grep) ? "selected" : "") + '">' + v + '</span>\
                 ');
             });
 
+            tags.forEach((v) => {
+                $('#tags').append('\
+                    <span class="tag ' + ((!grep || v === grep) ? "selected" : "") + '">' + v + '</span>\
+                ');
+            });
+
+            $('#lang .tag').click((e) => {
+				let slt = $(e.target).html();
+                load(data, _slt = (slt === _slt ? "" : slt));
+            });
+
             $('#tags .tag').click((e) => {
-                let tag = $(e.target).html();
-                if ($.inArray(tag, tags) !== -1) {
-                    $(e.target).removeClass('selected');
-                    tags = $.grep(tags, function (value) {
-                        return value != tag;
-                    });
-                } else {
-                    $(e.target).addClass('selected');
-                    tags.push(tag);
-                }
-                load(data, tags);
+				let slt = $(e.target).html();
+                load(data, _slt = (slt === _slt ? "" : slt));
             });
         }
 
-        $.getJSON('posts.json', function (d) {
+        $.getJSON('./posts.json', function (d) {
             data = d || [];
             data.sort(function (a, b) {
                 if (a.date === b.date) {
