@@ -4,7 +4,7 @@
 	"lang": ["java"],
 	"date": "2019-09-12",
 	"title": "[ileler/request-service-mapping]",
-	"content": "我们在使用spring-cloud开发的时候，在开发/测试环境需要debug时经常会碰到一个问题：多个实例，不确定请求会打到哪台实例机器；于是写了一个`ribbon`插件：支持通过配置将请求映射到目标服务器。",
+	"content": "我们在使用`spring-cloud`开发的时候，在开发/测试环境需要debug时经常会碰到一个问题：多个实例，不确定请求会打到哪台实例机器；于是写了一个`ribbon`插件：支持通过配置将请求映射到目标服务器。",
 	"url": "https://github.com/ileler/request-service-mapping"
 },
 {
@@ -28,7 +28,7 @@
 	"lang": ["python"],
 	"date": "2019-06-14",
 	"title": "[ileler/spw]",
-	"content": "最近用到`sshpass`这个工具，可以明文传密码给ssh，非常方便；但是每次执行命令时还是要手动输入密码，于是写了个小工具来保存ssh密码，大大提升效率。",
+	"content": "最近用到`sshpass`这个工具，可以明文传密码给`ssh`，非常方便；但是每次执行命令时还是要手动输入密码，于是写了个小工具来保存`ssh`密码，大大提升效率。",
 	"url": "https://github.com/ileler/spw"
 },
 {
@@ -36,7 +36,7 @@
 	"lang": ["python"],
 	"date": "2018-06-29",
 	"title": "[ileler/iu-jar]",
-	"content": "最近公司切到spring-boot微服务，多服务部署、升级时，涉及到多个服务jar包上传到服务器，经常很费时，因为我们的spring-boot服务是单jar包部署的，单个jar包体积都很大，上传到线上服务器需要浪费掉很多时间，于是写了个增量升级的小工具：对比新旧jar包生成增量包，升级时只用上传增量包（不新增依赖的情况下，增量包通常在几k左右），大大提高了升级部署效率。",
+	"content": "最近公司切到`spring-boot`微服务，多服务部署、升级时，涉及到多个服务`jar`包上传到服务器，经常很费时，因为我们的`spring-boot`服务是单`jar`包部署的，单个`jar`包体积都很大，上传到线上服务器需要浪费掉很多时间，于是写了个增量升级的小工具：对比新旧`jar`包生成增量包，升级时只用上传增量包（不新增依赖的情况下，增量包通常在几k左右），大大提高了升级部署效率。",
 	"url": "https://github.com/ileler/iu-jar"
 },
 {
@@ -44,7 +44,7 @@
 	"lang": ["js"],
 	"date": "2018-06-08",
 	"title": "[ileler/aqara-gateway-faker]",
-	"content": "最近频繁将Aqara的设备接入HA（Home-Assistant）/HK（HomeKit），涉及到一些新设备的接入时，需要联合Aqara网关做配合调试，于是做了一个虚拟的Aqara网关，实现了Aqara的网关协议，方便开发者在没有Aqara网关的情况下，也可以做接入新设备的适配工作。",
+	"content": "最近频繁将`Aqara`的设备接入`HA`（`Home-Assistant`）/`HK`（`HomeKit`），涉及到一些新设备的接入时，需要联合`Aqara`网关做配合调试，于是做了一个虚拟的`Aqara`网关，实现了`Aqara`的网关协议，方便开发者在没有`Aqara`网关的情况下，也可以做接入新设备的适配工作。",
 	"url": "https://github.com/ileler/aqara-gateway-faker"
 },
 {
@@ -76,7 +76,7 @@
 	"lang": ["js"],
 	"date": "2018-09-24",
 	"title": "#PR [YinHangCode/homebridge-mi-aqara]",
-	"content": "最近玩homekit，找到这个库，给这个库优化了一下代码，方便新增'硬件支持'。",
+	"content": "最近玩`homekit`，找到这个库，给这个库优化了一下代码，方便新增'硬件支持'。",
 	"url": "https://github.com/YinHangCode/homebridge-mi-aqara/pull/139"
 },
 {
@@ -124,7 +124,7 @@
 	"lang": ["python"],
 	"date": "2018-04-25",
 	"title": "#PR [home-assistant/core]",
-	"content": "最近玩[Home-Assistant](https://www.home-assistant.io/)，基于Aqara官方文档，给HA支持了 *新的Aqara网关* 和 *新的局域网协议* 。详见：[PyXiaomiGateway](https://github.com/Danielhiversen/PyXiaomiGateway/pull/66) & [home-assistant/core](https://github.com/home-assistant/core/pull/13540)",
+	"content": "最近玩[Home-Assistant](https://www.home-assistant.io/)，基于`Aqara`官方文档，给`HA`(`Home-Assistant`)支持了 *新的`Aqara`网关* 和 *新的局域网协议* 。详见：[PyXiaomiGateway](https://github.com/Danielhiversen/PyXiaomiGateway/pull/66) & [home-assistant/core](https://github.com/home-assistant/core/pull/13540)",
 	"url": "https://github.com/home-assistant/core/pull/13540"
 },
 {
