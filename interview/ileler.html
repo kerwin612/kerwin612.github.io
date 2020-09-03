@@ -116,23 +116,18 @@
 			$('.tags span').click((e) => {
 				changeTag($(e.target).html());
 			});
-			load();
+			changeTag(tags[0]);
         });
 		
-		function done() {
-			changeTag(tags[0]);
-		}
-		
-		function load(index) {
-			let key = tags && ((index = index || 0) < tags.length) ? tags[index] : null;
-			if (!key) {
-				done();
-				return;
-			}
-			$.get('./ileler/' + key + '.data', function (d) {
-				data.set(key, (d || '').split('//////////').filter(d => d.trim()));
-			}).always(() => {
-				load(++index);
+		function load(tag) {
+			$.get('./ileler/' + tag + '.data', function (d) {
+				data.set(tag, (d || '').split('//////////').filter(d => d.trim()));
+			}).fail(() => {
+				data.set(tag, null);
+			}).always(function() {
+				if (tag === dataTag) {
+					loadData();
+				}
 			});
 		}
 		
@@ -148,8 +143,14 @@
 		function changeTag(tag) {
 			dataTag = tag;
 			dataIndex = 0;
-			loadData();
+			$('#next').css('visibility', 'hidden');
+			$('#prev').css('visibility', 'hidden');
 			$("[name='" + tag + "']").addClass("selected").siblings().removeClass("selected");
+			if (!data.has(tag)) {
+				load(dataTag);
+			} else {
+				loadData();
+			}
 		}
 
 		$('#prev').click((e) => {
