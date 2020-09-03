@@ -5,6 +5,31 @@
     <meta charset="UTF-8">
     <title>ヾ(◍°∇°◍)ﾉﾞ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<style type="text/css">
+		blockquote {
+			border: 1px solid #b3b3b3;
+			border-left: 10px solid #b3b3b3;
+			border-radius: 0px;
+			background: #fafafa;
+			font-size: 18px;
+			margin: 10px;
+			padding: 10px 20px;
+		}
+
+		blockquote p {
+			margin: 0;
+			line-height: 30px;
+			padding-bottom: 20px;
+		}
+
+		blockquote .small {
+			display: block;
+			font-size: 80%;
+			color: brown;
+			text-align: right;
+		} 
+	</style>
     <style type="text/css">
 		body {
 			margin: 0px;
@@ -19,6 +44,7 @@
 		.tags {
 			width: 100%;
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: center;
 		}
 		.tags span {
@@ -84,17 +110,16 @@
 		var dataIndex = 0;
 
         $.getJSON('./ileler/.json', function (d) {
-            tags = d || [];
-			load();
-        });
-		
-		function done() {
-			tags.forEach((t) => {
+			(tags = d || []).forEach((t) => {
 				$('.tags').append('<span name="' + t + '">' + t + '</span>');
 			});
 			$('.tags span').click((e) => {
 				changeTag($(e.target).html());
 			});
+			load();
+        });
+		
+		function done() {
 			changeTag(tags[0]);
 		}
 		
@@ -106,15 +131,17 @@
 			}
 			$.get('./ileler/' + key + '.data', function (d) {
 				data.set(key, (d || '').split('//////////').filter(d => d.trim()));
+			}).always(() => {
 				load(++index);
 			});
 		}
 		
 		function loadData() {
+			$('#content').html('');
 			let contents = data.get(dataTag);
-			$('#next').css('visibility', dataIndex < contents.length - 1 ? 'visible' : 'hidden');
+			$('#next').css('visibility', contents && dataIndex < contents.length - 1 ? 'visible' : 'hidden');
 			$('#prev').css('visibility', dataIndex > 0 ? 'visible' : 'hidden');
-			if (dataIndex >= contents.length || dataIndex < 0) return;
+			if (!contents || dataIndex >= contents.length || dataIndex < 0) return;
 			$('#content').html(marked(contents[dataIndex].trim()));
 		}
 		
