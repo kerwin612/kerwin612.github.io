@@ -109,7 +109,7 @@
 		var dataTag = '';
 		var dataIndex = 0;
 
-        $.getJSON('./ileler/.json', function (d) {
+        $.getJSON('./ileler/_.json', function (d) {
 			(tags = d || []).forEach((t) => {
 				$('.tags').append('<span name="' + t + '">' + t + '</span>');
 			});
