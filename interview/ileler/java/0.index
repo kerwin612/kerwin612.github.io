@@ -1,0 +1,11 @@
+{
+"spring": "spring",
+"spring-boot": "spring-boot",
+"spring-cloud": "spring-cloud",
+"maven": "maven",
+"mybatis": "mybatis",
+"shiro": "shiro",
+"poi": "poi",
+"virgo": "virgo",
+"osgi": "osgi"
+}

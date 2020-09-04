@@ -1,0 +1,22 @@
+{
+"java": "java",
+"js": "js",
+"go": "go",
+"python": "python",
+"bash": "bash",
+"git": "git",
+"svn": "svn",
+"idea": "idea",
+"jenkins": "jenkins",
+"mysql": "mysql",
+"kafka": "kafka",
+"activemq": "activemq",
+"elasticsearch": "elasticsearch",
+"zookeeper": "zookeeper",
+"redis": "redis",
+"k8s": "k8s",
+"docker": "docker",
+"ansible": "ansible",
+"swagger": "swagger",
+"ehcache": "ehcache"
+}
