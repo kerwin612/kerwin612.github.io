@@ -132,7 +132,18 @@
 			width: 30px;
 			text-align: center;
 		}
-		.items {
+		.menus .title .load {
+			display: none;
+		}
+		.item {
+			margin: 5px 0px;
+		}
+		.item .title {
+			height: 25px;
+			line-height: 25px;
+		}
+		.item > .items {
+			padding-left: 10px;
 		}
 		
     </style>
@@ -249,6 +260,8 @@ function Service() {
 		currentIndex += _index;
 	};
 	
+	this.index = () => index;
+	
 	this.getItem = (key) => items[key];
 	
 	this.getCurrentIndex = () => currentIndex;
@@ -270,22 +283,30 @@ function Service() {
 	
 	var appendMenu = (parent, items) => {
 		parent = parent || '';
-		let parnetElement = $(parent ? '.items [index="' + parent + '"]' : '.items');
+		let parnetElement = $((parent ? '.item[index="' + parent + '"] ' : '') + '.items');
 		for (let k in items) {
 			$('<div/>', {
 				html: '\
 					<div class="title">\
 						<span class="flag">' + (items[k].file ? '-' : '+') + '</span>\
-						<span class="load">○</span>\
+						' + (items[k].file ? '' : '<span class="load">○</span>') + '\
 						<span class="text">' + items[k].name + '</span>\
 					</div>\
+					' + (items[k].file ? '' : '<div class="items"></div>') + '\
 				',
 				class: 'item',
 				click: function(e){
+					e.stopPropagation();
 					let index = $(this).attr('index');
 					changeContent(index);
-					if ($(this).attr('file') === 'true') return;
-					($(this).attr('load') !== 'true') && loadIndex(index);
+					$(this).children('.items').show().parent().siblings().children('.items').hide();
+					if ($(this).attr('file') === 'true' || $(this).children('.items').attr('load') === 'true') return;
+					let startTime = Date.now();
+					$(this).find('.title .load').show();
+					loadIndex(index, () => {
+						let _time = Date.now() - startTime;
+						setTimeout(() => $(this).find('.title .load').hide(), _time < 500 ? 500 : 500 - _time);
+					});
 				}
 			}).attr('index', parent + '/' + k).attr('file', items[k].file).appendTo(parnetElement);
 		}
@@ -314,11 +335,8 @@ function Service() {
 			service.loadContent(key, (d) => {callback(currentIndex, d)});
 		}
 		
-		//$('.next').css('visibility', 'hidden');
-		//$('.prev').css('visibility', 'hidden');
-		//$('.next').css('visibility', contents && dataIndex < contents.length - 1 ? 'visible' : 'hidden');
-		//$('.prev').css('visibility', dataIndex > 0 ? 'visible' : 'hidden');
-		//if (!contents || dataIndex >= contents.length || dataIndex < 0) return;
+		$('.next').css('visibility', currentIndex < service.index().length - 1 ? 'visible' : 'hidden');
+		$('.prev').css('visibility', currentIndex > 0 ? 'visible' : 'hidden');
 		//$("[name='" + tag + "']").addClass("selected").siblings().removeClass("selected");
 	}
 
@@ -342,7 +360,10 @@ function Service() {
 			changeContent(1);
 		});
 
-		loadIndex(null, () => changeContent());
+		loadIndex(null, () => {
+			$('.menus > .title').hide();
+			changeContent()
+		});
 
     });
 
