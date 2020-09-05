@@ -127,14 +127,12 @@
 			flex: 1;
 		}
 		.menus .title > .text {
+		}
+		.menus .title .flag, .load {
+			width: 30px;
 			text-align: center;
 		}
-		.menus .title .load {
-			width: 50px;
-			display: none;
-		}
 		.items {
-			display: none;
 		}
 		
     </style>
@@ -157,9 +155,6 @@
 		<div class="menus">
 			<div class="title"><span class="text">loading...</span></div>
 			<div class="items">
-				<div class="item">
-					<div class="title"><span class="text">11</span><span class="load">loading...</span></div>
-				</div>
 			</div>
 		</div>
 		<div class="tools">
@@ -197,7 +192,7 @@ function Service() {
 		for (let k in _items) {
 			index[index.length] = {
 				name: _items[k].name,
-				path: key + '/' + k + (k.endsWith('.md') ? '' : '/index.md')
+				path: key + '/' + k
 			};
 			if (_items[k].children) {
 				addIndex(key + '/' + k, _items[k].children);
@@ -213,7 +208,7 @@ function Service() {
 	};
 	
 	this.loadContent = (key, callback) => {
-		dao.loadContent(key, (d) => {
+		dao.loadContent(key + (key.endsWith('.md') ? '' : '/index.md'), (d) => {
 			items[key] = d;
 			callback && callback(d);
 		});
@@ -222,22 +217,24 @@ function Service() {
 	this.loadIndex = (key, callback) => {
 		key = key || '';
 		dao.loadIndex(key, (d) => {
-			d = d || '';
+			d = d || {};
 			let current = menus;
 			key.split('/').forEach(k => {
-				if (!k)	return;
+				if (!k || !(current.children))	return;
 				current = current.children[k];
 			});
-			
-			current.children = {};
-			current = current.children;
-			for (let k in d) {
-				current[k] = {
-					name: d[k]
-				};
+			if (current) {
+				current.children = {};
+				current = current.children;
+				for (let k in d) {
+					current[k] = {
+						name: d[k],
+						file: k.endsWith('.md')
+					};
+				}
+				refreshIndex();
 			}
-			refreshIndex();
-			callback && callback(d);
+			callback && callback(current);
 		});
 	};
 	
@@ -263,6 +260,34 @@ function Service() {
 <script type="text/javascript">
 
 	var service = new Service();
+	
+	var loadIndex = (path, callback) => {
+		service.loadIndex(path, (d) => {
+			appendMenu(path, d);
+			callback && callback(d);
+		});
+	}
+	
+	var appendMenu = (parent, items) => {
+		parent = parent || '';
+		for (let k in items) {
+			$('<div/>', {
+				html: '\
+					<div class="title">\
+						<span class="flag">' + (items[k].file ? '-' : '+') + '</span>\
+						<span class="load">○</span>\
+						<span class="text">' + items[k].name + '</span>\
+					</div>\
+				',
+				class: 'item',
+				click: function(e){
+					let index = $(this).attr('index');
+					changeContent(index);
+					($(this).attr('file') === 'false') && loadIndex(index);
+				}
+			}).attr('index', parent + '/' + k).attr('file', items[k].file).appendTo($(parent ? '.items [index="' + parent + '"]' : '.items'));
+		}
+	}
 
 	var changeContent = (_index) => {
 		if (_index !== undefined) {
@@ -314,9 +339,7 @@ function Service() {
 			changeContent(1);
 		});
 
-		service.loadIndex(null, (d) => {
-			changeContent();
-		});
+		loadIndex(null, () => changeContent());
 
     });
 
