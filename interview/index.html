@@ -270,6 +270,7 @@ function Service() {
 	
 	var appendMenu = (parent, items) => {
 		parent = parent || '';
+		let parnetElement = $(parent ? '.items [index="' + parent + '"]' : '.items');
 		for (let k in items) {
 			$('<div/>', {
 				html: '\
@@ -283,10 +284,12 @@ function Service() {
 				click: function(e){
 					let index = $(this).attr('index');
 					changeContent(index);
-					($(this).attr('file') === 'false') && loadIndex(index);
+					if ($(this).attr('file') === 'true') return;
+					($(this).attr('load') !== 'true') && loadIndex(index);
 				}
-			}).attr('index', parent + '/' + k).attr('file', items[k].file).appendTo($(parent ? '.items [index="' + parent + '"]' : '.items'));
+			}).attr('index', parent + '/' + k).attr('file', items[k].file).appendTo(parnetElement);
 		}
+		parnetElement.attr('load', true);
 	}
 
 	var changeContent = (_index) => {
