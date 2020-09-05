@@ -171,13 +171,28 @@
 <script type="text/javascript" src="../static/js/jquery.js"></script>
 <script type="text/javascript" src="../static/js/marked.min.js"></script>
 <script type="text/javascript">
-	
+function DAO() {
+
+	this.loadIndex = function(key, callback) {
+		$.getJSON('./ileler/' + (key || '') + '/0.index').always((d, s) => callback && callback('success' === s ? d : null, 'success' === s ? null : d));
+	}
+
+	this.loadContent = function(key, callback) {
+		$.get('./ileler/' + (key || 'index.md')).always((d, s) => callback && callback('success' === s ? d : null, 'success' === s ? null : d));
+	}
+
+}
+</script>
+<script type="text/javascript">
+function Service() {
+
 	var menus = {};
 	var index = [];
 	var items = [];
+	var dao = new DAO();
 	var currentIndex = 0;
 	
-	function addIndex(key, _items) {
+	var addIndex = (key, _items) => {
 		key = key || '';
 		for (let k in _items) {
 			index[index.length] = {
@@ -188,29 +203,25 @@
 				addIndex(key + '/' + k, _items[k].children);
 			}
 		}
-	}
+	};
 	
-	function refreshIndex(key, _items) {
+	var refreshIndex = (key, _items) => {
 		let _currentIndex = index[currentIndex] && index[currentIndex].path || 0;
 		index = [];
 		addIndex(null, menus.children);
-		changeIndex(_currentIndex);
-	}
+		this.changeIndex(_currentIndex);
+	};
 	
-	function changeIndex(num) {
-		if ('number' !== typeof(num)) {
-			index.forEach((v, i) => {
-				if (v.path === num) currentIndex = i;
-			});
-			return;
-		}
-		if (currentIndex + num >= index.length || currentIndex + num <= -1) return;
-		currentIndex += num;
-	}
+	this.loadContent = (key, callback) => {
+		dao.loadContent(key, (d) => {
+			items[key] = d;
+			callback && callback(d);
+		});
+	};
 		
-	function loadIndex(key, callback) {
+	this.loadIndex = (key, callback) => {
 		key = key || '';
-		$.getJSON('./ileler/' + key + '/0.index', function (d) {
+		dao.loadIndex(key, (d) => {
 			d = d || '';
 			let current = menus;
 			key.split('/').forEach(k => {
@@ -226,36 +237,53 @@
 				};
 			}
 			refreshIndex();
-		}).always(function() {
-			callback && callback();
+			callback && callback(d);
 		});
-	}
+	};
 	
-	function loadContent(key, callback) {
-		$.get('./ileler/' + (key||'index.md'), function (d) {
-			items[key] = d;
-		}).fail(() => {
-		}).always(function() {
-			callback && callback();
-		});
-	}
-		
-	function changeContent(_index, callback) {
+	this.changeIndex = (_index) => {
+		if ('number' !== typeof(_index)) {
+			index.forEach((v, i) => {
+				if (v.path === _index) currentIndex = i;
+			});
+			return;
+		}
+		if (currentIndex + _index >= index.length || currentIndex + _index <= -1) return;
+		currentIndex += _index;
+	};
+	
+	this.getItem = (key) => items[key];
+	
+	this.getCurrentIndex = () => currentIndex;
+	
+	this.getCurrentIndexItem = () => index[currentIndex];
+
+}
+</script>
+<script type="text/javascript">
+
+	var service = new Service();
+
+	var changeContent = (_index) => {
+		if (_index !== undefined) {
+			service.changeIndex(_index);
+		}
 		let startTime = Date.now();
-		callback = callback || ((index, item) => {
-			if (index !== currentIndex) return;
+		let currentIndex = service.getCurrentIndex();
+		let currentIndexItem = service.getCurrentIndexItem();
+		let callback = function(index, item) {
+			if (index !== service.getCurrentIndex()) return;
 			let _time = Date.now() - startTime;
-			setTimeout(() => $('#content').html(item ? marked(item.trim()) : '<span class="center">(｀・ω・´)</span>'), _time < 800 ? 800 : 800 - _time);
-		});
-		currentIndex = _index || currentIndex;
-		$('#title').html(index[currentIndex].name);
+			setTimeout(() => $('#content').html(item ? marked(item.trim()) : '<span class="center">(｀・ω・´)</span>'), _time < 500 ? 500 : 500 - _time);
+		};
+		$('#title').html(currentIndexItem.name);
 		$('#content').html('<span class="center">loading...</span>');
-		let key = index[currentIndex].path;
-		let item = items[key];
+		let key = currentIndexItem.path;
+		let item = service.getItem(key);
 		if (item) {
 			callback(currentIndex, item);
 		} else {
-			loadContent(key, () => {callback(currentIndex, items[key])});
+			service.loadContent(key, (d) => {callback(currentIndex, d)});
 		}
 		
 		//$('.next').css('visibility', 'hidden');
@@ -267,30 +295,31 @@
 	}
 
     $(document).ready(function () {
+
 		$('body').css('width', $(window).width()).css('height', $(window).height());
-		
+
 		$('.nav1 .menu').click(() => {
 			$('.menu1').css('display', 'flex');
 		});
+
 		$('.close').click(() => {
 			$('.menus').parent().hide();
 		});
 
 		$('.prev').click((e) => {
-			changeIndex(-1);
-			changeContent();
+			changeContent(-1);
 		});
 
 		$('.next').click((e) => {
-			changeIndex(1);
-			changeContent();
+			changeContent(1);
 		});
-		
-		loadIndex(null, () => {
+
+		service.loadIndex(null, (d) => {
 			changeContent();
 		});
 
     });
+
 </script>
 </body>
 
