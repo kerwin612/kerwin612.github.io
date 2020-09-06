@@ -165,8 +165,6 @@
 	<div class="menu1">
 		<div class="menus">
 			<div class="title"><span class="text">loading...</span></div>
-			<div class="items">
-			</div>
 		</div>
 		<div class="tools">
 			<span class="close">×</span>
@@ -271,47 +269,54 @@ function Service() {
 }
 </script>
 <script type="text/javascript">
+function Tree(element, items, indexChanged, loadChildren) {
+
+	var addItem = (parent, element, item) => {
+		$('<div/>', {
+			html: '\
+				<div class="title">\
+					<span class="flag">' + (item.file ? '-' : '+') + '</span>\
+					' + (item.file ? '' : '<span class="load">○</span>') + '\
+					<span class="text">' + item.name + '</span>\
+				</div>\
+				' + (item.file ? '' : '<div class="items"></div>') + '\
+			',
+			class: 'item',
+			click: function(e){
+				e.stopPropagation();
+				let index = $(this).attr('index');
+				indexChanged(index);
+				$(this).children('.items').show().parent().siblings().children('.items').hide();
+				if ($(this).attr('file') === 'true' || $(this).children('.items').attr('load') === 'true') return;
+				$(this).find('.title .load').show();
+				let startTime = Date.now();
+				loadChildren(index, (d) => {
+					addItems(index, $(this).children('.items'), d);
+					let _time = Date.now() - startTime;
+					setTimeout(() => $(this).find('.title .load').hide(), _time < 500 ? 500 : 500 - _time);
+				});
+			}
+		}).attr('index', parent).attr('file', item.file).appendTo(element);
+	};
+	
+	var addItems = (parent, element, items) => {
+		for (let k in items) {
+			addItem(parent + '/' + k, element, items[k]);
+		}
+		element.attr('load', true);
+	};
+
+	$('<div/>', {
+		html: '<div class="items"></div>',
+		class: 'tree'
+	}).appendTo(element);
+	addItems('', element.find('.items'), items);
+
+}
+</script>
+<script type="text/javascript">
 
 	var service = new Service();
-	
-	var loadIndex = (path, callback) => {
-		service.loadIndex(path, (d) => {
-			appendMenu(path, d);
-			callback && callback(d);
-		});
-	}
-	
-	var appendMenu = (parent, items) => {
-		parent = parent || '';
-		let parnetElement = $((parent ? '.item[index="' + parent + '"] ' : '') + '.items');
-		for (let k in items) {
-			$('<div/>', {
-				html: '\
-					<div class="title">\
-						<span class="flag">' + (items[k].file ? '-' : '+') + '</span>\
-						' + (items[k].file ? '' : '<span class="load">○</span>') + '\
-						<span class="text">' + items[k].name + '</span>\
-					</div>\
-					' + (items[k].file ? '' : '<div class="items"></div>') + '\
-				',
-				class: 'item',
-				click: function(e){
-					e.stopPropagation();
-					let index = $(this).attr('index');
-					changeContent(index);
-					$(this).children('.items').show().parent().siblings().children('.items').hide();
-					if ($(this).attr('file') === 'true' || $(this).children('.items').attr('load') === 'true') return;
-					let startTime = Date.now();
-					$(this).find('.title .load').show();
-					loadIndex(index, () => {
-						let _time = Date.now() - startTime;
-						setTimeout(() => $(this).find('.title .load').hide(), _time < 500 ? 500 : 500 - _time);
-					});
-				}
-			}).attr('index', parent + '/' + k).attr('file', items[k].file).appendTo(parnetElement);
-		}
-		parnetElement.attr('load', true);
-	}
 
 	var changeContent = (_index) => {
 		if (_index !== undefined) {
@@ -359,10 +364,11 @@ function Service() {
 		$('.next').click((e) => {
 			changeContent(1);
 		});
-
-		loadIndex(null, () => {
+		
+		service.loadIndex(null, (d) => {
+			new Tree($('.menus'), d, changeContent, service.loadIndex);
 			$('.menus > .title').hide();
-			changeContent()
+			changeContent();
 		});
 
     });
