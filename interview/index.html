@@ -314,10 +314,16 @@ function Tree(element, items, indexChanged, loadChildren) {
 	}).appendTo(element);
 	addItems('', element.find('.items'), items);
 
+	this.choose = (key) => {
+		element.find('.item .title .text').css('font-weight', 'normal');
+		element.find('.item[index="'+key+'"] > .title .text').css('font-weight', 'bold');
+	};
+
 }
 </script>
 <script type="text/javascript">
 
+	var tree = null;
 	var service = new Service();
 
 	var changeContent = (_index) => {
@@ -341,6 +347,7 @@ function Tree(element, items, indexChanged, loadChildren) {
 		} else {
 			service.loadContent(key, (d) => {callback(currentIndex, d)});
 		}
+		tree.choose(key);
 		
 		$('.next').css('visibility', currentIndex < service.index().length - 1 ? 'visible' : 'hidden');
 		$('.prev').css('visibility', currentIndex > 0 ? 'visible' : 'hidden');
@@ -368,7 +375,7 @@ function Tree(element, items, indexChanged, loadChildren) {
 		});
 		
 		service.loadIndex(null, (d) => {
-			new Tree($('.menus'), d, changeContent, service.loadIndex);
+			tree = new Tree($('.menus'), d, changeContent, service.loadIndex);
 			$('.menus > .title').hide();
 			changeContent();
 		});
