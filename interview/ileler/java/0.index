@@ -1,1 +1,10 @@
-{"maven": "maven", "mybatis": "mybatis", "osgi": "osgi", "poi": "poi", "shiro": "shiro", "spring": "spring", "virgo": "virgo", "jvm.md": "jvm.md"}
+{
+    "maven": "maven",
+    "mybatis": "mybatis",
+    "osgi": "osgi",
+    "poi": "poi",
+    "shiro": "shiro",
+    "spring": "spring",
+    "virgo": "virgo",
+    "jvm.md": "jvm.md"
+}

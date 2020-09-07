@@ -1,1 +1,4 @@
-{"spring-boot": "spring-boot", "spring-cloud": "spring-cloud"}
+{
+    "spring-boot": "spring-boot",
+    "spring-cloud": "spring-cloud"
+}

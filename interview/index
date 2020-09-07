@@ -13,7 +13,8 @@ if not os.path.isdir(PATH):
 
 def walk(dir):
     for root, dirs, files, in os.walk(dir):
-        index = {}
+        indexFile = os.path.join(root, '0.index')
+        index = json.load(open(indexFile)) if os.path.exists(indexFile) else {}
 
         for d in dirs:
             index[d] = d;
@@ -22,9 +23,15 @@ def walk(dir):
             if (f != '0.index' and f != 'index.md'):
                 index[f] = f;
 
+        for k in list(index):
+            if not os.path.exists(os.path.join(root, k)):
+                print('delete invalid index [%s -> %s]' % (root, k))
+                del index[k]
+
         if not os.path.exists(os.path.join(root, 'index.md')):
             print('[%s] directory is missing [index.md]' % root)
-        with open(os.path.join(root, '0.index'), 'w') as f:
-            json.dump(index, f)
+
+        with open(indexFile, 'w') as wf:
+            json.dump(index, wf, indent = 4)
 
 walk(PATH)
