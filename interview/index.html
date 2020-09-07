@@ -154,7 +154,7 @@
 <div class="container">
 	<div><span id="title"></span></div>
 	<div class="data">
-		<div id="content"></div>
+		<div id="content"><span class="center">╮(￣▽￣)╭</span></div>
 	</div>
 	<div class="nav1">
 		<span class="menu left">☰</span>
@@ -288,18 +288,19 @@ function Tree(element, items, indexChanged, loadChildren) {
 				indexChanged(index);
 				$(this).children('.items').show().parent().siblings().children('.items').hide();
 				if ($(this).attr('file') === 'true' || $(this).children('.items').attr('load') === 'true') return;
-				$(this).find('.title .load').show();
+				$(this).find('.title .load').show().siblings('.flag').hide();
 				let startTime = Date.now();
 				loadChildren(index, (d) => {
 					addItems(index, $(this).children('.items'), d);
 					let _time = Date.now() - startTime;
-					setTimeout(() => $(this).find('.title .load').hide(), _time < 500 ? 500 : 500 - _time);
+					setTimeout(() => $(this).find('.title .load').hide().siblings('.flag').show(), _time < 500 ? 500 : 500 - _time);
 				});
 			}
 		}).attr('index', parent).attr('file', item.file).appendTo(element);
 	};
 	
 	var addItems = (parent, element, items) => {
+		if (!items || Object.keys(items).length < 1) return;
 		for (let k in items) {
 			addItem(parent + '/' + k, element, items[k]);
 		}
