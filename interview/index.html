@@ -212,7 +212,10 @@ function Service() {
 	
 	var refreshIndex = (key, _items) => {
 		let _currentIndex = index[currentIndex] && index[currentIndex].path || 0;
-		index = [];
+		index = [{
+			name: 'index',
+			path: '/'
+		}];
 		addIndex(null, menus.children);
 		this.changeIndex(_currentIndex);
 	};
