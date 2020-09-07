@@ -11,6 +11,10 @@ if not os.path.isdir(PATH):
     print('invalid path')
     sys.exit()
 
+def title(file):
+    with open(file, 'r') as f:
+        return f.readline()[1:].strip()
+
 def walk(dir):
     for root, dirs, files, in os.walk(dir):
         indexFile = os.path.join(root, '0.index')
@@ -21,7 +25,7 @@ def walk(dir):
             #walk(os.path.join(dir, d))
         for f in files:
             if (f != '0.index' and f != 'index.md'):
-                index[f] = f;
+                index[f] = title(os.path.join(root, f))
 
         for k in list(index):
             if not os.path.exists(os.path.join(root, k)):
