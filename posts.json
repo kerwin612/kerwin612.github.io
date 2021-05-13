@@ -1,5 +1,21 @@
 [
 {
+	"tag": ["mermaid-js", "mermaid-live-editor"],
+	"lang": ["js"],
+	"date": "2020-12-18",
+	"title": "#PR [mermaid-js/mermaid]",
+	"content": "给`Mermaid`修复了一个使用**br**标签后导致脚本语法异常的BUG，顺带修复了在线编辑器`mermaid-live-editor`因此导出异常的BUG： [mermaid-js/mermaid-live-editor](https://github.com/mermaid-js/mermaid-live-editor/pull/70)",
+	"url": "https://github.com/mermaid-js/mermaid/pull/1822"
+},
+{
+	"tag": ["mermaid-js", "mermaid-live-editor"],
+	"lang": ["js"],
+	"date": "2020-12-04",
+	"title": "#PR [mermaid-js/mermaid-live-editor]",
+	"content": "给`Mermaid`在线编辑器`mermaid-live-editor`新增历史记录的功能，每分钟自动保存一次编辑器的内容，最多保留最近的十条记录，方便用户回滚查找记录。",
+	"url": "https://github.com/mermaid-js/mermaid-live-editor/pull/61"
+},
+{
 	"tag": ["spring-cloud", "ribbon"],
 	"lang": ["java"],
 	"date": "2019-09-12",

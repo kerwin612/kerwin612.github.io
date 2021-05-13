@@ -609,7 +609,7 @@
 				});
                 $('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
-						<h3 date="' + v.date + '">' + v.title + '</h3>\
+						<h3 date="' + v.date + '"><a href="' + v.url + '" target="_blank">' + v.title + '</a></h3>\
 						<div style="margin: 10px">' + langEle + '<span class="tag">' + v.date + '</span></div>\
 						<h5>' + marked(v.content) + '</h5>\
 						' + (v.url ? ('<a href="' + v.url + '" target="_blank">Read More</a>') : '') + '\
