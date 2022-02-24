@@ -369,17 +369,25 @@
             background-color: #17a2b8 !important;
         }
 
+        .tag.lang {
+            background-color: #17a2b8 !important;
+        }
+
+        .tag.date {
+            background-color: lightgray !important;
+        }
+
         #lang .tag {
             cursor: pointer;
         }
 
-        #tags {
+        .tags {
             display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
         }
 
-        #tags .tag {
+        .tags .tag {
             cursor: pointer;
         }
 
@@ -406,7 +414,7 @@
 
             .profile-img img {
                 max-width: 100%;
-                margin-top: 15px;
+                margin-top: 0px;
                 display: block;
             }
 
@@ -536,6 +544,7 @@
         @media only screen and (max-width: 480px) {
 
             header {
+                height: 160px;
                 text-align: center;
             }
 
@@ -563,10 +572,10 @@
     <div class="container">
         <!--<h2>“说说”</h2>
         <h5>分享新鲜事</h5>-->
-    	<h5 style="width: 180px; background-color: black; color: white; padding: 10px; border-radius: 90px;"><a href="https://github.com/kerwin612" target="_blank">github/kerwin612</a>&nbsp;<svg t="1620868442437" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2110" width="12" height="12"><path d="M877.714 877.714V585.143H1024V1024H0V0h438.857v146.286H146.286v731.428zM301.422 577.829L456.63 732.89l383.415-383.414L1021.074 512V0H512l172.91 194.34z" p-id="2111" fill="#ffffff"></path></svg></h5>
+    	<h5 style="width: 200px; background-color: black; color: white; padding: 10px; border-radius: 90px;"><a href="https://github.com/kerwin612" target="_blank" style="margin-right: 5px">github/kerwin612</a><svg t="1620868442437" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2110" width="12" height="12"><path d="M877.714 877.714V585.143H1024V1024H0V0h438.857v146.286H146.286v731.428zM301.422 577.829L456.63 732.89l383.415-383.414L1021.074 512V0H512l172.91 194.34z" p-id="2111" fill="#ffffff"></path></svg></h5>
         <h5>页面收录个人的开源项目PR清单</h5>
-		<div id="lang" style="margin: 10px; margin-top: 20px;"></div>
-        <div id="tags" style="margin: 10px"></div>
+		<div id="lang" class="tags" style="margin: 10px; margin-top: 20px;"></div>
+        <div id="tags" class="tags" style="margin: 10px"></div>
         <div class="row blog-posts">
             <div id="leftCol" class="col-md-6 left-sec"></div>
             <div id="rightCol" class="col-md-6 right-sec"></div>
@@ -605,12 +614,12 @@
                 if (count === (count = count + (v && v.title ? 1 : 0))) return;
 				let langEle = '';
 				(v.lang || []).forEach((l) => {
-					langEle += '<span class="tag">' + l + '</span>';
+					langEle += '<span class="tag lang">' + l + '</span>';
 				});
                 $('#' + ((count % 2 === 0) ? 'rightCol' : 'leftCol')).append('\
 					<div class="blog-item">\
 						<h3 date="' + v.date + '"><a style="color: black;" href="' + v.url + '" target="_blank">' + v.title + '</a></h3>\
-						<div style="margin: 10px">' + langEle + '<span class="tag">' + v.date + '</span></div>\
+						<div style="margin: 10px">' + langEle + '<span class="tag date">' + v.date + '</span></div>\
 						<h5>' + marked(v.content) + '</h5>\
 						' + (v.url ? ('<a href="' + v.url + '" target="_blank">Read More</a>') : '') + '\
 						<span class="icon-sec"><i class="far fa-newspaper"></i></span>\
