@@ -1,5 +1,21 @@
 [
 {
+	"tag": ["reflections"],
+	"lang": ["java"],
+	"date": "2021-09-12",
+	"title": "#PR [ronmamo/reflections]",
+	"content": "给`reflections`组件修复一个BUG：当读取包中包（例如`spring-boot-maven`的**repackage**构建出来的包），由于错误的匹配规则导致程序异常的问题。",
+	"url": "https://github.com/ronmamo/reflections/pull/334"
+},
+{
+	"tag": ["spring-boot", "spring-boot-admin"],
+	"lang": ["java"],
+	"date": "2021-08-27",
+	"title": "#PR [codecentric/spring-boot-admin]",
+	"content": "考虑到真实场景很少存在需要切换语种的情况，所以给`spring-boot-admin`新增支持屏蔽语种选择功能。",
+	"url": "https://github.com/codecentric/spring-boot-admin/pull/1799"
+},
+{
 	"tag": ["mermaid-js", "mermaid-live-editor"],
 	"lang": ["js"],
 	"date": "2020-12-18",
