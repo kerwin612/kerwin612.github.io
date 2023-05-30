@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [GO](go-notes/README.md)
-  * [How to Test Local Changes with Go Mod](go-notes/how-to-test-local-changes-with-go-mod.md)
 * [JS](js-notes/README.md)
   * [JS / JQuery 代码、框架收藏](js-notes/jsjquery-dai-ma-kuang-jia-shou-cang.md)
   * [用Mock.js + AngularJS来提高开发效率](js-notes/yong-mock.js+angularjs-lai-ti-gao-kai-fa-xiao-shuai.md)
@@ -42,6 +40,8 @@
   * [Angular](js-notes/angular/README.md)
     * [Angular2 - Control Validation on blur](js-notes/angular/angular2-control-validation-on-blur.md)
     * [Angular2 - how to call component function from outside the app](js-notes/angular/angular2-how-to-call-component-function-from-outside-the-app.md)
+* [Go](go-notes/README.md)
+  * [How to Test Local Changes with Go Mod](go-notes/how-to-test-local-changes-with-go-mod.md)
 * [Java](java-notes/README.md)
   * [Java中根据字体得到字符串高度和长度](java-notes/java-zhong-gen-ju-zi-ti-de-dao-zi-fu-chuan-gao-du-he-chang-du.md)
   * [JAVA 判断一个字符串是不是一个合法的日期格式](java-notes/java-pan-duan-yi-ge-zi-fu-chuan-shi-bu-shi-yi-ge-he-fa-de-ri-qi-ge-shi.md)
