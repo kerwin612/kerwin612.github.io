@@ -601,7 +601,7 @@
 
             let count = 0;
             (data || []).forEach((v) => {
-                if (!(v.url)) return;
+                if (!(v.url) || !(v.date) || !(v.content)) return;
 				if (grep) {
 					if (($.inArray(grep, (v.tag || [])) === -1) && ($.inArray(grep, (v.lang || [])) === -1)) return;
 				} else {
